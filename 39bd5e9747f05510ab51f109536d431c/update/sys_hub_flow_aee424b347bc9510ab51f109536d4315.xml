@@ -1,0 +1,1835 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="DEMO">b5d6d39747f45510ab51f109536d4382</category>
+        <copied_from>22e65b5747f45510ab51f109536d4368</copied_from>
+        <copied_from_name>DEMO - Generate Celonis Events</copied_from_name>
+        <description/>
+        <internal_name>demo__uiaction__generate_celonis_events</internal_name>
+        <label_cache>[{"name":"subflow.sysid","label":"Input➛SysID","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"b4921347-b6c6-4f1e-8464-e1dec8cb29f8"}},{"name":"fae8440e-54bc-4c73-96aa-f87815eb00ec.__dont_treat_as_error__","label":"1 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"fae8440e-54bc-4c73-96aa-f87815eb00ec.__action_status__","label":"1 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"fae8440e-54bc-4c73-96aa-f87815eb00ec.error_message","label":"1 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"fae8440e-54bc-4c73-96aa-f87815eb00ec.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"fae8440e-54bc-4c73-96aa-f87815eb00ec.Table","label":"1 - Look Up Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fae8440e-54bc-4c73-96aa-f87815eb00ec.Record","label":"1 - Look Up Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1ab47812-89c7-4774-8707-3687ac3d2924.__dont_treat_as_error__","label":"10 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1ab47812-89c7-4774-8707-3687ac3d2924.__action_status__","label":"10 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1ab47812-89c7-4774-8707-3687ac3d2924.table_name","label":"10 - Update Record➛DEMO - Celonis Event Table","reference":"x_snc_insight_pr_0_demo_celonis_event","reference_display":"DEMO - Celonis Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1ab47812-89c7-4774-8707-3687ac3d2924.record","label":"10 - Update Record➛DEMO - Celonis Event Record","reference":"x_snc_insight_pr_0_demo_celonis_event","reference_display":"DEMO - Celonis Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"77e56880-a64b-41a1-a7fd-9216724abc93.item.sys_created_by","label":"7 - For Each➛DEMO - Celonis Event Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_snc_insight_pr_0_demo_celonis_event","column_name":"sys_created_by"},{"name":"77e56880-a64b-41a1-a7fd-9216724abc93.item.body","label":"7 - For Each➛DEMO - Celonis Event Record➛Body","reference":"","reference_display":"Body","type":"string","base_type":"string","parent_table_name":"x_snc_insight_pr_0_demo_celonis_event","column_name":"body"},{"name":"fe1cd259-9a4a-44d2-8f5f-736a6b073ac6.__dont_treat_as_error__","label":"9 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fe1cd259-9a4a-44d2-8f5f-736a6b073ac6.__action_status__","label":"9 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fe1cd259-9a4a-44d2-8f5f-736a6b073ac6.table_name","label":"9 - Create Record➛Ledger Event Table","reference":"x_snc_insight_pr_0_event_ledger","reference_display":"Ledger Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fe1cd259-9a4a-44d2-8f5f-736a6b073ac6.record","label":"9 - Create Record➛Ledger Event Record","reference":"x_snc_insight_pr_0_event_ledger","reference_display":"Ledger Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"09e1d439-b795-448f-b849-ead1aa8cca8f.__dont_treat_as_error__","label":"8 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"09e1d439-b795-448f-b849-ead1aa8cca8f.__action_status__","label":"8 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"09e1d439-b795-448f-b849-ead1aa8cca8f.table_name","label":"8 - Update Record➛DEMO - Celonis Event Table","reference":"x_snc_insight_pr_0_demo_celonis_event","reference_display":"DEMO - Celonis Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"09e1d439-b795-448f-b849-ead1aa8cca8f.record","label":"8 - Update Record➛DEMO - Celonis Event Record","reference":"x_snc_insight_pr_0_demo_celonis_event","reference_display":"DEMO - Celonis Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"77e56880-a64b-41a1-a7fd-9216724abc93.item","label":"7 - For Each➛DEMO - Celonis Event Record","reference":"x_snc_insight_pr_0_demo_celonis_event","reference_display":"DEMO - Celonis Event","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"75bc641b-6feb-4433-93ca-599e131cb8c6.__dont_treat_as_error__","label":"5 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"75bc641b-6feb-4433-93ca-599e131cb8c6.__action_status__","label":"5 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"75bc641b-6feb-4433-93ca-599e131cb8c6.Count","label":"5 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"75bc641b-6feb-4433-93ca-599e131cb8c6.Table","label":"5 - Look Up Records➛DEMO - Celonis Event Table","reference":"x_snc_insight_pr_0_demo_celonis_event","reference_display":"DEMO - Celonis Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"75bc641b-6feb-4433-93ca-599e131cb8c6.Records","label":"5 - Look Up Records➛DEMO - Celonis Event Records","reference":"x_snc_insight_pr_0_demo_celonis_event","reference_display":"DEMO - Celonis Event","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a034713a-67b3-45fe-8ebc-8e191b5da213.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a034713a-67b3-45fe-8ebc-8e191b5da213.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a034713a-67b3-45fe-8ebc-8e191b5da213.table_name","label":"4 - Update Record➛DEMO - Celonis Event Table","reference":"x_snc_insight_pr_0_demo_celonis_event","reference_display":"DEMO - Celonis Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a034713a-67b3-45fe-8ebc-8e191b5da213.record","label":"4 - Update Record➛DEMO - Celonis Event Record","reference":"x_snc_insight_pr_0_demo_celonis_event","reference_display":"DEMO - Celonis Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5d8d101b-c182-449d-a561-fe39a8f36510.item","label":"3 - For Each➛DEMO - Celonis Event Record","reference":"x_snc_insight_pr_0_demo_celonis_event","reference_display":"DEMO - Celonis Event","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"2320352c-3866-4d21-807c-c2a664cfb2ae.__dont_treat_as_error__","label":"1 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2320352c-3866-4d21-807c-c2a664cfb2ae.__action_status__","label":"1 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2320352c-3866-4d21-807c-c2a664cfb2ae.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2320352c-3866-4d21-807c-c2a664cfb2ae.Table","label":"1 - Look Up Records➛DEMO - Celonis Event Table","reference":"x_snc_insight_pr_0_demo_celonis_event","reference_display":"DEMO - Celonis Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2320352c-3866-4d21-807c-c2a664cfb2ae.Records","label":"1 - Look Up Records➛DEMO - Celonis Event Records","reference":"x_snc_insight_pr_0_demo_celonis_event","reference_display":"DEMO - Celonis Event","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>5fa6683747bc9510ab51f109536d43e9</master_snapshot>
+        <name>DEMO - UIAction - Generate Celonis Events</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aee424b347bc9510ab51f109536d4315</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>DEMO - UIAction - Generate Celonis Events</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_hub_flow_aee424b347bc9510ab51f109536d4315</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:33</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=aee424b347bc9510ab51f109536d4315"/>
+    <sys_variable_value action="delete_multiple" query="document_key=aee424b347bc9510ab51f109536d4315"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=aee424b347bc9510ab51f109536d4315"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=aee424b347bc9510ab51f109536d4315"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=aee424b347bc9510ab51f109536d4315^sys_idNOT IN26e424b347bc9510ab51f109536d4317"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>aee424b347bc9510ab51f109536d4315</id>
+        <name>DEMO - UIAction - Generate Celonis Events</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>26e424b347bc9510ab51f109536d4317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:49</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=26e424b347bc9510ab51f109536d4317"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=aee424b347bc9510ab51f109536d4315^sys_idNOT INfda6283747bc9510ab51f109536d431c"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b4921347-b6c6-4f1e-8464-e1dec8cb29f8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sysid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>SysID</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="DEMO - UIAction - Generate Celonis Events">aee424b347bc9510ab51f109536d4315</model>
+        <model_id>aee424b347bc9510ab51f109536d4315</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_aee424b347bc9510ab51f109536d4315</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:24</sys_created_on>
+        <sys_id>fda6283747bc9510ab51f109536d431c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=aee424b347bc9510ab51f109536d4315"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=aee424b347bc9510ab51f109536d4315"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=aee424b347bc9510ab51f109536d4315^sys_idNOT IN32e424b347bc9510ab51f109536d439b,36e424b347bc9510ab51f109536d43b0,3ae424b347bc9510ab51f109536d43a2,3ae424b347bc9510ab51f109536d43aa,3ee424b347bc9510ab51f109536d43b6,76e424b347bc9510ab51f109536d43bc"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="DEMO - UIAction - Generate Celonis Events">aee424b347bc9510ab51f109536d4315</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>32e424b347bc9510ab51f109536d439b</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-24 17:37:06</sys_updated_on>
+        <ui_id>2320352c-3866-4d21-807c-c2a664cfb2ae</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=32e424b347bc9510ab51f109536d439b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>32e424b347bc9510ab51f109536d439b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>f2e424b347bc9510ab51f109536d439d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:25</sys_updated_on>
+        <value/>
+        <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>32e424b347bc9510ab51f109536d439b</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>fae424b347bc9510ab51f109536d439d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:49</sys_updated_on>
+        <value>x_snc_insight_pr_0_demo_celonis_event</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=32e424b347bc9510ab51f109536d439b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>32e424b347bc9510ab51f109536d439b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>bee424b347bc9510ab51f109536d439c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:25</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>state=2^sys_id={{subflow.sysid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>32e424b347bc9510ab51f109536d439b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>72e424b347bc9510ab51f109536d439d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=32e424b347bc9510ab51f109536d439b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=32e424b347bc9510ab51f109536d439b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="DEMO - UIAction - Generate Celonis Events">aee424b347bc9510ab51f109536d4315</flow>
+        <order>8</order>
+        <parent_ui_id>77e56880-a64b-41a1-a7fd-9216724abc93</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>36e424b347bc9510ab51f109536d43b0</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-24 17:37:06</sys_updated_on>
+        <ui_id>09e1d439-b795-448f-b849-ead1aa8cca8f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=36e424b347bc9510ab51f109536d43b0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>36e424b347bc9510ab51f109536d43b0</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>32e424b347bc9510ab51f109536d43b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:49</sys_updated_on>
+        <value>x_snc_insight_pr_0_demo_celonis_event</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>36e424b347bc9510ab51f109536d43b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>7ee424b347bc9510ab51f109536d43b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:49</sys_updated_on>
+        <value>state=1</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=36e424b347bc9510ab51f109536d43b0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>36e424b347bc9510ab51f109536d43b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>3ae424b347bc9510ab51f109536d43b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{77e56880-a64b-41a1-a7fd-9216724abc93.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>36e424b347bc9510ab51f109536d43b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>76e424b347bc9510ab51f109536d43b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>36e424b347bc9510ab51f109536d43b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>fae424b347bc9510ab51f109536d43b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=36e424b347bc9510ab51f109536d43b0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=36e424b347bc9510ab51f109536d43b0"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="DEMO - UIAction - Generate Celonis Events">aee424b347bc9510ab51f109536d4315</flow>
+        <order>4</order>
+        <parent_ui_id>5d8d101b-c182-449d-a561-fe39a8f36510</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>3ae424b347bc9510ab51f109536d43a2</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-24 17:37:06</sys_updated_on>
+        <ui_id>a034713a-67b3-45fe-8ebc-8e191b5da213</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3ae424b347bc9510ab51f109536d43a2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3ae424b347bc9510ab51f109536d43a2</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>3ae424b347bc9510ab51f109536d43a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:49</sys_updated_on>
+        <value>x_snc_insight_pr_0_demo_celonis_event</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3ae424b347bc9510ab51f109536d43a2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>76e424b347bc9510ab51f109536d43a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:49</sys_updated_on>
+        <value>state=0</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3ae424b347bc9510ab51f109536d43a2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>3ae424b347bc9510ab51f109536d43a2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>32e424b347bc9510ab51f109536d43a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{5d8d101b-c182-449d-a561-fe39a8f36510.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>3ae424b347bc9510ab51f109536d43a2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>7ee424b347bc9510ab51f109536d43a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>3ae424b347bc9510ab51f109536d43a2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>f2e424b347bc9510ab51f109536d43a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3ae424b347bc9510ab51f109536d43a2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3ae424b347bc9510ab51f109536d43a2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="DEMO - UIAction - Generate Celonis Events">aee424b347bc9510ab51f109536d4315</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>3ae424b347bc9510ab51f109536d43aa</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-24 17:37:06</sys_updated_on>
+        <ui_id>75bc641b-6feb-4433-93ca-599e131cb8c6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3ae424b347bc9510ab51f109536d43aa"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3ae424b347bc9510ab51f109536d43aa</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>76e424b347bc9510ab51f109536d43ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:49</sys_updated_on>
+        <value>x_snc_insight_pr_0_demo_celonis_event</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3ae424b347bc9510ab51f109536d43aa</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>b2e424b347bc9510ab51f109536d43ac</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:25</sys_updated_on>
+        <value/>
+        <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3ae424b347bc9510ab51f109536d43aa"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>3ae424b347bc9510ab51f109536d43aa</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>7ee424b347bc9510ab51f109536d43ab</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:25</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>state=0^sys_id={{subflow.sysid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>3ae424b347bc9510ab51f109536d43aa</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>32e424b347bc9510ab51f109536d43ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3ae424b347bc9510ab51f109536d43aa"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3ae424b347bc9510ab51f109536d43aa"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="DEMO - UIAction - Generate Celonis Events">aee424b347bc9510ab51f109536d4315</flow>
+        <order>9</order>
+        <parent_ui_id>77e56880-a64b-41a1-a7fd-9216724abc93</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>3ee424b347bc9510ab51f109536d43b6</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-24 17:37:06</sys_updated_on>
+        <ui_id>fe1cd259-9a4a-44d2-8f5f-736a6b073ac6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3ee424b347bc9510ab51f109536d43b6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3ee424b347bc9510ab51f109536d43b6</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>36e424b347bc9510ab51f109536d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:49</sys_updated_on>
+        <value>x_snc_insight_pr_0_event_ledger</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3ee424b347bc9510ab51f109536d43b6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>3ee424b347bc9510ab51f109536d43b6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>fee424b347bc9510ab51f109536d43b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>3ee424b347bc9510ab51f109536d43b6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>b2e424b347bc9510ab51f109536d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>body={{77e56880-a64b-41a1-a7fd-9216724abc93.item.body}}^source=Celonis^sys_created_by={{77e56880-a64b-41a1-a7fd-9216724abc93.item.sys_created_by}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3ee424b347bc9510ab51f109536d43b6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3ee424b347bc9510ab51f109536d43b6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="DEMO - UIAction - Generate Celonis Events">aee424b347bc9510ab51f109536d4315</flow>
+        <order>10</order>
+        <parent_ui_id>77e56880-a64b-41a1-a7fd-9216724abc93</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:50</sys_created_on>
+        <sys_id>76e424b347bc9510ab51f109536d43bc</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-24 17:37:06</sys_updated_on>
+        <ui_id>1ab47812-89c7-4774-8707-3687ac3d2924</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=76e424b347bc9510ab51f109536d43bc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>76e424b347bc9510ab51f109536d43bc</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:50</sys_created_on>
+        <sys_id>72e424b347bc9510ab51f109536d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:50</sys_updated_on>
+        <value>x_snc_insight_pr_0_demo_celonis_event</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>76e424b347bc9510ab51f109536d43bc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:50</sys_created_on>
+        <sys_id>bee424b347bc9510ab51f109536d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:50</sys_updated_on>
+        <value>state=2</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=76e424b347bc9510ab51f109536d43bc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>76e424b347bc9510ab51f109536d43bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:50</sys_created_on>
+        <sys_id>7ae424b347bc9510ab51f109536d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{77e56880-a64b-41a1-a7fd-9216724abc93.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>76e424b347bc9510ab51f109536d43bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:50</sys_created_on>
+        <sys_id>b6e424b347bc9510ab51f109536d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>76e424b347bc9510ab51f109536d43bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:50</sys_created_on>
+        <sys_id>3ee424b347bc9510ab51f109536d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=76e424b347bc9510ab51f109536d43bc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=76e424b347bc9510ab51f109536d43bc"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=aee424b347bc9510ab51f109536d4315"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=aee424b347bc9510ab51f109536d4315^sys_idNOT IN32e424b347bc9510ab51f109536d436c,3ee424b347bc9510ab51f109536d4368,b6e424b347bc9510ab51f109536d4365,bee424b347bc9510ab51f109536d4360"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">8449575b47f45510ab51f109536d435a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="DEMO - UIAction - Generate Celonis Events">aee424b347bc9510ab51f109536d4315</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>e7af90f9-0b81-40c7-a2e8-f3d5b86ad921</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>32e424b347bc9510ab51f109536d436c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:33</sys_updated_on>
+        <ui_id>77e56880-a64b-41a1-a7fd-9216724abc93</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=32e424b347bc9510ab51f109536d436c"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_aee424b347bc9510ab51f109536d4315^id=32e424b347bc9510ab51f109536d436c"/>
+    <sys_element_mapping action="delete_multiple" query="id=32e424b347bc9510ab51f109536d436c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>32e424b347bc9510ab51f109536d436c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>76e424b347bc9510ab51f109536d436e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:49</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{75bc641b-6feb-4433-93ca-599e131cb8c6.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=32e424b347bc9510ab51f109536d436c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=32e424b347bc9510ab51f109536d436c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c049575b47f45510ab51f109536d4357</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="DEMO - UIAction - Generate Celonis Events">aee424b347bc9510ab51f109536d4315</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>3ee424b347bc9510ab51f109536d4368</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:33</sys_updated_on>
+        <ui_id>e7af90f9-0b81-40c7-a2e8-f3d5b86ad921</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=3ee424b347bc9510ab51f109536d4368"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_aee424b347bc9510ab51f109536d4315^id=3ee424b347bc9510ab51f109536d4368"/>
+    <sys_element_mapping action="delete_multiple" query="id=3ee424b347bc9510ab51f109536d4368"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>3ee424b347bc9510ab51f109536d4368</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>76e424b347bc9510ab51f109536d436b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:49</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{75bc641b-6feb-4433-93ca-599e131cb8c6.Count}}&gt;=1</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=3ee424b347bc9510ab51f109536d4368"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3ee424b347bc9510ab51f109536d4368"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">bf39575b47f45510ab51f109536d4345</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="DEMO - UIAction - Generate Celonis Events">aee424b347bc9510ab51f109536d4315</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>33f5e717-84ed-462d-b9c6-0394774968e8</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>b6e424b347bc9510ab51f109536d4365</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+        <ui_id>5d8d101b-c182-449d-a561-fe39a8f36510</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b6e424b347bc9510ab51f109536d4365"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_aee424b347bc9510ab51f109536d4315^id=b6e424b347bc9510ab51f109536d4365"/>
+    <sys_element_mapping action="delete_multiple" query="id=b6e424b347bc9510ab51f109536d4365"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>b6e424b347bc9510ab51f109536d4365</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>fee424b347bc9510ab51f109536d4367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:49</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{2320352c-3866-4d21-807c-c2a664cfb2ae.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b6e424b347bc9510ab51f109536d4365"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b6e424b347bc9510ab51f109536d4365"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">bf39575b47f45510ab51f109536d4327</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="DEMO - UIAction - Generate Celonis Events">aee424b347bc9510ab51f109536d4315</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>bee424b347bc9510ab51f109536d4360</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+        <ui_id>33f5e717-84ed-462d-b9c6-0394774968e8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=bee424b347bc9510ab51f109536d4360"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_aee424b347bc9510ab51f109536d4315^id=bee424b347bc9510ab51f109536d4360"/>
+    <sys_element_mapping action="delete_multiple" query="id=bee424b347bc9510ab51f109536d4360"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>bee424b347bc9510ab51f109536d4360</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 16:59:49</sys_created_on>
+        <sys_id>f2e424b347bc9510ab51f109536d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 16:59:49</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{2320352c-3866-4d21-807c-c2a664cfb2ae.Count}}&gt;=1</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=bee424b347bc9510ab51f109536d4360"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bee424b347bc9510ab51f109536d4360"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=aee424b347bc9510ab51f109536d4315"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=aee424b347bc9510ab51f109536d4315^sys_idNOT IN82a6283747bc9510ab51f109536d4328"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=7b3d6528-0392-4fb1-90e1-2081bb798a1e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>_</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>_</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="DEMO - UIAction - Generate Celonis Events">aee424b347bc9510ab51f109536d4315</model>
+        <model_id>aee424b347bc9510ab51f109536d4315</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_aee424b347bc9510ab51f109536d4315</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:25</sys_created_on>
+        <sys_id>82a6283747bc9510ab51f109536d4328</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>_</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_82a6283747bc9510ab51f109536d4328</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_aee424b347bc9510ab51f109536d4315^sys_idNOT IN86a6283747bc9510ab51f109536d4323"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sysid</element>
+        <help/>
+        <hint/>
+        <label>SysID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_aee424b347bc9510ab51f109536d4315</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:25</sys_created_on>
+        <sys_id>86a6283747bc9510ab51f109536d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_aee424b347bc9510ab51f109536d4315"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_aee424b347bc9510ab51f109536d4315"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_aee424b347bc9510ab51f109536d4315"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=aee424b347bc9510ab51f109536d4315"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=aee424b347bc9510ab51f109536d4315^sys_idNOT IN7fa6e83747bc9510ab51f109536d435f"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"7fa6e83747bc9510ab51f109536d435f","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="DEMO - UIAction - Generate Celonis Events">aee424b347bc9510ab51f109536d4315</plan_id>
+        <snapshot>2783060587e151105fd843f5dabb352c</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7fa6e83747bc9510ab51f109536d435f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="DEMO">b5d6d39747f45510ab51f109536d4382</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>demo__uiaction__generate_celonis_events</internal_name>
+        <label_cache>[{"name":"subflow.sysid","label":"Input➛SysID","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"b4921347-b6c6-4f1e-8464-e1dec8cb29f8"}},{"name":"fae8440e-54bc-4c73-96aa-f87815eb00ec.__dont_treat_as_error__","label":"1 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"fae8440e-54bc-4c73-96aa-f87815eb00ec.__action_status__","label":"1 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"fae8440e-54bc-4c73-96aa-f87815eb00ec.error_message","label":"1 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"fae8440e-54bc-4c73-96aa-f87815eb00ec.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"fae8440e-54bc-4c73-96aa-f87815eb00ec.Table","label":"1 - Look Up Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fae8440e-54bc-4c73-96aa-f87815eb00ec.Record","label":"1 - Look Up Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1ab47812-89c7-4774-8707-3687ac3d2924.__dont_treat_as_error__","label":"10 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1ab47812-89c7-4774-8707-3687ac3d2924.__action_status__","label":"10 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1ab47812-89c7-4774-8707-3687ac3d2924.table_name","label":"10 - Update Record➛DEMO - Celonis Event Table","reference":"x_snc_insight_pr_0_demo_celonis_event","reference_display":"DEMO - Celonis Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1ab47812-89c7-4774-8707-3687ac3d2924.record","label":"10 - Update Record➛DEMO - Celonis Event Record","reference":"x_snc_insight_pr_0_demo_celonis_event","reference_display":"DEMO - Celonis Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"77e56880-a64b-41a1-a7fd-9216724abc93.item.sys_created_by","label":"7 - For Each➛DEMO - Celonis Event Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_snc_insight_pr_0_demo_celonis_event","column_name":"sys_created_by"},{"name":"77e56880-a64b-41a1-a7fd-9216724abc93.item.body","label":"7 - For Each➛DEMO - Celonis Event Record➛Body","reference":"","reference_display":"Body","type":"string","base_type":"string","parent_table_name":"x_snc_insight_pr_0_demo_celonis_event","column_name":"body"},{"name":"fe1cd259-9a4a-44d2-8f5f-736a6b073ac6.__dont_treat_as_error__","label":"9 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fe1cd259-9a4a-44d2-8f5f-736a6b073ac6.__action_status__","label":"9 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fe1cd259-9a4a-44d2-8f5f-736a6b073ac6.table_name","label":"9 - Create Record➛Ledger Event Table","reference":"x_snc_insight_pr_0_event_ledger","reference_display":"Ledger Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fe1cd259-9a4a-44d2-8f5f-736a6b073ac6.record","label":"9 - Create Record➛Ledger Event Record","reference":"x_snc_insight_pr_0_event_ledger","reference_display":"Ledger Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"09e1d439-b795-448f-b849-ead1aa8cca8f.__dont_treat_as_error__","label":"8 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"09e1d439-b795-448f-b849-ead1aa8cca8f.__action_status__","label":"8 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"09e1d439-b795-448f-b849-ead1aa8cca8f.table_name","label":"8 - Update Record➛DEMO - Celonis Event Table","reference":"x_snc_insight_pr_0_demo_celonis_event","reference_display":"DEMO - Celonis Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"09e1d439-b795-448f-b849-ead1aa8cca8f.record","label":"8 - Update Record➛DEMO - Celonis Event Record","reference":"x_snc_insight_pr_0_demo_celonis_event","reference_display":"DEMO - Celonis Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"77e56880-a64b-41a1-a7fd-9216724abc93.item","label":"7 - For Each➛DEMO - Celonis Event Record","reference":"x_snc_insight_pr_0_demo_celonis_event","reference_display":"DEMO - Celonis Event","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"75bc641b-6feb-4433-93ca-599e131cb8c6.__dont_treat_as_error__","label":"5 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"75bc641b-6feb-4433-93ca-599e131cb8c6.__action_status__","label":"5 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"75bc641b-6feb-4433-93ca-599e131cb8c6.Count","label":"5 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"75bc641b-6feb-4433-93ca-599e131cb8c6.Table","label":"5 - Look Up Records➛DEMO - Celonis Event Table","reference":"x_snc_insight_pr_0_demo_celonis_event","reference_display":"DEMO - Celonis Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"75bc641b-6feb-4433-93ca-599e131cb8c6.Records","label":"5 - Look Up Records➛DEMO - Celonis Event Records","reference":"x_snc_insight_pr_0_demo_celonis_event","reference_display":"DEMO - Celonis Event","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a034713a-67b3-45fe-8ebc-8e191b5da213.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a034713a-67b3-45fe-8ebc-8e191b5da213.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a034713a-67b3-45fe-8ebc-8e191b5da213.table_name","label":"4 - Update Record➛DEMO - Celonis Event Table","reference":"x_snc_insight_pr_0_demo_celonis_event","reference_display":"DEMO - Celonis Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a034713a-67b3-45fe-8ebc-8e191b5da213.record","label":"4 - Update Record➛DEMO - Celonis Event Record","reference":"x_snc_insight_pr_0_demo_celonis_event","reference_display":"DEMO - Celonis Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5d8d101b-c182-449d-a561-fe39a8f36510.item","label":"3 - For Each➛DEMO - Celonis Event Record","reference":"x_snc_insight_pr_0_demo_celonis_event","reference_display":"DEMO - Celonis Event","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"2320352c-3866-4d21-807c-c2a664cfb2ae.__dont_treat_as_error__","label":"1 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2320352c-3866-4d21-807c-c2a664cfb2ae.__action_status__","label":"1 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2320352c-3866-4d21-807c-c2a664cfb2ae.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2320352c-3866-4d21-807c-c2a664cfb2ae.Table","label":"1 - Look Up Records➛DEMO - Celonis Event Table","reference":"x_snc_insight_pr_0_demo_celonis_event","reference_display":"DEMO - Celonis Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2320352c-3866-4d21-807c-c2a664cfb2ae.Records","label":"1 - Look Up Records➛DEMO - Celonis Event Records","reference":"x_snc_insight_pr_0_demo_celonis_event","reference_display":"DEMO - Celonis Event","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>DEMO - UIAction - Generate Celonis Events</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="DEMO - UIAction - Generate Celonis Events">aee424b347bc9510ab51f109536d4315</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5fa6683747bc9510ab51f109536d43e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:30</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=5fa6683747bc9510ab51f109536d43e9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5fa6683747bc9510ab51f109536d43e9"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=5fa6683747bc9510ab51f109536d43e9"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=5fa6683747bc9510ab51f109536d43e9"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=5fa6683747bc9510ab51f109536d43e9^sys_idNOT INdfa6683747bc9510ab51f109536d43ea"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>5fa6683747bc9510ab51f109536d43e9</id>
+        <name>DEMO - UIAction - Generate Celonis Events</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:31</sys_created_on>
+        <sys_id>dfa6683747bc9510ab51f109536d43ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:31</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=dfa6683747bc9510ab51f109536d43ea"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=5fa6683747bc9510ab51f109536d43e9^sys_idNOT IN97a6683747bc9510ab51f109536d43ec"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b4921347-b6c6-4f1e-8464-e1dec8cb29f8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sysid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>SysID</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="DEMO - UIAction - Generate Celonis Events">5fa6683747bc9510ab51f109536d43e9</model>
+        <model_id>5fa6683747bc9510ab51f109536d43e9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_5fa6683747bc9510ab51f109536d43e9</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:31</sys_created_on>
+        <sys_id>97a6683747bc9510ab51f109536d43ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=5fa6683747bc9510ab51f109536d43e9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5fa6683747bc9510ab51f109536d43e9"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=5fa6683747bc9510ab51f109536d43e9^sys_idNOT IN7ba6a83747bc9510ab51f109536d43da,7ba6a83747bc9510ab51f109536d43ec,a7a6a83747bc9510ab51f109536d439b,e3a6a83747bc9510ab51f109536d4355,eba6a83747bc9510ab51f109536d434c,ffa6a83747bc9510ab51f109536d43a0"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="DEMO - UIAction - Generate Celonis Events">5fa6683747bc9510ab51f109536d43e9</flow>
+        <order>9</order>
+        <parent_ui_id>77e56880-a64b-41a1-a7fd-9216724abc93</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:32</sys_created_on>
+        <sys_id>7ba6a83747bc9510ab51f109536d43da</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+        <ui_id>fe1cd259-9a4a-44d2-8f5f-736a6b073ac6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7ba6a83747bc9510ab51f109536d43da"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ba6a83747bc9510ab51f109536d43da</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:32</sys_created_on>
+        <sys_id>73a6a83747bc9510ab51f109536d43dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+        <value>x_snc_insight_pr_0_event_ledger</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7ba6a83747bc9510ab51f109536d43da"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>7ba6a83747bc9510ab51f109536d43da</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:32</sys_created_on>
+        <sys_id>3fa6a83747bc9510ab51f109536d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>7ba6a83747bc9510ab51f109536d43da</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:32</sys_created_on>
+        <sys_id>ffa6a83747bc9510ab51f109536d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>body={{77e56880-a64b-41a1-a7fd-9216724abc93.item.body}}^source=Celonis^sys_created_by={{77e56880-a64b-41a1-a7fd-9216724abc93.item.sys_created_by}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7ba6a83747bc9510ab51f109536d43da"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7ba6a83747bc9510ab51f109536d43da"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="DEMO - UIAction - Generate Celonis Events">5fa6683747bc9510ab51f109536d43e9</flow>
+        <order>10</order>
+        <parent_ui_id>77e56880-a64b-41a1-a7fd-9216724abc93</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:32</sys_created_on>
+        <sys_id>7ba6a83747bc9510ab51f109536d43ec</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+        <ui_id>1ab47812-89c7-4774-8707-3687ac3d2924</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7ba6a83747bc9510ab51f109536d43ec"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ba6a83747bc9510ab51f109536d43ec</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:32</sys_created_on>
+        <sys_id>77a6a83747bc9510ab51f109536d43ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+        <value>x_snc_insight_pr_0_demo_celonis_event</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ba6a83747bc9510ab51f109536d43ec</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:32</sys_created_on>
+        <sys_id>b3a6a83747bc9510ab51f109536d43ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+        <value>state=2</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7ba6a83747bc9510ab51f109536d43ec"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>7ba6a83747bc9510ab51f109536d43ec</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:32</sys_created_on>
+        <sys_id>7fa6a83747bc9510ab51f109536d43ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{77e56880-a64b-41a1-a7fd-9216724abc93.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>7ba6a83747bc9510ab51f109536d43ec</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:32</sys_created_on>
+        <sys_id>bba6a83747bc9510ab51f109536d43ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>7ba6a83747bc9510ab51f109536d43ec</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:32</sys_created_on>
+        <sys_id>33a6a83747bc9510ab51f109536d43ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7ba6a83747bc9510ab51f109536d43ec"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7ba6a83747bc9510ab51f109536d43ec"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="DEMO - UIAction - Generate Celonis Events">5fa6683747bc9510ab51f109536d43e9</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:32</sys_created_on>
+        <sys_id>a7a6a83747bc9510ab51f109536d439b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+        <ui_id>75bc641b-6feb-4433-93ca-599e131cb8c6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a7a6a83747bc9510ab51f109536d439b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a7a6a83747bc9510ab51f109536d439b</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:32</sys_created_on>
+        <sys_id>23a6a83747bc9510ab51f109536d439d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+        <value>x_snc_insight_pr_0_demo_celonis_event</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a7a6a83747bc9510ab51f109536d439b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>a7a6a83747bc9510ab51f109536d439b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:32</sys_created_on>
+        <sys_id>eba6a83747bc9510ab51f109536d439c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>state=0^sys_id={{subflow.sysid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>a7a6a83747bc9510ab51f109536d439b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:32</sys_created_on>
+        <sys_id>afa6a83747bc9510ab51f109536d439c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a7a6a83747bc9510ab51f109536d439b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a7a6a83747bc9510ab51f109536d439b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="DEMO - UIAction - Generate Celonis Events">5fa6683747bc9510ab51f109536d43e9</flow>
+        <order>4</order>
+        <parent_ui_id>5d8d101b-c182-449d-a561-fe39a8f36510</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:31</sys_created_on>
+        <sys_id>e3a6a83747bc9510ab51f109536d4355</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:31</sys_updated_on>
+        <ui_id>a034713a-67b3-45fe-8ebc-8e191b5da213</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e3a6a83747bc9510ab51f109536d4355"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e3a6a83747bc9510ab51f109536d4355</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:32</sys_created_on>
+        <sys_id>a7a6a83747bc9510ab51f109536d4395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+        <value>x_snc_insight_pr_0_demo_celonis_event</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e3a6a83747bc9510ab51f109536d4355</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:32</sys_created_on>
+        <sys_id>e3a6a83747bc9510ab51f109536d4395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+        <value>state=0</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e3a6a83747bc9510ab51f109536d4355"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e3a6a83747bc9510ab51f109536d4355</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:31</sys_created_on>
+        <sys_id>eba6a83747bc9510ab51f109536d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{5d8d101b-c182-449d-a561-fe39a8f36510.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>e3a6a83747bc9510ab51f109536d4355</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:31</sys_created_on>
+        <sys_id>2ba6a83747bc9510ab51f109536d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>e3a6a83747bc9510ab51f109536d4355</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:32</sys_created_on>
+        <sys_id>afa6a83747bc9510ab51f109536d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e3a6a83747bc9510ab51f109536d4355"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e3a6a83747bc9510ab51f109536d4355"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="DEMO - UIAction - Generate Celonis Events">5fa6683747bc9510ab51f109536d43e9</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:31</sys_created_on>
+        <sys_id>eba6a83747bc9510ab51f109536d434c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:31</sys_updated_on>
+        <ui_id>2320352c-3866-4d21-807c-c2a664cfb2ae</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=eba6a83747bc9510ab51f109536d434c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>eba6a83747bc9510ab51f109536d434c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:31</sys_created_on>
+        <sys_id>aba6a83747bc9510ab51f109536d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:31</sys_updated_on>
+        <value>x_snc_insight_pr_0_demo_celonis_event</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=eba6a83747bc9510ab51f109536d434c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>eba6a83747bc9510ab51f109536d434c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:31</sys_created_on>
+        <sys_id>67a6a83747bc9510ab51f109536d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>state=2^sys_id={{subflow.sysid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>eba6a83747bc9510ab51f109536d434c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:31</sys_created_on>
+        <sys_id>2ba6a83747bc9510ab51f109536d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=eba6a83747bc9510ab51f109536d434c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=eba6a83747bc9510ab51f109536d434c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="DEMO - UIAction - Generate Celonis Events">5fa6683747bc9510ab51f109536d43e9</flow>
+        <order>8</order>
+        <parent_ui_id>77e56880-a64b-41a1-a7fd-9216724abc93</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:32</sys_created_on>
+        <sys_id>ffa6a83747bc9510ab51f109536d43a0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+        <ui_id>09e1d439-b795-448f-b849-ead1aa8cca8f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ffa6a83747bc9510ab51f109536d43a0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ffa6a83747bc9510ab51f109536d43a0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:32</sys_created_on>
+        <sys_id>37a6a83747bc9510ab51f109536d43d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+        <value>state=1</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ffa6a83747bc9510ab51f109536d43a0</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:32</sys_created_on>
+        <sys_id>f7a6a83747bc9510ab51f109536d43d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+        <value>x_snc_insight_pr_0_demo_celonis_event</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ffa6a83747bc9510ab51f109536d43a0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ffa6a83747bc9510ab51f109536d43a0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:32</sys_created_on>
+        <sys_id>ffa6a83747bc9510ab51f109536d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{77e56880-a64b-41a1-a7fd-9216724abc93.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>ffa6a83747bc9510ab51f109536d43a0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:32</sys_created_on>
+        <sys_id>3fa6a83747bc9510ab51f109536d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>ffa6a83747bc9510ab51f109536d43a0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:32</sys_created_on>
+        <sys_id>b3a6a83747bc9510ab51f109536d43d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ffa6a83747bc9510ab51f109536d43a0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ffa6a83747bc9510ab51f109536d43a0"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=5fa6683747bc9510ab51f109536d43e9"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=5fa6683747bc9510ab51f109536d43e9^sys_idNOT IN27a6a83747bc9510ab51f109536d4327,2ba6a83747bc9510ab51f109536d433e,6fa6a83747bc9510ab51f109536d4341,a3a6a83747bc9510ab51f109536d432e"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">bf39575b47f45510ab51f109536d4327</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="DEMO - UIAction - Generate Celonis Events">5fa6683747bc9510ab51f109536d43e9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:31</sys_created_on>
+        <sys_id>27a6a83747bc9510ab51f109536d4327</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:31</sys_updated_on>
+        <ui_id>33f5e717-84ed-462d-b9c6-0394774968e8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=27a6a83747bc9510ab51f109536d4327"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_5fa6683747bc9510ab51f109536d43e9^id=27a6a83747bc9510ab51f109536d4327"/>
+    <sys_element_mapping action="delete_multiple" query="id=27a6a83747bc9510ab51f109536d4327"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>27a6a83747bc9510ab51f109536d4327</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:31</sys_created_on>
+        <sys_id>63a6a83747bc9510ab51f109536d432d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:31</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{2320352c-3866-4d21-807c-c2a664cfb2ae.Count}}&gt;=1</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=27a6a83747bc9510ab51f109536d4327"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=27a6a83747bc9510ab51f109536d4327"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c049575b47f45510ab51f109536d4357</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="DEMO - UIAction - Generate Celonis Events">5fa6683747bc9510ab51f109536d43e9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:31</sys_created_on>
+        <sys_id>2ba6a83747bc9510ab51f109536d433e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:31</sys_updated_on>
+        <ui_id>e7af90f9-0b81-40c7-a2e8-f3d5b86ad921</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2ba6a83747bc9510ab51f109536d433e"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_5fa6683747bc9510ab51f109536d43e9^id=2ba6a83747bc9510ab51f109536d433e"/>
+    <sys_element_mapping action="delete_multiple" query="id=2ba6a83747bc9510ab51f109536d433e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>2ba6a83747bc9510ab51f109536d433e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:31</sys_created_on>
+        <sys_id>a3a6a83747bc9510ab51f109536d4341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:31</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{75bc641b-6feb-4433-93ca-599e131cb8c6.Count}}&gt;=1</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2ba6a83747bc9510ab51f109536d433e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2ba6a83747bc9510ab51f109536d433e"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">8449575b47f45510ab51f109536d435a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="DEMO - UIAction - Generate Celonis Events">5fa6683747bc9510ab51f109536d43e9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>e7af90f9-0b81-40c7-a2e8-f3d5b86ad921</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:31</sys_created_on>
+        <sys_id>6fa6a83747bc9510ab51f109536d4341</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:31</sys_updated_on>
+        <ui_id>77e56880-a64b-41a1-a7fd-9216724abc93</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6fa6a83747bc9510ab51f109536d4341"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_5fa6683747bc9510ab51f109536d43e9^id=6fa6a83747bc9510ab51f109536d4341"/>
+    <sys_element_mapping action="delete_multiple" query="id=6fa6a83747bc9510ab51f109536d4341"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>6fa6a83747bc9510ab51f109536d4341</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:31</sys_created_on>
+        <sys_id>e3a6a83747bc9510ab51f109536d4344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:31</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{75bc641b-6feb-4433-93ca-599e131cb8c6.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6fa6a83747bc9510ab51f109536d4341"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6fa6a83747bc9510ab51f109536d4341"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">bf39575b47f45510ab51f109536d4345</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="DEMO - UIAction - Generate Celonis Events">5fa6683747bc9510ab51f109536d43e9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>33f5e717-84ed-462d-b9c6-0394774968e8</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:31</sys_created_on>
+        <sys_id>a3a6a83747bc9510ab51f109536d432e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:31</sys_updated_on>
+        <ui_id>5d8d101b-c182-449d-a561-fe39a8f36510</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a3a6a83747bc9510ab51f109536d432e"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_5fa6683747bc9510ab51f109536d43e9^id=a3a6a83747bc9510ab51f109536d432e"/>
+    <sys_element_mapping action="delete_multiple" query="id=a3a6a83747bc9510ab51f109536d432e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>a3a6a83747bc9510ab51f109536d432e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:31</sys_created_on>
+        <sys_id>27a6a83747bc9510ab51f109536d4331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:31</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{2320352c-3866-4d21-807c-c2a664cfb2ae.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a3a6a83747bc9510ab51f109536d432e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a3a6a83747bc9510ab51f109536d432e"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=5fa6683747bc9510ab51f109536d43e9"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=5fa6683747bc9510ab51f109536d43e9^sys_idNOT INe3a6a83747bc9510ab51f109536d4315"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=7b3d6528-0392-4fb1-90e1-2081bb798a1e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>_</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>_</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="DEMO - UIAction - Generate Celonis Events">5fa6683747bc9510ab51f109536d43e9</model>
+        <model_id>5fa6683747bc9510ab51f109536d43e9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_5fa6683747bc9510ab51f109536d43e9</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:31</sys_created_on>
+        <sys_id>e3a6a83747bc9510ab51f109536d4315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>_</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_e3a6a83747bc9510ab51f109536d4315</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_5fa6683747bc9510ab51f109536d43e9^sys_idNOT IN27a6a83747bc9510ab51f109536d4309"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sysid</element>
+        <help/>
+        <hint/>
+        <label>SysID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5fa6683747bc9510ab51f109536d43e9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 17:07:31</sys_created_on>
+        <sys_id>27a6a83747bc9510ab51f109536d4309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:07:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_5fa6683747bc9510ab51f109536d43e9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_5fa6683747bc9510ab51f109536d43e9"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_5fa6683747bc9510ab51f109536d43e9"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>aee424b347bc9510ab51f109536d4315</sys_id>
+        <latest_snapshot>5fa6683747bc9510ab51f109536d43e9</latest_snapshot>
+        <compiler_build>glide-sandiego-12-22-2021__patch4b-07-19-2022_08-09-2022_1837.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>

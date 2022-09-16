@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="INSERT_OR_UPDATE">
+        <decision_table display_value="IPE - Celonis - Demand Sizing Policy">f10cfd5847c55910ab51f109536d4345</decision_table>
+        <label>T-Shirt Size: small</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-28 12:48:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>038ef91c47c55910ab51f109536d43e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>T-Shirt Size: small</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_decision_multi_result_038ef91c47c55910ab51f109536d43e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-28 12:48:22</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="delete_multiple" query="document_key=038ef91c47c55910ab51f109536d43e4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>038ef91c47c55910ab51f109536d43e4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-28 12:48:22</sys_created_on>
+        <sys_id>078ef91c47c55910ab51f109536d43e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-28 12:48:22</sys_updated_on>
+        <value>small</value>
+        <variable display_value="T-Shirt Size">7a8ef91c47c55910ab51f109536d43b9</variable>
+    </sys_variable_value>
+</record_update>

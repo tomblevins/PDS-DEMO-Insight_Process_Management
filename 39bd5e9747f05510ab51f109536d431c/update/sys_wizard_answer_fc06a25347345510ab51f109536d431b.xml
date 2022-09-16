@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>New Ledger Task</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Ledger Task</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">aaba7f86870011108b817b9acebb35b3</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-25 13:06:52</sys_created_on>
+        <sys_id>fc06a25347345510ab51f109536d431b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ledger Task</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_wizard_answer_fc06a25347345510ab51f109536d431b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-25 13:06:52</sys_updated_on>
+        <table/>
+        <target_url>x_snc_insight_pr_0_ledger_task.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>200</order>
+        <search_context_config display_value="Insight Process Management - Workspace Search">5bf1dfe1fd45dd1024b2e11e470c442e</search_context_config>
+        <source display_value="Insight Process Management - u_imp_tmpl_x_snc_insi">a00213254745dd10ab51f109536d43a4</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-01 16:05:31</sys_created_on>
+        <sys_id>c60217254745dd10ab51f109536d43cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_c60217254745dd10ab51f109536d43cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-01 16:05:31</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

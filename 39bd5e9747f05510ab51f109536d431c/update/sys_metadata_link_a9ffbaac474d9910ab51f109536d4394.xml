@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>a5ffbaac474d9910ab51f109536d4394</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>324003ec474d9910ab51f109536d4373</answer>
+        <condition table="var__m_sys_decision_input_cbac7e68474d9910ab51f109536d4331">u_type=Remediate^u_business_impact&gt;=10000000^EQ<item endquery="false" field="u_type" goto="false" newquery="false" operator="=" or="false" value="Remediate"/>
+            <item endquery="false" field="u_business_impact" goto="false" newquery="false" operator="&gt;=" or="false" value="10000000"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="IPE - Celonis - Risk Policy">cbac7e68474d9910ab51f109536d4331</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_cbac7e68474d9910ab51f109536d4331</input_table>
+        <label>IPE - Celonis - Risk Policy_81</label>
+        <order>75</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 12:12:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a5ffbaac474d9910ab51f109536d4394</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>IPE - Celonis - Risk Policy_81</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_decision_question_a5ffbaac474d9910ab51f109536d4394</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 13:06:33</sys_updated_on>
+    </sys_decision_question>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 12:12:39</sys_created_on>
+        <sys_id>a9ffbaac474d9910ab51f109536d4394</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>IPE - Celonis - Risk Policy_81</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_metadata_link_a9ffbaac474d9910ab51f109536d4394</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 13:06:33</sys_updated_on>
+        <tablename>sys_decision_question</tablename>
+    </sys_metadata_link>
+</record_update>

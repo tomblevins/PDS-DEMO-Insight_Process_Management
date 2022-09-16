@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pm_console_display_column">
+    <pm_console_display_column action="INSERT_OR_UPDATE">
+        <aggregate_type>sum</aggregate_type>
+        <can_hide>true</can_hide>
+        <fire_br>true</fire_br>
+        <header/>
+        <hidden>true</hidden>
+        <json_column>value_realized</json_column>
+        <label>Value Realized</label>
+        <order>555</order>
+        <pm_console display_value="Portfolio">213d0b7b931013003706dfa5e57ffb58</pm_console>
+        <seeded>false</seeded>
+        <sortable>false</sortable>
+        <sys_class_name>pm_console_display_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-01 17:28:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>4505efed4785dd10ab51f109536d4304</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Value Realized</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>pm_console_display_column_4505efed4785dd10ab51f109536d4304</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-01 17:28:29</sys_updated_on>
+        <tooltip>false</tooltip>
+        <trigger_recalculation>false</trigger_recalculation>
+        <type>currency</type>
+        <width>75</width>
+    </pm_console_display_column>
+</record_update>
