@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="DEMO - Celonis Event" max_length="40" name="x_snc_insight_pr_0_demo_celonis_event" sizeclass="34" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Body" max_length="10000" name="body" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" default="0" label="State" max_length="40" name="state" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Complete" sequence="0" value="2"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="-1"/>
+                <element inactive_on_update="false" label="New" sequence="2" value="0"/>
+                <element inactive_on_update="false" label="Processing" sequence="3" value="1"/>
+                <element inactive_on_update="false" label="Ignore" sequence="4" value="3"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Record producer for: Solana Security Asset Loader">f97efd6487ce55108b817b9acebb35e7</catalog_item>
+        <catalog_variable>load_experience_id</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-17 00:29:21</sys_created_on>
+        <sys_id>267e71a487ce55108b817b9acebb3531</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_267e71a487ce55108b817b9acebb3531</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-17 00:29:21</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide Load Experience ID">a27e71a487ce55108b817b9acebb352d</ui_policy>
+        <variable/>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>fcebc747db8eec1049eac597059619dd</instance_id>
+        <instance_name>tblevinse2eitomdemo</instance_name>
+        <name>catalog_ui_policy_action_267e71a487ce55108b817b9acebb3531</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Record producer for: Solana Security Asset Loader">f97efd6487ce55108b817b9acebb35e7</catalog_item><catalog_variable>load_experience_id</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-17 00:29:21</sys_created_on><sys_id>267e71a487ce55108b817b9acebb3531</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package><sys_policy/><sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope><sys_update_name>catalog_ui_policy_action_267e71a487ce55108b817b9acebb3531</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-17 00:29:21</sys_updated_on><table/><ui_policy display_value="Hide Load Experience ID">a27e71a487ce55108b817b9acebb352d</ui_policy><variable/><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-452931634</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1740c8d647999190ab51f109536d4364</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-17 00:29:21</sys_created_on>
+        <sys_id>227e71a487ce55108b817b9acebb3535</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18348d990430000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-17 00:29:21</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>2a7e71a4e9ce5510422951c2e5e00d34</update_guid>
+        <update_guid_history>2a7e71a4e9ce5510422951c2e5e00d34:-452931634</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">ee7e71a487ce55108b817b9acebb353c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-17 00:29:21</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>0636643d4e91489780b34025285851d9</sys_id>
+        <sys_metadata>267e71a487ce55108b817b9acebb3531</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_267e71a487ce55108b817b9acebb3531</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_267e71a487ce55108b817b9acebb3531">227e71a487ce55108b817b9acebb3535</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-17 00:29:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

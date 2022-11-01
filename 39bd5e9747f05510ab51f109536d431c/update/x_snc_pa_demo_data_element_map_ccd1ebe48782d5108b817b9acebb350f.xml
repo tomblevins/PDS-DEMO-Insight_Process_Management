@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_pa_demo_data_element_map">
+    <x_snc_pa_demo_data_element_map action="INSERT_OR_UPDATE">
+        <breakdown display_value="Topic Category">0d4d8cf9dbd7730017efff09689619e5</breakdown>
+        <element_sys_id>6814f96edbc080105d01f0ec0f9619cc</element_sys_id>
+        <name>Transitions</name>
+        <order>45</order>
+        <sys_class_name>x_snc_pa_demo_data_element_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-17 07:43:21</sys_created_on>
+        <sys_id>ccd1ebe48782d5108b817b9acebb350f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Transitions</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>x_snc_pa_demo_data_element_map_ccd1ebe48782d5108b817b9acebb350f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-17 07:43:21</sys_updated_on>
+    </x_snc_pa_demo_data_element_map>
+</record_update>

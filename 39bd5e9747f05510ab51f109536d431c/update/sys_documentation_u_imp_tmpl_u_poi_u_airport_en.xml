@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_airport" label="airport" language="en" table="u_imp_tmpl_u_poi">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_airport</element>
+            <help/>
+            <hint/>
+            <label>airport</label>
+            <language>en</language>
+            <name>u_imp_tmpl_u_poi</name>
+            <plural>airports</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-16 20:12:44</sys_created_on>
+            <sys_id>2bb30928878651905fd843f5dabb35c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>airport</sys_name>
+            <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+            <sys_update_name>sys_documentation_u_imp_tmpl_u_poi_u_airport_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-16 20:12:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

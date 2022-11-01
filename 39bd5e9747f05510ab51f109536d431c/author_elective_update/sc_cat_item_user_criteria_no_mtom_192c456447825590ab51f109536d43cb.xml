@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="Request Professional Services">508026c11b5b2410da9c10e22a4bcbb1</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-16 20:49:27</sys_created_on>
+        <sys_id>192c456447825590ab51f109536d43cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Professional Services.SNC External</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_192c456447825590ab51f109536d43cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-16 20:49:27</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>fcebc747db8eec1049eac597059619dd</instance_id>
+        <instance_name>tblevinse2eitomdemo</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_192c456447825590ab51f109536d43cb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Request Professional Services">508026c11b5b2410da9c10e22a4bcbb1</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-16 20:49:27</sys_created_on><sys_id>192c456447825590ab51f109536d43cb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Request Professional Services.SNC External</sys_name><sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package><sys_policy/><sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_192c456447825590ab51f109536d43cb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-16 20:49:27</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>2077255015</payload_hash>
+        <record_name>Request Professional Services.SNC External</record_name>
+        <reverted_from/>
+        <source>9365be10472111109f063982e36d4349</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-08-22 13:19:33</sys_created_on>
+        <sys_id>ce9e8968870e1990cf644266cebb35f2</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>182c5b55a880000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>8e9e8968960e19902f11a4270d0e2ef2</update_guid>
+        <update_guid_history>8e9e8968960e19902f11a4270d0e2ef2:2077255015</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Request Professional Services.SNC External">129e8968870e1990cf644266cebb35f5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-16 21:00:09</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>2155c2d1b897425c909bb4c763a8d5b9</sys_id>
+        <sys_metadata>192c456447825590ab51f109536d43cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Professional Services.SNC External</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_192c456447825590ab51f109536d43cb</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_192c456447825590ab51f109536d43cb">ce9e8968870e1990cf644266cebb35f2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-16 21:00:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

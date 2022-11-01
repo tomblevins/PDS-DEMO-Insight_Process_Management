@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>d5b2e4d247401110ab51f109536d43bf</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2022-09-16 22:04:43</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <script><![CDATA[var parser = new JSON();
+var cdtu = new global.CWFDemoHubTableUtils();
+var payload = [{
+    "operation": "update",
+    "table": "awa_presence_state",
+    "query": "sys_id=548ebcb8db9f009089d416370596199e",
+	"update_type": "concat",
+    "fields": {
+        "548ebcb8db9f009089d416370596199e": {
+            "service_channels": ",2746aa61b7b22010ffe5ef54ce11a9da"
+        }
+    }
+}];
+
+cdtu.genericGlideOperation(parser.encode(payload));]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-16 22:04:43</sys_created_on>
+        <sys_id>406dd1e0878a55108b817b9acebb35d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d5b2e4d247401110ab51f109536d43bf</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sysauto_script_406dd1e0878a55108b817b9acebb35d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-16 22:04:43</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

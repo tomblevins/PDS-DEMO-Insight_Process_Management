@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Ledger Event" max_length="40" name="x_snc_insight_pr_0_event_ledger" sizeclass="42" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Additional information" max_length="4000" name="additional_information" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Body" max_length="10000" name="body" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Classification" max_length="40" name="classification" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Case" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Demand" sequence="1" value="0"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="4000" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Task" max_length="40" name="ledger_case" reference="task" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Node" max_length="100" name="node" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Processed" max_length="40" name="processed" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Processing Notes" max_length="4000" name="processing_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Resource" max_length="100" name="resource" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Severity" max_length="40" name="severity" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Clear" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="Critical" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Major" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Minor" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Warning" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="OK" sequence="5" value="5"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Source" max_length="100" name="source" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Source Instance" max_length="100" name="source_instance" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="0" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="Preprocessing" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Ready" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Processing" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Processed" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Ignored" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Error" sequence="6" value="6"/>
+            </choice>
+        </element>
+    </element>
+</database>

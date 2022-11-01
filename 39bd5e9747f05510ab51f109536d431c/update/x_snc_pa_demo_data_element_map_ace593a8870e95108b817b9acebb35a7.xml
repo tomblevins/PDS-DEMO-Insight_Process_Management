@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_pa_demo_data_element_map">
+    <x_snc_pa_demo_data_element_map action="INSERT_OR_UPDATE">
+        <breakdown display_value="HR Service">05dbea9ddb6bc010ebfa62dc139619b7</breakdown>
+        <element_sys_id>3385b0a7dbf80410ba69f03d0f961997</element_sys_id>
+        <name>Medical Leave of Absence Request</name>
+        <order>47</order>
+        <sys_class_name>x_snc_pa_demo_data_element_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-17 06:51:14</sys_created_on>
+        <sys_id>ace593a8870e95108b817b9acebb35a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Medical Leave of Absence Request</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>x_snc_pa_demo_data_element_map_ace593a8870e95108b817b9acebb35a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-17 06:51:14</sys_updated_on>
+    </x_snc_pa_demo_data_element_map>
+</record_update>

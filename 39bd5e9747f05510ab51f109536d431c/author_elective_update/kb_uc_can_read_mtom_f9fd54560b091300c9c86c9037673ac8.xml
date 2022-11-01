@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_read_mtom">
+    <kb_uc_can_read_mtom action="DELETE">
+        <kb_knowledge_base display_value="Consumer Service">2b292926c3302200e7c7d44d81d3ae10</kb_knowledge_base>
+        <sys_class_name>kb_uc_can_read_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-26 17:25:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f9fd54560b091300c9c86c9037673ac8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Consumer Service.Users with 'sn_customerservice.consumer_agent' role</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope/>
+        <sys_update_name>kb_uc_can_read_mtom_f9fd54560b091300c9c86c9037673ac8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-31 02:33:52</sys_updated_on>
+        <user_criteria display_value="Users with 'sn_customerservice.consumer_agent' role">4fadd0560b091300c9c86c9037673ac8</user_criteria>
+    </kb_uc_can_read_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application/>
+        <file_path/>
+        <instance_id>fcebc747db8eec1049eac597059619dd</instance_id>
+        <instance_name>tblevinse2eitomdemo</instance_name>
+        <name>kb_uc_can_read_mtom_f9fd54560b091300c9c86c9037673ac8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_read_mtom"><kb_uc_can_read_mtom action="INSERT_OR_UPDATE"><kb_knowledge_base display_value="Consumer Service">2b292926c3302200e7c7d44d81d3ae10</kb_knowledge_base><sys_class_name>kb_uc_can_read_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-03-26 17:25:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f9fd54560b091300c9c86c9037673ac8</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Consumer Service.Users with 'sn_customerservice.consumer_agent' role</sys_name><sys_package/><sys_policy/><sys_scope/><sys_update_name>kb_uc_can_read_mtom_f9fd54560b091300c9c86c9037673ac8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-31 02:33:52</sys_updated_on><user_criteria display_value="Users with 'sn_customerservice.consumer_agent' role">4fadd0560b091300c9c86c9037673ac8</user_criteria></kb_uc_can_read_mtom></record_update>]]></payload>
+        <payload_hash>720835583</payload_hash>
+        <record_name>Consumer Service.Users with 'sn_customerservice.consumer_agent' role</record_name>
+        <reverted_from/>
+        <source>74e7af18874a11905fd843f5dabb353f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-16 13:32:36</sys_created_on>
+        <sys_id>d228a798874a11905fd843f5dabb35b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183468049bf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-16 13:32:36</sys_updated_on>
+        <type>Who Can Read Knowledge Base</type>
+        <update_guid>9228a798b44a11909499e7446508beb2</update_guid>
+        <update_guid_history>1e28a798694a1190fca3a4a86d4eebb0:-304325076</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Consumer Service.Users with 'sn_customerservice.consumer_agent' role">327e0da887c655108b817b9acebb35b0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-16 20:59:39</sys_created_on>
+        <sys_db_object display_value="" name="kb_uc_can_read_mtom">kb_uc_can_read_mtom</sys_db_object>
+        <sys_id>3efcc80cc2c04883a597c59724108541</sys_id>
+        <sys_metadata>f9fd54560b091300c9c86c9037673ac8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Consumer Service.Users with 'sn_customerservice.consumer_agent' role</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>kb_uc_can_read_mtom_f9fd54560b091300c9c86c9037673ac8</sys_update_name>
+        <sys_update_version display_value="kb_uc_can_read_mtom_f9fd54560b091300c9c86c9037673ac8">d228a798874a11905fd843f5dabb35b2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-16 20:59:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

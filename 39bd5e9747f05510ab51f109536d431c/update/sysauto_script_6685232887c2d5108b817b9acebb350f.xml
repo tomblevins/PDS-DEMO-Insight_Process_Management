@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>2403e8d247401110ab51f109536d4393</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2022-09-17 07:59:38</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <script><![CDATA[var id;
+var date_week = ['20210405','20210412','20210419','20210426','20210503','20210510','20210517','20210524','20210531', '20210607','20210614','20210621','20210628'];
+var date_month = ['20211201','20211101','20211001','20210901','20210801','20210701','20210601','20210501','20210401', '20210301','20210201','20210101','20201201'];
+ 
+// Learning Usage % per week
+var gr = new GlideRecord('pa_indicators');
+gr.addQuery('sys_id','85dd811e1b503810bb5675d8cc4bcb77');  
+gr.query();
+if(gr.next()){
+  id = gr.getValue('id');
+}
+for(i=0; i < date_month.length; i++){
+var pa = new GlideRecord('pa_scores_l1');
+pa.initialize();
+pa.setValue('indicator',id);
+pa.setValue('value',(Math.floor(Math.random()*20)+70));
+pa.setValue('start_at',date_week[i]);
+pa.insert();
+}
+ 
+  // External Content published this week
+var gr = new GlideRecord('pa_indicators');
+gr.addQuery('sys_id','8763ce661b18b810bb5675d8cc4bcbf7');
+gr.query();
+if(gr.next()){
+  id = gr.getValue('id');
+}
+for(i=0; i < date_month.length; i++){
+var pa = new GlideRecord('pa_scores_l1');
+pa.initialize();
+pa.setValue('indicator',id);
+pa.setValue('value',(Math.floor(Math.random()*20)+1));
+pa.setValue('start_at',date_week[i]);
+pa.insert();
+}
+ 
+ 
+  //Pulse Survey on Learning Plans
+var gr = new GlideRecord('pa_indicators');
+gr.addQuery('sys_id','90785eea1bd8b810bb5675d8cc4bcb2c');
+gr.query();
+if(gr.next()){
+  id = gr.getValue('id');
+}
+for(i=0; i < date_month.length; i++){
+var pa = new GlideRecord('pa_scores_l1');
+pa.initialize();
+pa.setValue('indicator',id);
+pa.setValue('value',(Math.floor(Math.random()*4)+1));
+pa.setValue('start_at',date_month[i]);
+pa.insert();
+}
+ 
+ 
+  // Internal Content published this week
+var gr = new GlideRecord('pa_indicators');
+gr.addQuery('sys_id','c365c6aa1b18b810bb5675d8cc4bcb15');
+gr.query();
+if(gr.next()){
+  id = gr.getValue('id');
+}
+for(i=0; i < date_month.length; i++){
+var pa = new GlideRecord('pa_scores_l1');
+pa.initialize();
+pa.setValue('indicator',id);
+pa.setValue('value',(Math.floor(Math.random()*20)+1));
+pa.setValue('start_at',date_week[i]);
+pa.insert();
+}
+ 
+ 
+ 
+  //% Learning task completion
+var gr = new GlideRecord('pa_indicators');
+gr.addQuery('sys_id','e6a196ee1b98b810bb5675d8cc4bcb53');
+gr.query();
+if(gr.next()){
+  id = gr.getValue('id');
+}
+for(i=0; i < date_month.length; i++){
+var pa = new GlideRecord('pa_scores_l1');
+pa.initialize();
+pa.setValue('indicator',id);
+pa.setValue('value',(Math.floor(Math.random()*20)+80));
+pa.setValue('start_at',date_week[i]);
+pa.insert();
+}
+ ]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-17 07:59:38</sys_created_on>
+        <sys_id>6685232887c2d5108b817b9acebb350f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2403e8d247401110ab51f109536d4393</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sysauto_script_6685232887c2d5108b817b9acebb350f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-17 07:59:38</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

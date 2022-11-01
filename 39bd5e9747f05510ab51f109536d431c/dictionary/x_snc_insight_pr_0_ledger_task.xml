@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Ledger Task" max_length="40" name="x_snc_insight_pr_0_ledger_task" sizeclass="16" text_index="true" type="collection">
+        <element label="Frequency" max_length="38" name="frequency" type="decimal"/>
+        <element label="Impact Value" max_length="38" name="impact_value" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Material" max_length="100" name="material" type="string"/>
+        <element label="New Price" max_length="38" name="new_price" type="decimal"/>
+        <element label="Old Price" max_length="38" name="old_price" type="decimal"/>
+    </element>
+</database>

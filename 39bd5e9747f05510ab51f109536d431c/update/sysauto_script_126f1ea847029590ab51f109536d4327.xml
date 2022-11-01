@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>e912689247401110ab51f109536d43fa</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2022-09-17 02:53:14</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <script><![CDATA[var isDark = gs.getProperty("com.csm.demohub.banner.is_dark");
+var parser = new JSON();
+var parsed_isDark = parser.decode(isDark);
+parsed_isDark["61c2fdeb1b30bc109d6865b6624bcbdc"] = "false";
+gs.setProperty("com.csm.demohub.banner.is_dark",parser.encode(parsed_isDark));
+
+var wealth = {
+       "agents":[
+         "john.jason",
+         "ruby.thomas",
+         "beth.anglin",
+         "ed.hack",
+         "gina.borgen",
+         "grace.hopper",
+         "Joanne Lind",
+         "wilma.kina",
+         "hannah.walker"
+      ],
+      "catalog_base":[
+         "8f7dddef1b3470507c77ca61604bcb59"
+      ],
+      "knowledge_base":[
+         "f67dddef1b3470507c77ca61604bcb4f"
+      ],
+      "promoted_topics":[
+         {
+            "order":"100",
+            "topic_sysid":"64d67bc91b893c10a549db56ec4bcbb7"
+         },
+         {
+            "order":"200",
+            "topic_sysid":"93c060f31bd3f7009a5e7624cc4bcb71"
+         },
+         {
+            "order":"300",
+            "topic_sysid":"a22a75c51bb89010776596482b4bcbbc"
+         },
+         {
+            "order":"400",
+            "topic_sysid":"bfb670e61bd7e01095370e9cdc4bcb26"
+         }
+      ],
+      "publications":[
+         "38ef2653dba6c89082a9fb371d961911",
+         "fc5c670bdb93b300dc3215ce3b961906",
+         "249de78bdb93b300dc3215ce3b961989"
+      ]
+   };
+var agent_config = {
+            "agents":[
+               "john.jason",
+               "ruby.thomas",
+               "beth.anglin",
+               "ed.hack",
+               "gina.borgen",
+               "grace.hopper",
+               "Joanne Lind",
+               "wilma.kina",
+               "hannah.walker"
+            ]
+         };
+var industry_config = gs.getProperty("com.csm.demohub.scenario.industry_config");
+
+var parsed_industry_config = parser.decode(industry_config);
+parsed_industry_config["wealth"] = wealth;
+parsed_industry_config["default"]["agents"]["wealth"] = agent_config;
+gs.setProperty("com.csm.demohub.scenario.industry_config",parser.encode(parsed_industry_config));
+
+var ga = new global.CWFDemoHubIndustry();
+ga.createExecutionRecord("b8898bc11bc5741059bb2063b24bcba5");]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-17 02:53:14</sys_created_on>
+        <sys_id>126f1ea847029590ab51f109536d4327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e912689247401110ab51f109536d43fa</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sysauto_script_126f1ea847029590ab51f109536d4327</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-17 02:53:14</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

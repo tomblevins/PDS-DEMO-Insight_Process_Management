@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_pa_demo_data_element_map">
+    <x_snc_pa_demo_data_element_map action="INSERT_OR_UPDATE">
+        <breakdown display_value="HR Service">05dbea9ddb6bc010ebfa62dc139619b7</breakdown>
+        <element_sys_id>be4843330b42030036e62c7885673acb</element_sys_id>
+        <name>Request Background Check by Accurate</name>
+        <order>47</order>
+        <sys_class_name>x_snc_pa_demo_data_element_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-17 06:51:15</sys_created_on>
+        <sys_id>f8e593a8870e95108b817b9acebb35d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Background Check by Accurate</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>x_snc_pa_demo_data_element_map_f8e593a8870e95108b817b9acebb35d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-17 06:51:15</sys_updated_on>
+    </x_snc_pa_demo_data_element_map>
+</record_update>

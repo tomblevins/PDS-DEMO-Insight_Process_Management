@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_pa_demo_data_breakdown">
+    <x_snc_pa_demo_data_breakdown action="INSERT_OR_UPDATE">
+        <breakdown display_value="Age">aac78c340b90030097f5064d37673aa4</breakdown>
+        <generator display_value="Number of closed HR Cases">75faad63db163300cd43596e5e9619f8</generator>
+        <standard_deviations>2.2</standard_deviations>
+        <sys_class_name>x_snc_pa_demo_data_breakdown</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-17 05:59:43</sys_created_on>
+        <sys_id>c21acb6c878e5990cf644266cebb355d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>aac78c340b90030097f5064d37673aa4</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>x_snc_pa_demo_data_breakdown_c21acb6c878e5990cf644266cebb355d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-17 05:59:43</sys_updated_on>
+    </x_snc_pa_demo_data_breakdown>
+</record_update>

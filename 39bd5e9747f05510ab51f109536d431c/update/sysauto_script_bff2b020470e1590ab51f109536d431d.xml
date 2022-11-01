@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>5332e052878c11108b817b9acebb35d7</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2022-09-16 18:59:34</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <script><![CDATA[var cdi = new global.CSMDemoHubInclude();
+var payload = {
+    "table": "item_option_new",
+    "query": "variable_set=e33bd9f493b0030045a3f5be867ffbc5^ORvariable_set=1df9da3ab3402300eda5a72256a8dcaa",
+    "fields": {
+        "011d553893b0030045a3f5be867ffb2f": {
+            "read_roles": "public, snc_external, snc_internal",
+            "write_roles": "public, snc_external, snc_internal",
+            "create_roles": "public, snc_external, snc_internal"
+        },
+
+        "a63811f7b3584010e0c1a72256a8dc91": {
+            "read_roles": "public, snc_external, snc_internal",
+            "write_roles": "public, snc_external, snc_internal",
+            "create_roles": "public, snc_external, snc_internal"
+        },
+
+        "7a3f12fab3402300eda5a72256a8dc15": {
+            "read_roles": "public, snc_external, snc_internal",
+            "write_roles": "public, snc_external, snc_internal",
+            "create_roles": "public, snc_external, snc_internal"
+        },
+
+        "58223f8bd7b63200811300285e610381": {
+            "read_roles": "public, snc_external, snc_internal",
+            "write_roles": "public, snc_external, snc_internal",
+            "create_roles": "public, snc_external, snc_internal"
+        },
+
+        "d3da927ab3402300eda5a72256a8dcb7": {
+            "read_roles": "public, snc_external, snc_internal",
+            "write_roles": "public, snc_external, snc_internal",
+            "create_roles": "public, snc_external, snc_internal"
+        },
+
+        "7d5c5a7ab3402300eda5a72256a8dcef": {
+            "read_roles": "public, snc_external, snc_internal",
+            "write_roles": "public, snc_external, snc_internal",
+            "create_roles": "public, snc_external, snc_internal"
+        }
+
+    }
+};
+
+cdi.genericGlideUpdate(JSON.stringify(payload));]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-16 18:59:34</sys_created_on>
+        <sys_id>bff2b020470e1590ab51f109536d431d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5332e052878c11108b817b9acebb35d7</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sysauto_script_bff2b020470e1590ab51f109536d431d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-16 18:59:34</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

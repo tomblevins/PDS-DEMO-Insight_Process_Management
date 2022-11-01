@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>53926852878c11108b817b9acebb351a</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2022-09-17 01:01:08</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <script><![CDATA[var parser = new JSON();
+
+var retail = {
+    "agents": [
+      "john.jason",
+      "ruby.thomas",
+      "beth.anglin",
+      "ed.hack",
+      "gina.borgen",
+      "grace.hopper",
+      "Joanne Lind",
+      "wilma.kina",
+      "hannah.walker"
+    ],
+    "catalog_base": [
+      "e6c21163479bcd50424af067746d432d"
+    ],
+    "data_switch": {
+      "tables": [
+        "sn_customerservice_case",
+        "sn_install_base_sold_product",
+        "sn_install_base_item",
+        "alm_asset"
+      ]
+    },
+    "default_palette": "701d278787c2fc1059eb4379cebb3519",
+    "header_menu": "89c7969d1b635c1004509607bc4bcb8d",
+    "knowledge_base": [
+      "7d4c32ed1b2f9c1004509607bc4bcb26"
+    ],
+    "promoted_topics": [
+      {
+        "order": "100",
+        "topic_sysid": "1a81a43f1bd3f7009a5e7624cc4bcb7b"
+      },
+      {
+        "order": "200",
+        "topic_sysid": "93c060f31bd3f7009a5e7624cc4bcb71"
+      },
+      {
+        "order": "300",
+        "topic_sysid": "a22a75c51bb89010776596482b4bcbbc"
+      },
+      {
+        "order": "400",
+        "topic_sysid": "bfb670e61bd7e01095370e9cdc4bcb26"
+      }
+    ],
+    "publications": [
+      "38ef2653dba6c89082a9fb371d961911",
+      "fc5c670bdb93b300dc3215ce3b961906",
+      "249de78bdb93b300dc3215ce3b961989"
+    ]
+  };
+var agent_config = {
+    "agents": [
+      "john.jason",
+      "ruby.thomas",
+      "beth.anglin",
+      "ed.hack",
+      "gina.borgen",
+      "grace.hopper",
+      "Joanne Lind",
+      "wilma.kina",
+      "hannah.walker"
+    ]
+};
+var industryScript = new global.CWFDemoHubIndustry();
+industryScript.addIndustryConfig("701d278787c2fc1059eb4379cebb3519", true, "security", agent_config, retail);
+
+
+industryScript.createExecutionRecord("396ba6df1b2724104444ddbddc4bcb14");]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-17 01:01:08</sys_created_on>
+        <sys_id>58c58e2447ca5590ab51f109536d43ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>53926852878c11108b817b9acebb351a</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sysauto_script_58c58e2447ca5590ab51f109536d43ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-17 01:01:08</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

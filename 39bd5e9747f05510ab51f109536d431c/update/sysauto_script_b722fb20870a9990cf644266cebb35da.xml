@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>2813ec52878c11108b817b9acebb359e</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2022-09-17 08:54:53</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <script><![CDATA[//Matt Train - PA Data Generator load script CORRECTED FROM MR
+var conf = 'Fed 1';
+var gen = new GlideRecord('x_snc_pa_demo_data_generator');
+gen.addEncodedQuery('configurationLIKE'+conf);
+gen.query();
+while(gen.next()){
+   var genID = gen.getValue("sys_id");
+                new x_snc_pa_demo_data.breakdown().load(genID);
+    new x_snc_pa_demo_data.level1().generate(genID);
+    gen.status = 'Queued';
+    gen.start_time = '';
+    gen.end_time='';
+    gen.duration='';
+    gen.update();
+}
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-17 08:54:53</sys_created_on>
+        <sys_id>b722fb20870a9990cf644266cebb35da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2813ec52878c11108b817b9acebb359e</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sysauto_script_b722fb20870a9990cf644266cebb35da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-17 08:54:53</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

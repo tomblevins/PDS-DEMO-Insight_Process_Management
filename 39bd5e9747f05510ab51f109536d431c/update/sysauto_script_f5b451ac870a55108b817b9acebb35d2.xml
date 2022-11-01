@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>57126892474011109f063982e36d439b</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2022-09-16 21:26:54</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <script><![CDATA[var cdhi = new global.CWFDemoHubIndustry();
+cdhi.addPropertyToDefault("fsm_localise_config",{
+    "account_contact_query": "active=true^nameNOT LIKEPrimary^nameNOT LIKESecondary",
+    "additional_templates": [
+        "264aa48847690d10bdec4343846d43f7",
+        "264aa48847690d10bdec4343846d43f7",
+        "92fa20c847690d10bdec4343846d4391",
+        "181cecc847690d10bdec4343846d43aa",
+        "ee7ea80047a90d10bdec4343846d43e3",
+        "ee7ea80047a90d10bdec4343846d43e3",
+        "534de0cc47690d10bdec4343846d43e7",
+        "534de0cc47690d10bdec4343846d43e7"
+    ],
+    "consumer_query": "active=true^nameNOT LIKEPrimary^nameNOT LIKESecondary",
+    "location_change_entities": [
+        {
+            "entries": [
+                "42f6d201d7b3020058c92cf65e610360",
+                "8d59d601d7b3020058c92cf65e6103c2",
+                "4847c4d4d773020058c92cf65e61038e",
+                "54c684d4d773020058c92cf65e6103af",
+                "901784d4d773020058c92cf65e6103da",
+                "ff969201d7b3020058c92cf65e61036d",
+                "17f8d601d7b3020058c92cf65e610318",
+                "931644d4d773020058c92cf65e61034c"
+            ],
+            "location_field": "location",
+            "table": "sys_user"
+        },
+        {
+            "entries": [
+                "b8defca16fc331003b3c498f5d3ee4e7",
+                "ef9d2b3ac3d12200467f10c422d3ae36"
+            ],
+            "location_field": "location",
+            "table": "alm_asset"
+        },
+        {
+            "entries": [
+                "64488cfbdb1b1200b6075200cf9619db"
+            ],
+            "location_field": "location",
+            "table": "csm_consumer_user"
+        },
+        {
+            "entries": [
+                "4d147a386f0331003b3c498f5d3ee437",
+                "ddce70866f9331003b3c498f5d3ee417"
+            ],
+            "location_field": "location",
+            "table": "customer_contact"
+        },
+        {
+            "entries": [
+                "57b35bf707032010f55596fe0ad300d4",
+                "ab469bfb47110d10bdec4343846d432e"
+            ],
+            "location_field": "location",
+            "table": "wm_crew"
+        },
+        {
+            "entries": [
+                "5aaf4d73dbdc281068fba3cc0b96192e",
+                "dacd2fb347d10d10bdec4343846d43b6"
+            ],
+            "location_field": "location",
+            "table": "sys_group_covers_location"
+        }
+    ],
+    "no_of_wo": 35,
+    "no_of_wo_in_dispatch": 2,
+    "templates": [
+        "6d0df0d4c32331001c845cb981d3aee7",
+        "89d9cf57db1f370007728709689619fb",
+        "e50f59e5ff1131007a6dffffffffffe5",
+        "acc1116b3b810300ce8a4d72f3efc40e"
+    ],
+    "unassigned_agent": "17f8d601d7b3020058c92cf65e610318"
+})]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-16 21:26:54</sys_created_on>
+        <sys_id>f5b451ac870a55108b817b9acebb35d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>57126892474011109f063982e36d439b</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sysauto_script_f5b451ac870a55108b817b9acebb35d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-16 21:26:54</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>
