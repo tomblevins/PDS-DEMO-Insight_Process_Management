@@ -9,7 +9,6 @@
         <create_access>true</create_access>
         <create_access_controls>false</create_access_controls>
         <delete_access>false</delete_access>
-        <extension_model/>
         <is_extendable>false</is_extendable>
         <label>Ledger Task</label>
         <live_feed_enabled>false</live_feed_enabled>
@@ -19,9 +18,7 @@
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
         <super_class display_value="Task" name="task">e2ba7f86870011108b817b9acebb35b3</super_class>
-        <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
-        <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-25 13:06:52</sys_created_on>
         <sys_id>2c06625347345510ab51f109536d43e0</sys_id>

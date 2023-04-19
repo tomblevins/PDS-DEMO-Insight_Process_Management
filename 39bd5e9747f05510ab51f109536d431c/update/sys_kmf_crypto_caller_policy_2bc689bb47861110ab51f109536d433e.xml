@@ -6,6 +6,7 @@
         <crypto_module display_value="com_glide_certificates_glideencrypter">8994cbe3ff23201022f462aa453bf13d</crypto_module>
         <crypto_spec display_value="com_glide_certificates_glideencrypter --- Symmetric Key Wrapping/Unwrapping">0594cbe3ff23201022f462aa453bf13f</crypto_spec>
         <granular_operation/>
+        <identity_group_alias/>
         <impersonation>false</impersonation>
         <instance_recipient/>
         <owner>fcebc747db8eec1049eac597059619dd</owner>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metric_policy_has_schedule">
+    <sys_metric_policy_has_schedule action="INSERT_OR_UPDATE">
+        <retention_policy display_value="system series policy (sys|free)">20485384876d2110cf644266cebb3582</retention_policy>
+        <schedule display_value="10 Days @ 10 Minutes period">ac489384876d2110cf644266cebb35a8</schedule>
+        <sys_class_name>sys_metric_policy_has_schedule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 17:24:25</sys_created_on>
+        <sys_id>a8489384876d2110cf644266cebb35aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_metric_policy_has_schedule_a8489384876d2110cf644266cebb35aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 17:24:25</sys_updated_on>
+    </sys_metric_policy_has_schedule>
+</record_update>

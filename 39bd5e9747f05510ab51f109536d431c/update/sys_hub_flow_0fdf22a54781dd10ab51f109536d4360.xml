@@ -15,6 +15,7 @@
         <name>DEMO - Reset Case Demo</name>
         <natlang/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -88,6 +89,7 @@
         <element>sysid</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -134,6 +136,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -155,10 +158,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 13:49:15</sys_created_on>
         <sys_id>39d2f6a94781dd10ab51f109536d43c3</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-08-01 16:26:12</sys_updated_on>
+        <sys_updated_on>2023-04-18 11:25:51</sys_updated_on>
         <ui_id>2993a3c9-30e4-4f99-8a25-962cebf61075</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=39d2f6a94781dd10ab51f109536d43c3"/>
@@ -217,10 +220,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 15:34:48</sys_created_on>
         <sys_id>77facba94705dd10ab51f109536d433d</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-08-01 16:26:12</sys_updated_on>
+        <sys_updated_on>2023-04-18 11:25:51</sys_updated_on>
         <ui_id>d65c0c6f-97b6-41bb-b95a-a4f6d08843c4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=77facba94705dd10ab51f109536d433d"/>
@@ -279,10 +282,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 13:49:15</sys_created_on>
         <sys_id>79d2f6a94781dd10ab51f109536d43fe</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-08-01 16:26:12</sys_updated_on>
+        <sys_updated_on>2023-04-18 11:25:51</sys_updated_on>
         <ui_id>6ad2ca96-c96a-49c8-aa9d-2311c3813a3b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=79d2f6a94781dd10ab51f109536d43fe"/>
@@ -341,10 +344,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 15:34:48</sys_created_on>
         <sys_id>b3facba94705dd10ab51f109536d434a</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-08-01 16:26:12</sys_updated_on>
+        <sys_updated_on>2023-04-18 11:25:51</sys_updated_on>
         <ui_id>478bebb0-8932-4cbb-90f4-994948a497e1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b3facba94705dd10ab51f109536d434a"/>
@@ -377,10 +380,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 13:49:16</sys_created_on>
         <sys_id>b9d23aa94781dd10ab51f109536d430f</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-08-01 16:26:12</sys_updated_on>
+        <sys_updated_on>2023-04-18 11:25:51</sys_updated_on>
         <ui_id>023a98bf-7eb8-480b-b33f-572e17c9e75f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b9d23aa94781dd10ab51f109536d430f"/>
@@ -439,10 +442,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 13:49:16</sys_created_on>
         <sys_id>b9d23aa94781dd10ab51f109536d4336</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-08-01 16:26:12</sys_updated_on>
+        <sys_updated_on>2023-04-18 11:25:51</sys_updated_on>
         <ui_id>80cc7e0c-2f17-466d-867b-ca7161b15554</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b9d23aa94781dd10ab51f109536d4336"/>
@@ -527,10 +530,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 13:49:16</sys_created_on>
         <sys_id>f5d23aa94781dd10ab51f109536d4314</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-08-01 16:26:12</sys_updated_on>
+        <sys_updated_on>2023-04-18 11:25:51</sys_updated_on>
         <ui_id>3ee9df5d-3887-4a7b-a5b3-12cf4f06ed34</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f5d23aa94781dd10ab51f109536d4314"/>
@@ -563,10 +566,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 13:49:16</sys_created_on>
         <sys_id>fdd23aa94781dd10ab51f109536d4318</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-08-01 16:26:12</sys_updated_on>
+        <sys_updated_on>2023-04-18 11:25:51</sys_updated_on>
         <ui_id>86356f3c-02e3-4703-b740-8e255dc9a434</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fdd23aa94781dd10ab51f109536d4318"/>
@@ -805,7 +808,7 @@
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"9bd2baa94781dd10ab51f109536d4327","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="DEMO - Reset Case Demo">0fdf22a54781dd10ab51f109536d4360</plan_id>
-        <snapshot>78c65fe94745dd10ab51f109536d4332</snapshot>
+        <snapshot>cc6f45d9471e2190ab51f109536d4364</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 13:49:21</sys_created_on>
         <sys_domain>global</sys_domain>
@@ -905,6 +908,7 @@
         <element>sysid</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -951,6 +955,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1620,6 +1625,6 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>0fdf22a54781dd10ab51f109536d4360</sys_id>
         <latest_snapshot>7ad27aa94781dd10ab51f109536d437c</latest_snapshot>
-        <compiler_build>glide-sandiego-12-22-2021__patch4a-06-21-2022_07-12-2022_1907.zip</compiler_build>
+        <compiler_build>glide-utah-12-21-2022__patch1-03-01-2023_03-13-2023_1716.zip</compiler_build>
     </sys_hub_flow>
 </record_update>

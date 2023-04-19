@@ -28,6 +28,7 @@
 ]]></instructions>
         <is_building>false</is_building>
         <last_run_date>2022-07-01 07:00:00</last_run_date>
+        <max_drift/>
         <name>Unix Server in South Africa</name>
         <next_scheduled_run/>
         <number>CRTINST0010009</number>

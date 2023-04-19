@@ -4,6 +4,7 @@
         <active>true</active>
         <answer_table>sys_decision_multi_result</answer_table>
         <answer_type>reference</answer_type>
+        <description/>
         <label/>
         <name>IPE - Celonis - Impact Sizing Policy</name>
         <reference_qualifier/>

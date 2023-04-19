@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metric">
+    <sys_metric action="INSERT_OR_UPDATE">
+        <application_name>Platform</application_name>
+        <auto_promote>false</auto_promote>
+        <compact_aggregator/>
+        <dv_aggregator/>
+        <dv_resample_hr/>
+        <element>itom__46__oi__46__kalman__46__filter__46__learner__46__errors__47__s</element>
+        <label>itom.oi.kalman.filter.learner.errors/s</label>
+        <name>v_clotho_series</name>
+        <retention_policy display_value="system series policy (sys|free)">20485384876d2110cf644266cebb3582</retention_policy>
+        <subject_field>sys_id</subject_field>
+        <sys_class_name>sys_metric</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 17:24:26</sys_created_on>
+        <sys_id>3c489784876d2110cf644266cebb3577</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>itom.oi.kalman.filter.learner.errors/s</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_metric_3c489784876d2110cf644266cebb3577</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 17:24:26</sys_updated_on>
+        <type>float</type>
+    </sys_metric>
+</record_update>

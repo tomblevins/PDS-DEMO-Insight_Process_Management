@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-25 12:52:17</sys_created_on>
-            <sys_id>8fa2225f47f05510ab51f109536d43c1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>classification</sys_name>
             <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2022-07-25 12:52:17</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4ba2225f47f05510ab51f109536d43c1</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-07-27 12:37:34</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2022-07-25 12:52:17</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>8fa2225f47f05510ab51f109536d43c2</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-07-27 12:37:40</sys_updated_on>

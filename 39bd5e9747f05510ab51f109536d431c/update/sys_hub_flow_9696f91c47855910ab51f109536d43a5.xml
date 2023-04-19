@@ -15,6 +15,7 @@
         <name>MAINT - Clear Metric Results</name>
         <natlang/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>

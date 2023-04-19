@@ -2,6 +2,8 @@
     <sys_data_source action="INSERT_OR_UPDATE">
         <batch_size>1000</batch_size>
         <category/>
+        <connection_alias/>
+        <connection_override_last_success_time/>
         <connection_timeout>0</connection_timeout>
         <connection_url>attachment://sys_data_source:52dfda5b47f05510ab51f109536d4356/x_ibmgs_proc_opt_cel_event (3).xlsx</connection_url>
         <connection_url_parameters/>
@@ -14,6 +16,7 @@
 })(import_set_table);]]></data_loader>
         <data_stream_action/>
         <data_stream_action_inputs/>
+        <data_stream_connection_alias/>
         <database_name/>
         <database_port/>
         <discard_arrays>true</discard_arrays>

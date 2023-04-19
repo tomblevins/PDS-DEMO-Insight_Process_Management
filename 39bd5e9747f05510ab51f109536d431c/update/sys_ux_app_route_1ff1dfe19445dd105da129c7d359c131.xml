@@ -2,12 +2,13 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config display_value="Insight Process Management Config">17f1dfe16345dd104e722f30bf8d9932</app_config>
         <description/>
+        <extension_point/>
         <fields>notificationTrayDisplayed,notificationQueue,notificationTrayIsLoading,notificationUIRoute,toastItem</fields>
         <icon/>
         <name>Notification tray</name>
         <optional_parameters/>
         <order>0</order>
-        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <parent_macroponent_composition_element_id>wsSidepanel</parent_macroponent_composition_element_id>
         <route_type>notificationtray</route_type>
         <screen_type display_value="Notification tray">d7f1dfe15a45dd1079176777a768db31</screen_type>

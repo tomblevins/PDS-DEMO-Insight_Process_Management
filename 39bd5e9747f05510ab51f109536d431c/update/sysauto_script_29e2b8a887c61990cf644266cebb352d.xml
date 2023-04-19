@@ -5,6 +5,7 @@
         <condition/>
         <conditional>false</conditional>
         <entered_time/>
+        <max_drift/>
         <name>5f32e052878c11108b817b9acebb35d6</name>
         <offset/>
         <offset_type>0</offset_type>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <application display_value="Insight Process Management">3de82e1747345510ab51f109536d43d5</application>
         <assessment/>
         <device_type/>
@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8a2fdf6c4701d910ab51f109536d4310</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Opportunity Inbox</sys_name>
         <sys_overrides/>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sys_app_module_8a2fdf6c4701d910ab51f109536d4310</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-05 12:53:48</sys_updated_on>
+        <sys_updated_on>2023-04-18 11:48:49</sys_updated_on>
         <timeline_page/>
         <title>Opportunity Inbox</title>
         <uncancelable>false</uncancelable>

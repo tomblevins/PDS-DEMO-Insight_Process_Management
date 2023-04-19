@@ -27,6 +27,7 @@
 ]]></instructions>
         <is_building>false</is_building>
         <last_run_date>2022-08-26 19:00:00</last_run_date>
+        <max_drift/>
         <name>Verify Oracle</name>
         <next_scheduled_run/>
         <number>CRTINST0010016</number>

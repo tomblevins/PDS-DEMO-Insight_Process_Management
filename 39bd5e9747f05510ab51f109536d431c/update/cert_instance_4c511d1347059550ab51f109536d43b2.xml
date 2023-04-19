@@ -27,6 +27,7 @@
 ]]></instructions>
         <is_building>false</is_building>
         <last_run_date>2012-10-29 19:21:57</last_run_date>
+        <max_drift/>
         <name>IBM Server Schedule</name>
         <next_scheduled_run/>
         <number>CRTINST0010011</number>

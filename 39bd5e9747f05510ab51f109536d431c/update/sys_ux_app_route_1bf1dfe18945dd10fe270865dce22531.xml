@@ -2,12 +2,13 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config display_value="Insight Process Management Config">17f1dfe16345dd104e722f30bf8d9932</app_config>
         <description/>
+        <extension_point/>
         <fields/>
         <icon/>
         <name>Home</name>
         <optional_parameters/>
         <order>0</order>
-        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <parent_macroponent_composition_element_id/>
         <route_type>home</route_type>
         <screen_type display_value="Home">93f1dfe17045dd10d39543a5eea21c32</screen_type>

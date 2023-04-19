@@ -2,6 +2,7 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config display_value="Insight Process Management Config">17f1dfe16345dd104e722f30bf8d9932</app_config>
         <description/>
+        <extension_point/>
         <fields/>
         <icon>graduation-cap-outline</icon>
         <name>Agent assist</name>

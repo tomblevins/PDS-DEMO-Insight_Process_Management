@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-25 13:04:47</sys_created_on>
-            <sys_id>4a856a1347345510ab51f109536d433f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>state</sys_name>
             <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2022-07-25 13:04:47</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>06856a1347345510ab51f109536d433f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-07-25 13:04:47</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2022-07-25 13:04:47</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4e856a1347345510ab51f109536d4340</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-07-25 13:04:47</sys_updated_on>
@@ -70,7 +67,6 @@
             <sys_created_on>2022-07-25 13:04:47</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>ca856a1347345510ab51f109536d4341</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-07-25 13:04:47</sys_updated_on>
@@ -90,7 +86,6 @@
             <sys_created_on>2022-07-25 13:04:47</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4a856a1347345510ab51f109536d4342</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-07-25 13:04:47</sys_updated_on>
@@ -110,7 +105,6 @@
             <sys_created_on>2022-07-25 13:04:47</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c6856a1347345510ab51f109536d4343</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-07-25 13:04:47</sys_updated_on>
@@ -130,7 +124,6 @@
             <sys_created_on>2022-07-25 13:04:47</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>46856a1347345510ab51f109536d4344</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-07-25 13:04:47</sys_updated_on>
@@ -150,7 +143,6 @@
             <sys_created_on>2022-07-25 13:04:47</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c2856a1347345510ab51f109536d4345</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-07-25 13:04:47</sys_updated_on>
