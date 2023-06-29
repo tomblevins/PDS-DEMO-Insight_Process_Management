@@ -156,7 +156,7 @@
         <update_guid_history>525521e0e4ca519083aa2d73228a725e:-1082756556</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="enable logging?">ea5521e087ca51905fd843f5dabb35ab</sys_audit_delete>
+        <sys_audit_delete display_value="">ea5521e087ca51905fd843f5dabb35ab</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-16 22:39:35</sys_created_on>

@@ -156,7 +156,7 @@
         <update_guid_history>90f23ca8a5c61990ecec512310d600a7:-617202636</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Resolution">f8f27ca887c61990cf644266cebb3544</sys_audit_delete>
+        <sys_audit_delete display_value="">f8f27ca887c61990cf644266cebb3544</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-16 18:59:22</sys_created_on>

@@ -156,7 +156,7 @@
         <update_guid_history>b7483068c04e15906bbc442b2091d4af:2118959696</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Load Experience ID">c2583068870a1990cf644266cebb35a2</sys_audit_delete>
+        <sys_audit_delete display_value="">c2583068870a1990cf644266cebb35a2</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-16 19:22:56</sys_created_on>

@@ -1,58 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Notes" section_id="0da8383b877c95108b817b9acebb3540" sys_domain="global" table="x_snc_insight_pr_0_ledger_task" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>short_description</element>
-            <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-26 18:26:00</sys_created_on>
-            <sys_id>51a8383b877c95108b817b9acebb3564</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Notes" display_value="Notes" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">0da8383b877c95108b817b9acebb3540</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-26 18:26:00</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-26 18:26:00</sys_created_on>
-            <sys_id>d1a8383b877c95108b817b9acebb3564</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Notes" display_value="Notes" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">0da8383b877c95108b817b9acebb3540</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-26 18:26:00</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>work_notes</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-26 18:26:00</sys_created_on>
-            <sys_id>55a8383b877c95108b817b9acebb3564</sys_id>
+            <position>0</position>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-06-22 12:27:40</sys_created_on>
+            <sys_id>93dc0c564763a150ceb89e25126d437c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Notes" display_value="Notes" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">0da8383b877c95108b817b9acebb3540</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-26 18:26:00</sys_updated_on>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-06-22 12:27:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>comments_and_work_notes</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-26 18:26:00</sys_created_on>
-            <sys_id>d5a8383b877c95108b817b9acebb3564</sys_id>
+            <position>1</position>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-06-22 12:27:40</sys_created_on>
+            <sys_id>97dc0c564763a150ceb89e25126d437c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Notes" display_value="Notes" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">0da8383b877c95108b817b9acebb3540</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-26 18:26:00</sys_updated_on>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-06-22 12:27:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

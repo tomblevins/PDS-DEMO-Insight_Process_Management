@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
-        <catalog_item display_value="Record producer for: SLM - Loader/Unloader">2b36d52a87c5dd1041d50fa90cbb3568</catalog_item>
+        <catalog_item display_value="">2b36d52a87c5dd1041d50fa90cbb3568</catalog_item>
         <catalog_variable>load_experience_id</catalog_variable>
         <cleared>false</cleared>
         <disabled>ignore</disabled>

@@ -156,7 +156,7 @@
         <update_guid_history>eb483068a34e15908920c91b832a4b03:305798625</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Do you want to clear all the cases and interaction">77483068474e1590ab51f109536d4366</sys_audit_delete>
+        <sys_audit_delete display_value="">77483068474e1590ab51f109536d4366</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-16 19:22:46</sys_created_on>

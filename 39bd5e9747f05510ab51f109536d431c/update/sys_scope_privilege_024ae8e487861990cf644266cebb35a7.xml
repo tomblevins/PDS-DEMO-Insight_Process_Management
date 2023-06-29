@@ -16,7 +16,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-09-16 18:21:29</sys_updated_on>
         <target_name>x_snc_pa_demo_data_generator</target_name>
-        <target_scope display_value="DemoHub PA Data Generator">0569f0cadbfdbb00f669f40b0c961904</target_scope>
+        <target_scope display_value="">0569f0cadbfdbb00f669f40b0c961904</target_scope>
         <target_type>sys_db_object</target_type>
     </sys_scope_privilege>
 </record_update>

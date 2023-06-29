@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="business_impact" label="Business Impact" language="en" table="var__m_sys_hub_action_output_c206c94047811910ab51f109536d438d">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>business_impact</element>
+            <help/>
+            <hint/>
+            <label>Business Impact</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_c206c94047811910ab51f109536d438d</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-27 14:03:00</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Business Impact</sys_name>
+            <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_c206c94047811910ab51f109536d438d_business_impact_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-27 14:03:00</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

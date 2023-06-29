@@ -156,7 +156,7 @@
         <update_guid_history>6a5521e0daca51906cd93d36bf025f8d:1108824430</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Remove Additional Cont &amp; Cons from Sold Product">be5521e087ca51905fd843f5dabb35d8</sys_audit_delete>
+        <sys_audit_delete display_value="">be5521e087ca51905fd843f5dabb35d8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-16 22:39:35</sys_created_on>

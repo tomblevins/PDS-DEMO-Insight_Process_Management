@@ -20,6 +20,25 @@
             <element>classification</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Ledger Event</label>
+            <language>en</language>
+            <name>x_snc_insight_pr_0_event_ledger</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-06-22 11:18:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-06-22 11:18:35</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>classification</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Procurement Case</label>
             <language>en</language>
             <name>x_snc_insight_pr_0_event_ledger</name>
@@ -29,7 +48,6 @@
             <sys_created_on>2022-07-25 12:52:17</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>ffc6feedc3da69d0ef56dff4e4013121</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-04-19 15:18:30</sys_updated_on>
@@ -49,7 +67,6 @@
             <sys_created_on>2023-04-19 15:19:14</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>962e4765c3de69d0ef56dff4e401315d</sys_id>
             <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-04-19 15:19:36</sys_updated_on>
@@ -69,7 +86,6 @@
             <sys_created_on>2022-07-25 12:52:17</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>bfc6feedc3da69d0ef56dff4e4013122</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-04-19 15:19:37</sys_updated_on>

@@ -156,7 +156,7 @@
         <update_guid_history>5cf23ca850c619901433b97f0361cdac:-472185989</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Do you want the case to be in Awaiting Info ?">49f27ca887c61990cf644266cebb3553</sys_audit_delete>
+        <sys_audit_delete display_value="">49f27ca887c61990cf644266cebb3553</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-16 18:59:22</sys_created_on>

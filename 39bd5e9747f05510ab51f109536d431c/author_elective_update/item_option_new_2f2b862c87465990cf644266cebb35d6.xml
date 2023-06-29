@@ -156,7 +156,7 @@
         <update_guid_history>2b2b862c424659903574939220a175db:1108669615</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Cleanup Existing Orders">4c3bc62c87465990cf644266cebb351a</sys_audit_delete>
+        <sys_audit_delete display_value="">4c3bc62c87465990cf644266cebb351a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-17 01:24:52</sys_created_on>

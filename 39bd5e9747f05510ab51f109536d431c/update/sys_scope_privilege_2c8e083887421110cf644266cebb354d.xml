@@ -16,7 +16,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-09-17 10:58:38</sys_updated_on>
         <target_name>EWF_pulse_survey</target_name>
-        <target_scope display_value="Listening Posts">d52bb3b1732210102983fd2927f6a7a7</target_scope>
+        <target_scope display_value="">d52bb3b1732210102983fd2927f6a7a7</target_scope>
         <target_type>sys_script_include</target_type>
     </sys_scope_privilege>
 </record_update>

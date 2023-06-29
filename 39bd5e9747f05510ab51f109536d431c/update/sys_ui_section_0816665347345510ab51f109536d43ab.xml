@@ -3,112 +3,168 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-26 18:26:00</sys_created_on>
-            <sys_id>d9a8383b877c95108b817b9acebb355b</sys_id>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-06-22 12:27:39</sys_created_on>
+            <sys_id>83dc0c564763a150ceb89e25126d4350</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">0816665347345510ab51f109536d43ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-26 18:26:00</sys_updated_on>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-06-22 12:27:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company_code</element>
+            <position>1</position>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-06-22 12:27:39</sys_created_on>
+            <sys_id>87dc0c564763a150ceb89e25126d4350</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">0816665347345510ab51f109536d43ab</sys_ui_section>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-06-22 12:27:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-26 18:26:00</sys_created_on>
-            <sys_id>91a8383b877c95108b817b9acebb355c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">0816665347345510ab51f109536d43ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-26 18:26:00</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cmdb_ci</element>
             <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-26 18:26:00</sys_created_on>
-            <sys_id>15a8383b877c95108b817b9acebb355c</sys_id>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-06-22 12:27:39</sys_created_on>
+            <sys_id>8bdc0c564763a150ceb89e25126d4350</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">0816665347345510ab51f109536d43ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-26 18:26:00</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>active</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-26 18:26:00</sys_created_on>
-            <sys_id>95a8383b877c95108b817b9acebb355c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">0816665347345510ab51f109536d43ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-26 18:26:00</sys_updated_on>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-06-22 12:27:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-26 18:26:00</sys_created_on>
-            <sys_id>19a8383b877c95108b817b9acebb355c</sys_id>
+            <position>3</position>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-06-22 12:27:39</sys_created_on>
+            <sys_id>8fdc0c564763a150ceb89e25126d4350</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">0816665347345510ab51f109536d43ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-26 18:26:00</sys_updated_on>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-06-22 12:27:39</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>priority</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-26 18:26:00</sys_created_on>
-            <sys_id>99a8383b877c95108b817b9acebb355c</sys_id>
+            <position>4</position>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-06-22 12:27:39</sys_created_on>
+            <sys_id>83dc0c564763a150ceb89e25126d4351</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">0816665347345510ab51f109536d43ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-26 18:26:00</sys_updated_on>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-06-22 12:27:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-26 18:26:00</sys_created_on>
-            <sys_id>1da8383b877c95108b817b9acebb355c</sys_id>
+            <position>5</position>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-06-22 12:27:39</sys_created_on>
+            <sys_id>87dc0c564763a150ceb89e25126d4351</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">0816665347345510ab51f109536d43ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-26 18:26:00</sys_updated_on>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-06-22 12:27:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>parent</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-26 18:26:00</sys_created_on>
-            <sys_id>9da8383b877c95108b817b9acebb355c</sys_id>
+            <element>gr_qty</element>
+            <position>6</position>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-06-22 12:27:39</sys_created_on>
+            <sys_id>8bdc0c564763a150ceb89e25126d4351</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">0816665347345510ab51f109536d43ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-26 18:26:00</sys_updated_on>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-06-22 12:27:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gr_net_value</element>
+            <position>7</position>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-06-22 12:27:39</sys_created_on>
+            <sys_id>8fdc0c564763a150ceb89e25126d4351</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">0816665347345510ab51f109536d43ab</sys_ui_section>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-06-22 12:27:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>grn_date</element>
+            <position>8</position>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-06-22 12:27:39</sys_created_on>
+            <sys_id>83dc0c564763a150ceb89e25126d4352</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">0816665347345510ab51f109536d43ab</sys_ui_section>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-06-22 12:27:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-06-22 12:27:39</sys_created_on>
+            <sys_id>87dc0c564763a150ceb89e25126d4352</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">0816665347345510ab51f109536d43ab</sys_ui_section>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-06-22 12:27:39</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>10</position>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-06-22 12:27:39</sys_created_on>
+            <sys_id>8bdc0c564763a150ceb89e25126d4352</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">0816665347345510ab51f109536d43ab</sys_ui_section>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-06-22 12:27:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>11</position>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-06-22 12:27:39</sys_created_on>
+            <sys_id>8fdc0c564763a150ceb89e25126d4352</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">0816665347345510ab51f109536d43ab</sys_ui_section>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-06-22 12:27:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

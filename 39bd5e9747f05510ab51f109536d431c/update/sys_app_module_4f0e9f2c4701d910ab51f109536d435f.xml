@@ -4,9 +4,9 @@
         <application display_value="Insight Process Management">3de82e1747345510ab51f109536d43d5</application>
         <assessment/>
         <device_type/>
-        <filter table="pm_project">primary_portfolio=b4ea4d0847811910ab51f109536d4397^ORprimary_portfolio=8e3b890847811910ab51f109536d437f^ORprimary_portfolio=564b890847811910ab51f109536d4381^EQ<item display_table="pm_portfolio" display_value="Order Management" endquery="false" field="primary_portfolio" goto="false" newquery="false" operator="=" or="false" value="b4ea4d0847811910ab51f109536d4397"/>
-            <item display_table="pm_portfolio" display_value="Procurement" endquery="false" field="primary_portfolio" goto="false" newquery="false" operator="=" or="true" value="8e3b890847811910ab51f109536d437f"/>
-            <item display_table="pm_portfolio" display_value="Material Management" endquery="false" field="primary_portfolio" goto="false" newquery="false" operator="=" or="true" value="564b890847811910ab51f109536d4381"/>
+        <filter table="pm_project">primary_portfolio=b4ea4d0847811910ab51f109536d4397^ORprimary_portfolio=8e3b890847811910ab51f109536d437f^ORprimary_portfolio=564b890847811910ab51f109536d4381^EQ<item endquery="false" field="primary_portfolio" goto="false" newquery="false" operator="=" or="false" value="b4ea4d0847811910ab51f109536d4397"/>
+            <item endquery="false" field="primary_portfolio" goto="false" newquery="false" operator="=" or="true" value="8e3b890847811910ab51f109536d437f"/>
+            <item endquery="false" field="primary_portfolio" goto="false" newquery="false" operator="=" or="true" value="564b890847811910ab51f109536d4381"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>

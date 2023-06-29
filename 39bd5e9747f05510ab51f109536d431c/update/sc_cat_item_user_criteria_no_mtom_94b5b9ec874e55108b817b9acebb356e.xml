@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
     <sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Update Slack &amp; Teams webhook URL">2a4b8b699753c5505aeb765e6253affc</sc_cat_item>
+        <sc_cat_item display_value="">2a4b8b699753c5505aeb765e6253affc</sc_cat_item>
         <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-16 23:50:57</sys_created_on>

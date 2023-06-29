@@ -156,7 +156,7 @@
         <update_guid_history>9f48fc283a4e1590d2c53c232c3a729c:-1757649833</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Load Flow: WFO loader : Set up WFO data">6b483068474e1590ab51f109536d4328</sys_audit_delete>
+        <sys_audit_delete display_value="">6b483068474e1590ab51f109536d4328</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-16 19:22:46</sys_created_on>

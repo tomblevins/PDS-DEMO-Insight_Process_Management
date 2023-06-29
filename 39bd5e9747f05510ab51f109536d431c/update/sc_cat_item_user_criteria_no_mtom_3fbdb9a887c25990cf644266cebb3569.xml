@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
     <sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Record producer for: Solana Security Asset Loader">357d7e3f1baa2010ef3ccaa5604bcbc8</sc_cat_item>
+        <sc_cat_item display_value="">357d7e3f1baa2010ef3ccaa5604bcbc8</sc_cat_item>
         <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-17 00:26:09</sys_created_on>

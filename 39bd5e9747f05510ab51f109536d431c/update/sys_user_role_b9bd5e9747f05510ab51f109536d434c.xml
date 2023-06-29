@@ -4,7 +4,6 @@
         <can_delegate>true</can_delegate>
         <description>Default user role</description>
         <elevated_privilege>false</elevated_privilege>
-        <encryption_context/>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_snc_insight_pr_0.user</name>

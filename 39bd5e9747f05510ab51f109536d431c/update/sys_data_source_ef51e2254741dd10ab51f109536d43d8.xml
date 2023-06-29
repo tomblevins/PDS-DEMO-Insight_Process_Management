@@ -2,7 +2,6 @@
     <sys_data_source action="INSERT_OR_UPDATE">
         <batch_size>1000</batch_size>
         <category/>
-        <connection_alias/>
         <connection_override_last_success_time/>
         <connection_timeout>0</connection_timeout>
         <connection_url>attachment://sys_data_source:ef51e2254741dd10ab51f109536d43d8/x_snc_insight_pr_0_demo_celonis_event (2).xlsx</connection_url>
@@ -14,9 +13,6 @@
 	// Add your code here to insert data to import_set_table
 
 })(import_set_table);]]></data_loader>
-        <data_stream_action/>
-        <data_stream_action_inputs/>
-        <data_stream_connection_alias/>
         <database_name/>
         <database_port/>
         <discard_arrays>true</discard_arrays>
@@ -79,5 +75,4 @@
         <xpath_root_node/>
         <zipped>false</zipped>
     </sys_data_source>
-    <sys_variable_value action="delete_multiple" query="document_key=ef51e2254741dd10ab51f109536d43d8"/>
 </record_update>

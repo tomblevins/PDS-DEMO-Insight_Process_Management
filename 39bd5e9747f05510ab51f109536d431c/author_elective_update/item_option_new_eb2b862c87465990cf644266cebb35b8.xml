@@ -156,7 +156,7 @@
         <update_guid_history>232b862c63465990a01ca26bb334ded6:713073886</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Unload Flow: Unload/Delete Solana Security Orders DH">803bc62c87465990cf644266cebb3546</sys_audit_delete>
+        <sys_audit_delete display_value="">803bc62c87465990cf644266cebb3546</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-17 01:24:53</sys_created_on>

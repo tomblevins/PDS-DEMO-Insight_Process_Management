@@ -4,9 +4,9 @@
         <application display_value="Insight Process Management">3de82e1747345510ab51f109536d43d5</application>
         <assessment/>
         <device_type/>
-        <filter table="dmn_demand">portfolio=564b890847811910ab51f109536d4381^ORportfolio=b4ea4d0847811910ab51f109536d4397^ORportfolio=8e3b890847811910ab51f109536d437f^EQ<item display_table="pm_portfolio" display_value="Material Management" endquery="false" field="portfolio" goto="false" newquery="false" operator="=" or="false" value="564b890847811910ab51f109536d4381"/>
-            <item display_table="pm_portfolio" display_value="Order Management" endquery="false" field="portfolio" goto="false" newquery="false" operator="=" or="true" value="b4ea4d0847811910ab51f109536d4397"/>
-            <item display_table="pm_portfolio" display_value="Procurement" endquery="false" field="portfolio" goto="false" newquery="false" operator="=" or="true" value="8e3b890847811910ab51f109536d437f"/>
+        <filter table="dmn_demand">portfolio=564b890847811910ab51f109536d4381^ORportfolio=b4ea4d0847811910ab51f109536d4397^ORportfolio=8e3b890847811910ab51f109536d437f^EQ<item endquery="false" field="portfolio" goto="false" newquery="false" operator="=" or="false" value="564b890847811910ab51f109536d4381"/>
+            <item endquery="false" field="portfolio" goto="false" newquery="false" operator="=" or="true" value="b4ea4d0847811910ab51f109536d4397"/>
+            <item endquery="false" field="portfolio" goto="false" newquery="false" operator="=" or="true" value="8e3b890847811910ab51f109536d437f"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>

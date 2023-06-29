@@ -69,7 +69,7 @@
         <update_guid_history>11f27ca86ac619903ae7560131b9c4dd:-2099852856</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Hide Load Experience ID">d1f27ca887c61990cf644266cebb35ef</sys_audit_delete>
+        <sys_audit_delete display_value="">d1f27ca887c61990cf644266cebb35ef</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-16 18:59:24</sys_created_on>

@@ -27,15 +27,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>09ebd7e14785dd10ab51f109536d4375</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>PPM - Calculate Value Realized</sys_name>
         <sys_overrides/>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_09ebd7e14785dd10ab51f109536d4375</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 17:11:34</sys_updated_on>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-06-16 12:06:29</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -227,18 +227,6 @@ outputs.newc = newC;
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=cfbedfa54785dd10ab51f109536d439b"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>cfbedfa54785dd10ab51f109536d439b</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-08-01 17:01:02</sys_created_on>
-        <sys_id>c3bedfa54785dd10ab51f109536d43c1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 17:01:02</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ben</field>
         <id>cfbedfa54785dd10ab51f109536d439b</id>
         <sys_created_by>admin</sys_created_by>
@@ -262,20 +250,9 @@ outputs.newc = newC;
         <table>var__m_sys_hub_step_ext_input_cfbedfa54785dd10ab51f109536d439b</table>
         <value>{{action.percent_complete}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>cfbedfa54785dd10ab51f109536d439b</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-08-01 17:01:02</sys_created_on>
-        <sys_id>0fbedfa54785dd10ab51f109536d43c1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 17:01:02</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_cfbedfa54785dd10ab51f109536d439b^id=cfbedfa54785dd10ab51f109536d439b"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=cfbedfa54785dd10ab51f109536d439b"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=cfbedfa54785dd10ab51f109536d439b"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=cfbedfa54785dd10ab51f109536d439b^sys_idNOT IN47bedfa54785dd10ab51f109536d43b0,4bbedfa54785dd10ab51f109536d43b4"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -625,11 +602,11 @@ outputs.newc = newC;
         <sys_created_on>2022-08-01 17:06:42</sys_created_on>
         <sys_id>0a006b294785dd10ab51f109536d43a2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>newc</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_cfbedfa54785dd10ab51f109536d439b_newc_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-08-01 17:06:42</sys_updated_on>
         <url/>
@@ -648,11 +625,11 @@ outputs.newc = newC;
         <sys_created_on>2022-08-01 17:01:02</sys_created_on>
         <sys_id>0bbedfa54785dd10ab51f109536d43bc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>valrel</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_cfbedfa54785dd10ab51f109536d439b_valrel_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-08-01 17:01:02</sys_updated_on>
         <url/>
@@ -1202,11 +1179,11 @@ outputs.newc = newC;
         <sys_created_on>2022-08-01 17:11:28</sys_created_on>
         <sys_id>082127a94785dd10ab51f109536d4362</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Percent Complete</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_09ebd7e14785dd10ab51f109536d4375_percent_complete_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-08-01 17:11:28</sys_updated_on>
         <url/>
@@ -1225,11 +1202,11 @@ outputs.newc = newC;
         <sys_created_on>2022-08-01 17:11:28</sys_created_on>
         <sys_id>8c2127a94785dd10ab51f109536d437b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Planned Benefit</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_09ebd7e14785dd10ab51f109536d4375_planned_benefit_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-08-01 17:11:28</sys_updated_on>
         <url/>
@@ -1250,11 +1227,11 @@ outputs.newc = newC;
         <sys_created_on>2022-08-01 17:06:43</sys_created_on>
         <sys_id>1a006b294785dd10ab51f109536d43bb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Value Realized</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_09ebd7e14785dd10ab51f109536d4375_value_realized_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-08-01 17:06:43</sys_updated_on>
         <url/>
@@ -1273,11 +1250,11 @@ outputs.newc = newC;
         <sys_created_on>2022-08-01 17:04:23</sys_created_on>
         <sys_id>408fdfe54785dd10ab51f109536d43b8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_09ebd7e14785dd10ab51f109536d4375___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-08-01 17:04:23</sys_updated_on>
         <url/>
@@ -1296,11 +1273,11 @@ outputs.newc = newC;
         <sys_created_on>2022-08-01 17:04:23</sys_created_on>
         <sys_id>8c8fdfe54785dd10ab51f109536d43be</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_09ebd7e14785dd10ab51f109536d4375___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-08-01 17:04:23</sys_updated_on>
         <url/>
@@ -1319,11 +1296,11 @@ outputs.newc = newC;
         <sys_created_on>2022-08-01 17:06:43</sys_created_on>
         <sys_id>de006b294785dd10ab51f109536d43b6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>New C</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_09ebd7e14785dd10ab51f109536d4375_new_c_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-08-01 17:06:43</sys_updated_on>
         <url/>
@@ -1559,18 +1536,6 @@ outputs.newc = newC;
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=f760e3694785dd10ab51f109536d4389"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>f760e3694785dd10ab51f109536d4389</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-08-01 17:08:28</sys_created_on>
-        <sys_id>c870e3694785dd10ab51f109536d43ad</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 17:08:28</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ben</field>
         <id>f760e3694785dd10ab51f109536d4389</id>
         <sys_created_by>admin</sys_created_by>
@@ -1594,20 +1559,9 @@ outputs.newc = newC;
         <table>var__m_sys_hub_step_ext_input_f760e3694785dd10ab51f109536d4389</table>
         <value>{{action.percent_complete}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>f760e3694785dd10ab51f109536d4389</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-08-01 17:08:28</sys_created_on>
-        <sys_id>8c70e3694785dd10ab51f109536d43ad</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 17:08:28</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_f760e3694785dd10ab51f109536d4389^id=f760e3694785dd10ab51f109536d4389"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=f760e3694785dd10ab51f109536d4389"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=f760e3694785dd10ab51f109536d4389"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=f760e3694785dd10ab51f109536d4389^sys_idNOT IN3f60e3694785dd10ab51f109536d439d,7b60e3694785dd10ab51f109536d438c"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1957,11 +1911,11 @@ outputs.newc = newC;
         <sys_created_on>2022-08-01 17:08:28</sys_created_on>
         <sys_id>ff60e3694785dd10ab51f109536d43a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>valrel</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_f760e3694785dd10ab51f109536d4389_valrel_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-08-01 17:08:28</sys_updated_on>
         <url/>
@@ -1980,11 +1934,11 @@ outputs.newc = newC;
         <sys_created_on>2022-08-01 17:08:28</sys_created_on>
         <sys_id>ff60e3694785dd10ab51f109536d43a9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>newc</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_f760e3694785dd10ab51f109536d4389_newc_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-08-01 17:08:28</sys_updated_on>
         <url/>
@@ -2534,11 +2488,11 @@ outputs.newc = newC;
         <sys_created_on>2022-08-01 17:11:33</sys_created_on>
         <sys_id>552167a94785dd10ab51f109536d43ea</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Planned Benefit</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ff60e3694785dd10ab51f109536d437a_planned_benefit_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-08-01 17:11:33</sys_updated_on>
         <url/>
@@ -2557,11 +2511,11 @@ outputs.newc = newC;
         <sys_created_on>2022-08-01 17:11:33</sys_created_on>
         <sys_id>952167a94785dd10ab51f109536d43dd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Percent Complete</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ff60e3694785dd10ab51f109536d437a_percent_complete_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-08-01 17:11:33</sys_updated_on>
         <url/>
@@ -2582,11 +2536,11 @@ outputs.newc = newC;
         <sys_created_on>2022-08-01 17:08:28</sys_created_on>
         <sys_id>0470e3694785dd10ab51f109536d43cc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ff60e3694785dd10ab51f109536d437a___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-08-01 17:08:28</sys_updated_on>
         <url/>
@@ -2605,11 +2559,11 @@ outputs.newc = newC;
         <sys_created_on>2022-08-01 17:08:28</sys_created_on>
         <sys_id>4c70e3694785dd10ab51f109536d43d0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>New C</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ff60e3694785dd10ab51f109536d437a_new_c_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-08-01 17:08:28</sys_updated_on>
         <url/>
@@ -2628,11 +2582,11 @@ outputs.newc = newC;
         <sys_created_on>2022-08-01 17:08:28</sys_created_on>
         <sys_id>8470e3694785dd10ab51f109536d43d5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Value Realized</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ff60e3694785dd10ab51f109536d437a_value_realized_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-08-01 17:08:28</sys_updated_on>
         <url/>
@@ -2651,11 +2605,11 @@ outputs.newc = newC;
         <sys_created_on>2022-08-01 17:08:28</sys_created_on>
         <sys_id>c470e3694785dd10ab51f109536d43c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ff60e3694785dd10ab51f109536d437a___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-08-01 17:08:28</sys_updated_on>
         <url/>

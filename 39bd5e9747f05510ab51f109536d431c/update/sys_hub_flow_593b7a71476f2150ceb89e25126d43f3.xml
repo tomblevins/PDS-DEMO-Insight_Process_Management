@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Insight Processing Engine">9fc9971b47f45510ab51f109536d4370</category>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>ipe__celonis_payload_processor</internal_name>
+        <label_cache>[{"name":"subflow.event_body","label":"Input➛Event Body","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"ed844248-5ab4-4eff-b848-70b0f04f2d69"}},{"name":"5affc6ef-12b3-4ce8-8cad-3d8653f78c6d.variable","label":"1 - Replace String➛New String","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"99517f3b-659e-4e6d-a448-7dd31da8225c"}},{"name":"ed671ac2-62cb-4a47-a002-8d48af26e681.variable","label":"2 - Replace String➛New String","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"99517f3b-659e-4e6d-a448-7dd31da8225c"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>IPE - Celonis Payload Processor</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-06-21 11:52:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>593b7a71476f2150ceb89e25126d43f3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>IPE - Celonis Payload Processor</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_hub_flow_593b7a71476f2150ceb89e25126d43f3</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-06-21 11:56:37</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=593b7a71476f2150ceb89e25126d43f3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=593b7a71476f2150ceb89e25126d43f3"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_593b7a71476f2150ceb89e25126d43f3^id=593b7a71476f2150ceb89e25126d43f3"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=593b7a71476f2150ceb89e25126d43f3"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=593b7a71476f2150ceb89e25126d43f3"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=593b7a71476f2150ceb89e25126d43f3^sys_idNOT INdd3b32b1476f2150ceb89e25126d431f"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>593b7a71476f2150ceb89e25126d43f3</id>
+        <name>IPE - Celonis Payload Processor</name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-06-21 11:52:26</sys_created_on>
+        <sys_id>dd3b32b1476f2150ceb89e25126d431f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-06-21 11:52:26</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=dd3b32b1476f2150ceb89e25126d431f"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=593b7a71476f2150ceb89e25126d43f3^sys_idNOT IN86ebfab1476f2150ceb89e25126d4309"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ed844248-5ab4-4eff-b848-70b0f04f2d69</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>event_body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Event Body</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="IPE - Celonis Payload Processor">593b7a71476f2150ceb89e25126d43f3</model>
+        <model_id>593b7a71476f2150ceb89e25126d43f3</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_593b7a71476f2150ceb89e25126d43f3</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-06-21 11:55:28</sys_created_on>
+        <sys_id>86ebfab1476f2150ceb89e25126d4309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-06-21 11:55:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=593b7a71476f2150ceb89e25126d43f3^sys_idNOT IN0eebfab1476f2150ceb89e25126d430e,ceebfab1476f2150ceb89e25126d4312"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e9c2f6a5-64a8-42c4-89ce-7a849454b747</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>new_body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>New Body</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="IPE - Celonis Payload Processor">593b7a71476f2150ceb89e25126d43f3</model>
+        <model_id>593b7a71476f2150ceb89e25126d43f3</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_593b7a71476f2150ceb89e25126d43f3</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-06-21 11:55:29</sys_created_on>
+        <sys_id>0eebfab1476f2150ceb89e25126d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-06-21 11:55:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=27f8c2f9-5665-4d91-9ed4-c4370624151e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>json_string</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>JSON String</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="IPE - Celonis Payload Processor">593b7a71476f2150ceb89e25126d43f3</model>
+        <model_id>593b7a71476f2150ceb89e25126d43f3</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_593b7a71476f2150ceb89e25126d43f3</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-06-21 11:55:29</sys_created_on>
+        <sys_id>ceebfab1476f2150ceb89e25126d4312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-06-21 11:55:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=593b7a71476f2150ceb89e25126d43f3"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=593b7a71476f2150ceb89e25126d43f3^sys_idNOT IN42ebfab1476f2150ceb89e25126d4331,82ebfab1476f2150ceb89e25126d431f,8eebfab1476f2150ceb89e25126d4328"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ledger Event Body Reformat-24Fields">fcda7a71476f2150ceb89e25126d4342</action_type>
+        <action_type_parent/>
+        <comment>Remove "}"</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="IPE - Celonis Payload Processor">593b7a71476f2150ceb89e25126d43f3</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-06-21 11:55:29</sys_created_on>
+        <sys_id>42ebfab1476f2150ceb89e25126d4331</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-06-21 11:56:37</sys_updated_on>
+        <ui_id>3d233806-6416-4397-822d-a5ff800b55bb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=42ebfab1476f2150ceb89e25126d4331"/>
+    <sys_element_mapping action="delete_multiple" query="id=42ebfab1476f2150ceb89e25126d4331"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>find</field>
+        <id>42ebfab1476f2150ceb89e25126d4331</id>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-06-21 11:55:29</sys_created_on>
+        <sys_id>46ebfab1476f2150ceb89e25126d4332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-06-21 11:55:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_fcda7a71476f2150ceb89e25126d4342</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>string</field>
+        <id>42ebfab1476f2150ceb89e25126d4331</id>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-06-21 11:55:29</sys_created_on>
+        <sys_id>82ebfab1476f2150ceb89e25126d4332</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-06-21 11:56:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_fcda7a71476f2150ceb89e25126d4342</table>
+        <value>{{ed671ac2-62cb-4a47-a002-8d48af26e681.variable}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=42ebfab1476f2150ceb89e25126d4331"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=42ebfab1476f2150ceb89e25126d4331"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ledger Event Body Reformat-24Fields">fcda7a71476f2150ceb89e25126d4342</action_type>
+        <action_type_parent/>
+        <comment>Replace ", " with "-"</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="IPE - Celonis Payload Processor">593b7a71476f2150ceb89e25126d43f3</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-06-21 11:55:29</sys_created_on>
+        <sys_id>82ebfab1476f2150ceb89e25126d431f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-06-21 11:56:37</sys_updated_on>
+        <ui_id>5affc6ef-12b3-4ce8-8cad-3d8653f78c6d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=82ebfab1476f2150ceb89e25126d431f"/>
+    <sys_element_mapping action="delete_multiple" query="id=82ebfab1476f2150ceb89e25126d431f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>find</field>
+        <id>82ebfab1476f2150ceb89e25126d431f</id>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-06-21 11:55:29</sys_created_on>
+        <sys_id>8aebfab1476f2150ceb89e25126d4321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-06-21 11:55:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_fcda7a71476f2150ceb89e25126d4342</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>replace_with</field>
+        <id>82ebfab1476f2150ceb89e25126d431f</id>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-06-21 11:55:29</sys_created_on>
+        <sys_id>c6ebfab1476f2150ceb89e25126d4321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-06-21 11:55:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_fcda7a71476f2150ceb89e25126d4342</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>string</field>
+        <id>82ebfab1476f2150ceb89e25126d431f</id>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-06-21 11:55:29</sys_created_on>
+        <sys_id>06ebfab1476f2150ceb89e25126d4321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-06-21 11:55:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_fcda7a71476f2150ceb89e25126d4342</table>
+        <value>{{subflow.event_body}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=82ebfab1476f2150ceb89e25126d431f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=82ebfab1476f2150ceb89e25126d431f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ledger Event Body Reformat-24Fields">fcda7a71476f2150ceb89e25126d4342</action_type>
+        <action_type_parent/>
+        <comment>Remove "{"</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="IPE - Celonis Payload Processor">593b7a71476f2150ceb89e25126d43f3</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-06-21 11:55:29</sys_created_on>
+        <sys_id>8eebfab1476f2150ceb89e25126d4328</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-06-21 11:56:37</sys_updated_on>
+        <ui_id>ed671ac2-62cb-4a47-a002-8d48af26e681</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8eebfab1476f2150ceb89e25126d4328"/>
+    <sys_element_mapping action="delete_multiple" query="id=8eebfab1476f2150ceb89e25126d4328"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>find</field>
+        <id>8eebfab1476f2150ceb89e25126d4328</id>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-06-21 11:55:29</sys_created_on>
+        <sys_id>82ebfab1476f2150ceb89e25126d432a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-06-21 11:55:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_fcda7a71476f2150ceb89e25126d4342</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>string</field>
+        <id>8eebfab1476f2150ceb89e25126d4328</id>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-06-21 11:55:29</sys_created_on>
+        <sys_id>ceebfab1476f2150ceb89e25126d4329</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-06-21 11:56:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_fcda7a71476f2150ceb89e25126d4342</table>
+        <value>{{5affc6ef-12b3-4ce8-8cad-3d8653f78c6d.variable}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8eebfab1476f2150ceb89e25126d4328"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8eebfab1476f2150ceb89e25126d4328"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=593b7a71476f2150ceb89e25126d43f3"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=593b7a71476f2150ceb89e25126d43f3"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=593b7a71476f2150ceb89e25126d43f3"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=593b7a71476f2150ceb89e25126d43f3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_593b7a71476f2150ceb89e25126d43f3^sys_idNOT IN4aebfab1476f2150ceb89e25126d430c"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>event_body</element>
+        <help/>
+        <hint/>
+        <label>Event Body</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_593b7a71476f2150ceb89e25126d43f3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-06-21 11:55:29</sys_created_on>
+        <sys_id>4aebfab1476f2150ceb89e25126d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-06-21 11:55:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_593b7a71476f2150ceb89e25126d43f3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_593b7a71476f2150ceb89e25126d43f3^sys_idNOT IN42ebfab1476f2150ceb89e25126d4312,c2ebfab1476f2150ceb89e25126d4315"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>new_body</element>
+        <help/>
+        <hint/>
+        <label>New Body</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_593b7a71476f2150ceb89e25126d43f3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-06-21 11:55:29</sys_created_on>
+        <sys_id>42ebfab1476f2150ceb89e25126d4312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-06-21 11:55:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>json_string</element>
+        <help/>
+        <hint/>
+        <label>JSON String</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_593b7a71476f2150ceb89e25126d43f3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-06-21 11:55:29</sys_created_on>
+        <sys_id>c2ebfab1476f2150ceb89e25126d4315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-06-21 11:55:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_593b7a71476f2150ceb89e25126d43f3"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=593b7a71476f2150ceb89e25126d43f3"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=593b7a71476f2150ceb89e25126d43f3"/>
+</record_update>

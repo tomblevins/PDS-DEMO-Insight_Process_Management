@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
     <sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Record producer for: WFO - Clean &amp; Setup WFO data">19c5a59b1bd22410383f9607bc4bcba9</sc_cat_item>
+        <sc_cat_item display_value="">19c5a59b1bd22410383f9607bc4bcba9</sc_cat_item>
         <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-16 19:20:55</sys_created_on>

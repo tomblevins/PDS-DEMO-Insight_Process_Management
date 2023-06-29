@@ -16,7 +16,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-09-17 11:22:59</sys_updated_on>
         <target_name>x_snc_demohub_app_configuration</target_name>
-        <target_scope display_value="DemoHub App">5c1cc3cbdbf87300f669f40b0c961935</target_scope>
+        <target_scope display_value="">5c1cc3cbdbf87300f669f40b0c961935</target_scope>
         <target_type>sys_db_object</target_type>
     </sys_scope_privilege>
 </record_update>

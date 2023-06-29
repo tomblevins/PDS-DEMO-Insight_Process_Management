@@ -156,7 +156,7 @@
         <update_guid_history>14f23ca8d9c6199084f229faecfc8072:1729852276</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Contact/Consumer ID">49f27ca887c61990cf644266cebb357c</sys_audit_delete>
+        <sys_audit_delete display_value="">49f27ca887c61990cf644266cebb357c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-16 18:59:22</sys_created_on>

@@ -29,15 +29,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b0cf791c47c55910ab51f109536d43fa</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>IPE - Celonis - Demand Sizing</sys_name>
         <sys_overrides/>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sys_hub_flow_b0cf791c47c55910ab51f109536d43fa</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-29 12:58:50</sys_updated_on>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-06-16 12:08:57</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=b0cf791c47c55910ab51f109536d43fa"/>
@@ -1608,42 +1608,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=85d1da9047495910ab51f109536d4366"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>answer_table</field>
-        <id>85d1da9047495910ab51f109536d4366</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-28 14:12:38</sys_created_on>
-        <sys_id>09d1da9047495910ab51f109536d4391</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-28 14:12:38</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>decision_label</field>
-        <id>85d1da9047495910ab51f109536d4366</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-28 14:12:38</sys_created_on>
-        <sys_id>81d1da9047495910ab51f109536d4392</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-28 14:12:38</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>decision_table</field>
-        <id>85d1da9047495910ab51f109536d4366</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-28 14:12:38</sys_created_on>
-        <sys_id>cdd1da9047495910ab51f109536d4391</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-28 14:12:38</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>u_affected_documents</field>
         <id>85d1da9047495910ab51f109536d4366</id>
         <sys_created_by>admin</sys_created_by>
@@ -2402,42 +2366,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=c7450b24478d9910ab51f109536d43e0"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>answer_table</field>
-        <id>c7450b24478d9910ab51f109536d43e0</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-29 12:35:58</sys_created_on>
-        <sys_id>07450b24478d9910ab51f109536d43e6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-29 12:35:58</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>decision_label</field>
-        <id>c7450b24478d9910ab51f109536d43e0</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-29 12:35:58</sys_created_on>
-        <sys_id>8f450b24478d9910ab51f109536d43e6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-29 12:35:58</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>decision_table</field>
-        <id>c7450b24478d9910ab51f109536d43e0</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-29 12:35:58</sys_created_on>
-        <sys_id>cb450b24478d9910ab51f109536d43e6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-29 12:35:58</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>u_business_impact</field>
         <id>c7450b24478d9910ab51f109536d43e0</id>
         <sys_created_by>admin</sys_created_by>
@@ -2703,42 +2631,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=eb6643a4478d9910ab51f109536d43aa"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>answer_table</field>
-        <id>eb6643a4478d9910ab51f109536d43aa</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-29 12:40:56</sys_created_on>
-        <sys_id>ab6643a4478d9910ab51f109536d43b0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-29 12:40:56</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>decision_label</field>
-        <id>eb6643a4478d9910ab51f109536d43aa</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-29 12:40:56</sys_created_on>
-        <sys_id>276643a4478d9910ab51f109536d43b1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-29 12:40:56</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>decision_table</field>
-        <id>eb6643a4478d9910ab51f109536d43aa</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-29 12:40:56</sys_created_on>
-        <sys_id>636643a4478d9910ab51f109536d43b1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-29 12:40:56</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>u_affected_documents</field>
         <id>eb6643a4478d9910ab51f109536d43aa</id>
         <sys_created_by>admin</sys_created_by>
@@ -2990,11 +2882,11 @@
         <sys_created_on>2022-07-28 14:12:37</sys_created_on>
         <sys_id>01d1da9047495910ab51f109536d435f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>TShirt</sys_name>
+        <sys_name/>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_01d1da9047495910ab51f109536d435f</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 14:12:37</sys_updated_on>
         <table_reference>false</table_reference>
@@ -3073,11 +2965,11 @@
         <sys_created_on>2022-07-29 11:37:18</sys_created_on>
         <sys_id>a3d7bea0474d9910ab51f109536d43f4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Cost</sys_name>
+        <sys_name/>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_a3d7bea0474d9910ab51f109536d43f4</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-29 11:37:18</sys_updated_on>
         <table_reference>false</table_reference>
@@ -3156,11 +3048,11 @@
         <sys_created_on>2022-07-29 12:35:57</sys_created_on>
         <sys_id>ba450b24478d9910ab51f109536d435c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Risk</sys_name>
+        <sys_name/>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_ba450b24478d9910ab51f109536d435c</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-29 12:35:57</sys_updated_on>
         <table_reference>false</table_reference>
@@ -3239,11 +3131,11 @@
         <sys_created_on>2022-07-29 12:35:57</sys_created_on>
         <sys_id>fa450b24478d9910ab51f109536d4358</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Impact</sys_name>
+        <sys_name/>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_fa450b24478d9910ab51f109536d4358</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-29 12:35:57</sys_updated_on>
         <table_reference>false</table_reference>
@@ -3272,11 +3164,11 @@
         <sys_created_on>2022-07-28 12:57:41</sys_created_on>
         <sys_id>13a04adc47c55910ab51f109536d4332</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Type</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_b0cf791c47c55910ab51f109536d43fa_type_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 12:57:41</sys_updated_on>
         <url/>
@@ -3295,11 +3187,11 @@
         <sys_created_on>2022-07-28 12:57:41</sys_created_on>
         <sys_id>1ba04adc47c55910ab51f109536d432e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Business Impact</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_b0cf791c47c55910ab51f109536d43fa_business_impact_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 12:57:41</sys_updated_on>
         <url/>
@@ -3318,11 +3210,11 @@
         <sys_created_on>2022-07-28 12:57:41</sys_created_on>
         <sys_id>5ba0ce5c47c55910ab51f109536d4377</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Affected Documents</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_b0cf791c47c55910ab51f109536d43fa_affected_documents_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 12:57:41</sys_updated_on>
         <url/>
@@ -3343,11 +3235,11 @@
         <sys_created_on>2022-07-28 12:57:41</sys_created_on>
         <sys_id>e3a04adc47c55910ab51f109536d4339</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>TShirt</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_b0cf791c47c55910ab51f109536d43fa_tshirt_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 12:57:41</sys_updated_on>
         <url/>
@@ -3366,11 +3258,11 @@
         <sys_created_on>2022-07-28 12:57:41</sys_created_on>
         <sys_id>e3a04adc47c55910ab51f109536d4340</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Risk</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_b0cf791c47c55910ab51f109536d43fa_risk_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 12:57:41</sys_updated_on>
         <url/>
@@ -3389,11 +3281,11 @@
         <sys_created_on>2022-07-29 11:37:18</sys_created_on>
         <sys_id>e7d7bea0474d9910ab51f109536d43e0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Cost</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_b0cf791c47c55910ab51f109536d43fa_cost_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-29 11:37:18</sys_updated_on>
         <url/>
@@ -3412,11 +3304,11 @@
         <sys_created_on>2022-07-28 12:57:41</sys_created_on>
         <sys_id>eba04adc47c55910ab51f109536d433c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Impact</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_b0cf791c47c55910ab51f109536d43fa_impact_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 12:57:41</sys_updated_on>
         <url/>
@@ -4623,42 +4515,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=50868ba4478d9910ab51f109536d433d"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>answer_table</field>
-        <id>50868ba4478d9910ab51f109536d433d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-29 12:41:15</sys_created_on>
-        <sys_id>58868ba4478d9910ab51f109536d4342</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-29 12:41:15</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>decision_label</field>
-        <id>50868ba4478d9910ab51f109536d433d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-29 12:41:15</sys_created_on>
-        <sys_id>dc868ba4478d9910ab51f109536d4342</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-29 12:41:15</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>decision_table</field>
-        <id>50868ba4478d9910ab51f109536d433d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-29 12:41:15</sys_created_on>
-        <sys_id>1c868ba4478d9910ab51f109536d4342</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-29 12:41:15</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>u_affected_documents</field>
         <id>50868ba4478d9910ab51f109536d433d</id>
         <sys_created_by>admin</sys_created_by>
@@ -4883,42 +4739,6 @@
         <variable display_value="Decision Label">2d6a2ca70b2313009002cab937673aff</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=5c868ba4478d9910ab51f109536d431e"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>answer_table</field>
-        <id>5c868ba4478d9910ab51f109536d431e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-29 12:41:14</sys_created_on>
-        <sys_id>58868ba4478d9910ab51f109536d4323</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-29 12:41:14</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>decision_label</field>
-        <id>5c868ba4478d9910ab51f109536d431e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-29 12:41:15</sys_created_on>
-        <sys_id>dc868ba4478d9910ab51f109536d4323</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-29 12:41:15</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>decision_table</field>
-        <id>5c868ba4478d9910ab51f109536d431e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-29 12:41:14</sys_created_on>
-        <sys_id>1c868ba4478d9910ab51f109536d4323</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-29 12:41:14</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>u_business_impact</field>
         <id>5c868ba4478d9910ab51f109536d431e</id>
@@ -5703,42 +5523,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=a7d1de9047495910ab51f109536d4317"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>answer_table</field>
-        <id>a7d1de9047495910ab51f109536d4317</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-28 14:12:48</sys_created_on>
-        <sys_id>33d1de9047495910ab51f109536d431f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-28 14:12:48</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>decision_label</field>
-        <id>a7d1de9047495910ab51f109536d4317</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-28 14:12:48</sys_created_on>
-        <sys_id>b7d1de9047495910ab51f109536d431f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-28 14:12:48</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>decision_table</field>
-        <id>a7d1de9047495910ab51f109536d4317</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-28 14:12:48</sys_created_on>
-        <sys_id>f3d1de9047495910ab51f109536d431f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-28 14:12:48</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>u_affected_documents</field>
         <id>a7d1de9047495910ab51f109536d4317</id>
         <sys_created_by>admin</sys_created_by>
@@ -6429,11 +6213,11 @@
         <sys_created_on>2022-07-29 11:37:28</sys_created_on>
         <sys_id>46e7f2e0474d9910ab51f109536d4360</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Cost</sys_name>
+        <sys_name/>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_46e7f2e0474d9910ab51f109536d4360</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-29 11:37:28</sys_updated_on>
         <table_reference>false</table_reference>
@@ -6512,11 +6296,11 @@
         <sys_created_on>2022-07-29 12:41:13</sys_created_on>
         <sys_id>48864ba4478d9910ab51f109536d4391</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Impact</sys_name>
+        <sys_name/>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_48864ba4478d9910ab51f109536d4391</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-29 12:41:13</sys_updated_on>
         <table_reference>false</table_reference>
@@ -6595,11 +6379,11 @@
         <sys_created_on>2022-07-29 12:41:13</sys_created_on>
         <sys_id>c8864ba4478d9910ab51f109536d438d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Risk</sys_name>
+        <sys_name/>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_c8864ba4478d9910ab51f109536d438d</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-29 12:41:13</sys_updated_on>
         <table_reference>false</table_reference>
@@ -6678,11 +6462,11 @@
         <sys_created_on>2022-07-28 14:12:48</sys_created_on>
         <sys_id>ebd1de9047495910ab51f109536d4311</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>TShirt</sys_name>
+        <sys_name/>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_ebd1de9047495910ab51f109536d4311</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 14:12:48</sys_updated_on>
         <table_reference>false</table_reference>
@@ -6711,11 +6495,11 @@
         <sys_created_on>2022-07-28 14:12:47</sys_created_on>
         <sys_id>2fd19e9047495910ab51f109536d43ca</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Type</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a3d19e9047495910ab51f109536d4399_type_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 14:12:47</sys_updated_on>
         <url/>
@@ -6734,11 +6518,11 @@
         <sys_created_on>2022-07-28 14:12:47</sys_created_on>
         <sys_id>67d19e9047495910ab51f109536d43c2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Business Impact</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a3d19e9047495910ab51f109536d4399_business_impact_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 14:12:47</sys_updated_on>
         <url/>
@@ -6757,11 +6541,11 @@
         <sys_created_on>2022-07-28 14:12:47</sys_created_on>
         <sys_id>efd19e9047495910ab51f109536d43b9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Affected Documents</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a3d19e9047495910ab51f109536d4399_affected_documents_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 14:12:47</sys_updated_on>
         <url/>
@@ -6782,11 +6566,11 @@
         <sys_created_on>2022-07-29 11:37:27</sys_created_on>
         <sys_id>4ae7f2e0474d9910ab51f109536d4340</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Cost</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_a3d19e9047495910ab51f109536d4399_cost_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-29 11:37:27</sys_updated_on>
         <url/>
@@ -6805,11 +6589,11 @@
         <sys_created_on>2022-07-28 14:12:47</sys_created_on>
         <sys_id>63d19e9047495910ab51f109536d43d6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>TShirt</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_a3d19e9047495910ab51f109536d4399_tshirt_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 14:12:47</sys_updated_on>
         <url/>
@@ -6828,11 +6612,11 @@
         <sys_created_on>2022-07-28 14:12:48</sys_created_on>
         <sys_id>e7d19e9047495910ab51f109536d43de</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Impact</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_a3d19e9047495910ab51f109536d4399_impact_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 14:12:48</sys_updated_on>
         <url/>
@@ -6851,11 +6635,11 @@
         <sys_created_on>2022-07-28 14:12:48</sys_created_on>
         <sys_id>efd19e9047495910ab51f109536d43e6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Risk</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_a3d19e9047495910ab51f109536d4399_risk_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 14:12:48</sys_updated_on>
         <url/>

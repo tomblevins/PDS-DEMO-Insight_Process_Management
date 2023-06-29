@@ -156,7 +156,7 @@
         <update_guid_history>de5521e0fbca5190e96513ee10193458:-30373294</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Load Flow: loader - Customer Access Management">765521e087ca51905fd843f5dabb35e7</sys_audit_delete>
+        <sys_audit_delete display_value="">765521e087ca51905fd843f5dabb35e7</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-16 22:39:35</sys_created_on>

@@ -43,7 +43,7 @@
         <update_guid_history>1e28a798694a1190fca3a4a86d4eebb0:-304325076</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Consumer Service.Users with 'sn_customerservice.consumer_agent' role">327e0da887c655108b817b9acebb35b0</sys_audit_delete>
+        <sys_audit_delete display_value="">327e0da887c655108b817b9acebb35b0</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-16 20:59:39</sys_created_on>

@@ -3,70 +3,84 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-01 16:01:32</sys_created_on>
-            <sys_id>ef115fa14745dd10ab51f109536d43b9</sys_id>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-06-20 11:14:29</sys_created_on>
+            <sys_id>b3e8a1a9472bed10ceb89e25126d43fa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_demo_celonis_event" sys_domain="global" view="Default view">ab3e5ad747f05510ab51f109536d4317</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-01 16:01:32</sys_updated_on>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-06-20 11:14:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_use_case</element>
+            <position>1</position>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-06-20 11:14:29</sys_created_on>
+            <sys_id>b7e8a1a9472bed10ceb89e25126d43fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_demo_celonis_event" sys_domain="global" view="Default view">ab3e5ad747f05510ab51f109536d4317</sys_ui_section>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-06-20 11:14:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>body</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-01 16:01:32</sys_created_on>
-            <sys_id>e7115fa14745dd10ab51f109536d43ba</sys_id>
+            <position>2</position>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-06-20 11:14:29</sys_created_on>
+            <sys_id>bbe8a1a9472bed10ceb89e25126d43fa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_demo_celonis_event" sys_domain="global" view="Default view">ab3e5ad747f05510ab51f109536d4317</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-01 16:01:32</sys_updated_on>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-06-20 11:14:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-01 16:01:32</sys_created_on>
-            <sys_id>eb115fa14745dd10ab51f109536d43ba</sys_id>
+            <position>3</position>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-06-20 11:14:29</sys_created_on>
+            <sys_id>bfe8a1a9472bed10ceb89e25126d43fa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_demo_celonis_event" sys_domain="global" view="Default view">ab3e5ad747f05510ab51f109536d4317</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-01 16:01:32</sys_updated_on>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-06-20 11:14:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sys_created_on</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-01 16:01:32</sys_created_on>
-            <sys_id>ef115fa14745dd10ab51f109536d43ba</sys_id>
+            <position>4</position>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-06-20 11:14:29</sys_created_on>
+            <sys_id>b3e8a1a9472bed10ceb89e25126d43fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_demo_celonis_event" sys_domain="global" view="Default view">ab3e5ad747f05510ab51f109536d4317</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-01 16:01:32</sys_updated_on>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-06-20 11:14:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sys_created_by</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-01 16:01:32</sys_created_on>
-            <sys_id>e3115fa14745dd10ab51f109536d43bb</sys_id>
+            <position>5</position>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-06-20 11:14:29</sys_created_on>
+            <sys_id>b7e8a1a9472bed10ceb89e25126d43fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_demo_celonis_event" sys_domain="global" view="Default view">ab3e5ad747f05510ab51f109536d4317</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-01 16:01:32</sys_updated_on>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-06-20 11:14:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
