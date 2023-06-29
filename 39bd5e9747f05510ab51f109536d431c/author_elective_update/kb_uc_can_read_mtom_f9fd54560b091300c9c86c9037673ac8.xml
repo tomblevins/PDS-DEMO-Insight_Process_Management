@@ -43,10 +43,11 @@
         <update_guid_history>1e28a798694a1190fca3a4a86d4eebb0:-304325076</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Consumer Service.Users with 'sn_customerservice.consumer_agent' role">327e0da887c655108b817b9acebb35b0</sys_audit_delete>
+        <sys_audit_delete display_value="">327e0da887c655108b817b9acebb35b0</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-16 20:59:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="kb_uc_can_read_mtom">kb_uc_can_read_mtom</sys_db_object>
         <sys_id>3efcc80cc2c04883a597c59724108541</sys_id>
         <sys_metadata>f9fd54560b091300c9c86c9037673ac8</sys_metadata>
@@ -55,6 +56,7 @@
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_parent/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_scope_delete/>
         <sys_update_name>kb_uc_can_read_mtom_f9fd54560b091300c9c86c9037673ac8</sys_update_name>

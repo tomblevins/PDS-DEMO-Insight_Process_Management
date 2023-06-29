@@ -156,10 +156,11 @@
         <update_guid_history>2748fc28bf4e15905a0d14ea526338e5:-856710787</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Unload Flow: WFO Unloader : Clears all WFO cases and interactions">67483068474e1590ab51f109536d433b</sys_audit_delete>
+        <sys_audit_delete display_value="">67483068474e1590ab51f109536d433b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-16 19:22:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="item_option_new">item_option_new</sys_db_object>
         <sys_id>1914716ddf6d4c6594a70d1119db9149</sys_id>
         <sys_metadata>2f48fc28474e1590ab51f109536d43e0</sys_metadata>
@@ -168,6 +169,7 @@
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_parent display_value="Record producer for: WFO - Clean &amp; Setup WFO data">cb48fc28474e1590ab51f109536d436c</sys_parent>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
         <sys_update_name>item_option_new_2f48fc28474e1590ab51f109536d43e0</sys_update_name>

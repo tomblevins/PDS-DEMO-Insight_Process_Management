@@ -2,17 +2,19 @@
     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
         <grid_canvas display_value="PA ROI Summary">c9b45fec47cd9910ab51f109536d4307</grid_canvas>
         <height>10</height>
-        <portal_widget display_value="Created 2015-06-25 16:49:56">5d40de76d7700200f215a5f75e61033f</portal_widget>
+        <portal_widget display_value="">5d40de76d7700200f215a5f75e61033f</portal_widget>
         <posx>0</posx>
         <posy>10</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-29 13:43:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>0db45fec47cd9910ab51f109536d430a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>c9b45fec47cd9910ab51f109536d4307</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sys_grid_canvas_pane_0db45fec47cd9910ab51f109536d430a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

@@ -26,21 +26,21 @@
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-28 12:25:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>b349bd5447c55910ab51f109536d4345</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>MAINT - Clear Catalog Results</sys_name>
         <sys_overrides/>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sys_hub_flow_b349bd5447c55910ab51f109536d4345</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-28 12:26:59</sys_updated_on>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-06-22 13:42:34</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
-    <sys_translated_text action="delete_multiple" query="documentkey=b349bd5447c55910ab51f109536d4345"/>
     <sys_variable_value action="delete_multiple" query="document_key=b349bd5447c55910ab51f109536d4345"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=b349bd5447c55910ab51f109536d4345"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=b349bd5447c55910ab51f109536d4345"/>
@@ -48,11 +48,18 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>b349bd5447c55910ab51f109536d4345</id>
         <name>MAINT - Clear Catalog Results</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-28 12:25:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>3349bd5447c55910ab51f109536d4346</sys_id>
         <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope/>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 12:25:30</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -73,9 +80,15 @@
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-28 12:25:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>8459bd5447c55910ab51f109536d435b</sys_id>
         <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 12:26:59</sys_updated_on>
         <ui_id>c16b0644-1044-4317-80a8-1475951023f5</ui_id>
@@ -125,9 +138,15 @@
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-28 12:25:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>8459bd5447c55910ab51f109536d4362</sys_id>
         <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 12:26:59</sys_updated_on>
         <ui_id>77a002be-5620-454f-a005-09e3e8396b57</ui_id>
@@ -171,9 +190,15 @@
         <sys_class_name>sys_hub_flow_logic</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-28 12:25:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>8459bd5447c55910ab51f109536d4350</sys_id>
         <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 12:26:59</sys_updated_on>
         <ui_id>0a7aba86-7f38-432b-b8c6-452d2285bcee</ui_id>
@@ -217,9 +242,15 @@
         <sys_class_name>sys_hub_flow_logic</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-28 12:26:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>aca9f59447c55910ab51f109536d43cb</sys_id>
         <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 12:26:59</sys_updated_on>
         <ui_id>d8cff015-9a0c-432b-8093-8f555941f6de</ui_id>
@@ -254,14 +285,20 @@
         <plan>com.snc.process_flow.engine.ProcessPlan@1fff204</plan>
         <plan_id display_value="MAINT - Clear Catalog Results">b349bd5447c55910ab51f109536d4345</plan_id>
         <snapshot>a1a9399447c55910ab51f109536d4380</snapshot>
+        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-28 12:26:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>61a9399447c55910ab51f109536d43bf</sys_id>
         <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
         <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope/>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 12:26:59</sys_updated_on>
     </sys_flow_subflow_plan>
@@ -290,21 +327,21 @@
         <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-28 12:26:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>a1a9399447c55910ab51f109536d4380</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 12:26:58</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow_snapshot>
-    <sys_translated_text action="delete_multiple" query="documentkey=a1a9399447c55910ab51f109536d4380"/>
     <sys_variable_value action="delete_multiple" query="document_key=a1a9399447c55910ab51f109536d4380"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=a1a9399447c55910ab51f109536d4380"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=a1a9399447c55910ab51f109536d4380"/>
@@ -312,11 +349,18 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>a1a9399447c55910ab51f109536d4380</id>
         <name>MAINT - Clear Catalog Results</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-28 12:26:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>a1a9399447c55910ab51f109536d4381</sys_id>
         <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope/>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 12:26:58</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -338,9 +382,15 @@
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-28 12:26:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>6da9399447c55910ab51f109536d43a1</sys_id>
         <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 12:26:58</sys_updated_on>
         <ui_id>77a002be-5620-454f-a005-09e3e8396b57</ui_id>
@@ -373,9 +423,15 @@
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-28 12:26:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>e9a9399447c55910ab51f109536d439c</sys_id>
         <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 12:26:58</sys_updated_on>
         <ui_id>c16b0644-1044-4317-80a8-1475951023f5</ui_id>
@@ -435,9 +491,15 @@
         <sys_class_name>sys_hub_flow_logic</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-28 12:26:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>2da9399447c55910ab51f109536d4387</sys_id>
         <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope/>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 12:26:58</sys_updated_on>
         <ui_id>0a7aba86-7f38-432b-b8c6-452d2285bcee</ui_id>
@@ -481,9 +543,15 @@
         <sys_class_name>sys_hub_flow_logic</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-28 12:26:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>e5a9399447c55910ab51f109536d4384</sys_id>
         <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope/>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-28 12:26:58</sys_updated_on>
         <ui_id>d8cff015-9a0c-432b-8093-8f555941f6de</ui_id>

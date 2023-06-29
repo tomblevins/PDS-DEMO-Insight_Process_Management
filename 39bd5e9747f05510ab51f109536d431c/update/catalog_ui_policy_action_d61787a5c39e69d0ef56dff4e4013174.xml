@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
-        <catalog_item display_value="Record producer for: SLM - Loader/Unloader">2b36d52a87c5dd1041d50fa90cbb3568</catalog_item>
+        <catalog_item display_value="">2b36d52a87c5dd1041d50fa90cbb3568</catalog_item>
         <catalog_variable>load_experience_id</catalog_variable>
         <cleared>false</cleared>
         <disabled>ignore</disabled>
@@ -10,11 +10,13 @@
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-19 14:47:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>d61787a5c39e69d0ef56dff4e4013174</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>catalog_ui_policy_action_d61787a5c39e69d0ef56dff4e4013174</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

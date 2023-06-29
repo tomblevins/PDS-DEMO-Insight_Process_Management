@@ -6,17 +6,19 @@
         <sys_class_name>sys_scope_privilege</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-17 10:58:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>2c8e083887421110cf644266cebb354d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>EWF_pulse_survey</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sys_scope_privilege_2c8e083887421110cf644266cebb354d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-09-17 10:58:38</sys_updated_on>
         <target_name>EWF_pulse_survey</target_name>
-        <target_scope display_value="Listening Posts">d52bb3b1732210102983fd2927f6a7a7</target_scope>
+        <target_scope display_value="">d52bb3b1732210102983fd2927f6a7a7</target_scope>
         <target_type>sys_script_include</target_type>
     </sys_scope_privilege>
 </record_update>

@@ -156,10 +156,11 @@
         <update_guid_history>9f48fc283a4e1590d2c53c232c3a729c:-1757649833</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Load Flow: WFO loader : Set up WFO data">6b483068474e1590ab51f109536d4328</sys_audit_delete>
+        <sys_audit_delete display_value="">6b483068474e1590ab51f109536d4328</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-16 19:22:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="item_option_new">item_option_new</sys_db_object>
         <sys_id>10bc2533dac4406b8a57708d6d2a8569</sys_id>
         <sys_metadata>1348fc28474e1590ab51f109536d4390</sys_metadata>
@@ -168,6 +169,7 @@
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_parent display_value="Record producer for: WFO - Clean &amp; Setup WFO data">cb48fc28474e1590ab51f109536d436c</sys_parent>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
         <sys_update_name>item_option_new_1348fc28474e1590ab51f109536d4390</sys_update_name>

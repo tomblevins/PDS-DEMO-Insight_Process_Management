@@ -55,6 +55,7 @@
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-16 22:39:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
         <sys_id>2d32587bc54d4279934affcf6be3d3c9</sys_id>
         <sys_metadata>fa5561e087ca51905fd843f5dabb3530</sys_metadata>
@@ -63,6 +64,7 @@
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_parent/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
         <sys_update_name>catalog_ui_policy_action_fa5561e087ca51905fd843f5dabb3530</sys_update_name>

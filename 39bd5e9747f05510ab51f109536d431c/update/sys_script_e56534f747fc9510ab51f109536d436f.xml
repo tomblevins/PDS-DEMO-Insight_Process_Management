@@ -57,14 +57,15 @@
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-26 18:13:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>e56534f747fc9510ab51f109536d436f</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Ledger Event - Processor</sys_name>
         <sys_overrides/>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sys_script_e56534f747fc9510ab51f109536d436f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
@@ -72,5 +73,4 @@
         <template/>
         <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=e56534f747fc9510ab51f109536d436f"/>
 </record_update>

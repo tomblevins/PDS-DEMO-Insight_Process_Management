@@ -11,11 +11,13 @@
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-25 13:06:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>0506a25347345510ab51f109536d43f1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_insight_pr_0_ledger_task</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sys_security_acl_0506a25347345510ab51f109536d43f1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

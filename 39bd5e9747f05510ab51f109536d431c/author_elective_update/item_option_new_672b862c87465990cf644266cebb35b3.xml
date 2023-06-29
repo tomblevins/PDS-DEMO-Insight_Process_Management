@@ -156,10 +156,11 @@
         <update_guid_history>ef2b862cde4659902681b822718d60b7:1754864421</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Load Experience ID">483bc62c87465990cf644266cebb3529</sys_audit_delete>
+        <sys_audit_delete display_value="">483bc62c87465990cf644266cebb3529</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-17 01:24:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="item_option_new">item_option_new</sys_db_object>
         <sys_id>028a95d1546f41beab44ecde463ef004</sys_id>
         <sys_metadata>672b862c87465990cf644266cebb35b3</sys_metadata>
@@ -168,6 +169,7 @@
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_parent display_value="Record producer for: CSM Order Management  - Load Orders">db2b862c87465990cf644266cebb3516</sys_parent>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
         <sys_update_name>item_option_new_672b862c87465990cf644266cebb35b3</sys_update_name>

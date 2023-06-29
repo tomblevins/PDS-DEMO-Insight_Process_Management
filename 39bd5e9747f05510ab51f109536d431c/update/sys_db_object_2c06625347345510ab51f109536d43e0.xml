@@ -17,19 +17,22 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Task" name="task">e2ba7f86870011108b817b9acebb35b3</super_class>
+        <super_class display_value="Task" name="task">b5c2d500300035005d499e01aa0ef662</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-25 13:06:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>2c06625347345510ab51f109536d43e0</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Ledger Task</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sys_db_object_2c06625347345510ab51f109536d43e0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-25 13:06:52</sys_updated_on>
+        <u_list_collector_contents>Ledger Task (x_snc_insight_pr_0_ledger_task)</u_list_collector_contents>
         <update_access>true</update_access>
         <user_role/>
         <ws_access>true</ws_access>

@@ -8,14 +8,15 @@
         <sys_class_name>sys_complex_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-27 13:45:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>35f1c50c47411910ab51f109536d4381</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>FD71f1c50ce9411910989e10b1006d2e81</sys_name>
         <sys_overrides/>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sys_complex_object_35f1c50c47411910ab51f109536d4381</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

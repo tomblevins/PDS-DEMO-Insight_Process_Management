@@ -2283,6 +2283,7 @@
         <data>[ ]</data>
         <description/>
         <dispatched_events>dbf1dfe1fa45dd1093409cc8ae766230</dispatched_events>
+        <events/>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -2340,11 +2341,13 @@
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 16:05:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>9bf1dfe15d45dd10811d3884e897c430</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sys_ux_macroponent_9bf1dfe15d45dd10811d3884e897c430</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

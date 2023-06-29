@@ -5,7 +5,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-26 14:01:49</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>1f2c73ef47b89510ab51f109536d43ca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
@@ -19,7 +18,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-26 14:01:49</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>1b2c73ef47b89510ab51f109536d43cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
@@ -34,14 +32,15 @@
             <sys_class_name>sys_ui_form</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-26 14:01:49</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>d72c73ef47b89510ab51f109536d43c6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_snc_insight_pr_0_event_ledger</sys_name>
             <sys_overrides/>
             <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
             <sys_update_name>sys_ui_form_sections_d72c73ef47b89510ab51f109536d43c6</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>

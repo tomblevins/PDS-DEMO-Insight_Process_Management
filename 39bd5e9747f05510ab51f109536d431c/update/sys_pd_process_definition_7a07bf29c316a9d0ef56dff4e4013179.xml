@@ -5,20 +5,24 @@
         <description/>
         <label>Celonis Invetigation</label>
         <name>celonis_invetigation</name>
+        <run_on_pad_engine>false</run_on_pad_engine>
         <snapshot display_value="celonis_invetigation">191bfb61c356a9d0ef56dff4e4013171</snapshot>
         <status>published</status>
         <sys_class_name>sys_pd_process_definition</sys_class_name>
         <sys_created_by>alejandro.mascall</sys_created_by>
         <sys_created_on>2023-04-19 18:16:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>7a07bf29c316a9d0ef56dff4e4013179</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Celonis Invetigation</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sys_pd_process_definition_7a07bf29c316a9d0ef56dff4e4013179</sys_update_name>
         <sys_updated_by>alejandro.mascall</sys_updated_by>
         <sys_updated_on>2023-04-19 18:34:32</sys_updated_on>
+        <view_type/>
     </sys_pd_process_definition>
     <sys_pd_process_definition action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -26,20 +30,24 @@
         <description/>
         <label>Celonis Invetigation</label>
         <name>celonis_invetigation</name>
+        <run_on_pad_engine>false</run_on_pad_engine>
         <snapshot display_value="celonis_invetigation">191bfb61c356a9d0ef56dff4e4013171</snapshot>
         <status>published</status>
         <sys_class_name>sys_pd_process_definition</sys_class_name>
         <sys_created_by>alejandro.mascall</sys_created_by>
         <sys_created_on>2023-04-19 18:16:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>7a07bf29c316a9d0ef56dff4e4013179</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Celonis Invetigation</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sys_pd_process_definition_7a07bf29c316a9d0ef56dff4e4013179</sys_update_name>
         <sys_updated_by>alejandro.mascall</sys_updated_by>
         <sys_updated_on>2023-04-19 18:34:32</sys_updated_on>
+        <view_type/>
     </sys_pd_process_definition>
     <sys_pd_lane action="delete_multiple" query="process_definition=7a07bf29c316a9d0ef56dff4e4013179^sys_idNOT INa757bfe5c316a9d0ef56dff4e4013179"/>
     <sys_pd_lane action="INSERT_OR_UPDATE">
@@ -62,493 +70,7 @@
         <visible_rule/>
     </sys_pd_lane>
     <sys_variable_value action="delete_multiple" query="document_key=a757bfe5c316a9d0ef56dff4e4013179"/>
-    <sys_pd_activity action="delete_multiple" query="process_definition=7a07bf29c316a9d0ef56dff4e4013179^sys_idNOT IN046a7fedc316a9d0ef56dff4e4013122,f7d737a9c316a9d0ef56dff4e4013163"/>
-    <sys_pd_activity action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <activity_definition display_value="Instruction">b0c35e2b1b630010affd0e55cc4bcbca</activity_definition>
-        <condition_to_run/>
-        <derivative_order/>
-        <derivative_parent/>
-        <description>Create Supplier Task for Vendor</description>
-        <inputs/>
-        <inputs/>
-        <label>Create Supplier Task for Vendor</label>
-        <lane display_value="Investigate Process Inefficiency ">a757bfe5c316a9d0ef56dff4e4013179</lane>
-        <name>instruction_1</name>
-        <order>2</order>
-        <outputs/>
-        <process_definition display_value="Celonis Invetigation">7a07bf29c316a9d0ef56dff4e4013179</process_definition>
-        <start_rule display_value="After Previous">eb98b4955ba74acab978af26ad083f61</start_rule>
-        <start_rule_vars/>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>046a7fedc316a9d0ef56dff4e4013122</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:34:26</sys_updated_on>
-        <type_vals/>
-        <type_vals/>
-    </sys_pd_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=046a7fedc316a9d0ef56dff4e4013122"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_pd_activity</document>
-        <document_key>046a7fedc316a9d0ef56dff4e4013122</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>086a3721c356a9d0ef56dff4e4013166</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <value>circle_info_outline</value>
-        <variable display_value="Icon">24bdf44673030010fe4a6da44cf6a707</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_pd_activity</document>
-        <document_key>046a7fedc316a9d0ef56dff4e4013122</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>086a3721c356a9d0ef56dff4e4013168</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <value>yes</value>
-        <variable display_value="Wait for user input">c23322e91bbb001094630f28cc4bcbae</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_pd_activity</document>
-        <document_key>046a7fedc316a9d0ef56dff4e4013122</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>0c6a3721c356a9d0ef56dff4e4013165</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <value/>
-        <variable display_value="Footer">8793d6feb70100101a6ddb91de11a98f</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_pd_activity</document>
-        <document_key>046a7fedc316a9d0ef56dff4e4013122</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>406a3721c356a9d0ef56dff4e4013167</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:34:10</sys_updated_on>
-        <value/>
-        <variable display_value="Title">49ed24875b00001070e4492c11f91aa5</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_pd_activity</document>
-        <document_key>046a7fedc316a9d0ef56dff4e4013122</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>446a3721c356a9d0ef56dff4e4013166</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <value>sys_flow_data</value>
-        <variable display_value="Experience Status Table">9c6b7e22c3211010381b60bc0eba8f98</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_pd_activity</document>
-        <document_key>046a7fedc316a9d0ef56dff4e4013122</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>486a3721c356a9d0ef56dff4e4013165</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <value/>
-        <variable display_value="Experience Status Record">55628762c3211010381b60bc0eba8fec</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_pd_activity</document>
-        <document_key>046a7fedc316a9d0ef56dff4e4013122</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>806a3721c356a9d0ef56dff4e4013166</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <value/>
-        <variable display_value="Associated Record">eb0474b8c763001085f5532bb4c260f5</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_pd_activity</document>
-        <document_key>046a7fedc316a9d0ef56dff4e4013122</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>8c6a3721c356a9d0ef56dff4e4013166</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <value>Instructional</value>
-        <variable display_value="Tagline">661d304673030010fe4a6da44cf6a7b1</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_pd_activity</document>
-        <document_key>046a7fedc316a9d0ef56dff4e4013122</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>c86a3721c356a9d0ef56dff4e4013166</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:34:10</sys_updated_on>
-        <value/>
-        <variable display_value="Description">267e68875b00001070e4492c11f91a34</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_pd_activity</document>
-        <document_key>046a7fedc316a9d0ef56dff4e4013122</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>c86a3721c356a9d0ef56dff4e4013168</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:34:10</sys_updated_on>
-        <value/>
-        <variable display_value="Message">6c9c4ee31b630010affd0e55cc4bcbbf</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_pd_activity</document>
-        <document_key>046a7fedc316a9d0ef56dff4e4013122</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>cc6a3721c356a9d0ef56dff4e4013164</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <value>sys_flow_data</value>
-        <variable display_value="Associated Table">78f334b8c763001085f5532bb4c26009</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_pd_activity</document>
-        <document_key>046a7fedc316a9d0ef56dff4e4013122</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>cc6a3721c356a9d0ef56dff4e4013165</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <value>0</value>
-        <variable display_value="Is Automated">ec5d96eac7e60010bfbaf89f51c2605d</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=046a7fedc316a9d0ef56dff4e4013122"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>associated_record</field>
-        <id>046a7fedc316a9d0ef56dff4e4013122</id>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>8c6a3721c356a9d0ef56dff4e4013163</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
-        <value>{{vl.Simple Instruction.e17e6678-8e97-4584-a903-cfa6e47fd378./end.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>associated_table</field>
-        <id>046a7fedc316a9d0ef56dff4e4013122</id>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>8c6a3721c356a9d0ef56dff4e4013162</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>description</field>
-        <id>046a7fedc316a9d0ef56dff4e4013122</id>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>c46a3721c356a9d0ef56dff4e4013164</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
-        <value>{{vl.Simple Instruction./start.message}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>experience_status_record</field>
-        <id>046a7fedc316a9d0ef56dff4e4013122</id>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>446a3721c356a9d0ef56dff4e4013163</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
-        <value>{{vl.Simple Instruction.e17e6678-8e97-4584-a903-cfa6e47fd378./end.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>experience_status_table</field>
-        <id>046a7fedc316a9d0ef56dff4e4013122</id>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>406a3721c356a9d0ef56dff4e4013164</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>footer</field>
-        <id>046a7fedc316a9d0ef56dff4e4013122</id>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>086a3721c356a9d0ef56dff4e4013163</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>icon</field>
-        <id>046a7fedc316a9d0ef56dff4e4013122</id>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>046a3721c356a9d0ef56dff4e4013164</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>is_automated</field>
-        <id>046a7fedc316a9d0ef56dff4e4013122</id>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>c86a3721c356a9d0ef56dff4e4013163</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
-        <value>{{vl.Simple Instruction./start.automated}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>message</field>
-        <id>046a7fedc316a9d0ef56dff4e4013122</id>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>c06a3721c356a9d0ef56dff4e4013168</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <table>var__m_sys_hub_flow_input_2b8b42e31b630010affd0e55cc4bcbe9</table>
-        <value>{{act.046a7fedc316a9d0ef56dff4e4013122.description}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>tagline</field>
-        <id>046a7fedc316a9d0ef56dff4e4013122</id>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>886a3721c356a9d0ef56dff4e4013164</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>title</field>
-        <id>046a7fedc316a9d0ef56dff4e4013122</id>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>4c6a3721c356a9d0ef56dff4e4013164</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
-        <value>{{act.046a7fedc316a9d0ef56dff4e4013122.label}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>wait</field>
-        <id>046a7fedc316a9d0ef56dff4e4013122</id>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>846a3721c356a9d0ef56dff4e4013168</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <table>var__m_sys_hub_flow_input_2b8b42e31b630010affd0e55cc4bcbe9</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_2b8b42e31b630010affd0e55cc4bcbe9^id=046a7fedc316a9d0ef56dff4e4013122"/>
-    <sys_element_mapping action="delete_multiple" query="id=046a7fedc316a9d0ef56dff4e4013122"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>associated_record</field>
-        <id>046a7fedc316a9d0ef56dff4e4013122</id>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>8c6a3721c356a9d0ef56dff4e4013163</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
-        <value>{{vl.Simple Instruction.e17e6678-8e97-4584-a903-cfa6e47fd378./end.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>associated_table</field>
-        <id>046a7fedc316a9d0ef56dff4e4013122</id>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>8c6a3721c356a9d0ef56dff4e4013162</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>description</field>
-        <id>046a7fedc316a9d0ef56dff4e4013122</id>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>c46a3721c356a9d0ef56dff4e4013164</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
-        <value>{{vl.Simple Instruction./start.message}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>experience_status_record</field>
-        <id>046a7fedc316a9d0ef56dff4e4013122</id>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>446a3721c356a9d0ef56dff4e4013163</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
-        <value>{{vl.Simple Instruction.e17e6678-8e97-4584-a903-cfa6e47fd378./end.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>experience_status_table</field>
-        <id>046a7fedc316a9d0ef56dff4e4013122</id>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>406a3721c356a9d0ef56dff4e4013164</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>footer</field>
-        <id>046a7fedc316a9d0ef56dff4e4013122</id>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>086a3721c356a9d0ef56dff4e4013163</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>icon</field>
-        <id>046a7fedc316a9d0ef56dff4e4013122</id>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>046a3721c356a9d0ef56dff4e4013164</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>is_automated</field>
-        <id>046a7fedc316a9d0ef56dff4e4013122</id>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>c86a3721c356a9d0ef56dff4e4013163</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
-        <value>{{vl.Simple Instruction./start.automated}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>message</field>
-        <id>046a7fedc316a9d0ef56dff4e4013122</id>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>c06a3721c356a9d0ef56dff4e4013168</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <table>var__m_sys_hub_flow_input_2b8b42e31b630010affd0e55cc4bcbe9</table>
-        <value>{{act.046a7fedc316a9d0ef56dff4e4013122.description}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>tagline</field>
-        <id>046a7fedc316a9d0ef56dff4e4013122</id>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>886a3721c356a9d0ef56dff4e4013164</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>title</field>
-        <id>046a7fedc316a9d0ef56dff4e4013122</id>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>4c6a3721c356a9d0ef56dff4e4013164</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
-        <value>{{act.046a7fedc316a9d0ef56dff4e4013122.label}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>wait</field>
-        <id>046a7fedc316a9d0ef56dff4e4013122</id>
-        <sys_created_by>alejandro.mascall</sys_created_by>
-        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
-        <sys_id>846a3721c356a9d0ef56dff4e4013168</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>alejandro.mascall</sys_updated_by>
-        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
-        <table>var__m_sys_hub_flow_input_2b8b42e31b630010affd0e55cc4bcbe9</table>
-        <value/>
-    </sys_element_mapping>
+    <sys_pd_activity action="delete_multiple" query="process_definition=7a07bf29c316a9d0ef56dff4e4013179^sys_idNOT INf7d737a9c316a9d0ef56dff4e4013163,046a7fedc316a9d0ef56dff4e4013122"/>
     <sys_pd_activity action="INSERT_OR_UPDATE">
         <active>true</active>
         <activity_definition display_value="Instruction">b0c35e2b1b630010affd0e55cc4bcbca</activity_definition>
@@ -566,6 +88,7 @@
         <process_definition display_value="Celonis Invetigation">7a07bf29c316a9d0ef56dff4e4013179</process_definition>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
+        <swim_lane/>
         <sys_created_by>alejandro.mascall</sys_created_by>
         <sys_created_on>2023-04-19 18:20:30</sys_created_on>
         <sys_id>f7d737a9c316a9d0ef56dff4e4013163</sys_id>
@@ -1035,6 +558,495 @@
         <table>var__m_sys_hub_flow_input_2b8b42e31b630010affd0e55cc4bcbe9</table>
         <value/>
     </sys_element_mapping>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Instruction">b0c35e2b1b630010affd0e55cc4bcbca</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description>Create Supplier Task for Vendor</description>
+        <inputs/>
+        <inputs/>
+        <label>Create Supplier Task for Vendor</label>
+        <lane display_value="Investigate Process Inefficiency ">a757bfe5c316a9d0ef56dff4e4013179</lane>
+        <name>instruction_1</name>
+        <order>2</order>
+        <outputs/>
+        <process_definition display_value="Celonis Invetigation">7a07bf29c316a9d0ef56dff4e4013179</process_definition>
+        <start_rule display_value="After Previous">eb98b4955ba74acab978af26ad083f61</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>046a7fedc316a9d0ef56dff4e4013122</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:34:26</sys_updated_on>
+        <type_vals/>
+        <type_vals/>
+    </sys_pd_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=046a7fedc316a9d0ef56dff4e4013122"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>046a7fedc316a9d0ef56dff4e4013122</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>086a3721c356a9d0ef56dff4e4013166</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <value>circle_info_outline</value>
+        <variable display_value="Icon">24bdf44673030010fe4a6da44cf6a707</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>046a7fedc316a9d0ef56dff4e4013122</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>086a3721c356a9d0ef56dff4e4013168</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <value>yes</value>
+        <variable display_value="Wait for user input">c23322e91bbb001094630f28cc4bcbae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>046a7fedc316a9d0ef56dff4e4013122</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>0c6a3721c356a9d0ef56dff4e4013165</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <value/>
+        <variable display_value="Footer">8793d6feb70100101a6ddb91de11a98f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>046a7fedc316a9d0ef56dff4e4013122</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>406a3721c356a9d0ef56dff4e4013167</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:34:10</sys_updated_on>
+        <value/>
+        <variable display_value="Title">49ed24875b00001070e4492c11f91aa5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>046a7fedc316a9d0ef56dff4e4013122</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>446a3721c356a9d0ef56dff4e4013166</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <value>sys_flow_data</value>
+        <variable display_value="Experience Status Table">9c6b7e22c3211010381b60bc0eba8f98</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>046a7fedc316a9d0ef56dff4e4013122</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>486a3721c356a9d0ef56dff4e4013165</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <value/>
+        <variable display_value="Experience Status Record">55628762c3211010381b60bc0eba8fec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>046a7fedc316a9d0ef56dff4e4013122</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>806a3721c356a9d0ef56dff4e4013166</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <value/>
+        <variable display_value="Associated Record">eb0474b8c763001085f5532bb4c260f5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>046a7fedc316a9d0ef56dff4e4013122</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>8c6a3721c356a9d0ef56dff4e4013166</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <value>Instructional</value>
+        <variable display_value="Tagline">661d304673030010fe4a6da44cf6a7b1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>046a7fedc316a9d0ef56dff4e4013122</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>c86a3721c356a9d0ef56dff4e4013166</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:34:10</sys_updated_on>
+        <value/>
+        <variable display_value="Description">267e68875b00001070e4492c11f91a34</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>046a7fedc316a9d0ef56dff4e4013122</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>c86a3721c356a9d0ef56dff4e4013168</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:34:10</sys_updated_on>
+        <value/>
+        <variable display_value="Message">6c9c4ee31b630010affd0e55cc4bcbbf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>046a7fedc316a9d0ef56dff4e4013122</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>cc6a3721c356a9d0ef56dff4e4013164</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <value>sys_flow_data</value>
+        <variable display_value="Associated Table">78f334b8c763001085f5532bb4c26009</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>046a7fedc316a9d0ef56dff4e4013122</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>cc6a3721c356a9d0ef56dff4e4013165</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Is Automated">ec5d96eac7e60010bfbaf89f51c2605d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=046a7fedc316a9d0ef56dff4e4013122"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_record</field>
+        <id>046a7fedc316a9d0ef56dff4e4013122</id>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>8c6a3721c356a9d0ef56dff4e4013163</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction.e17e6678-8e97-4584-a903-cfa6e47fd378./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_table</field>
+        <id>046a7fedc316a9d0ef56dff4e4013122</id>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>8c6a3721c356a9d0ef56dff4e4013162</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>description</field>
+        <id>046a7fedc316a9d0ef56dff4e4013122</id>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>c46a3721c356a9d0ef56dff4e4013164</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction./start.message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_record</field>
+        <id>046a7fedc316a9d0ef56dff4e4013122</id>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>446a3721c356a9d0ef56dff4e4013163</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction.e17e6678-8e97-4584-a903-cfa6e47fd378./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_table</field>
+        <id>046a7fedc316a9d0ef56dff4e4013122</id>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>406a3721c356a9d0ef56dff4e4013164</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>footer</field>
+        <id>046a7fedc316a9d0ef56dff4e4013122</id>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>086a3721c356a9d0ef56dff4e4013163</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>icon</field>
+        <id>046a7fedc316a9d0ef56dff4e4013122</id>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>046a3721c356a9d0ef56dff4e4013164</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>is_automated</field>
+        <id>046a7fedc316a9d0ef56dff4e4013122</id>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>c86a3721c356a9d0ef56dff4e4013163</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction./start.automated}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>message</field>
+        <id>046a7fedc316a9d0ef56dff4e4013122</id>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>c06a3721c356a9d0ef56dff4e4013168</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_2b8b42e31b630010affd0e55cc4bcbe9</table>
+        <value>{{act.046a7fedc316a9d0ef56dff4e4013122.description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tagline</field>
+        <id>046a7fedc316a9d0ef56dff4e4013122</id>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>886a3721c356a9d0ef56dff4e4013164</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>title</field>
+        <id>046a7fedc316a9d0ef56dff4e4013122</id>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>4c6a3721c356a9d0ef56dff4e4013164</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{act.046a7fedc316a9d0ef56dff4e4013122.label}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait</field>
+        <id>046a7fedc316a9d0ef56dff4e4013122</id>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>846a3721c356a9d0ef56dff4e4013168</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_2b8b42e31b630010affd0e55cc4bcbe9</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_2b8b42e31b630010affd0e55cc4bcbe9^id=046a7fedc316a9d0ef56dff4e4013122"/>
+    <sys_element_mapping action="delete_multiple" query="id=046a7fedc316a9d0ef56dff4e4013122"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_record</field>
+        <id>046a7fedc316a9d0ef56dff4e4013122</id>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>8c6a3721c356a9d0ef56dff4e4013163</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction.e17e6678-8e97-4584-a903-cfa6e47fd378./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_table</field>
+        <id>046a7fedc316a9d0ef56dff4e4013122</id>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>8c6a3721c356a9d0ef56dff4e4013162</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>description</field>
+        <id>046a7fedc316a9d0ef56dff4e4013122</id>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>c46a3721c356a9d0ef56dff4e4013164</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction./start.message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_record</field>
+        <id>046a7fedc316a9d0ef56dff4e4013122</id>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>446a3721c356a9d0ef56dff4e4013163</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction.e17e6678-8e97-4584-a903-cfa6e47fd378./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_table</field>
+        <id>046a7fedc316a9d0ef56dff4e4013122</id>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>406a3721c356a9d0ef56dff4e4013164</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>footer</field>
+        <id>046a7fedc316a9d0ef56dff4e4013122</id>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>086a3721c356a9d0ef56dff4e4013163</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>icon</field>
+        <id>046a7fedc316a9d0ef56dff4e4013122</id>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>046a3721c356a9d0ef56dff4e4013164</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>is_automated</field>
+        <id>046a7fedc316a9d0ef56dff4e4013122</id>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>c86a3721c356a9d0ef56dff4e4013163</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction./start.automated}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>message</field>
+        <id>046a7fedc316a9d0ef56dff4e4013122</id>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>c06a3721c356a9d0ef56dff4e4013168</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_2b8b42e31b630010affd0e55cc4bcbe9</table>
+        <value>{{act.046a7fedc316a9d0ef56dff4e4013122.description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tagline</field>
+        <id>046a7fedc316a9d0ef56dff4e4013122</id>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>886a3721c356a9d0ef56dff4e4013164</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>title</field>
+        <id>046a7fedc316a9d0ef56dff4e4013122</id>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>4c6a3721c356a9d0ef56dff4e4013164</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{act.046a7fedc316a9d0ef56dff4e4013122.label}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait</field>
+        <id>046a7fedc316a9d0ef56dff4e4013122</id>
+        <sys_created_by>alejandro.mascall</sys_created_by>
+        <sys_created_on>2023-04-19 18:31:26</sys_created_on>
+        <sys_id>846a3721c356a9d0ef56dff4e4013168</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alejandro.mascall</sys_updated_by>
+        <sys_updated_on>2023-04-19 18:31:26</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_2b8b42e31b630010affd0e55cc4bcbe9</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_pd_swim_lane action="delete_multiple" query="process_definition=7a07bf29c316a9d0ef56dff4e4013179"/>
+    <sys_pd_activity_m2m_app_object action="delete_multiple" query="activity.process_definition=7a07bf29c316a9d0ef56dff4e4013179"/>
     <sys_pd_snapshot action="delete_multiple" query="sys_id=191bfb61c356a9d0ef56dff4e4013171^sys_idNOT IN191bfb61c356a9d0ef56dff4e4013171"/>
     <sys_pd_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1050,6 +1062,7 @@
         <sys_updated_by>alejandro.mascall</sys_updated_by>
         <sys_updated_on>2023-04-19 18:34:32</sys_updated_on>
     </sys_pd_snapshot>
+    <sys_json_chunk action="delete_multiple" query="document_id=191bfb61c356a9d0ef56dff4e4013171"/>
     <sys_pd_snapshot_chunk action="delete_multiple" query="document_id=191bfb61c356a9d0ef56dff4e4013171^sys_idNOT INdd1bfb61c356a9d0ef56dff4e401317f,1d1bfb61c356a9d0ef56dff4e4013172"/>
     <sys_pd_snapshot_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAN1Y227bRhD9lUJ9zSp7v/gpLZoAAZo4hZMURREIs7OzKVFaFEgqiWHo3zuUFEPxBXGMGnDyQpm7JGfmzJmZsz6fkVQ5ZK9ScR5SkTFbZaSOWdUU0OHPs6PzWW3akfrZ0Wz2aNYseWXzaDZ+2P0Wqrzx8vj4FW/SJ8LpBYLXZyvi9Rcd/svrbYfQDrOj5bptN/yStjurVu+sVlRZJRuksTXr+7IqrYdQqaBRW6tUnS+1WrJSGaX19VZnH6EZp98n2MLAn5s9X76FlrefNIXvgnLkMmVREb2wyjmRos5CO50clhyNRX74A7TrybczGviuNMOqhbO3+8W/tosjnfLiSDvj/8Cw3x77NU3OrNbjm4HYZuWweGVo+Hnax3z86pc/3jzdGXp98aEpdAao77v+BQ0DvL9Y66lST0tky0d/v2N0Tj/v3xhprjbXUJ1Aj1JYI42IpaBAQ8k440Kgg0h3Zr4MdLd2U5z7sO4z0IPYsDudD0ucr8p81bTt/BVfnn5a9Rfh+iCrpmAF6mw5sQZETFkKDNEFCkxeb7fsW010OT8HHOdfo9i80IB9sxqbbrnZzDbvNp9JPWOvOmw4mLIYIbdfJuLC2b7jQIZFbbuPcwZgfrweD1MUnctGJRCh2CqsQyOyU1Vk6ajY4Gr2h2QcznafWhQY4SotL29fpuR1edlsEaG+mSBfDCOM62HRE3Z9uT6im+Av2WhdohUSJQjLlSRAVy+K1YG08UkWcwj/h3Z+svXnp+fLgf3DCeM5qUDehygipcCA8PcgMXGxgicbajEhzh/Tssx3Pk5JeTSrXbdtAnfIQHUuueKT8ESRiyRqMd2zfRlUJp9L9rcpkitlcQPYzbCA9didTsT5NoCz9xB1iqI6YK5I40UiVELHkiUVYwDp6wA/5hT34/zChx2AVylwd06nqigYJKGtlPsG6ykJzCmBAZAp2HvndIPd8k7eS+4i2YAVBQJ7b00SCZgP1TtvUuQGofOB99j02NKiWdZu0a3HtlnS1Riuf+iWkRz0mbuUJSoknAjtYpnGXXYiB+WFKgmiLykVrPdVliO838Z6p7pUNQSo3L6hZmGZQex3IOG4LMmUnEs6zMOBs9uPXMrA5e1bYn/Q/b8NdcYqSM8VWqszwhZu6dFj4OZerE8aKDh761rdT/o9ps14U13e2DicRq0DiFQSO5MK+2EwiczdzgXnilL6mwdjC5nayaULdZclGkc6q+yNlEpCrfyec4g2Y0a4Tvk9++1A97GYKyfYrai8hNNp933bZWbGLjlcPhfI8EuTylvUrl9w+Ly7S9FsyiZv1rL//smbX5/9fvwnezlV0l47S7VTsa5oNIaQu7yS5r5UbA0lmADpeiS9uZuKhQDZRql4YvGgtRGkAMn16QzmzDUKXJA/horVHmxOJgqgmDhcYPbyIGFRm4NTyDgA/EAqFnI1xUXPKt2yjPKAImn+SxKQj5Es2nC5WL9GsftWsbnoDEFJwWOflbfliZ+dUyKyNLElVaJUvhMVG7x12tooyCfkcamUgFJpukgZK0cJ7gGqWMAUcs5eUHTcDmxl08pUoYwOWjvFl1sVyf2r2KpT3R5FtTQkbA7Mb4oglMrIDSxqTP4hqFgIXkcnvQCs3GWltjw+gRuQJW+wRMWN9+GqWCNJ1SiJT1/EKlZ7KSIwjQPPhgi+kknpe1KxtWgoEYyQIU3/yuDDcuYBLkgmG9HGFMuDVLE+6oqZ/QaYhhfyOTPWikKWzFWgfGUR8nBVLDngvmGL4LMl1wCmwrNIV26GLmrveMHf4kj/P6nYIkFKPs0IUJGdKZlB9Z4btUFdgqWiv6TArQbjd6diN/8BIV4TfgMWAAA=</data>
@@ -1130,11 +1143,11 @@
         <sys_updated_on>2023-04-19 18:34:31</sys_updated_on>
         <trigger display_value="">9d1bfb61c356a9d0ef56dff4e401316f</trigger>
     </sys_trigger_runner_mapping>
+    <sys_json_chunk action="delete_multiple" query="document_id=591bfb61c356a9d0ef56dff4e4013170"/>
     <sys_flow_record_trigger action="delete_multiple" query="sys_id=9d1bfb61c356a9d0ef56dff4e401316f^sys_idNOT IN9d1bfb61c356a9d0ef56dff4e401316f"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="sn_supplier_case">short_descriptionLIKECelonis<item endquery="false" field="short_description" goto="false" newquery="false" operator="LIKE" or="false" value="Celonis"/>
-        </condition>
+        <condition table="sn_supplier_case">short_descriptionLIKECelonis</condition>
         <name/>
         <on_delete>false</on_delete>
         <on_insert>true</on_insert>
@@ -1147,12 +1160,17 @@
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>alejandro.mascall</sys_created_by>
         <sys_created_on>2023-04-19 18:34:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>9d1bfb61c356a9d0ef56dff4e401316f</sys_id>
         <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
         <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope/>
+        <sys_update_name/>
         <sys_updated_by>alejandro.mascall</sys_updated_by>
         <sys_updated_on>2023-04-19 18:34:31</sys_updated_on>
         <table>sn_supplier_case</table>

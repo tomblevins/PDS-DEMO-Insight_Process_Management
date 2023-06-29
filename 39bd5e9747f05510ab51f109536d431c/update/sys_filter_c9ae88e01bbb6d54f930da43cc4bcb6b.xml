@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
+    <sys_filter action="INSERT_OR_UPDATE">
+        <filter table="sys_decision">sys_class_name=sys_decision^sys_scope=39bd5e9747f05510ab51f109536d431c<item display_value="Decision Table" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="sys_decision"/>
+            <item display_table="sys_scope" display_value="Insight Process Management" endquery="false" field="sys_scope" goto="false" newquery="false" operator="=" or="false" value="39bd5e9747f05510ab51f109536d431c"/>
+        </filter>
+        <group/>
+        <last_used/>
+        <mobile>false</mobile>
+        <roles/>
+        <sys_class_name>sys_filter</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-06-29 12:21:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>c9ae88e01bbb6d54f930da43cc4bcb6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Insight Proc</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_filter_c9ae88e01bbb6d54f930da43cc4bcb6b</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-06-29 12:21:45</sys_updated_on>
+        <table>sys_decision</table>
+        <title>Insight Proc</title>
+        <user/>
+    </sys_filter>
+</record_update>

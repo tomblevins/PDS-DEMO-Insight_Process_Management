@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="2c06625347345510ab51f109536d43e0" extends="task" label="Ledger Task" max_length="40" name="x_snc_insight_pr_0_ledger_task" text_index="true" type="collection">
+    <element db_object_id="2c06625347345510ab51f109536d43e0" extends="task" label="Tâche" max_length="40" name="x_snc_insight_pr_0_ledger_task" text_index="true" type="collection">
         <element label="Frequency" max_length="38" name="frequency" type="decimal"/>
         <element label="Impact Value" max_length="38" name="impact_value" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" label="Material" max_length="100" name="material" type="string"/>

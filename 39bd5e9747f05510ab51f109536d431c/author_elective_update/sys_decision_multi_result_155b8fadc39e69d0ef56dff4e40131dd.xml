@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="DELETE">
+        <decision_table display_value="IPE - Demand or Case Policy">8f7ee000878dd5108b817b9acebb3555</decision_table>
+        <label>Material Playbook: Supplier Playbook</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 15:05:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>155b8fadc39e69d0ef56dff4e40131dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Material Playbook: Supplier Playbook</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_decision_multi_result_155b8fadc39e69d0ef56dff4e40131dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 15:05:54</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="DELETE" query="document_key=155b8fadc39e69d0ef56dff4e40131dd"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>155b8fadc39e69d0ef56dff4e40131dd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 15:05:54</sys_created_on>
+        <sys_id>155b4f21c3de69d0ef56dff4e40131b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 15:05:54</sys_updated_on>
+        <value>Supplier Playbook</value>
+        <variable display_value="Material Playbook">da4fe040878dd5108b817b9acebb35f9</variable>
+    </sys_variable_value>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>532947b4ffaeac889376762fa87efe09</instance_id>
+        <instance_name>niketest</instance_name>
+        <name>sys_decision_multi_result_155b8fadc39e69d0ef56dff4e40131dd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="INSERT_OR_UPDATE">
+        <decision_table display_value="IPE - Demand or Case Policy">8f7ee000878dd5108b817b9acebb3555</decision_table>
+        <label>Material Playbook: Supplier Playbook</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 15:05:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>155b8fadc39e69d0ef56dff4e40131dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Material Playbook: Supplier Playbook</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_decision_multi_result_155b8fadc39e69d0ef56dff4e40131dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 15:05:54</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="delete_multiple" query="document_key=155b8fadc39e69d0ef56dff4e40131dd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>155b8fadc39e69d0ef56dff4e40131dd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 15:05:54</sys_created_on>
+        <sys_id>155b4f21c3de69d0ef56dff4e40131b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 15:05:54</sys_updated_on>
+        <value>Supplier Playbook</value>
+        <variable display_value="Material Playbook">da4fe040878dd5108b817b9acebb35f9</variable>
+    </sys_variable_value>
+</record_update>]]></payload>
+        <payload_hash>-2018850580</payload_hash>
+        <record_name>Material Playbook: Supplier Playbook</record_name>
+        <reverted_from/>
+        <source>653dd85297efe1d0387553800153afac</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-06-22 13:40:53</sys_created_on>
+        <sys_id>ccadd81697efe1d0387553800153afa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188e356261a0000001</sys_recorded_at>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-06-22 13:40:53</sys_updated_on>
+        <type>Decision Table Multiple Result</type>
+        <update_guid>8cadd816baefe1d0ecda9058ff5fffa2</update_guid>
+        <update_guid_history>8cadd816baefe1d0ecda9058ff5fffa2:-2018850580</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-06-29 12:31:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_decision_multi_result">sys_decision_multi_result</sys_db_object>
+        <sys_id>0fde7f04083641c98654737b836bd6f1</sys_id>
+        <sys_metadata>155b8fadc39e69d0ef56dff4e40131dd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Material Playbook: Supplier Playbook</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>sys_decision_multi_result_155b8fadc39e69d0ef56dff4e40131dd</sys_update_name>
+        <sys_update_version display_value="sys_decision_multi_result_155b8fadc39e69d0ef56dff4e40131dd">ccadd81697efe1d0387553800153afa2</sys_update_version>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-06-29 12:31:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

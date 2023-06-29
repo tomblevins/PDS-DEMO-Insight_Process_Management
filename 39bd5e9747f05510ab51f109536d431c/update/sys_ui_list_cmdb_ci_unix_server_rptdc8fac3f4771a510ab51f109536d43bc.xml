@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>cpu_speed</element>
-            <list_id display_value="cmdb_ci_unix_server" element="NULL" name="cmdb_ci_unix_server" parent="NULL" relationship="NULL" sys_domain="global" view="5c8fac3f4771a510ab51f109536d43c2">1c8fac3f4771a510ab51f109536d43c4</list_id>
+            <list_id display_value="cmdb_ci_unix_server" element="NULL" name="cmdb_ci_unix_server" parent="NULL" relationship="NULL" sys_domain="global" view="d05e90da97efe1d0387553800153af51">1c8fac3f4771a510ab51f109536d43c4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>ram</element>
-            <list_id display_value="cmdb_ci_unix_server" element="NULL" name="cmdb_ci_unix_server" parent="NULL" relationship="NULL" sys_domain="global" view="5c8fac3f4771a510ab51f109536d43c2">1c8fac3f4771a510ab51f109536d43c4</list_id>
+            <list_id display_value="cmdb_ci_unix_server" element="NULL" name="cmdb_ci_unix_server" parent="NULL" relationship="NULL" sys_domain="global" view="d05e90da97efe1d0387553800153af51">1c8fac3f4771a510ab51f109536d43c4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>cpu_core_count</element>
-            <list_id display_value="cmdb_ci_unix_server" element="NULL" name="cmdb_ci_unix_server" parent="NULL" relationship="NULL" sys_domain="global" view="5c8fac3f4771a510ab51f109536d43c2">1c8fac3f4771a510ab51f109536d43c4</list_id>
+            <list_id display_value="cmdb_ci_unix_server" element="NULL" name="cmdb_ci_unix_server" parent="NULL" relationship="NULL" sys_domain="global" view="d05e90da97efe1d0387553800153af51">1c8fac3f4771a510ab51f109536d43c4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -58,19 +58,20 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2023-04-01 07:00:01</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>1c8fac3f4771a510ab51f109536d43c4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>cmdb_ci_unix_server</sys_name>
             <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
             <sys_update_name>sys_ui_list_cmdb_ci_unix_server_RPTdc8fac3f4771a510ab51f109536d43bc</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-04-01 07:00:01</sys_updated_on>
             <sys_user/>
-            <view display_value="Rptdc8fac3f4771a510ab51f109536d43bc" name="RPTdc8fac3f4771a510ab51f109536d43bc">5c8fac3f4771a510ab51f109536d43c2</view>
+            <view display_value="Rptdc8fac3f4771a510ab51f109536d43bc" name="RPTdc8fac3f4771a510ab51f109536d43bc">d05e90da97efe1d0387553800153af51</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

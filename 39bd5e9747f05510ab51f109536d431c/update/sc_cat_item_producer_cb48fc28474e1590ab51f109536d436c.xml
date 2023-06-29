@@ -2,7 +2,6 @@
     <sc_cat_item_producer action="INSERT_OR_UPDATE">
         <access_type>restricted</access_type>
         <active>true</active>
-        <additional_review>false</additional_review>
         <allow_edit>false</allow_edit>
         <availability>on_desktop</availability>
         <billable>false</billable>
@@ -10,7 +9,6 @@
         <category/>
         <checked_out/>
         <cost>0</cost>
-        <create_universal_request>false</create_universal_request>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
@@ -47,7 +45,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <owner display_value="">6816f79cc0a8016401c5a33be04be441</owner>
         <picture/>
         <post_insert_script><![CDATA[/**
 * This script is executed after the record is generated. 
@@ -85,11 +83,13 @@
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-16 19:22:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>cb48fc28474e1590ab51f109536d436c</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Record producer for: WFO - Clean &amp; Setup WFO data</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sc_cat_item_producer_cb48fc28474e1590ab51f109536d436c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
@@ -99,6 +99,18 @@
         <template/>
         <template_manager_roles/>
         <type>item</type>
+        <u_assignment_group/>
+        <u_associated_service/>
+        <u_category/>
+        <u_governing_contract/>
+        <u_integrations/>
+        <u_link_to_knowledge/>
+        <u_owner/>
+        <u_primary_owning_group/>
+        <u_special_instructions/>
+        <u_subcategory/>
+        <u_use_default_process_flow_formatter>false</u_use_default_process_flow_formatter>
+        <u_work_notes/>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
         <view/>

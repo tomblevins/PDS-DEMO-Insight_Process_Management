@@ -32,7 +32,7 @@
         <column/>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
+        <created_by_user display_value="">6816f79cc0a8016401c5a33be04be441</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
@@ -106,11 +106,13 @@
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-28 09:44:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>ecf6249087de9110cf644266cebb35d1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Incident ITSC Opened</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sys_report_ecf6249087de9110cf644266cebb35d1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
@@ -124,6 +126,7 @@
         <type>bar</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
+        <use_color_palette>false</use_color_palette>
         <use_null_in_trend>false</use_null_in_trend>
         <user>6816f79cc0a8016401c5a33be04be441</user>
         <x_axis_allow_decimals>true</x_axis_allow_decimals>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="DELETE">
+        <decision_input display_value="Output1">464f64cc874dd5108b817b9acebb356a</decision_input>
+        <decision_table display_value="IPE - Demand or Case Policy">8f7ee000878dd5108b817b9acebb3555</decision_table>
+        <default_operator>STARTSWITH</default_operator>
+        <description>Events for Material can be processed via Task Management</description>
+        <field/>
+        <field_label/>
+        <field_parent_table/>
+        <label>Is Material</label>
+        <order>100</order>
+        <reference/>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 12:23:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>524f6400878dd5108b817b9acebb3516</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_524f6400878dd5108b817b9acebb3516</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 12:23:36</sys_updated_on>
+        <type display_value="String">747127c1bf3320001875647fcf0739e0</type>
+    </sn_decision_table_decision_condition>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>532947b4ffaeac889376762fa87efe09</instance_id>
+        <instance_name>niketest</instance_name>
+        <name>sn_decision_table_decision_condition_524f6400878dd5108b817b9acebb3516</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="INSERT_OR_UPDATE">
+        <decision_input display_value="Output1">464f64cc874dd5108b817b9acebb356a</decision_input>
+        <decision_table display_value="IPE - Demand or Case Policy">8f7ee000878dd5108b817b9acebb3555</decision_table>
+        <default_operator>STARTSWITH</default_operator>
+        <description>Events for Material can be processed via Task Management</description>
+        <field/>
+        <field_label/>
+        <field_parent_table/>
+        <label>Is Material</label>
+        <order>100</order>
+        <reference/>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 12:23:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>524f6400878dd5108b817b9acebb3516</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_524f6400878dd5108b817b9acebb3516</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 12:23:36</sys_updated_on>
+        <type display_value="String">747127c1bf3320001875647fcf0739e0</type>
+    </sn_decision_table_decision_condition>
+</record_update>]]></payload>
+        <payload_hash>-244756110</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>653dd85297efe1d0387553800153afac</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-06-22 13:40:51</sys_created_on>
+        <sys_id>5b9d981697efe1d0387553800153af08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188e3561b280000001</sys_recorded_at>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-06-22 13:40:51</sys_updated_on>
+        <type>Decision Condition</type>
+        <update_guid>1b9d981696efe1d0926fd64726ebe708</update_guid>
+        <update_guid_history>1b9d981696efe1d0926fd64726ebe708:-244756110</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record Deleted 2023-06-29 05:31:54">29f09ca81bbb6d54f930da43cc4bcb0f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-06-29 12:31:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sn_decision_table_decision_condition">sn_decision_table_decision_condition</sys_db_object>
+        <sys_id>05b6cd3862f84b60b61541ab2fb0ac40</sys_id>
+        <sys_metadata>524f6400878dd5108b817b9acebb3516</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>sn_decision_table_decision_condition_524f6400878dd5108b817b9acebb3516</sys_update_name>
+        <sys_update_version display_value="sn_decision_table_decision_condition_524f6400878dd5108b817b9acebb3516">5b9d981697efe1d0387553800153af08</sys_update_version>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-06-29 12:31:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Record producer for: SLM - Loader/Unloader">2b36d52a87c5dd1041d50fa90cbb3568</cat_item>
+        <cat_item display_value="">2b36d52a87c5dd1041d50fa90cbb3568</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -17,6 +17,8 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
         <field/>
@@ -74,11 +76,13 @@
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-19 14:47:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>8a1787a5c39e69d0ef56dff4e401314f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Unload SLM Case</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>item_option_new_8a1787a5c39e69d0ef56dff4e401314f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
@@ -86,6 +90,11 @@
         <table/>
         <tooltip/>
         <type>7</type>
+        <u_hide_if_false>false</u_hide_if_false>
+        <u_ignore_global_scripts>false</u_ignore_global_scripts>
+        <u_keep_writable>false</u_keep_writable>
+        <u_keep_writable_until_approved>false</u_keep_writable_until_approved>
+        <u_show_when_empty>false</u_show_when_empty>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>

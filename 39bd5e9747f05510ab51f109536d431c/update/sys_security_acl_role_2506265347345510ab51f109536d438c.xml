@@ -3,11 +3,13 @@
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-25 13:06:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>2506265347345510ab51f109536d438c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_insight_pr_0_ledger_task.x_snc_insight_pr_0.user</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_security_acl display_value="x_snc_insight_pr_0_ledger_task">a906265347345510ab51f109536d4388</sys_security_acl>
         <sys_update_name>sys_security_acl_role_2506265347345510ab51f109536d438c</sys_update_name>
