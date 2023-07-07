@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="INSERT_OR_UPDATE">
+        <decision_table display_value="IPE - Celonis - Source Instance Policy">dbf0dfd21b3b2d940f0eda43cc4bcbca</decision_table>
+        <label>Source Instance: Local Demo</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-05 13:04:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>4ed157961b3b2d940f0eda43cc4bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Source Instance: Local Demo</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_decision_multi_result_4ed157961b3b2d940f0eda43cc4bcb1b</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:04:00</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="delete_multiple" query="document_key=4ed157961b3b2d940f0eda43cc4bcb1b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>4ed157961b3b2d940f0eda43cc4bcb1b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-05 13:04:00</sys_created_on>
+        <sys_id>42d157961b3b2d940f0eda43cc4bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:04:00</sys_updated_on>
+        <value>Local Demo</value>
+        <variable display_value="Source Instance">06d117961b3b2d940f0eda43cc4bcbd8</variable>
+    </sys_variable_value>
+</record_update>
