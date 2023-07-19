@@ -1,0 +1,2762 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Insight Processing Engine">9fc9971b47f45510ab51f109536d4370</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>ipe__preproc__portfolio_and_program</internal_name>
+        <label_cache>[{"name":"subflow.portfolio","label":"Input➛Portfolio","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"2c4b8ba5-d659-42f0-b51f-b58e3c43434b"}},{"name":"flow_variable.portfolio_record","label":"Flow Variables➛Portfolio Record","reference":"pm_portfolio","reference_display":"Portfolio","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"08f3846f-4855-4017-b21e-c484ea5d460b"}},{"name":"dbcbbfd8-0500-4a16-a47e-d19b9cb02b59.Record","label":"9 - Look Up Record➛Program Record","reference":"pm_program","reference_display":"Program","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e19548a3-b80e-457a-8658-1566576b627d.Record.default_value","label":"8 - Look Up Record➛IPE Definitions Record➛Default Value","reference":"","reference_display":"Default Value","type":"string","base_type":"string","parent_table_name":"x_snc_insight_pr_0_ipe_definitions","column_name":"default_value"},{"name":"flow_variable.program_record","label":"Flow Variables➛Program Record","reference":"pm_program","reference_display":"Program","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"249f1c2d-8a4c-40d7-9eb3-f941901e5b06"}},{"name":"2547afa4-83c8-49ac-b55c-2425fd430359.Record.sys_id","label":"3➛IPE Definitions Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_snc_insight_pr_0_ipe_definitions","column_name":"sys_id"},{"name":"d7c750e1-942e-4171-8ec4-c0b9722b80b2.Record","label":"4 - Look Up Record➛Portfolio Record","reference":"pm_portfolio","reference_display":"Portfolio","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2547afa4-83c8-49ac-b55c-2425fd430359.Record.default_value","label":"3 - Look Up Record➛IPE Definitions Record➛Default Value","reference":"","reference_display":"Default Value","type":"string","base_type":"string","parent_table_name":"x_snc_insight_pr_0_ipe_definitions","column_name":"default_value"}]</label_cache>
+        <master_snapshot>22e707281b803d100f0eda43cc4bcbcb</master_snapshot>
+        <name>IPE - Preproc - Portfolio and Program</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 11:48:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>a59347601b803d100f0eda43cc4bcb36</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>IPE - Preproc - Portfolio and Program</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_hub_flow_a59347601b803d100f0eda43cc4bcb36</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:25</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=a59347601b803d100f0eda43cc4bcb36"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_a59347601b803d100f0eda43cc4bcb36^id=a59347601b803d100f0eda43cc4bcb36"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=a59347601b803d100f0eda43cc4bcb36"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=a59347601b803d100f0eda43cc4bcb36"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a59347601b803d100f0eda43cc4bcb36^sys_idNOT IN659347601b803d100f0eda43cc4bcb37"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>a59347601b803d100f0eda43cc4bcb36</id>
+        <name>IPE - Preproc - Portfolio and Program</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 11:48:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>659347601b803d100f0eda43cc4bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 11:48:01</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=659347601b803d100f0eda43cc4bcb37"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=a59347601b803d100f0eda43cc4bcb36^sys_idNOT IN18e783281b803d100f0eda43cc4bcb31,965447a01b803d100f0eda43cc4bcb0a"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=493f71b7-a2df-47fc-803d-0927a966b048</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>program</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Program</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="IPE - Preproc - Portfolio and Program">a59347601b803d100f0eda43cc4bcb36</model>
+        <model_id>a59347601b803d100f0eda43cc4bcb36</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a59347601b803d100f0eda43cc4bcb36</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>18e783281b803d100f0eda43cc4bcb31</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=2c4b8ba5-d659-42f0-b51f-b58e3c43434b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>portfolio</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Portfolio</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="IPE - Preproc - Portfolio and Program">a59347601b803d100f0eda43cc4bcb36</model>
+        <model_id>a59347601b803d100f0eda43cc4bcb36</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a59347601b803d100f0eda43cc4bcb36</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 11:51:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>965447a01b803d100f0eda43cc4bcb0a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:17:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=a59347601b803d100f0eda43cc4bcb36^sys_idNOT INa8e783281b803d100f0eda43cc4bcb55,e8e783281b803d100f0eda43cc4bcb4b"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=f3aec55a-ffb1-47d7-ae39-a47fdc25e9cd</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>pm_program</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>program_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Program Record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="IPE - Preproc - Portfolio and Program">a59347601b803d100f0eda43cc4bcb36</model>
+        <model_id>a59347601b803d100f0eda43cc4bcb36</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_a59347601b803d100f0eda43cc4bcb36</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="pm_program">pm_program</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a8e783281b803d100f0eda43cc4bcb55</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=8cdfd16d-7ab4-4946-a9ec-ffa4d4d2c0c7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>pm_portfolio</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>portfolio_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Portfolio Record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="IPE - Preproc - Portfolio and Program">a59347601b803d100f0eda43cc4bcb36</model>
+        <model_id>a59347601b803d100f0eda43cc4bcb36</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_a59347601b803d100f0eda43cc4bcb36</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="pm_portfolio">pm_portfolio</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e8e783281b803d100f0eda43cc4bcb4b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a59347601b803d100f0eda43cc4bcb36"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=a59347601b803d100f0eda43cc4bcb36^sys_idNOT IN34e783281b803d100f0eda43cc4bcba2,74e783281b803d100f0eda43cc4bcbc1,78e783281b803d100f0eda43cc4bcbad,fce783281b803d100f0eda43cc4bcbca"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment>Find Default Portfolio</comment>
+        <display_text/>
+        <flow display_value="IPE - Preproc - Portfolio and Program">a59347601b803d100f0eda43cc4bcb36</flow>
+        <order>3</order>
+        <parent_ui_id>5406c6d3-0d92-4682-a85e-5a5c81ab3c33</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>34e783281b803d100f0eda43cc4bcba2</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:45</sys_updated_on>
+        <ui_id>2547afa4-83c8-49ac-b55c-2425fd430359</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=34e783281b803d100f0eda43cc4bcba2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>34e783281b803d100f0eda43cc4bcba2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:48</sys_created_on>
+        <sys_id>34e783281b803d100f0eda43cc4bcba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:48</sys_updated_on>
+        <value>default_property=ipe_portfolio</value>
+        <variable display_value="Conditions">d509f99587003300663ca1bb36cb0ba9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>34e783281b803d100f0eda43cc4bcba2</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:48</sys_created_on>
+        <sys_id>3ce783281b803d100f0eda43cc4bcba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:48</sys_updated_on>
+        <value>x_snc_insight_pr_0_ipe_definitions</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3^id=34e783281b803d100f0eda43cc4bcba2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=34e783281b803d100f0eda43cc4bcba2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=34e783281b803d100f0eda43cc4bcba2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment>Find Default Program</comment>
+        <display_text/>
+        <flow display_value="IPE - Preproc - Portfolio and Program">a59347601b803d100f0eda43cc4bcb36</flow>
+        <order>8</order>
+        <parent_ui_id>f4d57c72-bd28-43b5-9255-f5de9bf3ec72</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>74e783281b803d100f0eda43cc4bcbc1</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:45</sys_updated_on>
+        <ui_id>e19548a3-b80e-457a-8658-1566576b627d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=74e783281b803d100f0eda43cc4bcbc1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>74e783281b803d100f0eda43cc4bcbc1</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:48</sys_created_on>
+        <sys_id>34e783281b803d100f0eda43cc4bcbc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:48</sys_updated_on>
+        <value>x_snc_insight_pr_0_ipe_definitions</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>74e783281b803d100f0eda43cc4bcbc1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:48</sys_created_on>
+        <sys_id>70e783281b803d100f0eda43cc4bcbc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:48</sys_updated_on>
+        <value>default_property=ipe_program</value>
+        <variable display_value="Conditions">d509f99587003300663ca1bb36cb0ba9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3^id=74e783281b803d100f0eda43cc4bcbc1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=74e783281b803d100f0eda43cc4bcbc1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=74e783281b803d100f0eda43cc4bcbc1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment>Look Up Portfolio</comment>
+        <display_text/>
+        <flow display_value="IPE - Preproc - Portfolio and Program">a59347601b803d100f0eda43cc4bcb36</flow>
+        <order>4</order>
+        <parent_ui_id>5406c6d3-0d92-4682-a85e-5a5c81ab3c33</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>78e783281b803d100f0eda43cc4bcbad</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:45</sys_updated_on>
+        <ui_id>d7c750e1-942e-4171-8ec4-c0b9722b80b2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=78e783281b803d100f0eda43cc4bcbad"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>78e783281b803d100f0eda43cc4bcbad</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:48</sys_created_on>
+        <sys_id>74e783281b803d100f0eda43cc4bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:48</sys_updated_on>
+        <value>pm_portfolio</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=78e783281b803d100f0eda43cc4bcbad"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>78e783281b803d100f0eda43cc4bcbad</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:48</sys_created_on>
+        <sys_id>30e783281b803d100f0eda43cc4bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{2547afa4-83c8-49ac-b55c-2425fd430359.Record.default_value}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>78e783281b803d100f0eda43cc4bcbad</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:48</sys_created_on>
+        <sys_id>f0e783281b803d100f0eda43cc4bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=78e783281b803d100f0eda43cc4bcbad"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=78e783281b803d100f0eda43cc4bcbad"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment>Look Up Program</comment>
+        <display_text/>
+        <flow display_value="IPE - Preproc - Portfolio and Program">a59347601b803d100f0eda43cc4bcb36</flow>
+        <order>9</order>
+        <parent_ui_id>f4d57c72-bd28-43b5-9255-f5de9bf3ec72</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fce783281b803d100f0eda43cc4bcbca</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:45</sys_updated_on>
+        <ui_id>dbcbbfd8-0500-4a16-a47e-d19b9cb02b59</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fce783281b803d100f0eda43cc4bcbca"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fce783281b803d100f0eda43cc4bcbca</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:49</sys_created_on>
+        <sys_id>30e783281b803d100f0eda43cc4bcbf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:49</sys_updated_on>
+        <value>pm_program</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fce783281b803d100f0eda43cc4bcbca"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>fce783281b803d100f0eda43cc4bcbca</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:49</sys_created_on>
+        <sys_id>f8e783281b803d100f0eda43cc4bcbf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{e19548a3-b80e-457a-8658-1566576b627d.Record.default_value}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>fce783281b803d100f0eda43cc4bcbca</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:49</sys_created_on>
+        <sys_id>bce783281b803d100f0eda43cc4bcbf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fce783281b803d100f0eda43cc4bcbca"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fce783281b803d100f0eda43cc4bcbca"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a59347601b803d100f0eda43cc4bcb36"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=a59347601b803d100f0eda43cc4bcb36^sys_idNOT IN165447a01b803d100f0eda43cc4bcb16,30e783281b803d100f0eda43cc4bcbb0,7ce783281b803d100f0eda43cc4bcbf5,b8e783281b803d100f0eda43cc4bcbb3,bce783281b803d100f0eda43cc4bcb8b,f4e783281b803d100f0eda43cc4bcbb7,f8e783281b803d100f0eda43cc4bcbf2"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">1a5447a01b803d100f0eda43cc4bcb15</block>
+        <comment>Portfolio is not NULL</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="IPE - Preproc - Portfolio and Program">a59347601b803d100f0eda43cc4bcb36</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 11:51:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>165447a01b803d100f0eda43cc4bcb16</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:25</sys_updated_on>
+        <ui_id>a3e3d7f6-9aab-4532-8972-277f678466c3</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=165447a01b803d100f0eda43cc4bcb16"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>165447a01b803d100f0eda43cc4bcb16</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 11:51:20</sys_created_on>
+        <sys_id>1a5447a01b803d100f0eda43cc4bcb1a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:20:52</sys_updated_on>
+        <value>Portfolio is not EMPTY</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_a59347601b803d100f0eda43cc4bcb36^id=165447a01b803d100f0eda43cc4bcb16"/>
+    <sys_element_mapping action="delete_multiple" query="id=165447a01b803d100f0eda43cc4bcb16"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>165447a01b803d100f0eda43cc4bcb16</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 11:51:20</sys_created_on>
+        <sys_id>965447a01b803d100f0eda43cc4bcb1a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:20:52</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{subflow.portfolio}}!=</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>165447a01b803d100f0eda43cc4bcb16</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 11:51:20</sys_created_on>
+        <sys_id>de5447a01b803d100f0eda43cc4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 11:51:20</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_a59347601b803d100f0eda43cc4bcb36^id=165447a01b803d100f0eda43cc4bcb16"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=165447a01b803d100f0eda43cc4bcb16"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=165447a01b803d100f0eda43cc4bcb16"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">78e783281b803d100f0eda43cc4bcbaf</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="IPE - Preproc - Portfolio and Program">a59347601b803d100f0eda43cc4bcb36</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>portfolio_record</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>5406c6d3-0d92-4682-a85e-5a5c81ab3c33</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>30e783281b803d100f0eda43cc4bcbb0</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:25</sys_updated_on>
+        <ui_id>85ab86f4-985e-4d08-8740-eb5f0d81eea3</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=30e783281b803d100f0eda43cc4bcbb0"/>
+    <sys_element_mapping action="delete_multiple" query="id=30e783281b803d100f0eda43cc4bcbb0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>portfolio_record</field>
+        <id>30e783281b803d100f0eda43cc4bcbb0</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:48</sys_created_on>
+        <sys_id>bce783281b803d100f0eda43cc4bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:48</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_a59347601b803d100f0eda43cc4bcb36</table>
+        <value>{{d7c750e1-942e-4171-8ec4-c0b9722b80b2.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_a59347601b803d100f0eda43cc4bcb36^id=30e783281b803d100f0eda43cc4bcbb0"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=30e783281b803d100f0eda43cc4bcbb0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=30e783281b803d100f0eda43cc4bcbb0"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b4e783281b803d100f0eda43cc4bcbf5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="IPE - Preproc - Portfolio and Program">a59347601b803d100f0eda43cc4bcb36</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>11</order>
+        <outputs_assigned>portfolio_record,program_record</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7ce783281b803d100f0eda43cc4bcbf5</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:25</sys_updated_on>
+        <ui_id>a97ac132-47c1-443d-aa10-ffab0b2c7bca</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7ce783281b803d100f0eda43cc4bcbf5"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_a59347601b803d100f0eda43cc4bcb36^id=7ce783281b803d100f0eda43cc4bcbf5"/>
+    <sys_element_mapping action="delete_multiple" query="id=7ce783281b803d100f0eda43cc4bcbf5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>portfolio_record</field>
+        <id>7ce783281b803d100f0eda43cc4bcbf5</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:49</sys_created_on>
+        <sys_id>70e783281b803d100f0eda43cc4bcbf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:49</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_a59347601b803d100f0eda43cc4bcb36</table>
+        <value>{{flow_variable.portfolio_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>program_record</field>
+        <id>7ce783281b803d100f0eda43cc4bcbf5</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:49</sys_created_on>
+        <sys_id>bce783281b803d100f0eda43cc4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:49</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_a59347601b803d100f0eda43cc4bcb36</table>
+        <value>{{flow_variable.program_record}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=7ce783281b803d100f0eda43cc4bcbf5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7ce783281b803d100f0eda43cc4bcbf5"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">f0e783281b803d100f0eda43cc4bcbb3</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="IPE - Preproc - Portfolio and Program">a59347601b803d100f0eda43cc4bcb36</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b8e783281b803d100f0eda43cc4bcbb3</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:25</sys_updated_on>
+        <ui_id>7ee4c79d-262c-455e-aba1-007e82321c0a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b8e783281b803d100f0eda43cc4bcbb3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b8e783281b803d100f0eda43cc4bcbb3</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:48</sys_created_on>
+        <sys_id>3ce783281b803d100f0eda43cc4bcbb6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:20:52</sys_updated_on>
+        <value>Program is not EMPTY</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_a59347601b803d100f0eda43cc4bcb36^id=b8e783281b803d100f0eda43cc4bcbb3"/>
+    <sys_element_mapping action="delete_multiple" query="id=b8e783281b803d100f0eda43cc4bcbb3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>b8e783281b803d100f0eda43cc4bcbb3</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:48</sys_created_on>
+        <sys_id>b8e783281b803d100f0eda43cc4bcbb6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:20:52</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{flow_variable.program_record}}!=</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>b8e783281b803d100f0eda43cc4bcbb3</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:48</sys_created_on>
+        <sys_id>f4e783281b803d100f0eda43cc4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:48</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_a59347601b803d100f0eda43cc4bcb36^id=b8e783281b803d100f0eda43cc4bcbb3"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b8e783281b803d100f0eda43cc4bcbb3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b8e783281b803d100f0eda43cc4bcbb3"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b0e783281b803d100f0eda43cc4bcb8b</block>
+        <comment/>
+        <connected_to>a3e3d7f6-9aab-4532-8972-277f678466c3</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="IPE - Preproc - Portfolio and Program">a59347601b803d100f0eda43cc4bcb36</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bce783281b803d100f0eda43cc4bcb8b</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:25</sys_updated_on>
+        <ui_id>5406c6d3-0d92-4682-a85e-5a5c81ab3c33</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=bce783281b803d100f0eda43cc4bcb8b"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_a59347601b803d100f0eda43cc4bcb36^id=bce783281b803d100f0eda43cc4bcb8b"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_a59347601b803d100f0eda43cc4bcb36^id=bce783281b803d100f0eda43cc4bcb8b"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=bce783281b803d100f0eda43cc4bcb8b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bce783281b803d100f0eda43cc4bcb8b"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">30e783281b803d100f0eda43cc4bcbb7</block>
+        <comment/>
+        <connected_to>7ee4c79d-262c-455e-aba1-007e82321c0a</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="IPE - Preproc - Portfolio and Program">a59347601b803d100f0eda43cc4bcb36</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f4e783281b803d100f0eda43cc4bcbb7</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:25</sys_updated_on>
+        <ui_id>f4d57c72-bd28-43b5-9255-f5de9bf3ec72</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f4e783281b803d100f0eda43cc4bcbb7"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_a59347601b803d100f0eda43cc4bcb36^id=f4e783281b803d100f0eda43cc4bcbb7"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_a59347601b803d100f0eda43cc4bcb36^id=f4e783281b803d100f0eda43cc4bcbb7"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f4e783281b803d100f0eda43cc4bcbb7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f4e783281b803d100f0eda43cc4bcbb7"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">34e783281b803d100f0eda43cc4bcbf2</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="IPE - Preproc - Portfolio and Program">a59347601b803d100f0eda43cc4bcb36</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>program_record</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>f4d57c72-bd28-43b5-9255-f5de9bf3ec72</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f8e783281b803d100f0eda43cc4bcbf2</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:25</sys_updated_on>
+        <ui_id>99706b1c-c5bc-4228-83ea-234966d39c11</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f8e783281b803d100f0eda43cc4bcbf2"/>
+    <sys_element_mapping action="delete_multiple" query="id=f8e783281b803d100f0eda43cc4bcbf2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>program_record</field>
+        <id>f8e783281b803d100f0eda43cc4bcbf2</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:49</sys_created_on>
+        <sys_id>f0e783281b803d100f0eda43cc4bcbf5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:49</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_a59347601b803d100f0eda43cc4bcb36</table>
+        <value>{{dbcbbfd8-0500-4a16-a47e-d19b9cb02b59.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_a59347601b803d100f0eda43cc4bcb36^id=f8e783281b803d100f0eda43cc4bcbf2"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f8e783281b803d100f0eda43cc4bcbf2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f8e783281b803d100f0eda43cc4bcbf2"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a59347601b803d100f0eda43cc4bcb36"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=a59347601b803d100f0eda43cc4bcb36^sys_idNOT IN24e783281b803d100f0eda43cc4bcb61,ace783281b803d100f0eda43cc4bcb6a"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=08f3846f-4855-4017-b21e-c484ea5d460b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>pm_portfolio</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>portfolio_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Portfolio Record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="IPE - Preproc - Portfolio and Program">a59347601b803d100f0eda43cc4bcb36</model>
+        <model_id>a59347601b803d100f0eda43cc4bcb36</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_a59347601b803d100f0eda43cc4bcb36</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="pm_portfolio">pm_portfolio</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>24e783281b803d100f0eda43cc4bcb61</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=249f1c2d-8a4c-40d7-9eb3-f941901e5b06</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>pm_program</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>program_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Program Record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="IPE - Preproc - Portfolio and Program">a59347601b803d100f0eda43cc4bcb36</model>
+        <model_id>a59347601b803d100f0eda43cc4bcb36</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_a59347601b803d100f0eda43cc4bcb36</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="pm_program">pm_program</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ace783281b803d100f0eda43cc4bcb6a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a59347601b803d100f0eda43cc4bcb36^sys_idNOT IN5e5447a01b803d100f0eda43cc4bcb10,68e783281b803d100f0eda43cc4bcb3e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>portfolio</element>
+        <help/>
+        <hint/>
+        <label>Portfolio</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a59347601b803d100f0eda43cc4bcb36</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 11:51:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5e5447a01b803d100f0eda43cc4bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 11:51:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>program</element>
+        <help/>
+        <hint/>
+        <label>Program</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a59347601b803d100f0eda43cc4bcb36</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>68e783281b803d100f0eda43cc4bcb3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a59347601b803d100f0eda43cc4bcb36"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_a59347601b803d100f0eda43cc4bcb36^sys_idNOT INa0e783281b803d100f0eda43cc4bcb5d,e8e783281b803d100f0eda43cc4bcb54"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>program_record</element>
+        <help/>
+        <hint/>
+        <label>Program Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_a59347601b803d100f0eda43cc4bcb36</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a0e783281b803d100f0eda43cc4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>portfolio_record</element>
+        <help/>
+        <hint/>
+        <label>Portfolio Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_a59347601b803d100f0eda43cc4bcb36</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e8e783281b803d100f0eda43cc4bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a59347601b803d100f0eda43cc4bcb36"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=a59347601b803d100f0eda43cc4bcb36"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=a59347601b803d100f0eda43cc4bcb36^sys_idNOT IN97e787281b803d100f0eda43cc4bcb57"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"97e787281b803d100f0eda43cc4bcb57","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="IPE - Preproc - Portfolio and Program">a59347601b803d100f0eda43cc4bcb36</plan_id>
+        <snapshot>2b4bcbe81bc4bd10f930da43cc4bcb1e</snapshot>
+        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>97e787281b803d100f0eda43cc4bcb57</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:25</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Insight Processing Engine">9fc9971b47f45510ab51f109536d4370</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>ipe__preproc__portfolio_and_program</internal_name>
+        <label_cache>[{"name":"subflow.portfolio","label":"Input➛Portfolio","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"2c4b8ba5-d659-42f0-b51f-b58e3c43434b"}},{"name":"flow_variable.portfolio_record","label":"Flow Variables➛Portfolio Record","reference":"pm_portfolio","reference_display":"Portfolio","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"08f3846f-4855-4017-b21e-c484ea5d460b"}},{"name":"dbcbbfd8-0500-4a16-a47e-d19b9cb02b59.Record","label":"9 - Look Up Record➛Program Record","reference":"pm_program","reference_display":"Program","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e19548a3-b80e-457a-8658-1566576b627d.Record.default_value","label":"8 - Look Up Record➛IPE Definitions Record➛Default Value","reference":"","reference_display":"Default Value","type":"string","base_type":"string","parent_table_name":"x_snc_insight_pr_0_ipe_definitions","column_name":"default_value"},{"name":"flow_variable.program_record","label":"Flow Variables➛Program Record","reference":"pm_program","reference_display":"Program","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"249f1c2d-8a4c-40d7-9eb3-f941901e5b06"}},{"name":"2547afa4-83c8-49ac-b55c-2425fd430359.Record.sys_id","label":"3➛IPE Definitions Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_snc_insight_pr_0_ipe_definitions","column_name":"sys_id"},{"name":"d7c750e1-942e-4171-8ec4-c0b9722b80b2.Record","label":"4 - Look Up Record➛Portfolio Record","reference":"pm_portfolio","reference_display":"Portfolio","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2547afa4-83c8-49ac-b55c-2425fd430359.Record.default_value","label":"3 - Look Up Record➛IPE Definitions Record➛Default Value","reference":"","reference_display":"Default Value","type":"string","base_type":"string","parent_table_name":"x_snc_insight_pr_0_ipe_definitions","column_name":"default_value"}]</label_cache>
+        <master>true</master>
+        <name>IPE - Preproc - Portfolio and Program</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="IPE - Preproc - Portfolio and Program">a59347601b803d100f0eda43cc4bcb36</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>22e707281b803d100f0eda43cc4bcbcb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:23</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=22e707281b803d100f0eda43cc4bcbcb"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_22e707281b803d100f0eda43cc4bcbcb^id=22e707281b803d100f0eda43cc4bcbcb"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=22e707281b803d100f0eda43cc4bcbcb"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=22e707281b803d100f0eda43cc4bcbcb"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=22e707281b803d100f0eda43cc4bcbcb^sys_idNOT IN22e707281b803d100f0eda43cc4bcbcc"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>22e707281b803d100f0eda43cc4bcbcb</id>
+        <name>IPE - Preproc - Portfolio and Program</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>22e707281b803d100f0eda43cc4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:55</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=22e707281b803d100f0eda43cc4bcbcc"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=22e707281b803d100f0eda43cc4bcbcb^sys_idNOT IN2ae707281b803d100f0eda43cc4bcbcd,62e747281b803d100f0eda43cc4bcb18"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=2c4b8ba5-d659-42f0-b51f-b58e3c43434b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>portfolio</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Portfolio</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="IPE - Preproc - Portfolio and Program">22e707281b803d100f0eda43cc4bcbcb</model>
+        <model_id>22e707281b803d100f0eda43cc4bcbcb</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_22e707281b803d100f0eda43cc4bcbcb</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2ae707281b803d100f0eda43cc4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=493f71b7-a2df-47fc-803d-0927a966b048</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>program</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Program</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="IPE - Preproc - Portfolio and Program">22e707281b803d100f0eda43cc4bcbcb</model>
+        <model_id>22e707281b803d100f0eda43cc4bcbcb</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_22e707281b803d100f0eda43cc4bcbcb</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>62e747281b803d100f0eda43cc4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=22e707281b803d100f0eda43cc4bcbcb^sys_idNOT INb2e747281b803d100f0eda43cc4bcb35,eae747281b803d100f0eda43cc4bcb25"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=f3aec55a-ffb1-47d7-ae39-a47fdc25e9cd</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>pm_program</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>program_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Program Record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="IPE - Preproc - Portfolio and Program">22e707281b803d100f0eda43cc4bcbcb</model>
+        <model_id>22e707281b803d100f0eda43cc4bcbcb</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_22e707281b803d100f0eda43cc4bcbcb</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="pm_program">pm_program</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b2e747281b803d100f0eda43cc4bcb35</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=8cdfd16d-7ab4-4946-a9ec-ffa4d4d2c0c7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>pm_portfolio</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>portfolio_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Portfolio Record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="IPE - Preproc - Portfolio and Program">22e707281b803d100f0eda43cc4bcbcb</model>
+        <model_id>22e707281b803d100f0eda43cc4bcbcb</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_22e707281b803d100f0eda43cc4bcbcb</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="pm_portfolio">pm_portfolio</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>eae747281b803d100f0eda43cc4bcb25</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=22e707281b803d100f0eda43cc4bcbcb"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=22e707281b803d100f0eda43cc4bcbcb^sys_idNOT IN0fe747281b803d100f0eda43cc4bcbbd,43e747281b803d100f0eda43cc4bcbd1,47e747281b803d100f0eda43cc4bcbc7,4be747281b803d100f0eda43cc4bcba7"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment>Look Up Portfolio</comment>
+        <display_text/>
+        <flow display_value="IPE - Preproc - Portfolio and Program">22e707281b803d100f0eda43cc4bcbcb</flow>
+        <order>4</order>
+        <parent_ui_id>5406c6d3-0d92-4682-a85e-5a5c81ab3c33</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0fe747281b803d100f0eda43cc4bcbbd</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:23</sys_updated_on>
+        <ui_id>d7c750e1-942e-4171-8ec4-c0b9722b80b2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0fe747281b803d100f0eda43cc4bcbbd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0fe747281b803d100f0eda43cc4bcbbd</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_id>0be747281b803d100f0eda43cc4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:57</sys_updated_on>
+        <value>pm_portfolio</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0fe747281b803d100f0eda43cc4bcbbd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>0fe747281b803d100f0eda43cc4bcbbd</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_id>c3e747281b803d100f0eda43cc4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{2547afa4-83c8-49ac-b55c-2425fd430359.Record.default_value}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>0fe747281b803d100f0eda43cc4bcbbd</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_id>87e747281b803d100f0eda43cc4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0fe747281b803d100f0eda43cc4bcbbd"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0fe747281b803d100f0eda43cc4bcbbd"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment>Look Up Program</comment>
+        <display_text/>
+        <flow display_value="IPE - Preproc - Portfolio and Program">22e707281b803d100f0eda43cc4bcbcb</flow>
+        <order>9</order>
+        <parent_ui_id>f4d57c72-bd28-43b5-9255-f5de9bf3ec72</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>43e747281b803d100f0eda43cc4bcbd1</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:23</sys_updated_on>
+        <ui_id>dbcbbfd8-0500-4a16-a47e-d19b9cb02b59</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=43e747281b803d100f0eda43cc4bcbd1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>43e747281b803d100f0eda43cc4bcbd1</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:58</sys_created_on>
+        <sys_id>4fe747281b803d100f0eda43cc4bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:58</sys_updated_on>
+        <value>pm_program</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=43e747281b803d100f0eda43cc4bcbd1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>43e747281b803d100f0eda43cc4bcbd1</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:58</sys_created_on>
+        <sys_id>0be747281b803d100f0eda43cc4bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{e19548a3-b80e-457a-8658-1566576b627d.Record.default_value}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>43e747281b803d100f0eda43cc4bcbd1</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:58</sys_created_on>
+        <sys_id>cbe747281b803d100f0eda43cc4bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=43e747281b803d100f0eda43cc4bcbd1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=43e747281b803d100f0eda43cc4bcbd1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment>Find Default Program</comment>
+        <display_text/>
+        <flow display_value="IPE - Preproc - Portfolio and Program">22e707281b803d100f0eda43cc4bcbcb</flow>
+        <order>8</order>
+        <parent_ui_id>f4d57c72-bd28-43b5-9255-f5de9bf3ec72</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>47e747281b803d100f0eda43cc4bcbc7</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:23</sys_updated_on>
+        <ui_id>e19548a3-b80e-457a-8658-1566576b627d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=47e747281b803d100f0eda43cc4bcbc7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>47e747281b803d100f0eda43cc4bcbc7</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_id>07e747281b803d100f0eda43cc4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:57</sys_updated_on>
+        <value>x_snc_insight_pr_0_ipe_definitions</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>47e747281b803d100f0eda43cc4bcbc7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_id>43e747281b803d100f0eda43cc4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:57</sys_updated_on>
+        <value>default_property=ipe_program</value>
+        <variable display_value="Conditions">d509f99587003300663ca1bb36cb0ba9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3^id=47e747281b803d100f0eda43cc4bcbc7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=47e747281b803d100f0eda43cc4bcbc7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=47e747281b803d100f0eda43cc4bcbc7"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment>Find Default Portfolio</comment>
+        <display_text/>
+        <flow display_value="IPE - Preproc - Portfolio and Program">22e707281b803d100f0eda43cc4bcbcb</flow>
+        <order>3</order>
+        <parent_ui_id>5406c6d3-0d92-4682-a85e-5a5c81ab3c33</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4be747281b803d100f0eda43cc4bcba7</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:23</sys_updated_on>
+        <ui_id>2547afa4-83c8-49ac-b55c-2425fd430359</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4be747281b803d100f0eda43cc4bcba7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4be747281b803d100f0eda43cc4bcba7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_id>0fe747281b803d100f0eda43cc4bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:57</sys_updated_on>
+        <value>default_property=ipe_portfolio</value>
+        <variable display_value="Conditions">d509f99587003300663ca1bb36cb0ba9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4be747281b803d100f0eda43cc4bcba7</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_id>cfe747281b803d100f0eda43cc4bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:57</sys_updated_on>
+        <value>x_snc_insight_pr_0_ipe_definitions</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3^id=4be747281b803d100f0eda43cc4bcba7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4be747281b803d100f0eda43cc4bcba7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4be747281b803d100f0eda43cc4bcba7"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=22e707281b803d100f0eda43cc4bcbcb"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=22e707281b803d100f0eda43cc4bcbcb^sys_idNOT IN32e747281b803d100f0eda43cc4bcb77,76e747281b803d100f0eda43cc4bcb8b,b2e747281b803d100f0eda43cc4bcb88,b2e747281b803d100f0eda43cc4bcb93,b2e747281b803d100f0eda43cc4bcb96,b6e747281b803d100f0eda43cc4bcb99,f2e747281b803d100f0eda43cc4bcb8f"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">1a5447a01b803d100f0eda43cc4bcb15</block>
+        <comment>Portfolio is not NULL</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="IPE - Preproc - Portfolio and Program">22e707281b803d100f0eda43cc4bcbcb</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>32e747281b803d100f0eda43cc4bcb77</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:23</sys_updated_on>
+        <ui_id>a3e3d7f6-9aab-4532-8972-277f678466c3</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=32e747281b803d100f0eda43cc4bcb77"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>32e747281b803d100f0eda43cc4bcb77</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_id>76e747281b803d100f0eda43cc4bcb87</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:22</sys_updated_on>
+        <value>Portfolio is not EMPTY</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_22e707281b803d100f0eda43cc4bcbcb^id=32e747281b803d100f0eda43cc4bcb77"/>
+    <sys_element_mapping action="delete_multiple" query="id=32e747281b803d100f0eda43cc4bcb77"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>32e747281b803d100f0eda43cc4bcb77</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_id>f2e747281b803d100f0eda43cc4bcb87</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:22</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{subflow.portfolio}}!=</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>32e747281b803d100f0eda43cc4bcb77</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_id>32e747281b803d100f0eda43cc4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:57</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_22e707281b803d100f0eda43cc4bcbcb^id=32e747281b803d100f0eda43cc4bcb77"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=32e747281b803d100f0eda43cc4bcb77"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=32e747281b803d100f0eda43cc4bcb77"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">78e783281b803d100f0eda43cc4bcbaf</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="IPE - Preproc - Portfolio and Program">22e707281b803d100f0eda43cc4bcbcb</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>portfolio_record</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>5406c6d3-0d92-4682-a85e-5a5c81ab3c33</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>76e747281b803d100f0eda43cc4bcb8b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:23</sys_updated_on>
+        <ui_id>85ab86f4-985e-4d08-8740-eb5f0d81eea3</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=76e747281b803d100f0eda43cc4bcb8b"/>
+    <sys_element_mapping action="delete_multiple" query="id=76e747281b803d100f0eda43cc4bcb8b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>portfolio_record</field>
+        <id>76e747281b803d100f0eda43cc4bcb8b</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_id>76e747281b803d100f0eda43cc4bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:57</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_22e707281b803d100f0eda43cc4bcbcb</table>
+        <value>{{d7c750e1-942e-4171-8ec4-c0b9722b80b2.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_22e707281b803d100f0eda43cc4bcbcb^id=76e747281b803d100f0eda43cc4bcb8b"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=76e747281b803d100f0eda43cc4bcb8b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=76e747281b803d100f0eda43cc4bcb8b"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b0e783281b803d100f0eda43cc4bcb8b</block>
+        <comment/>
+        <connected_to>a3e3d7f6-9aab-4532-8972-277f678466c3</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="IPE - Preproc - Portfolio and Program">22e707281b803d100f0eda43cc4bcbcb</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b2e747281b803d100f0eda43cc4bcb88</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:23</sys_updated_on>
+        <ui_id>5406c6d3-0d92-4682-a85e-5a5c81ab3c33</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b2e747281b803d100f0eda43cc4bcb88"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_22e707281b803d100f0eda43cc4bcbcb^id=b2e747281b803d100f0eda43cc4bcb88"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_22e707281b803d100f0eda43cc4bcbcb^id=b2e747281b803d100f0eda43cc4bcb88"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b2e747281b803d100f0eda43cc4bcb88"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b2e747281b803d100f0eda43cc4bcb88"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">30e783281b803d100f0eda43cc4bcbb7</block>
+        <comment/>
+        <connected_to>7ee4c79d-262c-455e-aba1-007e82321c0a</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="IPE - Preproc - Portfolio and Program">22e707281b803d100f0eda43cc4bcbcb</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b2e747281b803d100f0eda43cc4bcb93</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:23</sys_updated_on>
+        <ui_id>f4d57c72-bd28-43b5-9255-f5de9bf3ec72</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b2e747281b803d100f0eda43cc4bcb93"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_22e707281b803d100f0eda43cc4bcbcb^id=b2e747281b803d100f0eda43cc4bcb93"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_22e707281b803d100f0eda43cc4bcbcb^id=b2e747281b803d100f0eda43cc4bcb93"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b2e747281b803d100f0eda43cc4bcb93"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b2e747281b803d100f0eda43cc4bcb93"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">34e783281b803d100f0eda43cc4bcbf2</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="IPE - Preproc - Portfolio and Program">22e707281b803d100f0eda43cc4bcbcb</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>program_record</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>f4d57c72-bd28-43b5-9255-f5de9bf3ec72</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b2e747281b803d100f0eda43cc4bcb96</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:23</sys_updated_on>
+        <ui_id>99706b1c-c5bc-4228-83ea-234966d39c11</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b2e747281b803d100f0eda43cc4bcb96"/>
+    <sys_element_mapping action="delete_multiple" query="id=b2e747281b803d100f0eda43cc4bcb96"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>program_record</field>
+        <id>b2e747281b803d100f0eda43cc4bcb96</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_id>bae747281b803d100f0eda43cc4bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:57</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_22e707281b803d100f0eda43cc4bcbcb</table>
+        <value>{{dbcbbfd8-0500-4a16-a47e-d19b9cb02b59.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_22e707281b803d100f0eda43cc4bcbcb^id=b2e747281b803d100f0eda43cc4bcb96"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b2e747281b803d100f0eda43cc4bcb96"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b2e747281b803d100f0eda43cc4bcb96"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b4e783281b803d100f0eda43cc4bcbf5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="IPE - Preproc - Portfolio and Program">22e707281b803d100f0eda43cc4bcbcb</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>11</order>
+        <outputs_assigned>portfolio_record,program_record</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b6e747281b803d100f0eda43cc4bcb99</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:23</sys_updated_on>
+        <ui_id>a97ac132-47c1-443d-aa10-ffab0b2c7bca</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b6e747281b803d100f0eda43cc4bcb99"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_22e707281b803d100f0eda43cc4bcbcb^id=b6e747281b803d100f0eda43cc4bcb99"/>
+    <sys_element_mapping action="delete_multiple" query="id=b6e747281b803d100f0eda43cc4bcb99"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>portfolio_record</field>
+        <id>b6e747281b803d100f0eda43cc4bcb99</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_id>3ee747281b803d100f0eda43cc4bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:57</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_22e707281b803d100f0eda43cc4bcbcb</table>
+        <value>{{flow_variable.portfolio_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>program_record</field>
+        <id>b6e747281b803d100f0eda43cc4bcb99</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_id>7ae747281b803d100f0eda43cc4bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:57</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_22e707281b803d100f0eda43cc4bcbcb</table>
+        <value>{{flow_variable.program_record}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b6e747281b803d100f0eda43cc4bcb99"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b6e747281b803d100f0eda43cc4bcb99"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">f0e783281b803d100f0eda43cc4bcbb3</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="IPE - Preproc - Portfolio and Program">22e707281b803d100f0eda43cc4bcbcb</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f2e747281b803d100f0eda43cc4bcb8f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:23</sys_updated_on>
+        <ui_id>7ee4c79d-262c-455e-aba1-007e82321c0a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f2e747281b803d100f0eda43cc4bcb8f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>f2e747281b803d100f0eda43cc4bcb8f</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_id>76e747281b803d100f0eda43cc4bcb92</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:22</sys_updated_on>
+        <value>Program is not EMPTY</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_22e707281b803d100f0eda43cc4bcbcb^id=f2e747281b803d100f0eda43cc4bcb8f"/>
+    <sys_element_mapping action="delete_multiple" query="id=f2e747281b803d100f0eda43cc4bcb8f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>f2e747281b803d100f0eda43cc4bcb8f</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_id>f2e747281b803d100f0eda43cc4bcb92</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:21:22</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{flow_variable.program_record}}!=</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>f2e747281b803d100f0eda43cc4bcb8f</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:57</sys_created_on>
+        <sys_id>32e747281b803d100f0eda43cc4bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:57</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_22e707281b803d100f0eda43cc4bcbcb^id=f2e747281b803d100f0eda43cc4bcb8f"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f2e747281b803d100f0eda43cc4bcb8f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f2e747281b803d100f0eda43cc4bcb8f"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=22e707281b803d100f0eda43cc4bcbcb"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=22e707281b803d100f0eda43cc4bcbcb^sys_idNOT IN7ae747281b803d100f0eda43cc4bcb6c,f2e747281b803d100f0eda43cc4bcb57"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=249f1c2d-8a4c-40d7-9eb3-f941901e5b06</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>pm_program</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>program_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Program Record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="IPE - Preproc - Portfolio and Program">22e707281b803d100f0eda43cc4bcbcb</model>
+        <model_id>22e707281b803d100f0eda43cc4bcbcb</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_22e707281b803d100f0eda43cc4bcbcb</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="pm_program">pm_program</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7ae747281b803d100f0eda43cc4bcb6c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=08f3846f-4855-4017-b21e-c484ea5d460b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>pm_portfolio</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>portfolio_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Portfolio Record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="IPE - Preproc - Portfolio and Program">22e707281b803d100f0eda43cc4bcbcb</model>
+        <model_id>22e707281b803d100f0eda43cc4bcbcb</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_22e707281b803d100f0eda43cc4bcbcb</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="pm_portfolio">pm_portfolio</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f2e747281b803d100f0eda43cc4bcb57</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_22e707281b803d100f0eda43cc4bcbcb^sys_idNOT IN2ae747281b803d100f0eda43cc4bcb14,2ae747281b803d100f0eda43cc4bcb20"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>portfolio</element>
+        <help/>
+        <hint/>
+        <label>Portfolio</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_22e707281b803d100f0eda43cc4bcbcb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2ae747281b803d100f0eda43cc4bcb14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>program</element>
+        <help/>
+        <hint/>
+        <label>Program</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_22e707281b803d100f0eda43cc4bcbcb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2ae747281b803d100f0eda43cc4bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_22e707281b803d100f0eda43cc4bcbcb"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_22e707281b803d100f0eda43cc4bcbcb^sys_idNOT IN72e747281b803d100f0eda43cc4bcb4d,7ae747281b803d100f0eda43cc4bcb31"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>program_record</element>
+        <help/>
+        <hint/>
+        <label>Program Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_22e707281b803d100f0eda43cc4bcbcb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>72e747281b803d100f0eda43cc4bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>portfolio_record</element>
+        <help/>
+        <hint/>
+        <label>Portfolio Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_22e707281b803d100f0eda43cc4bcbcb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 12:06:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7ae747281b803d100f0eda43cc4bcb31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 12:06:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_22e707281b803d100f0eda43cc4bcbcb"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>a59347601b803d100f0eda43cc4bcb36</sys_id>
+        <latest_snapshot>22e707281b803d100f0eda43cc4bcbcb</latest_snapshot>
+        <compiler_build>glide-utah-12-21-2022__patch4-hotfix2-06-23-2023_06-23-2023_2224.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>

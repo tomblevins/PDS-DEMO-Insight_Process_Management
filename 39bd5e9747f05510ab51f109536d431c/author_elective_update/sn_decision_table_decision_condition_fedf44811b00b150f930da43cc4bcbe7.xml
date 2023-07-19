@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="DELETE">
+        <decision_input display_value="Insight1">0adf40c11b00b150f930da43cc4bcbd0</decision_input>
+        <decision_table display_value="IPE - DEMAND - Deduplication Policy">fadd80411b00b150f930da43cc4bcb11</decision_table>
+        <default_operator>=</default_operator>
+        <description/>
+        <field/>
+        <field_label/>
+        <field_parent_table/>
+        <label>Insight</label>
+        <order>100</order>
+        <reference/>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-13 11:59:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>fedf44811b00b150f930da43cc4bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_fedf44811b00b150f930da43cc4bcbe7</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-13 11:59:43</sys_updated_on>
+        <type display_value="String">747127c1bf3320001875647fcf0739e0</type>
+    </sn_decision_table_decision_condition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>532947b4ffaeac889376762fa87efe09</instance_id>
+        <instance_name>niketest</instance_name>
+        <name>sn_decision_table_decision_condition_fedf44811b00b150f930da43cc4bcbe7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition"><sn_decision_table_decision_condition action="INSERT_OR_UPDATE"><decision_input display_value="Insight1">0adf40c11b00b150f930da43cc4bcbd0</decision_input><decision_table display_value="IPE - DEMAND - Deduplication Policy">fadd80411b00b150f930da43cc4bcb11</decision_table><default_operator>=</default_operator><description/><field/><field_label/><field_parent_table/><label>Insight</label><order>100</order><reference/><sys_class_name>sn_decision_table_decision_condition</sys_class_name><sys_created_by>TBlev1</sys_created_by><sys_created_on>2023-07-13 11:59:43</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>fedf44811b00b150f930da43cc4bcbe7</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope><sys_update_name>sn_decision_table_decision_condition_fedf44811b00b150f930da43cc4bcbe7</sys_update_name><sys_updated_by>TBlev1</sys_updated_by><sys_updated_on>2023-07-13 11:59:43</sys_updated_on><type display_value="String">747127c1bf3320001875647fcf0739e0</type></sn_decision_table_decision_condition></record_update>]]></payload>
+        <payload_hash>313079254</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d05f909a97afe1d0387553800153afb6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-13 11:59:43</sys_created_on>
+        <sys_id>b2df44811b00b150f930da43cc4bcbeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1894f1f125c0000001</sys_recorded_at>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-13 11:59:43</sys_updated_on>
+        <type>Decision Condition</type>
+        <update_guid>b2df44812500b150c0e2e8ade5aceeea</update_guid>
+        <update_guid_history>b2df44812500b150c0e2e8ade5aceeea:313079254</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record Deleted 2023-07-13 05:09:09">7802d8491b00b150f930da43cc4bcb90</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-13 12:09:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sn_decision_table_decision_condition">sn_decision_table_decision_condition</sys_db_object>
+        <sys_id>93c78bacadcc4510b89b22e891175640</sys_id>
+        <sys_metadata>fedf44811b00b150f930da43cc4bcbe7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>sn_decision_table_decision_condition_fedf44811b00b150f930da43cc4bcbe7</sys_update_name>
+        <sys_update_version display_value="sn_decision_table_decision_condition_fedf44811b00b150f930da43cc4bcbe7">b2df44811b00b150f930da43cc4bcbeb</sys_update_version>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-13 12:09:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

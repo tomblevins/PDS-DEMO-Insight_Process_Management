@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision">
+    <sys_decision action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <answer_table>sys_decision_multi_result</answer_table>
+        <answer_type>reference</answer_type>
+        <description/>
+        <label/>
+        <name>IPE - DEMAND - Deduplication Policy</name>
+        <reference_qualifier/>
+        <sys_class_name>sys_decision</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-13 11:50:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>fadd80411b00b150f930da43cc4bcb11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IPE - DEMAND - Deduplication Policy</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_decision_fadd80411b00b150f930da43cc4bcb11</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-13 11:50:59</sys_updated_on>
+    </sys_decision>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>532947b4ffaeac889376762fa87efe09</instance_id>
+        <instance_name>niketest</instance_name>
+        <name>sys_decision_fadd80411b00b150f930da43cc4bcb11</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision"><sys_decision action="INSERT_OR_UPDATE"><access>public</access><active>true</active><answer_table>sys_decision_multi_result</answer_table><answer_type>reference</answer_type><description/><label/><name>IPE - DEMAND - Deduplication Policy</name><reference_qualifier/><sys_class_name>sys_decision</sys_class_name><sys_created_by>TBlev1</sys_created_by><sys_created_on>2023-07-13 11:50:59</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>fadd80411b00b150f930da43cc4bcb11</sys_id><sys_mod_count>0</sys_mod_count><sys_name>IPE - DEMAND - Deduplication Policy</sys_name><sys_overrides/><sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope><sys_update_name>sys_decision_fadd80411b00b150f930da43cc4bcb11</sys_update_name><sys_updated_by>TBlev1</sys_updated_by><sys_updated_on>2023-07-13 11:50:59</sys_updated_on></sys_decision></record_update>]]></payload>
+        <payload_hash>-317478127</payload_hash>
+        <record_name>IPE - DEMAND - Deduplication Policy</record_name>
+        <reverted_from/>
+        <source>d05f909a97afe1d0387553800153afb6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-13 11:50:59</sys_created_on>
+        <sys_id>badd80411b00b150f930da43cc4bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1894f1714380000001</sys_recorded_at>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-13 11:50:59</sys_updated_on>
+        <type>Decision Table</type>
+        <update_guid>36dd8041e400b150d055392d1a27ca14</update_guid>
+        <update_guid_history>36dd8041e400b150d055392d1a27ca14:-317478127</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-13 12:09:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_decision">sys_decision</sys_db_object>
+        <sys_id>6a1f514042b34790b3e6b92a2d3f99e4</sys_id>
+        <sys_metadata>fadd80411b00b150f930da43cc4bcb11</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IPE - DEMAND - Deduplication Policy</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>sys_decision_fadd80411b00b150f930da43cc4bcb11</sys_update_name>
+        <sys_update_version display_value="sys_decision_fadd80411b00b150f930da43cc4bcb11">badd80411b00b150f930da43cc4bcb15</sys_update_version>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-13 12:09:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

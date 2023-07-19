@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_decision_input">
-    <sys_decision_input action="INSERT_OR_UPDATE">
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_snc_insight_pr_0_ipe_definitions">
         <active>true</active>
         <array>false</array>
-        <attributes>element_mapping_provider=com.glide.decision_table.data.DecisionTableVariableMapper</attributes>
+        <attributes/>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Affected Documents</column_label>
+        <column_label/>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,24 +26,17 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_affected_documents</element>
+        <element/>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="Integer">integer</internal_type>
-        <label>Affected Documents</label>
+        <internal_type display_value="Collection">collection</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="IPE - Celonis - Risk Policy">cbac7e68474d9910ab51f109536d4331</model>
-        <model_id>cbac7e68474d9910ab51f109536d4331</model_id>
-        <model_table>sys_decision</model_table>
-        <name>var__m_sys_decision_input_cbac7e68474d9910ab51f109536d4331</name>
+        <name>x_snc_insight_pr_0_ipe_definitions</name>
         <next_element/>
-        <order>300</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -56,19 +49,18 @@
         <reference_type/>
         <spell_check>false</spell_check>
         <staged>false</staged>
-        <sys_class_name>sys_decision_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-29 12:06:48</sys_created_on>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 10:39:24</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>339e326c474d9910ab51f109536d4336</sys_id>
-        <sys_name>Affected Documents</sys_name>
+        <sys_name>x_snc_insight_pr_0_ipe_definitions</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name>sys_decision_input_339e326c474d9910ab51f109536d4336</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-29 12:06:49</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_snc_insight_pr_0_ipe_definitions_null</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-07-15 10:06:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <u_last_refreshed/>
@@ -83,5 +75,5 @@
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
-    </sys_decision_input>
+    </sys_dictionary>
 </record_update>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="DELETE">
+        <active>true</active>
+        <answer>324003ec474d9910ab51f109536d4373</answer>
+        <condition table="var__m_sys_decision_input_cbac7e68474d9910ab51f109536d4331">u_type=Remediate^u_business_impact&gt;=10000000^EQ<item endquery="false" field="u_type" goto="false" newquery="false" operator="=" or="false" value="Remediate"/>
+            <item endquery="false" field="u_business_impact" goto="false" newquery="false" operator="&gt;=" or="false" value="10000000"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="IPE - Celonis - Risk Policy">cbac7e68474d9910ab51f109536d4331</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_cbac7e68474d9910ab51f109536d4331</input_table>
+        <label>IPE - Celonis - Risk Policy_81</label>
+        <order>75</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 12:12:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a5ffbaac474d9910ab51f109536d4394</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>IPE - Celonis - Risk Policy_81</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_decision_question_a5ffbaac474d9910ab51f109536d4394</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 13:06:33</sys_updated_on>
+    </sys_decision_question>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>532947b4ffaeac889376762fa87efe09</instance_id>
+        <instance_name>niketest</instance_name>
+        <name>sys_decision_question_a5ffbaac474d9910ab51f109536d4394</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>324003ec474d9910ab51f109536d4373</answer>
+        <condition table="var__m_sys_decision_input_cbac7e68474d9910ab51f109536d4331">u_type=Remediate^u_business_impact&gt;=10000000^EQ<item endquery="false" field="u_type" goto="false" newquery="false" operator="=" or="false" value="Remediate"/>
+            <item endquery="false" field="u_business_impact" goto="false" newquery="false" operator="&gt;=" or="false" value="10000000"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="IPE - Celonis - Risk Policy">cbac7e68474d9910ab51f109536d4331</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_cbac7e68474d9910ab51f109536d4331</input_table>
+        <label>IPE - Celonis - Risk Policy_81</label>
+        <order>75</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 12:12:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a5ffbaac474d9910ab51f109536d4394</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>IPE - Celonis - Risk Policy_81</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_decision_question_a5ffbaac474d9910ab51f109536d4394</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 13:06:33</sys_updated_on>
+    </sys_decision_question>
+</record_update>]]></payload>
+        <payload_hash>952875504</payload_hash>
+        <record_name>IPE - Celonis - Risk Policy_81</record_name>
+        <reverted_from/>
+        <source>653dd85297efe1d0387553800153afac</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-06-22 13:40:55</sys_created_on>
+        <sys_id>50ad5c1697efe1d0387553800153af01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188e3562d3e0000001</sys_recorded_at>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-06-22 13:40:55</sys_updated_on>
+        <type>Decision</type>
+        <update_guid>10ad5c1689efe1d08dfaf2c24ee0bd01</update_guid>
+        <update_guid_history>10ad5c1689efe1d08dfaf2c24ee0bd01:952875504</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 13:14:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_decision_question">sys_decision_question</sys_db_object>
+        <sys_id>47605a219a754dce815e958075e63979</sys_id>
+        <sys_metadata>a5ffbaac474d9910ab51f109536d4394</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IPE - Celonis - Risk Policy_81</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>sys_decision_question_a5ffbaac474d9910ab51f109536d4394</sys_update_name>
+        <sys_update_version display_value="sys_decision_question_a5ffbaac474d9910ab51f109536d4394">50ad5c1697efe1d0387553800153af01</sys_update_version>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 13:14:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

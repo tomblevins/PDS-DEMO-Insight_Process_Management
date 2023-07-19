@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="69a99ea64f747640f012a3928110c7ef" extends="task" label="Zapotrzebowanie" max_length="40" name="dmn_demand" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Dedup String" max_length="100" name="x_snc_insight_pr_0_u_dedup_string" type="string"/>
+    </element>
+</database>

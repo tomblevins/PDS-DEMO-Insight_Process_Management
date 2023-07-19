@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>IPE Definitions</name>
+        <order>100</order>
+        <roles>x_snc_insight_pr_0.ipe_definitions_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 10:39:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>88e3b2a01b003d100f0eda43cc4bcb7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IPE Definitions</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_app_application_88e3b2a01b003d100f0eda43cc4bcb7c</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 10:39:23</sys_updated_on>
+        <title>IPE Definitions</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>532947b4ffaeac889376762fa87efe09</instance_id>
+        <instance_name>niketest</instance_name>
+        <name>sys_app_application_88e3b2a01b003d100f0eda43cc4bcb7c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>IPE Definitions</name><order>100</order><roles>x_snc_insight_pr_0.ipe_definitions_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>TBlev1</sys_created_by><sys_created_on>2023-07-12 10:39:23</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>88e3b2a01b003d100f0eda43cc4bcb7c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>IPE Definitions</sys_name><sys_overrides/><sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope><sys_update_name>sys_app_application_88e3b2a01b003d100f0eda43cc4bcb7c</sys_update_name><sys_updated_by>TBlev1</sys_updated_by><sys_updated_on>2023-07-12 10:39:23</sys_updated_on><title>IPE Definitions</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-1129295514</payload_hash>
+        <record_name>IPE Definitions</record_name>
+        <reverted_from/>
+        <source>d05f909a97afe1d0387553800153afb6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 10:39:23</sys_created_on>
+        <sys_id>48e3b2a01b003d100f0eda43cc4bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18949af288d0000001</sys_recorded_at>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 10:39:23</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>48e3b2a040003d1021d01ba99c714b7f</update_guid>
+        <update_guid_history>48e3b2a040003d1021d01ba99c714b7f:-1129295514</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record Deleted 2023-07-12 03:41:00">3f3432e01b003d100f0eda43cc4bcb19</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 10:41:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>0a9aa8c164364972812164eb41e288a4</sys_id>
+        <sys_metadata>88e3b2a01b003d100f0eda43cc4bcb7c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IPE Definitions</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>sys_app_application_88e3b2a01b003d100f0eda43cc4bcb7c</sys_update_name>
+        <sys_update_version display_value="sys_app_application_88e3b2a01b003d100f0eda43cc4bcb7c">48e3b2a01b003d100f0eda43cc4bcb80</sys_update_version>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 10:41:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

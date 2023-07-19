@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="INSERT_OR_UPDATE">
+        <decision_table display_value="IPE - Processor - Task Type Policy">3471faac1bccf9100f0eda43cc4bcbba</decision_table>
+        <label>Processor: Demand Processor</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 10:32:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>825232201b003d100f0eda43cc4bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Processor: Demand Processor</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_decision_multi_result_825232201b003d100f0eda43cc4bcbba</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 10:32:41</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="delete_multiple" query="document_key=825232201b003d100f0eda43cc4bcbba"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>825232201b003d100f0eda43cc4bcbba</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 10:32:41</sys_created_on>
+        <sys_id>425232201b003d100f0eda43cc4bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 10:32:41</sys_updated_on>
+        <value>Demand Processor</value>
+        <variable display_value="Processor">465232201b003d100f0eda43cc4bcb33</variable>
+    </sys_variable_value>
+</record_update>

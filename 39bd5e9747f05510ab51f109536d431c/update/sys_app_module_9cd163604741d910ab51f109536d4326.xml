@@ -16,7 +16,7 @@
         <name/>
         <order>6</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>/now/nav/ui/classic/params/target/%24demand_workbench.do%3Fsysparm_workbench_id%3De86095b3c30031009a08d27af3d3ae8e%26sysparm_fixed_query%3Dsys_class_name%253Ddmn_demand%26sysparm_query%3Dstate%3D-4%5Eportfolio%3Db4ea4d0847811910ab51f109536d4397%5EORportfolio%3D8e3b890847811910ab51f109536d437f%5EORportfolio%3D564b890847811910ab51f109536d4381</query>
+        <query>/nav_to.do?uri=%2F$demand_workbench.do%3Fsysparm_workbench_id%3De86095b3c30031009a08d27af3d3ae8e%26sysparm_fixed_query%3Dsys_class_name%3Ddmn_demand%26sysparm_query%3Dstate%3D-4%5Eportfolio%3D76d885cc1b0c75100f0eda43cc4bcbb7</query>
         <report/>
         <roles>admin,x_snc_insight_pr_0.user,x_snc_insight_pr_0.admin</roles>
         <survey/>
@@ -27,7 +27,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>9cd163604741d910ab51f109536d4326</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Opportunity Workbench</sys_name>
         <sys_overrides/>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
@@ -35,12 +35,12 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sys_app_module_9cd163604741d910ab51f109536d4326</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-19 13:59:29</sys_updated_on>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-13 11:38:49</sys_updated_on>
         <timeline_page/>
         <title>Opportunity Workbench</title>
         <uncancelable>false</uncancelable>
         <view_name/>
-        <window_name>Inefficiency Workbench</window_name>
+        <window_name>Oppertunity Workbench</window_name>
     </sys_app_module>
 </record_update>

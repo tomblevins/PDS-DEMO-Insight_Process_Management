@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1643f6601b003d100f0eda43cc4bcb0a" label="IPE Definitions" max_length="40" name="x_snc_insight_pr_0_ipe_definitions" type="collection">
+        <element label="Default Property" max_length="100" name="default_property" type="string"/>
+        <element label="Default Value" max_length="100" name="default_value" type="string"/>
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <element label="Name" max_length="100" name="name" type="string"/>
+    </element>
+</database>
