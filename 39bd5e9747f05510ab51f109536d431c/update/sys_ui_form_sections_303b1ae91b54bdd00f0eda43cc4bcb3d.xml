@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="303b1ae91b54bdd00f0eda43cc4bcb3d" sys_domain="global" table="sn_align_core_demand" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-07-27 21:41:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>744bdee91b54bdd00f0eda43cc4bcbe4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_align_core_demand" name="sn_align_core_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">303b1ae91b54bdd00f0eda43cc4bcb3d</sys_ui_form>
+            <sys_ui_section caption="Demand" display_value="Demand" name="sn_align_core_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">3c4b1ae91b54bdd00f0eda43cc4bcb41</sys_ui_section>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-07-27 21:41:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-07-27 21:41:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fc4bdee91b54bdd00f0eda43cc4bcbea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_align_core_demand" name="sn_align_core_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">303b1ae91b54bdd00f0eda43cc4bcb3d</sys_ui_form>
+            <sys_ui_section caption="Dates" display_value="Dates" name="sn_align_core_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">fc4bdee91b54bdd00f0eda43cc4bcbe9</sys_ui_section>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-07-27 21:41:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-07-27 21:41:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>384bdee91b54bdd00f0eda43cc4bcbee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_align_core_demand" name="sn_align_core_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">303b1ae91b54bdd00f0eda43cc4bcb3d</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="sn_align_core_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">384bdee91b54bdd00f0eda43cc4bcbed</sys_ui_section>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-07-27 21:41:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-07-27 21:41:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f44b122d1b54bdd00f0eda43cc4bcb0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_align_core_demand" name="sn_align_core_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">303b1ae91b54bdd00f0eda43cc4bcb3d</sys_ui_form>
+            <sys_ui_section caption="Business case" display_value="Business case" name="sn_align_core_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">f44b122d1b54bdd00f0eda43cc4bcb0a</sys_ui_section>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-07-27 21:41:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-07-27 21:41:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3c4b122d1b54bdd00f0eda43cc4bcb0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_align_core_demand" name="sn_align_core_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">303b1ae91b54bdd00f0eda43cc4bcb3d</sys_ui_form>
+            <sys_ui_section caption="Financials" display_value="Financials" name="sn_align_core_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">3c4b122d1b54bdd00f0eda43cc4bcb0e</sys_ui_section>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-07-27 21:41:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-07-27 21:41:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7c4b122d1b54bdd00f0eda43cc4bcb13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_align_core_demand" name="sn_align_core_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">303b1ae91b54bdd00f0eda43cc4bcb3d</sys_ui_form>
+            <sys_ui_section caption="Assessment data" display_value="Assessment data" name="sn_align_core_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">7c4b122d1b54bdd00f0eda43cc4bcb12</sys_ui_section>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-07-27 21:41:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sn_align_core_demand</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-07-27 21:41:11</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>303b1ae91b54bdd00f0eda43cc4bcb3d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_align_core_demand</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_303b1ae91b54bdd00f0eda43cc4bcb3d</sys_update_name>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-07-27 21:41:11</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Insight Process Management 0" name="Workspace-Insight-Process-Management-0">63410a251b5cb114f930da43cc4bcb64</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

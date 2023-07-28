@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA Insight Process Mana - New Tab">d6ef37011b98b9d00f0eda43cc4bcb64</grid_canvas>
+        <height>15</height>
+        <portal_widget display_value="Created 2023-07-26 09:59:09">f70198111b1cb9d00f0eda43cc4bcbfc</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>ERam61</sys_created_by>
+        <sys_created_on>2023-07-26 16:59:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fb0198111b1cb9d00f0eda43cc4bcbff</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>d6ef37011b98b9d00f0eda43cc4bcb64</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_fb0198111b1cb9d00f0eda43cc4bcbff</sys_update_name>
+        <sys_updated_by>ERam61</sys_updated_by>
+        <sys_updated_on>2023-07-26 16:59:34</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="Insight Process Management ROI">5e9dff091b58b9d00f0eda43cc4bcb9d</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>ERam61</sys_created_by>
+        <sys_created_on>2023-07-26 15:44:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>e6ef37011b98b9d00f0eda43cc4bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5e9dff091b58b9d00f0eda43cc4bcb9d</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_e6ef37011b98b9d00f0eda43cc4bcb6d</sys_update_name>
+        <sys_updated_by>ERam61</sys_updated_by>
+        <sys_updated_on>2023-07-26 15:44:15</sys_updated_on>
+        <tab display_value="Insight Process Mana - New Tab">5aef37011b98b9d00f0eda43cc4bcb69</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

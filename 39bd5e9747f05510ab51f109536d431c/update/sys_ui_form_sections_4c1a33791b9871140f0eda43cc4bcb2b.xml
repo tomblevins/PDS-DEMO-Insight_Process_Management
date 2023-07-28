@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="4c1a33791b9871140f0eda43cc4bcb2b" sys_domain="global" table="dmn_demand" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-07-28 23:17:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d7ea73791b9871140f0eda43cc4bcbda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="dmn_demand" name="dmn_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">4c1a33791b9871140f0eda43cc4bcb2b</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="dmn_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">9bea73791b9871140f0eda43cc4bcbd8</sys_ui_section>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-07-28 23:17:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-07-28 23:17:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>17ea3fb91b9871140f0eda43cc4bcba7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="dmn_demand" name="dmn_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">4c1a33791b9871140f0eda43cc4bcb2b</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="dmn_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">17ea3fb91b9871140f0eda43cc4bcba6</sys_ui_section>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-07-28 23:17:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-07-28 23:17:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1bea3fb91b9871140f0eda43cc4bcbad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="dmn_demand" name="dmn_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">4c1a33791b9871140f0eda43cc4bcb2b</sys_ui_form>
+            <sys_ui_section caption="Business Case" display_value="Business Case" name="dmn_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">5bea3fb91b9871140f0eda43cc4bcbac</sys_ui_section>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-07-28 23:17:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-07-28 23:17:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>17ea3fb91b9871140f0eda43cc4bcbb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="dmn_demand" name="dmn_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">4c1a33791b9871140f0eda43cc4bcb2b</sys_ui_form>
+            <sys_ui_section caption="Financials" display_value="Financials" name="dmn_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">57ea3fb91b9871140f0eda43cc4bcbb2</sys_ui_section>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-07-28 23:17:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-07-28 23:17:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1bea3fb91b9871140f0eda43cc4bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="dmn_demand" name="dmn_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">4c1a33791b9871140f0eda43cc4bcb2b</sys_ui_form>
+            <sys_ui_section caption="Assessment Data" display_value="Assessment Data" name="dmn_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">5bea3fb91b9871140f0eda43cc4bcbb8</sys_ui_section>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-07-28 23:17:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-07-28 23:17:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>13ea3fb91b9871140f0eda43cc4bcbbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="dmn_demand" name="dmn_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">4c1a33791b9871140f0eda43cc4bcb2b</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="dmn_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">53ea3fb91b9871140f0eda43cc4bcbbd</sys_ui_section>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-07-28 23:17:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-07-28 23:17:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1fea3fb91b9871140f0eda43cc4bcbc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="dmn_demand" name="dmn_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">4c1a33791b9871140f0eda43cc4bcb2b</sys_ui_form>
+            <sys_ui_section caption="Preferences" display_value="Preferences" name="dmn_demand" sys_domain="global" view="63410a251b5cb114f930da43cc4bcb64">5fea3fb91b9871140f0eda43cc4bcbc0</sys_ui_section>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-07-28 23:17:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>dmn_demand</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-07-28 23:14:07</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>4c1a33791b9871140f0eda43cc4bcb2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>dmn_demand</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_4c1a33791b9871140f0eda43cc4bcb2b</sys_update_name>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-07-28 23:14:07</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Insight Process Management 0" name="Workspace-Insight-Process-Management-0">63410a251b5cb114f930da43cc4bcb64</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

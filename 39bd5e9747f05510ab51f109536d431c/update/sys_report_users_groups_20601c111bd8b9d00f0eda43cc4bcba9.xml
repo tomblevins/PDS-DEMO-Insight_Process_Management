@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Insight Process Management ROI vs Risk by Impact">28601c111bd8b9d00f0eda43cc4bcba8</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>ERam61</sys_created_by>
+        <sys_created_on>2023-07-26 16:56:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>20601c111bd8b9d00f0eda43cc4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>28601c111bd8b9d00f0eda43cc4bcba8</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_report_users_groups_20601c111bd8b9d00f0eda43cc4bcba9</sys_update_name>
+        <sys_updated_by>ERam61</sys_updated_by>
+        <sys_updated_on>2023-07-26 16:56:12</sys_updated_on>
+        <user_id display_value="Eric Ramirez">b1411694476b2910dd2ba688436d43d6</user_id>
+    </sys_report_users_groups>
+</record_update>

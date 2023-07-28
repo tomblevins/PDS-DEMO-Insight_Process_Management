@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_footer</name>
+        <page display_value="IPM Workspace">af6769691b10bdd00f0eda43cc4bcb3d</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>ERam61</sys_created_by>
+        <sys_created_on>2023-07-27 18:01:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>bcd8e56d1b10bdd00f0eda43cc4bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_ux_page_property_bcd8e56d1b10bdd00f0eda43cc4bcb6d</sys_update_name>
+        <sys_updated_by>ERam61</sys_updated_by>
+        <sys_updated_on>2023-07-27 18:01:05</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_insight_pr_0.af6769691b10bdd00f0eda43cc4bcb3d.root.chrome_footer</unique_name>
+        <value>{"public_page":{"enable_footer_topbar":false,"footer_topbar_options":{},"enable_footer_bar":false,"footer_bar_options":{}}}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=bcd8e56d1b10bdd00f0eda43cc4bcb6d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>532947b4ffaeac889376762fa87efe09</instance_id>
+        <instance_name>niketest</instance_name>
+        <name>sys_ux_page_property_bcd8e56d1b10bdd00f0eda43cc4bcb6d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_footer</name><page display_value="IPM Workspace">af6769691b10bdd00f0eda43cc4bcb3d</page><required_translations>[ ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>ERam61</sys_created_by><sys_created_on>2023-07-27 18:01:05</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>bcd8e56d1b10bdd00f0eda43cc4bcb6d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_footer</sys_name><sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope><sys_update_name>sys_ux_page_property_bcd8e56d1b10bdd00f0eda43cc4bcb6d</sys_update_name><sys_updated_by>ERam61</sys_updated_by><sys_updated_on>2023-07-27 18:01:05</sys_updated_on><type>json</type><unique_name>x_snc_insight_pr_0.af6769691b10bdd00f0eda43cc4bcb3d.root.chrome_footer</unique_name><value>{"public_page":{"enable_footer_topbar":false,"footer_topbar_options":{},"enable_footer_bar":false,"footer_bar_options":{}}}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=bcd8e56d1b10bdd00f0eda43cc4bcb6d"/></record_update>]]></payload>
+        <payload_hash>2143737868</payload_hash>
+        <record_name>chrome_footer</record_name>
+        <reverted_from/>
+        <source>dcc81e9e1b403d500f0eda43cc4bcb48</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ERam61</sys_created_by>
+        <sys_created_on>2023-07-27 18:01:05</sys_created_on>
+        <sys_id>bcd8e56d1b10bdd00f0eda43cc4bcb6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1899882f1620000001</sys_recorded_at>
+        <sys_updated_by>ERam61</sys_updated_by>
+        <sys_updated_on>2023-07-27 18:01:05</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>bcd8e56d6b10bdd062d51a413735206e</update_guid>
+        <update_guid_history>bcd8e56d6b10bdd062d51a413735206e:2143737868</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ERam61</sys_created_by>
+        <sys_created_on>2023-07-27 19:56:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>76968d2728884176ac29044957871a69</sys_id>
+        <sys_metadata>bcd8e56d1b10bdd00f0eda43cc4bcb6d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_bcd8e56d1b10bdd00f0eda43cc4bcb6d</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_bcd8e56d1b10bdd00f0eda43cc4bcb6d">bcd8e56d1b10bdd00f0eda43cc4bcb6f</sys_update_version>
+        <sys_updated_by>ERam61</sys_updated_by>
+        <sys_updated_on>2023-07-27 19:56:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

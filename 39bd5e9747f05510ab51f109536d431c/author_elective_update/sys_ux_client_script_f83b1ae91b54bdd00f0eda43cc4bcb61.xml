@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Demand">6c3b96e91b54bdd00f0eda43cc4bcb28</macroponent>
+        <name>setSidebarRatio</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    if (event.payload.interaction === "USER_ACTION") {
+        const sidebarRatio = event.payload.dividerPosition;
+        const sidebarRatioPreference = api.state.sidebarRatioPreference;
+
+        api.setState('sidebarRatioSaved', sidebarRatio);
+
+        api.data.setSidebarRatioPreference.execute({
+            'name': sidebarRatioPreference,
+            'value': sidebarRatio
+        });
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>ERam61</sys_created_by>
+        <sys_created_on>2023-07-27 21:41:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f83b1ae91b54bdd00f0eda43cc4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>setSidebarRatio</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_ux_client_script_f83b1ae91b54bdd00f0eda43cc4bcb61</sys_update_name>
+        <sys_updated_by>ERam61</sys_updated_by>
+        <sys_updated_on>2023-07-27 21:41:11</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>532947b4ffaeac889376762fa87efe09</instance_id>
+        <instance_name>niketest</instance_name>
+        <name>sys_ux_client_script_f83b1ae91b54bdd00f0eda43cc4bcb61</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Demand"&gt;6c3b96e91b54bdd00f0eda43cc4bcb28&lt;/macroponent&gt;&lt;name&gt;setSidebarRatio&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    if (event.payload.interaction === "USER_ACTION") {
+        const sidebarRatio = event.payload.dividerPosition;
+        const sidebarRatioPreference = api.state.sidebarRatioPreference;
+
+        api.setState('sidebarRatioSaved', sidebarRatio);
+
+        api.data.setSidebarRatioPreference.execute({
+            'name': sidebarRatioPreference,
+            'value': sidebarRatio
+        });
+    }
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ERam61&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-07-27 21:41:11&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;f83b1ae91b54bdd00f0eda43cc4bcb61&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;setSidebarRatio&lt;/sys_name&gt;&lt;sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_f83b1ae91b54bdd00f0eda43cc4bcb61&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ERam61&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-07-27 21:41:11&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>314478633</payload_hash>
+        <record_name>setSidebarRatio</record_name>
+        <reverted_from/>
+        <source>dcc81e9e1b403d500f0eda43cc4bcb48</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ERam61</sys_created_by>
+        <sys_created_on>2023-07-27 21:41:11</sys_created_on>
+        <sys_id>f83b1ae91b54bdd00f0eda43cc4bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189994c71320000001</sys_recorded_at>
+        <sys_updated_by>ERam61</sys_updated_by>
+        <sys_updated_on>2023-07-27 21:41:11</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>f83b1ae9bd54bdd0cc7ebfc859dd0662</update_guid>
+        <update_guid_history>f83b1ae9bd54bdd0cc7ebfc859dd0662:314478633</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ERam61</sys_created_by>
+        <sys_created_on>2023-07-27 21:43:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>983f3bd14bd44a14a997b13c8ab8b310</sys_id>
+        <sys_metadata>f83b1ae91b54bdd00f0eda43cc4bcb61</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>setSidebarRatio</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_f83b1ae91b54bdd00f0eda43cc4bcb61</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_f83b1ae91b54bdd00f0eda43cc4bcb61">f83b1ae91b54bdd00f0eda43cc4bcb63</sys_update_version>
+        <sys_updated_by>ERam61</sys_updated_by>
+        <sys_updated_on>2023-07-27 21:43:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
