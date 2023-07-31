@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Analytics Center">e84a9ee91bdcb114f930da43cc4bcb87</macroponent>
+        <name>Edit NAM KPI</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    const selectedRecords = api.state.selectedKPIsForEdit;
+    selectedRecords.forEach(record => {
+        api.emit('NAV_ITEM_SELECTED', {
+            route: 'pa-new-model-kpi',
+            title: 'Edit - KPI',
+            icon: 'kpi-outline',
+            fields: {
+                sysId: record
+            }
+        });
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>SSah49</sys_created_by>
+        <sys_created_on>2023-07-27 21:37:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>014a5e2d1bdcb114f930da43cc4bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit NAM KPI</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_ux_client_script_014a5e2d1bdcb114f930da43cc4bcb91</sys_update_name>
+        <sys_updated_by>SSah49</sys_updated_by>
+        <sys_updated_on>2023-07-27 21:37:06</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

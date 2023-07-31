@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Analytics Center">e84a9ee91bdcb114f930da43cc4bcb87</macroponent>
+        <name>Navigate To Reference Record</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({
+    api,
+    helpers,
+    event,
+    imports
+}) {
+    const { table: tableName, sys_id  } = event.payload;
+    let route = null;
+    let icon = 'info-circle-outline';
+    let fields = {
+        sysId: event.payload.sys_id,
+    };
+    if(tableName === 'pa_dm_kpi_configuration'){
+        route = 'kpi-details';
+        icon = 'kpi-outline';
+        fields = {
+            dataSourceId: event.payload.sys_id,
+            dataSource: 'analyticalmodel',
+        }
+    } else if(tableName === 'pa_dm_analytics_source'){
+        route = 'analytics-source-edit';
+        icon = 'database-fill';
+    }
+    if(route)
+        api.emit('NAV_ITEM_SELECTED', {
+            route,
+            icon,
+            fields
+        });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>SSah49</sys_created_by>
+        <sys_created_on>2023-07-27 21:37:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>dd4a5e2d1bdcb114f930da43cc4bcbe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Navigate To Reference Record</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_ux_client_script_dd4a5e2d1bdcb114f930da43cc4bcbe8</sys_update_name>
+        <sys_updated_by>SSah49</sys_updated_by>
+        <sys_updated_on>2023-07-27 21:37:07</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
