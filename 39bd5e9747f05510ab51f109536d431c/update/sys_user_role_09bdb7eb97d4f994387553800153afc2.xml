@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_snc_insight_pr_0.so_case_sub_task_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>so_case_sub_task_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 09:59:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>09bdb7eb97d4f994387553800153afc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_insight_pr_0.so_case_sub_task_user</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_user_role_09bdb7eb97d4f994387553800153afc2</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 09:59:24</sys_updated_on>
+    </sys_user_role>
+</record_update>

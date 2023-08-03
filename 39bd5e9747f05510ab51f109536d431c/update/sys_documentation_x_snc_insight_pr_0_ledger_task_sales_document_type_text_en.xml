@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="sales_document_type_text" label="Sales Document Type Text" language="en" table="x_snc_insight_pr_0_ledger_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>sales_document_type_text</element>
+            <help/>
+            <hint/>
+            <label>Sales Document Type Text</label>
+            <language>en</language>
+            <name>x_snc_insight_pr_0_ledger_task</name>
+            <plural>Sales Document Type Texts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-03 10:26:54</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Sales Document Type Text</sys_name>
+            <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_insight_pr_0_ledger_task_sales_document_type_text_en</sys_update_name>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-03 10:26:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

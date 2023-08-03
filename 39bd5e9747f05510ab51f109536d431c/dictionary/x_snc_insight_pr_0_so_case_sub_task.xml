@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c84dbfab97d4f994387553800153af6d" extends="x_snc_insight_pr_0_ledger_task" label="SO Case Sub Task" max_length="40" name="x_snc_insight_pr_0_so_case_sub_task" type="collection">
+        <element label="Credit Indicator" max_length="100" name="credit_indicator" type="string"/>
+        <element label="Document Currency" max_length="100" name="document_currency" type="string"/>
+        <element label="Material Group" max_length="100" name="material_group" type="string"/>
+        <element label="Material Group Text" max_length="100" name="material_group_text" type="string"/>
+        <element label="Material Number" max_length="100" name="material_number" type="string"/>
+        <element label="Material Text" max_length="100" name="material_text" type="string"/>
+        <element label="Net Order Value in Document Currency" max_length="100" name="net_order_value_in_document_currency" type="decimal"/>
+        <element label="Net Order Value USD" max_length="100" name="net_order_value_usd" type="decimal"/>
+        <element label="Sales Document Item" max_length="100" name="sales_document_item" type="integer"/>
+    </element>
+</database>

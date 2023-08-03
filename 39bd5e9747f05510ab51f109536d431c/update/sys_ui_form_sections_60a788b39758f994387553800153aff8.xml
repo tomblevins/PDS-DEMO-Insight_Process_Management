@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="60a788b39758f994387553800153aff8" sys_domain="global" table="x_snc_insight_pr_0_so_case_sub_task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-03 10:43:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e4d708f39758f994387553800153af2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_insight_pr_0_so_case_sub_task" name="x_snc_insight_pr_0_so_case_sub_task" sys_domain="global" view="Default view">60a788b39758f994387553800153aff8</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_so_case_sub_task" sys_domain="global" view="Default view">bdc780f39758f994387553800153af8e</sys_ui_section>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-03 10:43:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-03 10:50:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>477984b79758f994387553800153af81</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_insight_pr_0_so_case_sub_task" name="x_snc_insight_pr_0_so_case_sub_task" sys_domain="global" view="Default view">60a788b39758f994387553800153aff8</sys_ui_form>
+            <sys_ui_section caption="Material" display_value="Material" name="x_snc_insight_pr_0_so_case_sub_task" sys_domain="global" view="Default view">727944b79758f994387553800153afb6</sys_ui_section>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-03 10:51:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-03 10:43:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7ab780f39758f994387553800153af89</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_insight_pr_0_so_case_sub_task" name="x_snc_insight_pr_0_so_case_sub_task" sys_domain="global" view="Default view">60a788b39758f994387553800153aff8</sys_ui_form>
+            <sys_ui_section caption="Sales Order Info" display_value="Sales Order Info" name="x_snc_insight_pr_0_so_case_sub_task" sys_domain="global" view="Default view">f7a788b39758f994387553800153affc</sys_ui_section>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-03 10:51:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-03 10:44:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7ae788f39758f994387553800153af7f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_insight_pr_0_so_case_sub_task" name="x_snc_insight_pr_0_so_case_sub_task" sys_domain="global" view="Default view">60a788b39758f994387553800153aff8</sys_ui_form>
+            <sys_ui_section caption="Credit Info" display_value="Credit Info" name="x_snc_insight_pr_0_so_case_sub_task" sys_domain="global" view="Default view">6fd708f39758f994387553800153af31</sys_ui_section>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-03 10:51:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-03 10:43:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b9c780f39758f994387553800153af8e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_insight_pr_0_so_case_sub_task" name="x_snc_insight_pr_0_so_case_sub_task" sys_domain="global" view="Default view">60a788b39758f994387553800153aff8</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_snc_insight_pr_0_so_case_sub_task" sys_domain="global" view="Default view">72b780f39758f994387553800153af8a</sys_ui_section>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-03 10:51:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-03 10:43:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6bd708f39758f994387553800153af31</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_insight_pr_0_so_case_sub_task" name="x_snc_insight_pr_0_so_case_sub_task" sys_domain="global" view="Default view">60a788b39758f994387553800153aff8</sys_ui_form>
+            <sys_ui_section caption="Metrics" display_value="Metrics" name="x_snc_insight_pr_0_so_case_sub_task" sys_domain="global" view="Default view">e8d708f39758f994387553800153af2c</sys_ui_section>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-03 10:51:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_insight_pr_0_so_case_sub_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-03 10:42:47</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>60a788b39758f994387553800153aff8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_insight_pr_0_so_case_sub_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_60a788b39758f994387553800153aff8</sys_update_name>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-03 10:42:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

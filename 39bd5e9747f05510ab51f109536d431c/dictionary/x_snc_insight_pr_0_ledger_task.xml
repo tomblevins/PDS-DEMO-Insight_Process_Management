@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="2c06625347345510ab51f109536d43e0" extends="task" label="Tâche" max_length="40" name="x_snc_insight_pr_0_ledger_task" text_index="true" type="collection">
-        <element label="Frequency" max_length="38" name="frequency" type="decimal"/>
-        <element label="Impact Value" max_length="38" name="impact_value" type="decimal"/>
-        <element attributes="edge_encryption_enabled=true" label="Material" max_length="100" name="material" type="string"/>
-        <element label="New Price" max_length="38" name="new_price" type="decimal"/>
-        <element label="Old Price" max_length="38" name="old_price" type="decimal"/>
+        <element label="ActivityLevel" max_length="100" name="activitylevel" type="string"/>
+        <element label="Client" max_length="100" name="client" type="integer"/>
+        <element label="Company Code" max_length="100" name="company_code" type="integer"/>
+        <element label="Company Code Text" max_length="100" name="company_code_text" type="string"/>
+        <element label="Credit Control Area" max_length="100" name="credit_control_area" type="integer"/>
+        <element label="Credit Control Area Text" max_length="100" name="credit_control_area_text" type="string"/>
+        <element label="Credit Limit" max_length="100" name="credit_limit" type="decimal"/>
+        <element label="Credit Risk Category" max_length="100" name="credit_risk_category" type="string"/>
+        <element label="Credit Utilization Ratio" max_length="100" name="credit_utilization_ratio" type="decimal"/>
+        <element label="Customer Account Type" max_length="100" name="customer_account_type" type="string"/>
+        <element label="Customer Business Type" max_length="100" name="customer_business_type" type="string"/>
+        <element label="Customer Name" max_length="100" name="customer_name" type="string"/>
+        <element label="Dedup String" max_length="100" name="dedup_string" type="string"/>
+        <element label="Distribution Channel" max_length="100" name="distribution_channel" type="integer"/>
+        <element label="Distribution Channel Text" max_length="100" name="distribution_channel_text" type="string"/>
+        <element label="Insight" max_length="100" name="insight" type="string"/>
+        <element label="Internal vs External Customer" max_length="100" name="internal_vs_external_customer" type="string"/>
+        <element label="In-Season vs Future Order" max_length="100" name="in_season_vs_future_order" type="string"/>
+        <element label="Level" max_length="100" name="level" type="string"/>
+        <element label="Sales Document Type" max_length="100" name="sales_document_type" type="string"/>
+        <element label="Sales Document Type Text" max_length="100" name="sales_document_type_text" type="string"/>
+        <element label="Sales Order Number" max_length="100" name="sales_order_number" type="integer"/>
+        <element label="Sales Organization" max_length="100" name="sales_organization" type="integer"/>
+        <element label="Sales Organization Text" max_length="100" name="sales_organization_text" type="string"/>
+        <element label="Sold-to-Party" max_length="100" name="sold_to_party" type="integer"/>
+        <element label="SO Created Date (EPOCH)" max_length="100" name="so_created_date_epoch" type="integer"/>
     </element>
 </database>

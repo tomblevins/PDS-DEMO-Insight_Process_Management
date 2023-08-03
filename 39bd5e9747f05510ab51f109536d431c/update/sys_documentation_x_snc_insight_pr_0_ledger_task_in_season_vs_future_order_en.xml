@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="in_season_vs_future_order" label="In-Season vs Future Order" language="en" table="x_snc_insight_pr_0_ledger_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>in_season_vs_future_order</element>
+            <help/>
+            <hint/>
+            <label>In-Season vs Future Order</label>
+            <language>en</language>
+            <name>x_snc_insight_pr_0_ledger_task</name>
+            <plural>In-Season vs Future Orders</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-03 10:26:55</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>In-Season vs Future Order</sys_name>
+            <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_insight_pr_0_ledger_task_in_season_vs_future_order_en</sys_update_name>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-03 10:26:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

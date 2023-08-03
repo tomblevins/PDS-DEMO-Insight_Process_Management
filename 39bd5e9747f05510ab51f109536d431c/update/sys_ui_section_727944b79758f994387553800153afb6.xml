@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Material" section_id="727944b79758f994387553800153afb6" sys_domain="global" table="x_snc_insight_pr_0_so_case_sub_task" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>material_number</element>
+            <position>0</position>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-03 10:51:31</sys_created_on>
+            <sys_id>dca90cb79758f994387553800153af8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Material" display_value="Material" name="x_snc_insight_pr_0_so_case_sub_task" sys_domain="global" view="Default view">727944b79758f994387553800153afb6</sys_ui_section>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-03 10:51:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>material_text</element>
+            <position>1</position>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-03 10:51:31</sys_created_on>
+            <sys_id>50a90cb79758f994387553800153af8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Material" display_value="Material" name="x_snc_insight_pr_0_so_case_sub_task" sys_domain="global" view="Default view">727944b79758f994387553800153afb6</sys_ui_section>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-03 10:51:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-03 10:51:31</sys_created_on>
+            <sys_id>d0a90cb79758f994387553800153af8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Material" display_value="Material" name="x_snc_insight_pr_0_so_case_sub_task" sys_domain="global" view="Default view">727944b79758f994387553800153afb6</sys_ui_section>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-03 10:51:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>material_group</element>
+            <position>3</position>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-03 10:51:31</sys_created_on>
+            <sys_id>54a90cb79758f994387553800153af8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Material" display_value="Material" name="x_snc_insight_pr_0_so_case_sub_task" sys_domain="global" view="Default view">727944b79758f994387553800153afb6</sys_ui_section>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-03 10:51:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>material_group_text</element>
+            <position>4</position>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-03 10:51:31</sys_created_on>
+            <sys_id>d4a90cb79758f994387553800153af8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Material" display_value="Material" name="x_snc_insight_pr_0_so_case_sub_task" sys_domain="global" view="Default view">727944b79758f994387553800153afb6</sys_ui_section>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-03 10:51:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Material</caption>
+            <header>false</header>
+            <name>x_snc_insight_pr_0_so_case_sub_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-03 10:50:52</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>727944b79758f994387553800153afb6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_insight_pr_0_so_case_sub_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+            <sys_update_name>sys_ui_section_727944b79758f994387553800153afb6</sys_update_name>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-03 10:50:52</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
