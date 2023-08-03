@@ -13,9 +13,9 @@
         <description/>
         <ih_action>true</ih_action>
         <internal_name>ipedemandprocess_celonis_payload__12_fields</internal_name>
-        <label_cache>[{"name":"{{action.jbody}}","label":"action➛jbody","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.Activity}}","label":"step➛JSON Parser step➛root➛Activity","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.CaseCount}}","label":"step➛JSON Parser step➛root➛CaseCount","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ActivityCount}}","label":"step➛JSON Parser step➛root➛ActivityCount","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ReworkSOItems}}","label":"step➛JSON Parser step➛root➛ReworkSOItems","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ReworkSteps}}","label":"step➛JSON Parser step➛root➛ReworkSteps","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ManualSOItems_}}","label":"step➛JSON Parser step➛root➛ManualSOItems_","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ManualReworkSteps}}","label":"step➛JSON Parser step➛root➛ManualReworkSteps","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.AutomaticSOItems}}","label":"step➛JSON Parser step➛root➛AutomaticSOItems","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.AutomatedReworkSteps}}","label":"step➛JSON Parser step➛root➛AutomatedReworkSteps","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ActivityCycleTime}}","label":"step➛JSON Parser step➛root➛ActivityCycleTime","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.Insight}}","label":"step➛JSON Parser step➛root➛Insight","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.a__ofCases}}","label":"step➛JSON Parser step➛root➛a__ofCases","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.a__ofActivities}}","label":"step➛JSON Parser step➛root➛a__ofActivities","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ManualReworkedSOItems}}","label":"step➛JSON Parser step➛root➛ManualReworkedSOItems","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.Level}}","label":"step➛JSON Parser step➛root➛Level","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.jbody}}","label":"action➛jbody","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.Activity}}","label":"step➛JSON Parser step➛root➛Activity","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.CaseCount}}","label":"step➛JSON Parser step➛root➛CaseCount","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ActivityCount}}","label":"step➛JSON Parser step➛root➛ActivityCount","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ReworkSOItems}}","label":"step➛JSON Parser step➛root➛ReworkSOItems","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ReworkSteps}}","label":"step➛JSON Parser step➛root➛ReworkSteps","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ManualSOItems_}}","label":"step➛JSON Parser step➛root➛ManualSOItems_","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ManualReworkSteps}}","label":"step➛JSON Parser step➛root➛ManualReworkSteps","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.AutomaticSOItems}}","label":"step➛JSON Parser step➛root➛AutomaticSOItems","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.AutomatedReworkSteps}}","label":"step➛JSON Parser step➛root➛AutomatedReworkSteps","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ActivityCycleTime}}","label":"step➛JSON Parser step➛root➛ActivityCycleTime","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.Insight}}","label":"step➛JSON Parser step➛root➛Insight","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.a__ofCases}}","label":"step➛JSON Parser step➛root➛a__ofCases","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.a__ofActivities}}","label":"step➛JSON Parser step➛root➛a__ofActivities","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ManualReworkedSOItems}}","label":"step➛JSON Parser step➛root➛ManualReworkedSOItems","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.Level}}","label":"step➛JSON Parser step➛root➛Level","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ManualActivityCount}}","label":"step➛JSON Parser step➛root➛ManualActivityCount","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.AutomationRate}}","label":"step➛JSON Parser step➛root➛AutomationRate","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master_snapshot>a8075cba97f7e1d4387553800153af8f</master_snapshot>
-        <name>IPE-DEMAND-Process Celonis Payload - 12 Fields</name>
+        <name>IPE-DEMAND-Process Celonis Payload - 14 Fields</name>
         <natlang/>
         <outputs/>
         <outputs/>
@@ -27,8 +27,8 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>fcc29cb297f7e1d4387553800153af9f</sys_id>
-        <sys_mod_count>19</sys_mod_count>
-        <sys_name>IPE-DEMAND-Process Celonis Payload - 12 Fields</sys_name>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>IPE-DEMAND-Process Celonis Payload - 14 Fields</sys_name>
         <sys_overrides/>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
@@ -36,7 +36,7 @@
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_fcc29cb297f7e1d4387553800153af9f</sys_update_name>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-07-07 13:10:40</sys_updated_on>
+        <sys_updated_on>2023-08-02 14:24:50</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -49,10 +49,10 @@
         <sys_created_by>TBlev1</sys_created_by>
         <sys_created_on>2023-07-06 12:44:33</sys_created_on>
         <sys_id>43f61cba97f7e1d4387553800153afa7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-07-07 13:10:31</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"5d2dbbc4-fea8-4551-91e8-00065b224450\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <sys_updated_on>2023-08-02 14:24:32</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"5d2dbbc4-fea8-4551-91e8-00065b224450\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">8bf61cba97f7e1d4387553800153af70</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -131,6 +131,18 @@
         <value>{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.AutomaticSOItems}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>automation_rate</field>
+        <id>fcc29cb297f7e1d4387553800153af9f</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-02 14:24:32</sys_created_on>
+        <sys_id>87c0f7579718f594387553800153af89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-02 14:24:32</sys_updated_on>
+        <table>var__m_sys_hub_action_output_fcc29cb297f7e1d4387553800153af9f</table>
+        <value>{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.AutomationRate}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>case_count</field>
         <id>fcc29cb297f7e1d4387553800153af9f</id>
         <sys_created_by>TBlev1</sys_created_by>
@@ -165,6 +177,18 @@
         <sys_updated_on>2023-07-07 13:10:31</sys_updated_on>
         <table>var__m_sys_hub_action_output_fcc29cb297f7e1d4387553800153af9f</table>
         <value>{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.Level}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>manual_activity_count</field>
+        <id>fcc29cb297f7e1d4387553800153af9f</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-02 14:24:32</sys_created_on>
+        <sys_id>cfc0f7579718f594387553800153af88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-02 14:24:32</sys_updated_on>
+        <table>var__m_sys_hub_action_output_fcc29cb297f7e1d4387553800153af9f</table>
+        <value>{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ManualActivityCount}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>manual_rework_steps</field>
@@ -240,7 +264,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=fcc29cb297f7e1d4387553800153af9f^sys_idNOT IN5b7650ba97f7e1d4387553800153af1f"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">fcc29cb297f7e1d4387553800153af9f</action>
+        <action display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">fcc29cb297f7e1d4387553800153af9f</action>
         <cid>1aec3c7a-3694-4ae1-8a83-0742ac5cabf1</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -258,7 +282,7 @@
         <sys_created_on>2023-07-06 12:42:22</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>5b7650ba97f7e1d4387553800153af1f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -266,7 +290,7 @@
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-07-07 13:10:30</sys_updated_on>
+        <sys_updated_on>2023-08-02 14:24:32</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5b7650ba97f7e1d4387553800153af1f"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -277,10 +301,10 @@
         <sys_created_by>TBlev1</sys_created_by>
         <sys_created_on>2023-07-06 12:42:23</sys_created_on>
         <sys_id>977650ba97f7e1d4387553800153af35</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-07-07 13:10:30</sys_updated_on>
-        <value>{"name":"root","children":[{"name":"a__ofCases","children":[],"type":"string","jpath":"$.['#ofCases']","previewValue":"23500000"},{"name":"ReworkSteps","children":[],"type":"string","jpath":"$.ReworkSteps","previewValue":"23300000"},{"name":"ManualReworkSteps","children":[],"type":"string","jpath":"$.ManualReworkSteps","previewValue":"17300000"},{"name":"Insight","children":[],"type":"string","jpath":"$.Insight","previewValue":"REWORK"},{"name":"Activity","children":[],"type":"string","jpath":"$.Activity","previewValue":"Create Delivery"},{"name":"ManualReworkedSOItems","children":[],"type":"string","jpath":"$.ManualReworkedSOItems","previewValue":"17200000"},{"name":"Level","children":[],"type":"string","jpath":"$.Level","previewValue":"Table"},{"name":"a__ofActivities","children":[],"type":"string","jpath":"$.['#ofActivities']","previewValue":"46800000"},{"name":"ReworkSOItems","children":[],"type":"string","jpath":"$.ReworkSOItems","previewValue":"23300000"},{"name":"ActivityCycleTime","children":[],"type":"string","jpath":"$.ActivityCycleTime","previewValue":"7.2"},{"name":"AutomaticSOItems","children":[],"type":"string","jpath":"$.AutomaticSOItems","previewValue":"6050000"},{"name":"AutomatedReworkSteps","children":[],"type":"string","jpath":"$.AutomatedReworkSteps","previewValue":"6050000"}],"type":"object","jpath":"$","previewValue":""}</value>
+        <sys_updated_on>2023-08-02 14:24:32</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"a__ofCases","children":[],"type":"string","jpath":"$.['#ofCases']","previewValue":"1457783"},{"name":"ManualActivityCount","children":[],"type":"string","jpath":"$.ManualActivityCount","previewValue":"120952222"},{"name":"Activity","children":[],"type":"string","jpath":"$.Activity","previewValue":"Set Delivery Block"},{"name":"ActivityCycleTime","children":[],"type":"string","jpath":"$.ActivityCycleTime","previewValue":"21.94820988346339"},{"name":"AutomatedReworkSteps","children":[],"type":"string","jpath":"$.AutomatedReworkSteps","previewValue":"0"},{"name":"ReworkSteps","children":[],"type":"string","jpath":"$.ReworkSteps","previewValue":"185157"},{"name":"AutomationRate","children":[],"type":"string","jpath":"$.AutomationRate","previewValue":"0.8070867021620054"},{"name":"ManualReworkSteps","children":[],"type":"string","jpath":"$.ManualReworkSteps","previewValue":"185157"},{"name":"Insight","children":[],"type":"string","jpath":"$.Insight","previewValue":"REWORK"},{"name":"ManualReworkedSOItems","children":[],"type":"string","jpath":"$.ManualReworkedSOItems","previewValue":"180820"},{"name":"Level","children":[],"type":"string","jpath":"$.Level","previewValue":"Table"},{"name":"a__ofActivities","children":[],"type":"string","jpath":"$.['#ofActivities']","previewValue":"1642940"},{"name":"ReworkSOItems","children":[],"type":"string","jpath":"$.ReworkSOItems","previewValue":"180820"},{"name":"AutomaticSOItems","children":[],"type":"string","jpath":"$.AutomaticSOItems","previewValue":"0"}],"type":"object","jpath":"$","previewValue":""}</value>
         <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -291,10 +315,10 @@
         <sys_created_by>TBlev1</sys_created_by>
         <sys_created_on>2023-07-06 12:42:23</sys_created_on>
         <sys_id>9f7650ba97f7e1d4387553800153af35</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-07-07 13:10:30</sys_updated_on>
-        <value>{"#ofCases":"23500000","ReworkSteps":"23300000","ManualReworkSteps":"17300000","Insight":"REWORK","Activity":"Create Delivery","ManualReworkedSOItems":"17200000","Level":"Table","#ofActivities":"46800000","ReworkSOItems":"23300000","ActivityCycleTime":"7.2","AutomaticSOItems":"6050000","AutomatedReworkSteps":"6050000"}</value>
+        <sys_updated_on>2023-08-02 14:24:32</sys_updated_on>
+        <value>{"#ofCases":"1457783","ManualActivityCount":"120952222","Activity":"Set Delivery Block","ActivityCycleTime":"21.94820988346339","AutomatedReworkSteps":"0","ReworkSteps":"185157","AutomationRate":"0.8070867021620054","ManualReworkSteps":"185157","Insight":"REWORK","ManualReworkedSOItems":"180820","Level":"Table","#ofActivities":"1642940","ReworkSOItems":"180820","AutomaticSOItems":"0"}</value>
         <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_5b7650ba97f7e1d4387553800153af1f^id=5b7650ba97f7e1d4387553800153af1f"/>
@@ -341,7 +365,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD7486e10f79b7a1d41289f31de857337e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=74a1e96e-39fc-4f13-a3b9-e7fcc6f67b1c</attributes>
+        <attributes>co_type_name=FD8fc073d3cf18f594f0cf955064fa42f7,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=b5ffa0f9-026d-49e5-be55-c5cebe99ae88</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -401,7 +425,7 @@
         <sys_created_on>2023-07-06 12:42:22</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9f7650ba97f7e1d4387553800153af29</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -409,7 +433,7 @@
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-07-07 13:10:30</sys_updated_on>
+        <sys_updated_on>2023-08-02 14:24:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <u_last_refreshed/>
@@ -493,7 +517,7 @@
         <label>jbody</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">fcc29cb297f7e1d4387553800153af9f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">fcc29cb297f7e1d4387553800153af9f</model>
         <model_id>fcc29cb297f7e1d4387553800153af9f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_fcc29cb297f7e1d4387553800153af9f</name>
@@ -542,7 +566,99 @@
         <xml_view>false</xml_view>
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1f7610ba97f7e1d4387553800153affb"/>
-    <sys_hub_action_output action="delete_multiple" query="model=fcc29cb297f7e1d4387553800153af9f^sys_idNOT IN5b7650ba97f7e1d4387553800153af49,5f7650ba97f7e1d4387553800153af38,637650ba97f7e1d4387553800153af69,677650ba97f7e1d4387553800153af59,6f7650ba97f7e1d4387553800153af78,8986e10f1bb7a1d40f0eda43cc4bcbc4,8bf61cba97f7e1d4387553800153af70,cbf61cba97f7e1d4387553800153af85,d77650ba97f7e1d4387553800153af51,db7650ba97f7e1d4387553800153af41,e37650ba97f7e1d4387553800153af61,eb7650ba97f7e1d4387553800153af80,ef7650ba97f7e1d4387553800153af70,f1d9603e97fbe1d4387553800153afa0"/>
+    <sys_hub_action_output action="delete_multiple" query="model=fcc29cb297f7e1d4387553800153af9f^sys_idNOT IN0fc0f7579718f594387553800153af5d,5b7650ba97f7e1d4387553800153af49,5f7650ba97f7e1d4387553800153af38,637650ba97f7e1d4387553800153af69,677650ba97f7e1d4387553800153af59,6f7650ba97f7e1d4387553800153af78,8986e10f1bb7a1d40f0eda43cc4bcbc4,8bf61cba97f7e1d4387553800153af70,8fc0f7579718f594387553800153af6d,cbf61cba97f7e1d4387553800153af85,d77650ba97f7e1d4387553800153af51,db7650ba97f7e1d4387553800153af41,e37650ba97f7e1d4387553800153af61,eb7650ba97f7e1d4387553800153af80,ef7650ba97f7e1d4387553800153af70,f1d9603e97fbe1d4387553800153afa0"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=bc89b5b9-5546-4375-9885-2a97d11fcd86</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>manual_activity_count</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Manual Activity Count</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">fcc29cb297f7e1d4387553800153af9f</model>
+        <model_id>fcc29cb297f7e1d4387553800153af9f</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_fcc29cb297f7e1d4387553800153af9f</name>
+        <next_element/>
+        <order>13</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-02 14:24:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0fc0f7579718f594387553800153af5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-02 14:24:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0fc0f7579718f594387553800153af5d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0fc0f7579718f594387553800153af5d"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -585,7 +701,7 @@
         <label>Activity Count</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">fcc29cb297f7e1d4387553800153af9f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">fcc29cb297f7e1d4387553800153af9f</model>
         <model_id>fcc29cb297f7e1d4387553800153af9f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_fcc29cb297f7e1d4387553800153af9f</name>
@@ -677,7 +793,7 @@
         <label>Activity</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">fcc29cb297f7e1d4387553800153af9f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">fcc29cb297f7e1d4387553800153af9f</model>
         <model_id>fcc29cb297f7e1d4387553800153af9f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_fcc29cb297f7e1d4387553800153af9f</name>
@@ -769,7 +885,7 @@
         <label>Manual Rework Steps</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">fcc29cb297f7e1d4387553800153af9f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">fcc29cb297f7e1d4387553800153af9f</model>
         <model_id>fcc29cb297f7e1d4387553800153af9f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_fcc29cb297f7e1d4387553800153af9f</name>
@@ -861,7 +977,7 @@
         <label>Rework Steps</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">fcc29cb297f7e1d4387553800153af9f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">fcc29cb297f7e1d4387553800153af9f</model>
         <model_id>fcc29cb297f7e1d4387553800153af9f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_fcc29cb297f7e1d4387553800153af9f</name>
@@ -953,7 +1069,7 @@
         <label>Automated Rework Steps</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">fcc29cb297f7e1d4387553800153af9f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">fcc29cb297f7e1d4387553800153af9f</model>
         <model_id>fcc29cb297f7e1d4387553800153af9f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_fcc29cb297f7e1d4387553800153af9f</name>
@@ -1045,7 +1161,7 @@
         <label>Level</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">fcc29cb297f7e1d4387553800153af9f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">fcc29cb297f7e1d4387553800153af9f</model>
         <model_id>fcc29cb297f7e1d4387553800153af9f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_fcc29cb297f7e1d4387553800153af9f</name>
@@ -1137,12 +1253,12 @@
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">fcc29cb297f7e1d4387553800153af9f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">fcc29cb297f7e1d4387553800153af9f</model>
         <model_id>fcc29cb297f7e1d4387553800153af9f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_fcc29cb297f7e1d4387553800153af9f</name>
         <next_element/>
-        <order>13</order>
+        <order>14</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -1161,7 +1277,7 @@
         <sys_created_on>2023-07-06 12:44:33</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>8bf61cba97f7e1d4387553800153af70</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1169,7 +1285,7 @@
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-07-07 13:10:30</sys_updated_on>
+        <sys_updated_on>2023-08-02 14:24:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <u_last_refreshed/>
@@ -1187,6 +1303,98 @@
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8bf61cba97f7e1d4387553800153af70"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=8bf61cba97f7e1d4387553800153af70"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=288e076d-d279-49f0-9b39-e8210c6007e2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>automation_rate</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Automation Rate</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">fcc29cb297f7e1d4387553800153af9f</model>
+        <model_id>fcc29cb297f7e1d4387553800153af9f</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_fcc29cb297f7e1d4387553800153af9f</name>
+        <next_element/>
+        <order>15</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-02 14:24:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8fc0f7579718f594387553800153af6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-02 14:24:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8fc0f7579718f594387553800153af6d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8fc0f7579718f594387553800153af6d"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1229,12 +1437,12 @@
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">fcc29cb297f7e1d4387553800153af9f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">fcc29cb297f7e1d4387553800153af9f</model>
         <model_id>fcc29cb297f7e1d4387553800153af9f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_fcc29cb297f7e1d4387553800153af9f</name>
         <next_element/>
-        <order>14</order>
+        <order>16</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -1253,7 +1461,7 @@
         <sys_created_on>2023-07-06 12:44:33</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>cbf61cba97f7e1d4387553800153af85</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1261,7 +1469,7 @@
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-07-07 13:10:38</sys_updated_on>
+        <sys_updated_on>2023-08-02 14:24:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <u_last_refreshed/>
@@ -1321,7 +1529,7 @@
         <label>Rework SO Items</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">fcc29cb297f7e1d4387553800153af9f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">fcc29cb297f7e1d4387553800153af9f</model>
         <model_id>fcc29cb297f7e1d4387553800153af9f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_fcc29cb297f7e1d4387553800153af9f</name>
@@ -1413,7 +1621,7 @@
         <label>Case Count</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">fcc29cb297f7e1d4387553800153af9f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">fcc29cb297f7e1d4387553800153af9f</model>
         <model_id>fcc29cb297f7e1d4387553800153af9f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_fcc29cb297f7e1d4387553800153af9f</name>
@@ -1505,7 +1713,7 @@
         <label>Manual SO Items</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">fcc29cb297f7e1d4387553800153af9f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">fcc29cb297f7e1d4387553800153af9f</model>
         <model_id>fcc29cb297f7e1d4387553800153af9f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_fcc29cb297f7e1d4387553800153af9f</name>
@@ -1597,7 +1805,7 @@
         <label>Activity Cycle Time</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">fcc29cb297f7e1d4387553800153af9f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">fcc29cb297f7e1d4387553800153af9f</model>
         <model_id>fcc29cb297f7e1d4387553800153af9f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_fcc29cb297f7e1d4387553800153af9f</name>
@@ -1689,7 +1897,7 @@
         <label>Automatic SO Items</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">fcc29cb297f7e1d4387553800153af9f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">fcc29cb297f7e1d4387553800153af9f</model>
         <model_id>fcc29cb297f7e1d4387553800153af9f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_fcc29cb297f7e1d4387553800153af9f</name>
@@ -1781,7 +1989,7 @@
         <label>Insight</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">fcc29cb297f7e1d4387553800153af9f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">fcc29cb297f7e1d4387553800153af9f</model>
         <model_id>fcc29cb297f7e1d4387553800153af9f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_fcc29cb297f7e1d4387553800153af9f</name>
@@ -1834,7 +2042,7 @@
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=fcc29cb297f7e1d4387553800153af9f"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=fcc29cb297f7e1d4387553800153af9f^sys_idNOT IN637650ba97f7e1d4387553800153af8e"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">fcc29cb297f7e1d4387553800153af9f</action_type_id>
+        <action_type_id display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">fcc29cb297f7e1d4387553800153af9f</action_type_id>
         <sys_created_by>TBlev1</sys_created_by>
         <sys_created_on>2023-07-06 12:42:24</sys_created_on>
         <sys_id>637650ba97f7e1d4387553800153af8e</sys_id>
@@ -1870,7 +2078,7 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_fcc29cb297f7e1d4387553800153af9f"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_fcc29cb297f7e1d4387553800153af9f^sys_idNOT IN0586e10f1bb7a1d40f0eda43cc4bcbcc,1f7650ba97f7e1d4387553800153af48,237650ba97f7e1d4387553800153af78,277650ba97f7e1d4387553800153af68,2b7650ba97f7e1d4387553800153af58,2f7650ba97f7e1d4387553800153af87,79d9603e97fbe1d4387553800153afb3,8bf61cba97f7e1d4387553800153af9f,8ff61cba97f7e1d4387553800153af84,9b7650ba97f7e1d4387553800153af50,9f7650ba97f7e1d4387553800153af40,a37650ba97f7e1d4387553800153af70,a77650ba97f7e1d4387553800153af60,af7650ba97f7e1d4387553800153af7f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_fcc29cb297f7e1d4387553800153af9f^sys_idNOT IN0586e10f1bb7a1d40f0eda43cc4bcbcc,1f7650ba97f7e1d4387553800153af48,237650ba97f7e1d4387553800153af78,277650ba97f7e1d4387553800153af68,2b7650ba97f7e1d4387553800153af58,2f7650ba97f7e1d4387553800153af87,43c0f7579718f594387553800153af75,79d9603e97fbe1d4387553800153afb3,8bf61cba97f7e1d4387553800153af9f,8ff61cba97f7e1d4387553800153af84,9b7650ba97f7e1d4387553800153af50,9f7650ba97f7e1d4387553800153af40,a37650ba97f7e1d4387553800153af70,a77650ba97f7e1d4387553800153af60,af7650ba97f7e1d4387553800153af7f,c7c0f7579718f594387553800153af65"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>level</element>
         <help/>
@@ -2018,6 +2226,31 @@
         <sys_update_name/>
         <sys_updated_by>TBlev1</sys_updated_by>
         <sys_updated_on>2023-07-06 12:42:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>automation_rate</element>
+        <help/>
+        <hint/>
+        <label>Automation Rate</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_fcc29cb297f7e1d4387553800153af9f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-02 14:24:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>43c0f7579718f594387553800153af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-02 14:24:32</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -2221,19 +2454,44 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>manual_activity_count</element>
+        <help/>
+        <hint/>
+        <label>Manual Activity Count</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_fcc29cb297f7e1d4387553800153af9f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-02 14:24:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c7c0f7579718f594387553800153af65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-02 14:24:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_fcc29cb297f7e1d4387553800153af9f"/>
     <sys_hub_action_plan action="delete_multiple" query="action_id=fcc29cb297f7e1d4387553800153af9f^sys_idNOT IN09079cba97f7e1d4387553800153aff0"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">fcc29cb297f7e1d4387553800153af9f</action_id>
+        <action_id display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">fcc29cb297f7e1d4387553800153af9f</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"09079cba97f7e1d4387553800153aff0","name":"plan","plan_signature":null}}</plan>
-        <snapshot>9f86650f1bb7a1d40f0eda43cc4bcbe1</snapshot>
+        <snapshot>6bd03f579718f594387553800153af32</snapshot>
         <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>TBlev1</sys_created_by>
         <sys_created_on>2023-07-06 12:44:41</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>09079cba97f7e1d4387553800153aff0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2242,7 +2500,7 @@
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-07-07 13:10:42</sys_updated_on>
+        <sys_updated_on>2023-08-02 14:24:52</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -2256,20 +2514,20 @@
         <copied_from_name/>
         <description/>
         <internal_name>ipedemandprocess_celonis_payload__12_fields</internal_name>
-        <label_cache>[{"name":"{{action.jbody}}","label":"action➛jbody","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.Activity}}","label":"step➛JSON Parser step➛root➛Activity","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.CaseCount}}","label":"step➛JSON Parser step➛root➛CaseCount","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ActivityCount}}","label":"step➛JSON Parser step➛root➛ActivityCount","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ReworkSOItems}}","label":"step➛JSON Parser step➛root➛ReworkSOItems","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ReworkSteps}}","label":"step➛JSON Parser step➛root➛ReworkSteps","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ManualSOItems_}}","label":"step➛JSON Parser step➛root➛ManualSOItems_","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ManualReworkSteps}}","label":"step➛JSON Parser step➛root➛ManualReworkSteps","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.AutomaticSOItems}}","label":"step➛JSON Parser step➛root➛AutomaticSOItems","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.AutomatedReworkSteps}}","label":"step➛JSON Parser step➛root➛AutomatedReworkSteps","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ActivityCycleTime}}","label":"step➛JSON Parser step➛root➛ActivityCycleTime","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.Insight}}","label":"step➛JSON Parser step➛root➛Insight","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.a__ofCases}}","label":"step➛JSON Parser step➛root➛a__ofCases","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.a__ofActivities}}","label":"step➛JSON Parser step➛root➛a__ofActivities","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ManualReworkedSOItems}}","label":"step➛JSON Parser step➛root➛ManualReworkedSOItems","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.Level}}","label":"step➛JSON Parser step➛root➛Level","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.jbody}}","label":"action➛jbody","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.Activity}}","label":"step➛JSON Parser step➛root➛Activity","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.CaseCount}}","label":"step➛JSON Parser step➛root➛CaseCount","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ActivityCount}}","label":"step➛JSON Parser step➛root➛ActivityCount","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ReworkSOItems}}","label":"step➛JSON Parser step➛root➛ReworkSOItems","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ReworkSteps}}","label":"step➛JSON Parser step➛root➛ReworkSteps","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ManualSOItems_}}","label":"step➛JSON Parser step➛root➛ManualSOItems_","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ManualReworkSteps}}","label":"step➛JSON Parser step➛root➛ManualReworkSteps","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.AutomaticSOItems}}","label":"step➛JSON Parser step➛root➛AutomaticSOItems","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.AutomatedReworkSteps}}","label":"step➛JSON Parser step➛root➛AutomatedReworkSteps","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ActivityCycleTime}}","label":"step➛JSON Parser step➛root➛ActivityCycleTime","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.Insight}}","label":"step➛JSON Parser step➛root➛Insight","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.a__ofCases}}","label":"step➛JSON Parser step➛root➛a__ofCases","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.a__ofActivities}}","label":"step➛JSON Parser step➛root➛a__ofActivities","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ManualReworkedSOItems}}","label":"step➛JSON Parser step➛root➛ManualReworkedSOItems","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.Level}}","label":"step➛JSON Parser step➛root➛Level","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ManualActivityCount}}","label":"step➛JSON Parser step➛root➛ManualActivityCount","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.AutomationRate}}","label":"step➛JSON Parser step➛root➛AutomationRate","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master>true</master>
-        <name>IPE-DEMAND-Process Celonis Payload - 12 Fields</name>
+        <name>IPE-DEMAND-Process Celonis Payload - 14 Fields</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">fcc29cb297f7e1d4387553800153af9f</parent_action>
+        <parent_action display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">fcc29cb297f7e1d4387553800153af9f</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>TBlev1</sys_created_by>
         <sys_created_on>2023-07-06 12:44:38</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>a8075cba97f7e1d4387553800153af8f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2278,7 +2536,7 @@
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-07-07 13:10:39</sys_updated_on>
+        <sys_updated_on>2023-08-02 14:24:49</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -2291,10 +2549,10 @@
         <sys_created_by>TBlev1</sys_created_by>
         <sys_created_on>2023-07-06 12:44:40</sys_created_on>
         <sys_id>74079cba97f7e1d4387553800153af80</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-07-07 13:10:40</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"5d2dbbc4-fea8-4551-91e8-00065b224450\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <sys_updated_on>2023-08-02 14:24:50</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"5d2dbbc4-fea8-4551-91e8-00065b224450\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">30079cba97f7e1d4387553800153af65</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2373,6 +2631,18 @@
         <value>{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.AutomaticSOItems}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>automation_rate</field>
+        <id>a8075cba97f7e1d4387553800153af8f</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-02 14:24:50</sys_created_on>
+        <sys_id>afd03f579718f594387553800153af2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-02 14:24:50</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a8075cba97f7e1d4387553800153af8f</table>
+        <value>{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.AutomationRate}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>case_count</field>
         <id>a8075cba97f7e1d4387553800153af8f</id>
         <sys_created_by>TBlev1</sys_created_by>
@@ -2407,6 +2677,18 @@
         <sys_updated_on>2023-07-07 13:10:40</sys_updated_on>
         <table>var__m_sys_hub_action_output_a8075cba97f7e1d4387553800153af8f</table>
         <value>{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.Level}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>manual_activity_count</field>
+        <id>a8075cba97f7e1d4387553800153af8f</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-02 14:24:50</sys_created_on>
+        <sys_id>ebd03f579718f594387553800153af2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-02 14:24:50</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a8075cba97f7e1d4387553800153af8f</table>
+        <value>{{step[1aec3c7a-3694-4ae1-8a83-0742ac5cabf1].root.ManualActivityCount}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>manual_rework_steps</field>
@@ -2482,7 +2764,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=a8075cba97f7e1d4387553800153af8f^sys_idNOT INe4075cba97f7e1d4387553800153af9d"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">a8075cba97f7e1d4387553800153af8f</action>
+        <action display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">a8075cba97f7e1d4387553800153af8f</action>
         <cid>1aec3c7a-3694-4ae1-8a83-0742ac5cabf1</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -2500,7 +2782,7 @@
         <sys_created_on>2023-07-06 12:44:39</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>e4075cba97f7e1d4387553800153af9d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2508,7 +2790,7 @@
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-07-07 13:10:39</sys_updated_on>
+        <sys_updated_on>2023-08-02 14:24:50</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e4075cba97f7e1d4387553800153af9d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2519,10 +2801,10 @@
         <sys_created_by>TBlev1</sys_created_by>
         <sys_created_on>2023-07-06 12:44:39</sys_created_on>
         <sys_id>a4075cba97f7e1d4387553800153afbc</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-07-07 13:10:39</sys_updated_on>
-        <value>{"#ofCases":"23500000","ReworkSteps":"23300000","ManualReworkSteps":"17300000","Insight":"REWORK","Activity":"Create Delivery","ManualReworkedSOItems":"17200000","Level":"Table","#ofActivities":"46800000","ReworkSOItems":"23300000","ActivityCycleTime":"7.2","AutomaticSOItems":"6050000","AutomatedReworkSteps":"6050000"}</value>
+        <sys_updated_on>2023-08-02 14:24:50</sys_updated_on>
+        <value>{"#ofCases":"1457783","ManualActivityCount":"120952222","Activity":"Set Delivery Block","ActivityCycleTime":"21.94820988346339","AutomatedReworkSteps":"0","ReworkSteps":"185157","AutomationRate":"0.8070867021620054","ManualReworkSteps":"185157","Insight":"REWORK","ManualReworkedSOItems":"180820","Level":"Table","#ofActivities":"1642940","ReworkSOItems":"180820","AutomaticSOItems":"0"}</value>
         <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2533,10 +2815,10 @@
         <sys_created_by>TBlev1</sys_created_by>
         <sys_created_on>2023-07-06 12:44:39</sys_created_on>
         <sys_id>e0075cba97f7e1d4387553800153afbc</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-07-07 13:10:39</sys_updated_on>
-        <value>{"name":"root","children":[{"name":"a__ofCases","children":[],"type":"string","jpath":"$.['#ofCases']","previewValue":"23500000"},{"name":"ReworkSteps","children":[],"type":"string","jpath":"$.ReworkSteps","previewValue":"23300000"},{"name":"ManualReworkSteps","children":[],"type":"string","jpath":"$.ManualReworkSteps","previewValue":"17300000"},{"name":"Insight","children":[],"type":"string","jpath":"$.Insight","previewValue":"REWORK"},{"name":"Activity","children":[],"type":"string","jpath":"$.Activity","previewValue":"Create Delivery"},{"name":"ManualReworkedSOItems","children":[],"type":"string","jpath":"$.ManualReworkedSOItems","previewValue":"17200000"},{"name":"Level","children":[],"type":"string","jpath":"$.Level","previewValue":"Table"},{"name":"a__ofActivities","children":[],"type":"string","jpath":"$.['#ofActivities']","previewValue":"46800000"},{"name":"ReworkSOItems","children":[],"type":"string","jpath":"$.ReworkSOItems","previewValue":"23300000"},{"name":"ActivityCycleTime","children":[],"type":"string","jpath":"$.ActivityCycleTime","previewValue":"7.2"},{"name":"AutomaticSOItems","children":[],"type":"string","jpath":"$.AutomaticSOItems","previewValue":"6050000"},{"name":"AutomatedReworkSteps","children":[],"type":"string","jpath":"$.AutomatedReworkSteps","previewValue":"6050000"}],"type":"object","jpath":"$","previewValue":""}</value>
+        <sys_updated_on>2023-08-02 14:24:50</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"a__ofCases","children":[],"type":"string","jpath":"$.['#ofCases']","previewValue":"1457783"},{"name":"ManualActivityCount","children":[],"type":"string","jpath":"$.ManualActivityCount","previewValue":"120952222"},{"name":"Activity","children":[],"type":"string","jpath":"$.Activity","previewValue":"Set Delivery Block"},{"name":"ActivityCycleTime","children":[],"type":"string","jpath":"$.ActivityCycleTime","previewValue":"21.94820988346339"},{"name":"AutomatedReworkSteps","children":[],"type":"string","jpath":"$.AutomatedReworkSteps","previewValue":"0"},{"name":"ReworkSteps","children":[],"type":"string","jpath":"$.ReworkSteps","previewValue":"185157"},{"name":"AutomationRate","children":[],"type":"string","jpath":"$.AutomationRate","previewValue":"0.8070867021620054"},{"name":"ManualReworkSteps","children":[],"type":"string","jpath":"$.ManualReworkSteps","previewValue":"185157"},{"name":"Insight","children":[],"type":"string","jpath":"$.Insight","previewValue":"REWORK"},{"name":"ManualReworkedSOItems","children":[],"type":"string","jpath":"$.ManualReworkedSOItems","previewValue":"180820"},{"name":"Level","children":[],"type":"string","jpath":"$.Level","previewValue":"Table"},{"name":"a__ofActivities","children":[],"type":"string","jpath":"$.['#ofActivities']","previewValue":"1642940"},{"name":"ReworkSOItems","children":[],"type":"string","jpath":"$.ReworkSOItems","previewValue":"180820"},{"name":"AutomaticSOItems","children":[],"type":"string","jpath":"$.AutomaticSOItems","previewValue":"0"}],"type":"object","jpath":"$","previewValue":""}</value>
         <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_e4075cba97f7e1d4387553800153af9d^id=e4075cba97f7e1d4387553800153af9d"/>
@@ -2583,7 +2865,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FDa4075cba6cf7e1d4e44151136fbf43a0,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=74a1e96e-39fc-4f13-a3b9-e7fcc6f67b1c</attributes>
+        <attributes>co_type_name=FDa4075cba6cf7e1d4e44151136fbf43a0,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=b5ffa0f9-026d-49e5-be55-c5cebe99ae88</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2643,7 +2925,7 @@
         <sys_created_on>2023-07-06 12:44:39</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>e8075cba97f7e1d4387553800153afa4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2651,7 +2933,7 @@
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-07-07 13:10:39</sys_updated_on>
+        <sys_updated_on>2023-08-02 14:24:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <u_last_refreshed/>
@@ -2735,7 +3017,7 @@
         <label>jbody</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">a8075cba97f7e1d4387553800153af8f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">a8075cba97f7e1d4387553800153af8f</model>
         <model_id>a8075cba97f7e1d4387553800153af8f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_a8075cba97f7e1d4387553800153af8f</name>
@@ -2784,7 +3066,191 @@
         <xml_view>false</xml_view>
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=64075cba97f7e1d4387553800153af93"/>
-    <sys_hub_action_output action="delete_multiple" query="model=a8075cba97f7e1d4387553800153af8f^sys_idNOT IN1786650f1bb7a1d40f0eda43cc4bcbbb,24075cba97f7e1d4387553800153afbf,28079cba97f7e1d4387553800153af26,30079cba97f7e1d4387553800153af65,3c079cba97f7e1d4387553800153af45,64079cba97f7e1d4387553800153af2e,6c079cba97f7e1d4387553800153af05,78079cba97f7e1d4387553800153af4d,a0079cba97f7e1d4387553800153af36,a45a6c3e97fbe1d4387553800153af3c,b4079cba97f7e1d4387553800153af55,bc079cba97f7e1d4387553800153af6c,f0079cba97f7e1d4387553800153af5d,fc079cba97f7e1d4387553800153af3d"/>
+    <sys_hub_action_output action="delete_multiple" query="model=a8075cba97f7e1d4387553800153af8f^sys_idNOT IN13d0fb579718f594387553800153afe9,13d0fb579718f594387553800153aff8,1786650f1bb7a1d40f0eda43cc4bcbbb,24075cba97f7e1d4387553800153afbf,28079cba97f7e1d4387553800153af26,30079cba97f7e1d4387553800153af65,3c079cba97f7e1d4387553800153af45,64079cba97f7e1d4387553800153af2e,6c079cba97f7e1d4387553800153af05,78079cba97f7e1d4387553800153af4d,a0079cba97f7e1d4387553800153af36,a45a6c3e97fbe1d4387553800153af3c,b4079cba97f7e1d4387553800153af55,bc079cba97f7e1d4387553800153af6c,f0079cba97f7e1d4387553800153af5d,fc079cba97f7e1d4387553800153af3d"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=bc89b5b9-5546-4375-9885-2a97d11fcd86</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>manual_activity_count</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Manual Activity Count</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">a8075cba97f7e1d4387553800153af8f</model>
+        <model_id>a8075cba97f7e1d4387553800153af8f</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_a8075cba97f7e1d4387553800153af8f</name>
+        <next_element/>
+        <order>13</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-02 14:24:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>13d0fb579718f594387553800153afe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-02 14:24:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=13d0fb579718f594387553800153afe9"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=13d0fb579718f594387553800153afe9"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=288e076d-d279-49f0-9b39-e8210c6007e2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>automation_rate</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Automation Rate</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">a8075cba97f7e1d4387553800153af8f</model>
+        <model_id>a8075cba97f7e1d4387553800153af8f</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_a8075cba97f7e1d4387553800153af8f</name>
+        <next_element/>
+        <order>15</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-02 14:24:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>13d0fb579718f594387553800153aff8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-02 14:24:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=13d0fb579718f594387553800153aff8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=13d0fb579718f594387553800153aff8"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2827,7 +3293,7 @@
         <label>Level</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">a8075cba97f7e1d4387553800153af8f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">a8075cba97f7e1d4387553800153af8f</model>
         <model_id>a8075cba97f7e1d4387553800153af8f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_a8075cba97f7e1d4387553800153af8f</name>
@@ -2919,7 +3385,7 @@
         <label>Activity</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">a8075cba97f7e1d4387553800153af8f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">a8075cba97f7e1d4387553800153af8f</model>
         <model_id>a8075cba97f7e1d4387553800153af8f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_a8075cba97f7e1d4387553800153af8f</name>
@@ -3011,7 +3477,7 @@
         <label>Activity Count</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">a8075cba97f7e1d4387553800153af8f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">a8075cba97f7e1d4387553800153af8f</model>
         <model_id>a8075cba97f7e1d4387553800153af8f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_a8075cba97f7e1d4387553800153af8f</name>
@@ -3103,12 +3569,12 @@
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">a8075cba97f7e1d4387553800153af8f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">a8075cba97f7e1d4387553800153af8f</model>
         <model_id>a8075cba97f7e1d4387553800153af8f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_a8075cba97f7e1d4387553800153af8f</name>
         <next_element/>
-        <order>13</order>
+        <order>14</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -3127,7 +3593,7 @@
         <sys_created_on>2023-07-06 12:44:40</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>30079cba97f7e1d4387553800153af65</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -3135,7 +3601,7 @@
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-07-07 13:10:40</sys_updated_on>
+        <sys_updated_on>2023-08-02 14:24:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <u_last_refreshed/>
@@ -3195,7 +3661,7 @@
         <label>Manual Rework Steps</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">a8075cba97f7e1d4387553800153af8f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">a8075cba97f7e1d4387553800153af8f</model>
         <model_id>a8075cba97f7e1d4387553800153af8f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_a8075cba97f7e1d4387553800153af8f</name>
@@ -3287,7 +3753,7 @@
         <label>Rework SO Items</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">a8075cba97f7e1d4387553800153af8f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">a8075cba97f7e1d4387553800153af8f</model>
         <model_id>a8075cba97f7e1d4387553800153af8f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_a8075cba97f7e1d4387553800153af8f</name>
@@ -3379,7 +3845,7 @@
         <label>Case Count</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">a8075cba97f7e1d4387553800153af8f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">a8075cba97f7e1d4387553800153af8f</model>
         <model_id>a8075cba97f7e1d4387553800153af8f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_a8075cba97f7e1d4387553800153af8f</name>
@@ -3471,7 +3937,7 @@
         <label>Automatic SO Items</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">a8075cba97f7e1d4387553800153af8f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">a8075cba97f7e1d4387553800153af8f</model>
         <model_id>a8075cba97f7e1d4387553800153af8f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_a8075cba97f7e1d4387553800153af8f</name>
@@ -3563,7 +4029,7 @@
         <label>Rework Steps</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">a8075cba97f7e1d4387553800153af8f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">a8075cba97f7e1d4387553800153af8f</model>
         <model_id>a8075cba97f7e1d4387553800153af8f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_a8075cba97f7e1d4387553800153af8f</name>
@@ -3655,7 +4121,7 @@
         <label>Insight</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">a8075cba97f7e1d4387553800153af8f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">a8075cba97f7e1d4387553800153af8f</model>
         <model_id>a8075cba97f7e1d4387553800153af8f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_a8075cba97f7e1d4387553800153af8f</name>
@@ -3747,7 +4213,7 @@
         <label>Automated Rework Steps</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">a8075cba97f7e1d4387553800153af8f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">a8075cba97f7e1d4387553800153af8f</model>
         <model_id>a8075cba97f7e1d4387553800153af8f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_a8075cba97f7e1d4387553800153af8f</name>
@@ -3839,12 +4305,12 @@
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">a8075cba97f7e1d4387553800153af8f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">a8075cba97f7e1d4387553800153af8f</model>
         <model_id>a8075cba97f7e1d4387553800153af8f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_a8075cba97f7e1d4387553800153af8f</name>
         <next_element/>
-        <order>14</order>
+        <order>16</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -3863,7 +4329,7 @@
         <sys_created_on>2023-07-06 12:44:40</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>bc079cba97f7e1d4387553800153af6c</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -3871,7 +4337,7 @@
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-07-07 13:10:40</sys_updated_on>
+        <sys_updated_on>2023-08-02 14:24:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <u_last_refreshed/>
@@ -3931,7 +4397,7 @@
         <label>Activity Cycle Time</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">a8075cba97f7e1d4387553800153af8f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">a8075cba97f7e1d4387553800153af8f</model>
         <model_id>a8075cba97f7e1d4387553800153af8f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_a8075cba97f7e1d4387553800153af8f</name>
@@ -4023,7 +4489,7 @@
         <label>Manual SO Items</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">a8075cba97f7e1d4387553800153af8f</model>
+        <model display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">a8075cba97f7e1d4387553800153af8f</model>
         <model_id>a8075cba97f7e1d4387553800153af8f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_a8075cba97f7e1d4387553800153af8f</name>
@@ -4076,7 +4542,7 @@
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=a8075cba97f7e1d4387553800153af8f"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=a8075cba97f7e1d4387553800153af8f^sys_idNOT IN74079cba97f7e1d4387553800153af85"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="IPE-DEMAND-Process Celonis Payload - 12 Fields">a8075cba97f7e1d4387553800153af8f</action_type_id>
+        <action_type_id display_value="IPE-DEMAND-Process Celonis Payload - 14 Fields">a8075cba97f7e1d4387553800153af8f</action_type_id>
         <sys_created_by>TBlev1</sys_created_by>
         <sys_created_on>2023-07-06 12:44:40</sys_created_on>
         <sys_id>74079cba97f7e1d4387553800153af85</sys_id>
@@ -4112,7 +4578,7 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_a8075cba97f7e1d4387553800153af8f"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_a8075cba97f7e1d4387553800153af8f^sys_idNOT IN20079cba97f7e1d4387553800153af05,28079cba97f7e1d4387553800153af2d,3c079cba97f7e1d4387553800153af4c,64079cba97f7e1d4387553800153af35,70079cba97f7e1d4387553800153af6c,78079cba97f7e1d4387553800153af54,9386650f1bb7a1d40f0eda43cc4bcbc2,a45a6c3e97fbe1d4387553800153af50,b0079cba97f7e1d4387553800153af3d,b4079cba97f7e1d4387553800153af5c,e8079cba97f7e1d4387553800153af25,f0079cba97f7e1d4387553800153af64,f8079cba97f7e1d4387553800153af79,fc079cba97f7e1d4387553800153af44"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_a8075cba97f7e1d4387553800153af8f^sys_idNOT IN20079cba97f7e1d4387553800153af05,28079cba97f7e1d4387553800153af2d,3c079cba97f7e1d4387553800153af4c,64079cba97f7e1d4387553800153af35,6bd03f579718f594387553800153af0b,70079cba97f7e1d4387553800153af6c,78079cba97f7e1d4387553800153af54,9386650f1bb7a1d40f0eda43cc4bcbc2,93d0fb579718f594387553800153aff0,a45a6c3e97fbe1d4387553800153af50,b0079cba97f7e1d4387553800153af3d,b4079cba97f7e1d4387553800153af5c,e8079cba97f7e1d4387553800153af25,f0079cba97f7e1d4387553800153af64,f8079cba97f7e1d4387553800153af79,fc079cba97f7e1d4387553800153af44"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>activity</element>
         <help/>
@@ -4214,6 +4680,31 @@
         <url_target/>
     </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
+        <element>automation_rate</element>
+        <help/>
+        <hint/>
+        <label>Automation Rate</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a8075cba97f7e1d4387553800153af8f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-02 14:24:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6bd03f579718f594387553800153af0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-02 14:24:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
         <help/>
         <hint/>
@@ -4285,6 +4776,31 @@
         <sys_update_name/>
         <sys_updated_by>TBlev1</sys_updated_by>
         <sys_updated_on>2023-07-07 13:10:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>manual_activity_count</element>
+        <help/>
+        <hint/>
+        <label>Manual Activity Count</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a8075cba97f7e1d4387553800153af8f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-02 14:24:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>93d0fb579718f594387553800153aff0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-02 14:24:50</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -4467,6 +4983,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>fcc29cb297f7e1d4387553800153af9f</sys_id>
         <latest_snapshot>a8075cba97f7e1d4387553800153af8f</latest_snapshot>
-        <compiler_build>glide-utah-12-21-2022__patch2-03-30-2023_04-10-2023_1543.zip</compiler_build>
+        <compiler_build>glide-utah-12-21-2022__patch4-hotfix2-06-23-2023_06-23-2023_2224.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

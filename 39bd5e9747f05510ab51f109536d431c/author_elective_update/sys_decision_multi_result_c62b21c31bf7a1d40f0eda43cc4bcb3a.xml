@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="DELETE">
+        <decision_table display_value="IPE - Task Type Policy">05dec0641bbb6d54f930da43cc4bcba1</decision_table>
+        <label>Task Type: Ledger Task</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-07 13:30:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>c62b21c31bf7a1d40f0eda43cc4bcb3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Task Type: Ledger Task</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_decision_multi_result_c62b21c31bf7a1d40f0eda43cc4bcb3a</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-07 13:30:47</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="DELETE" query="document_key=c62b21c31bf7a1d40f0eda43cc4bcb3a"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>c62b21c31bf7a1d40f0eda43cc4bcb3a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-07 13:30:47</sys_created_on>
+        <sys_id>4a2b21c31bf7a1d40f0eda43cc4bcb3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-07 13:30:47</sys_updated_on>
+        <value>Ledger Task</value>
+        <variable display_value="Task Type">facf8c281bbb6d54f930da43cc4bcb49</variable>
+    </sys_variable_value>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>532947b4ffaeac889376762fa87efe09</instance_id>
+        <instance_name>niketest</instance_name>
+        <name>sys_decision_multi_result_c62b21c31bf7a1d40f0eda43cc4bcb3a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="INSERT_OR_UPDATE">
+        <decision_table display_value="IPE - Task Type Policy">05dec0641bbb6d54f930da43cc4bcba1</decision_table>
+        <label>Task Type: Ledger Task</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-07 13:30:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>c62b21c31bf7a1d40f0eda43cc4bcb3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Task Type: Ledger Task</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_decision_multi_result_c62b21c31bf7a1d40f0eda43cc4bcb3a</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-07 13:30:47</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="delete_multiple" query="document_key=c62b21c31bf7a1d40f0eda43cc4bcb3a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>c62b21c31bf7a1d40f0eda43cc4bcb3a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-07 13:30:47</sys_created_on>
+        <sys_id>4a2b21c31bf7a1d40f0eda43cc4bcb3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-07 13:30:47</sys_updated_on>
+        <value>Ledger Task</value>
+        <variable display_value="Task Type">facf8c281bbb6d54f930da43cc4bcb49</variable>
+    </sys_variable_value>
+</record_update>]]></payload>
+        <payload_hash>33759231</payload_hash>
+        <record_name>Task Type: Ledger Task</record_name>
+        <reverted_from/>
+        <source>55991b9b9714f594387553800153af7b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-02 12:53:53</sys_created_on>
+        <sys_id>030c5f939754f594387553800153af23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189b64fd7b00000001</sys_recorded_at>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-02 12:53:53</sys_updated_on>
+        <type>Decision Table Multiple Result</type>
+        <update_guid>cb0c5f931154f59407bb7321761ec922</update_guid>
+        <update_guid_history>cb0c5f931154f59407bb7321761ec922:0,ca2b21c3d5f7a1d431861be0f2c1fe3d:-1866049769</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-08-03 07:00:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_decision_multi_result">sys_decision_multi_result</sys_db_object>
+        <sys_id>49e8382eb9054e1ab0a6fe80a750b769</sys_id>
+        <sys_metadata>c62b21c31bf7a1d40f0eda43cc4bcb3a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Task Type: Ledger Task</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>sys_decision_multi_result_c62b21c31bf7a1d40f0eda43cc4bcb3a</sys_update_name>
+        <sys_update_version display_value="sys_decision_multi_result_c62b21c31bf7a1d40f0eda43cc4bcb3a">030c5f939754f594387553800153af23</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-03 07:00:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

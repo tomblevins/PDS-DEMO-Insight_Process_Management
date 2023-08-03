@@ -4,8 +4,8 @@
         <element attributes="edge_encryption_enabled=true" label="Body" max_length="10000" name="body" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Classification" max_length="40" name="classification" type="string">
             <choice>
-                <element inactive_on_update="false" label="Procurement Case" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Ledger Task" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Sales Order Case" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Sales Order Sub Task" sequence="1" value="2"/>
                 <element inactive_on_update="false" label="Demand" sequence="2" value="0"/>
             </choice>
         </element>

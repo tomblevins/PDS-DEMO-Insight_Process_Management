@@ -22,7 +22,7 @@
             <element>classification</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Procurement Case</label>
+            <label>Sales Order Case</label>
             <language>en</language>
             <name>x_snc_insight_pr_0_event_ledger</name>
             <sequence>0</sequence>
@@ -30,9 +30,9 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-25 12:52:17</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-04-19 15:18:30</sys_updated_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-02 18:01:37</sys_updated_on>
             <value>1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -40,7 +40,7 @@
             <element>classification</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Ledger Task</label>
+            <label>Sales Order Sub Task</label>
             <language>en</language>
             <name>x_snc_insight_pr_0_event_ledger</name>
             <sequence>1</sequence>
@@ -48,9 +48,9 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2023-04-19 15:19:14</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_mod_count>4</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>TBlev1</sys_updated_by>
-            <sys_updated_on>2023-07-12 14:15:58</sys_updated_on>
+            <sys_updated_on>2023-08-02 18:01:51</sys_updated_on>
             <value>2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">

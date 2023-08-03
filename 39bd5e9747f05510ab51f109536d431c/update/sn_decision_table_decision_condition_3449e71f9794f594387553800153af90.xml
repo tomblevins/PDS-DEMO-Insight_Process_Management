@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="INSERT_OR_UPDATE">
+        <decision_input display_value="Activity">e049239397d4f594387553800153afb2</decision_input>
+        <decision_table display_value="IPE - Pre-Processor - Task Type Policy">05dec0641bbb6d54f930da43cc4bcba1</decision_table>
+        <default_operator>=</default_operator>
+        <description/>
+        <field/>
+        <field_label/>
+        <field_parent_table/>
+        <label>Activity</label>
+        <order>75</order>
+        <reference/>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-02 13:51:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>3449e71f9794f594387553800153af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_3449e71f9794f594387553800153af90</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-02 13:51:37</sys_updated_on>
+        <type display_value="String">747127c1bf3320001875647fcf0739e0</type>
+    </sn_decision_table_decision_condition>
+</record_update>
