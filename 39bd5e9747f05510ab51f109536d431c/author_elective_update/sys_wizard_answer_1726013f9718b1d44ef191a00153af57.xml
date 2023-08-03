@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>Distribution Channel</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Distribution Channel</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">bdc2d500300035005d499e01aa0ef662</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>ERam61</sys_created_by>
+        <sys_created_on>2023-08-03 15:16:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1726013f9718b1d44ef191a00153af57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Distribution Channel</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_wizard_answer_1726013f9718b1d44ef191a00153af57</sys_update_name>
+        <sys_updated_by>ERam61</sys_updated_by>
+        <sys_updated_on>2023-08-03 15:16:03</sys_updated_on>
+        <table/>
+        <target_url>x_snc_insight_pr_0_distribution_channel.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>532947b4ffaeac889376762fa87efe09</instance_id>
+        <instance_name>niketest</instance_name>
+        <name>sys_wizard_answer_1726013f9718b1d44ef191a00153af57</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>Distribution Channel</answer><button_label/><dependent_value/><element/><name>Distribution Channel</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">bdc2d500300035005d499e01aa0ef662</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>ERam61</sys_created_by><sys_created_on>2023-08-03 15:16:03</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>1726013f9718b1d44ef191a00153af57</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Distribution Channel</sys_name><sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope><sys_update_name>sys_wizard_answer_1726013f9718b1d44ef191a00153af57</sys_update_name><sys_updated_by>ERam61</sys_updated_by><sys_updated_on>2023-08-03 15:16:03</sys_updated_on><table/><target_url>x_snc_insight_pr_0_distribution_channel.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>-552410711</payload_hash>
+        <record_name>Distribution Channel</record_name>
+        <reverted_from/>
+        <source>8a465f131b332110f930da43cc4bcbae</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-07-08 15:57:17</sys_created_on>
+        <sys_id>e720153f9758b1d44ef191a00153afef</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1893638c3480000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>a720153ffb58b1d4ba3d0910319f3def</update_guid>
+        <update_guid_history>a720153ffb58b1d4ba3d0910319f3def:-552410711</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ERam61</sys_created_by>
+        <sys_created_on>2023-08-03 15:59:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>253e6d9c32f54af88de588e9d6b1dba9</sys_id>
+        <sys_metadata>1726013f9718b1d44ef191a00153af57</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Distribution Channel</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent display_value="Task">bdc2d500300035005d499e01aa0ef662</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_1726013f9718b1d44ef191a00153af57</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_1726013f9718b1d44ef191a00153af57">e720153f9758b1d44ef191a00153afef</sys_update_version>
+        <sys_updated_by>ERam61</sys_updated_by>
+        <sys_updated_on>2023-08-03 15:59:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

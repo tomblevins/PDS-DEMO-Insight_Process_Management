@@ -3,84 +3,70 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>credit_limit</element>
             <position>0</position>
-            <sys_created_by>TBlev1</sys_created_by>
-            <sys_created_on>2023-08-03 10:42:34</sys_created_on>
-            <sys_id>15974cb39758f994387553800153afe1</sys_id>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-08-03 18:53:46</sys_created_on>
+            <sys_id>2808f9b3979cb1d44ef191a00153afb7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Credit Info" display_value="Credit Info" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">4d5740b39758f994387553800153af31</sys_ui_section>
-            <sys_updated_by>TBlev1</sys_updated_by>
-            <sys_updated_on>2023-08-03 10:42:34</sys_updated_on>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-08-03 18:53:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>credit_control_area</element>
+            <element>u_credit_control_area_reference</element>
             <position>1</position>
-            <sys_created_by>TBlev1</sys_created_by>
-            <sys_created_on>2023-08-03 10:42:34</sys_created_on>
-            <sys_id>95974cb39758f994387553800153afe1</sys_id>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-08-03 18:53:46</sys_created_on>
+            <sys_id>2c08f9b3979cb1d44ef191a00153afb7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Credit Info" display_value="Credit Info" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">4d5740b39758f994387553800153af31</sys_ui_section>
-            <sys_updated_by>TBlev1</sys_updated_by>
-            <sys_updated_on>2023-08-03 10:42:34</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>credit_control_area_text</element>
-            <position>2</position>
-            <sys_created_by>TBlev1</sys_created_by>
-            <sys_created_on>2023-08-03 10:42:34</sys_created_on>
-            <sys_id>19974cb39758f994387553800153afe1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Credit Info" display_value="Credit Info" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">4d5740b39758f994387553800153af31</sys_ui_section>
-            <sys_updated_by>TBlev1</sys_updated_by>
-            <sys_updated_on>2023-08-03 10:42:34</sys_updated_on>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-08-03 18:53:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
-            <sys_created_by>TBlev1</sys_created_by>
-            <sys_created_on>2023-08-03 10:42:34</sys_created_on>
-            <sys_id>99974cb39758f994387553800153afe1</sys_id>
+            <position>2</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-08-03 18:53:46</sys_created_on>
+            <sys_id>2008f9b3979cb1d44ef191a00153afb8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Credit Info" display_value="Credit Info" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">4d5740b39758f994387553800153af31</sys_ui_section>
-            <sys_updated_by>TBlev1</sys_updated_by>
-            <sys_updated_on>2023-08-03 10:42:34</sys_updated_on>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-08-03 18:53:46</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>credit_utilization_ratio</element>
-            <position>4</position>
-            <sys_created_by>TBlev1</sys_created_by>
-            <sys_created_on>2023-08-03 10:42:34</sys_created_on>
-            <sys_id>1d974cb39758f994387553800153afe1</sys_id>
+            <position>3</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-08-03 18:53:46</sys_created_on>
+            <sys_id>2408f9b3979cb1d44ef191a00153afb8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Credit Info" display_value="Credit Info" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">4d5740b39758f994387553800153af31</sys_ui_section>
-            <sys_updated_by>TBlev1</sys_updated_by>
-            <sys_updated_on>2023-08-03 10:42:34</sys_updated_on>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-08-03 18:53:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>credit_risk_category</element>
-            <position>5</position>
-            <sys_created_by>TBlev1</sys_created_by>
-            <sys_created_on>2023-08-03 10:42:34</sys_created_on>
-            <sys_id>9d974cb39758f994387553800153afe1</sys_id>
+            <position>4</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-08-03 18:53:46</sys_created_on>
+            <sys_id>2808f9b3979cb1d44ef191a00153afb8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Credit Info" display_value="Credit Info" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">4d5740b39758f994387553800153af31</sys_ui_section>
-            <sys_updated_by>TBlev1</sys_updated_by>
-            <sys_updated_on>2023-08-03 10:42:34</sys_updated_on>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-08-03 18:53:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

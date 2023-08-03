@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="52c395379798b1d44ef191a00153af58" label="Credit Control Area" max_length="40" name="x_snc_insight_pr_0_credit_control_area" type="collection">
+        <element display="true" label="Credit Control Area" mandatory="true" max_length="40" name="credit_control_area" type="string"/>
+        <element label="Credit Control Area Value" mandatory="true" max_length="40" name="credit_control_area_value" type="string"/>
+    </element>
+</database>

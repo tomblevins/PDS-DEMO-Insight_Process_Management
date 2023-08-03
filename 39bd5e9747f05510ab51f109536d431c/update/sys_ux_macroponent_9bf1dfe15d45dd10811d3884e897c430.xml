@@ -566,7 +566,7 @@
                                         "type" : "TRANSLATION_LITERAL",
                                         "value" : {
                                           "code" : null,
-                                          "message" : "Task",
+                                          "message" : "Sales Order Case",
                                           "comment" : ""
                                         }
                                       },
@@ -576,19 +576,27 @@
                                       },
                                       "tableOrViewName" : {
                                         "type" : "JSON_LITERAL",
-                                        "value" : "x_snc_insight_pr_0_demo_celonis_event"
+                                        "value" : "x_snc_insight_pr_0_ledger_task"
                                       },
                                       "filterQuery" : {
                                         "type" : "JSON_LITERAL",
-                                        "value" : ""
+                                        "value" : "active=true^assigned_toISNOTEMPTY"
                                       },
                                       "reportSourceSysId" : {
                                         "type" : "JSON_LITERAL",
                                         "value" : null
                                       },
+                                      "preferredVisualizations" : {
+                                        "type" : "JSON_LITERAL",
+                                        "value" : [ "d24d53f60350de7a652caf3188a46ed2" ]
+                                      },
                                       "id" : {
                                         "type" : "JSON_LITERAL",
-                                        "value" : "dGFibGV0YXNrMTYwNDYwNjczMTc4NQ=="
+                                        "value" : "dGFibGV4X3NuY19pbnNpZ2h0X3ByXzBfbGVkZ2VyX3Rhc2sxNjkxMDcyNDk5MzUw"
+                                      },
+                                      "dataCategories" : {
+                                        "type" : "JSON_LITERAL",
+                                        "value" : [ "trend", "group", "simple" ]
                                       }
                                     }
                                   } ]
@@ -644,11 +652,11 @@
                                     "container" : {
                                       "dataSource" : {
                                         "type" : "JSON_LITERAL",
-                                        "value" : "dGFibGV0YXNrMTYwNDYwNjczMTc4NQ=="
+                                        "value" : "dGFibGV4X3NuY19pbnNpZ2h0X3ByXzBfbGVkZ2VyX3Rhc2sxNjkxMDcyNDk5MzUw"
                                       },
                                       "id" : {
                                         "type" : "JSON_LITERAL",
-                                        "value" : "dGFza0NPVU5UbnVsbG51bGwxNjM5NDg4MDUzNzE3NTc3"
+                                        "value" : "ZEdGaWJHVjRYM051WTE5cGJuTnBaMmgwWDNCeVh6QmZiR1ZrWjJWeVgzUmhjMnN4TmpreE1EY3lORGs1TXpVdzE2OTEwNzI1MDA2MTI="
                                       },
                                       "aggregateFunction" : {
                                         "type" : "JSON_LITERAL",
@@ -669,7 +677,7 @@
                                 },
                                 "showChangeFrom" : {
                                   "type" : "JSON_LITERAL",
-                                  "value" : "previous"
+                                  "value" : false
                                 },
                                 "chartSize" : {
                                   "type" : "JSON_LITERAL",
@@ -745,7 +753,7 @@
                                 },
                                 "enableRealTimeUpdate" : {
                                   "type" : "JSON_LITERAL",
-                                  "value" : true
+                                  "value" : false
                                 },
                                 "showScoreUpdateTime" : {
                                   "type" : "JSON_LITERAL",
@@ -1073,7 +1081,7 @@
                                     "type" : "TRANSLATION_LITERAL",
                                     "value" : {
                                       "code" : null,
-                                      "message" : "Task",
+                                      "message" : "Sales Order Case",
                                       "comment" : ""
                                     }
                                   },
@@ -1083,7 +1091,7 @@
                                   },
                                   "tableOrViewName" : {
                                     "type" : "JSON_LITERAL",
-                                    "value" : "task"
+                                    "value" : "x_snc_insight_pr_0_ledger_task"
                                   },
                                   "filterQuery" : {
                                     "type" : "JSON_LITERAL",
@@ -1093,9 +1101,17 @@
                                     "type" : "JSON_LITERAL",
                                     "value" : null
                                   },
+                                  "preferredVisualizations" : {
+                                    "type" : "JSON_LITERAL",
+                                    "value" : [ "d24d53f60350de7a652caf3188a46ed2" ]
+                                  },
                                   "id" : {
                                     "type" : "JSON_LITERAL",
-                                    "value" : "dGFibGV0YXNrMTYwNDYzMTEyMzEyMA=="
+                                    "value" : "dGFibGV4X3NuY19pbnNpZ2h0X3ByXzBfbGVkZ2VyX3Rhc2sxNjkxMDcyNjEzNjM0"
+                                  },
+                                  "dataCategories" : {
+                                    "type" : "JSON_LITERAL",
+                                    "value" : [ "trend", "group", "simple" ]
                                   }
                                 }
                               } ]
@@ -1151,11 +1167,11 @@
                                 "container" : {
                                   "dataSource" : {
                                     "type" : "JSON_LITERAL",
-                                    "value" : "dGFibGV0YXNrMTYwNDYzMTEyMzEyMA=="
+                                    "value" : "dGFibGV4X3NuY19pbnNpZ2h0X3ByXzBfbGVkZ2VyX3Rhc2sxNjkxMDcyNjEzNjM0"
                                   },
                                   "id" : {
                                     "type" : "JSON_LITERAL",
-                                    "value" : "dGFza0NPVU5UbnVsbG51bGwxNjM5NDg4MDUzNzkzNTgx"
+                                    "value" : "ZEdGaWJHVjRYM051WTE5cGJuTnBaMmgwWDNCeVh6QmZiR1ZrWjJWeVgzUmhjMnN4TmpreE1EY3lOakV6TmpNMDE2OTEwNzI2MTQ4OTY="
                                   },
                                   "aggregateFunction" : {
                                     "type" : "JSON_LITERAL",
@@ -1176,7 +1192,7 @@
                             },
                             "showChangeFrom" : {
                               "type" : "JSON_LITERAL",
-                              "value" : "previous"
+                              "value" : false
                             },
                             "chartSize" : {
                               "type" : "JSON_LITERAL",
@@ -1252,7 +1268,7 @@
                             },
                             "enableRealTimeUpdate" : {
                               "type" : "JSON_LITERAL",
-                              "value" : true
+                              "value" : false
                             },
                             "showScoreUpdateTime" : {
                               "type" : "JSON_LITERAL",
@@ -1596,7 +1612,7 @@
                                         "type" : "TRANSLATION_LITERAL",
                                         "value" : {
                                           "code" : null,
-                                          "message" : "Task",
+                                          "message" : "Sales Order Case",
                                           "comment" : ""
                                         }
                                       },
@@ -1606,7 +1622,7 @@
                                       },
                                       "tableOrViewName" : {
                                         "type" : "JSON_LITERAL",
-                                        "value" : "task"
+                                        "value" : "x_snc_insight_pr_0_ledger_task"
                                       },
                                       "filterQuery" : {
                                         "type" : "JSON_LITERAL",
@@ -1622,7 +1638,7 @@
                                       },
                                       "id" : {
                                         "type" : "JSON_LITERAL",
-                                        "value" : "dGFibGV0YXNrMTY5MDk5MDA1MjM1Nw=="
+                                        "value" : "dGFibGV4X3NuY19pbnNpZ2h0X3ByXzBfbGVkZ2VyX3Rhc2sxNjkxMDcyNzI4NTQ1"
                                       },
                                       "dataCategories" : {
                                         "type" : "JSON_LITERAL",
@@ -1682,11 +1698,11 @@
                                     "container" : {
                                       "dataSource" : {
                                         "type" : "JSON_LITERAL",
-                                        "value" : "dGFibGV0YXNrMTY5MDk5MDA1MjM1Nw=="
+                                        "value" : "dGFibGV4X3NuY19pbnNpZ2h0X3ByXzBfbGVkZ2VyX3Rhc2sxNjkxMDcyNzI4NTQ1"
                                       },
                                       "id" : {
                                         "type" : "JSON_LITERAL",
-                                        "value" : "ZEdGaWJHVjBZWE5yTVRZNU1EazVNREExTWpNMU53PT0xNjkwOTkwMDUzODIx"
+                                        "value" : "ZEdGaWJHVjRYM051WTE5cGJuTnBaMmgwWDNCeVh6QmZiR1ZrWjJWeVgzUmhjMnN4TmpreE1EY3lOekk0TlRRMTE2OTEwNzI3Mjk4NjQ="
                                       },
                                       "aggregateFunction" : {
                                         "type" : "JSON_LITERAL",
@@ -7898,10 +7914,10 @@
   "message" : "Projects from Opportunities",
   "comment" : ""
 }, {
-  "message" : "Sales Order Cases",
+  "message" : "Sales Order Case",
   "comment" : ""
 }, {
-  "message" : "Task",
+  "message" : "Sales Order Cases",
   "comment" : ""
 }, {
   "message" : "Unassigned Cases",
@@ -7917,7 +7933,7 @@
         <sys_created_on>2022-08-01 16:05:21</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9bf1dfe15d45dd10811d3884e897c430</sys_id>
-        <sys_mod_count>50</sys_mod_count>
+        <sys_mod_count>51</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
@@ -7925,6 +7941,6 @@
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sys_ux_macroponent_9bf1dfe15d45dd10811d3884e897c430</sys_update_name>
         <sys_updated_by>ERam61</sys_updated_by>
-        <sys_updated_on>2023-08-02 18:24:31</sys_updated_on>
+        <sys_updated_on>2023-08-03 14:25:39</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

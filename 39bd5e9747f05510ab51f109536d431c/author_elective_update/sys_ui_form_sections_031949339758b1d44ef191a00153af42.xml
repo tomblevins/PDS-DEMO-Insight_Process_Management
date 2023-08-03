@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="031949339758b1d44ef191a00153af42" sys_domain="global" table="x_snc_insight_pr_0_distribution_channel" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-08-03 15:29:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b7494d339758b1d44ef191a00153af73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_insight_pr_0_distribution_channel" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">031949339758b1d44ef191a00153af42</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">b049c9339758b1d44ef191a00153af2d</sys_ui_section>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-08-03 15:29:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-08-03 15:29:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b939c9339758b1d44ef191a00153af27</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_insight_pr_0_distribution_channel" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">031949339758b1d44ef191a00153af42</sys_ui_form>
+            <sys_ui_section caption="Sales Order Info" display_value="Sales Order Info" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">be2949339758b1d44ef191a00153af47</sys_ui_section>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-08-03 15:29:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-08-03 15:30:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7569cd339758b1d44ef191a00153af58</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_insight_pr_0_distribution_channel" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">031949339758b1d44ef191a00153af42</sys_ui_form>
+            <sys_ui_section caption="Credit Info" display_value="Credit Info" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">ba594d339758b1d44ef191a00153af79</sys_ui_section>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-08-03 15:30:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-08-03 15:29:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3c49c9339758b1d44ef191a00153af2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_insight_pr_0_distribution_channel" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">031949339758b1d44ef191a00153af42</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">7539c9339758b1d44ef191a00153af28</sys_ui_section>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-08-03 15:29:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-08-03 15:29:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>36594d339758b1d44ef191a00153af79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_insight_pr_0_distribution_channel" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">031949339758b1d44ef191a00153af42</sys_ui_form>
+            <sys_ui_section caption="Processing Info" display_value="Processing Info" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">3f494d339758b1d44ef191a00153af73</sys_ui_section>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-08-03 15:29:56</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_insight_pr_0_distribution_channel</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-08-03 15:28:52</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>031949339758b1d44ef191a00153af42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_insight_pr_0_distribution_channel</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_031949339758b1d44ef191a00153af42</sys_update_name>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-08-03 15:28:52</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>532947b4ffaeac889376762fa87efe09</instance_id>
+        <instance_name>niketest</instance_name>
+        <name>sys_ui_form_sections_031949339758b1d44ef191a00153af42</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="031949339758b1d44ef191a00153af42" sys_domain="global" table="x_snc_insight_pr_0_distribution_channel" version="3"><sys_ui_form_section action="INSERT_OR_UPDATE"><position>0</position><sys_created_by>ERam61</sys_created_by><sys_created_on>2023-08-03 15:29:44</sys_created_on><sys_domain>global</sys_domain><sys_id>b7494d339758b1d44ef191a00153af73</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_snc_insight_pr_0_distribution_channel" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">031949339758b1d44ef191a00153af42</sys_ui_form><sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">b049c9339758b1d44ef191a00153af2d</sys_ui_section><sys_updated_by>ERam61</sys_updated_by><sys_updated_on>2023-08-03 15:29:44</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>1</position><sys_created_by>ERam61</sys_created_by><sys_created_on>2023-08-03 15:29:20</sys_created_on><sys_domain>global</sys_domain><sys_id>b939c9339758b1d44ef191a00153af27</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_snc_insight_pr_0_distribution_channel" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">031949339758b1d44ef191a00153af42</sys_ui_form><sys_ui_section caption="Sales Order Info" display_value="Sales Order Info" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">be2949339758b1d44ef191a00153af47</sys_ui_section><sys_updated_by>ERam61</sys_updated_by><sys_updated_on>2023-08-03 15:29:20</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>2</position><sys_created_by>ERam61</sys_created_by><sys_created_on>2023-08-03 15:30:09</sys_created_on><sys_domain>global</sys_domain><sys_id>7569cd339758b1d44ef191a00153af58</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_snc_insight_pr_0_distribution_channel" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">031949339758b1d44ef191a00153af42</sys_ui_form><sys_ui_section caption="Credit Info" display_value="Credit Info" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">ba594d339758b1d44ef191a00153af79</sys_ui_section><sys_updated_by>ERam61</sys_updated_by><sys_updated_on>2023-08-03 15:30:09</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>3</position><sys_created_by>ERam61</sys_created_by><sys_created_on>2023-08-03 15:29:32</sys_created_on><sys_domain>global</sys_domain><sys_id>3c49c9339758b1d44ef191a00153af2c</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_snc_insight_pr_0_distribution_channel" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">031949339758b1d44ef191a00153af42</sys_ui_form><sys_ui_section caption="Notes" display_value="Notes" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">7539c9339758b1d44ef191a00153af28</sys_ui_section><sys_updated_by>ERam61</sys_updated_by><sys_updated_on>2023-08-03 15:29:32</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>4</position><sys_created_by>ERam61</sys_created_by><sys_created_on>2023-08-03 15:29:56</sys_created_on><sys_domain>global</sys_domain><sys_id>36594d339758b1d44ef191a00153af79</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_snc_insight_pr_0_distribution_channel" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">031949339758b1d44ef191a00153af42</sys_ui_form><sys_ui_section caption="Processing Info" display_value="Processing Info" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">3f494d339758b1d44ef191a00153af73</sys_ui_section><sys_updated_by>ERam61</sys_updated_by><sys_updated_on>2023-08-03 15:29:56</sys_updated_on></sys_ui_form_section><sys_ui_form action="INSERT_OR_UPDATE"><name>x_snc_insight_pr_0_distribution_channel</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>ERam61</sys_created_by><sys_created_on>2023-08-03 15:28:52</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>031949339758b1d44ef191a00153af42</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_insight_pr_0_distribution_channel</sys_name><sys_overrides/><sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope><sys_update_name>sys_ui_form_sections_031949339758b1d44ef191a00153af42</sys_update_name><sys_updated_by>ERam61</sys_updated_by><sys_updated_on>2023-08-03 15:28:52</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+        <payload_hash>1019084733</payload_hash>
+        <record_name>Distribution Channel</record_name>
+        <reverted_from/>
+        <source>d572b07b9794b1d44ef191a00153af2e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ERam61</sys_created_by>
+        <sys_created_on>2023-08-03 15:30:09</sys_created_on>
+        <sys_id>7569cd339758b1d44ef191a00153af5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189bc0544fa0000001</sys_recorded_at>
+        <sys_updated_by>ERam61</sys_updated_by>
+        <sys_updated_on>2023-08-03 15:30:09</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>3169cd337758b1d4f99addcd3d5eeb5a</update_guid>
+        <update_guid_history>3169cd337758b1d4f99addcd3d5eeb5a:1019084733,d3194933b558b1d48b17d47182265b44:313571176</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ERam61</sys_created_by>
+        <sys_created_on>2023-08-03 15:56:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>00d15f35a67348219b01f19bc7d57839</sys_id>
+        <sys_metadata>031949339758b1d44ef191a00153af42</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_insight_pr_0_distribution_channel</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent display_value="">42d5c5fb9718b1d44ef191a00153afee</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_031949339758b1d44ef191a00153af42</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_031949339758b1d44ef191a00153af42">7569cd339758b1d44ef191a00153af5b</sys_update_version>
+        <sys_updated_by>ERam61</sys_updated_by>
+        <sys_updated_on>2023-08-03 15:56:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

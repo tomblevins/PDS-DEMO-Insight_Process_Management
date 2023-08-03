@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Processing Info" section_id="3f494d339758b1d44ef191a00153af73" sys_domain="global" table="x_snc_insight_pr_0_distribution_channel" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>insight</element>
+            <position>0</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-08-03 15:29:44</sys_created_on>
+            <sys_id>f3494d339758b1d44ef191a00153af75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Processing Info" display_value="Processing Info" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">3f494d339758b1d44ef191a00153af73</sys_ui_section>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-08-03 15:29:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>level</element>
+            <position>1</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-08-03 15:29:44</sys_created_on>
+            <sys_id>fb494d339758b1d44ef191a00153af74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Processing Info" display_value="Processing Info" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">3f494d339758b1d44ef191a00153af73</sys_ui_section>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-08-03 15:29:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activitylevel</element>
+            <position>2</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-08-03 15:29:44</sys_created_on>
+            <sys_id>f7494d339758b1d44ef191a00153af75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Processing Info" display_value="Processing Info" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">3f494d339758b1d44ef191a00153af73</sys_ui_section>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-08-03 15:29:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-08-03 15:29:44</sys_created_on>
+            <sys_id>ff494d339758b1d44ef191a00153af74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Processing Info" display_value="Processing Info" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">3f494d339758b1d44ef191a00153af73</sys_ui_section>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-08-03 15:29:44</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dedup_string</element>
+            <position>4</position>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-08-03 15:29:44</sys_created_on>
+            <sys_id>fb494d339758b1d44ef191a00153af75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Processing Info" display_value="Processing Info" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">3f494d339758b1d44ef191a00153af73</sys_ui_section>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-08-03 15:29:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Processing Info</caption>
+            <header>false</header>
+            <name>x_snc_insight_pr_0_distribution_channel</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ERam61</sys_created_by>
+            <sys_created_on>2023-08-03 15:29:44</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>3f494d339758b1d44ef191a00153af73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_insight_pr_0_distribution_channel</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+            <sys_update_name>sys_ui_section_3f494d339758b1d44ef191a00153af73</sys_update_name>
+            <sys_updated_by>ERam61</sys_updated_by>
+            <sys_updated_on>2023-08-03 15:29:44</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>532947b4ffaeac889376762fa87efe09</instance_id>
+        <instance_name>niketest</instance_name>
+        <name>sys_ui_section_3f494d339758b1d44ef191a00153af73</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Processing Info" section_id="3f494d339758b1d44ef191a00153af73" sys_domain="global" table="x_snc_insight_pr_0_distribution_channel" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>insight</element><position>0</position><sys_created_by>ERam61</sys_created_by><sys_created_on>2023-08-03 15:29:44</sys_created_on><sys_id>f3494d339758b1d44ef191a00153af75</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Processing Info" display_value="Processing Info" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">3f494d339758b1d44ef191a00153af73</sys_ui_section><sys_updated_by>ERam61</sys_updated_by><sys_updated_on>2023-08-03 15:29:44</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>level</element><position>1</position><sys_created_by>ERam61</sys_created_by><sys_created_on>2023-08-03 15:29:44</sys_created_on><sys_id>fb494d339758b1d44ef191a00153af74</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Processing Info" display_value="Processing Info" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">3f494d339758b1d44ef191a00153af73</sys_ui_section><sys_updated_by>ERam61</sys_updated_by><sys_updated_on>2023-08-03 15:29:44</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>activitylevel</element><position>2</position><sys_created_by>ERam61</sys_created_by><sys_created_on>2023-08-03 15:29:44</sys_created_on><sys_id>f7494d339758b1d44ef191a00153af75</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Processing Info" display_value="Processing Info" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">3f494d339758b1d44ef191a00153af73</sys_ui_section><sys_updated_by>ERam61</sys_updated_by><sys_updated_on>2023-08-03 15:29:44</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>ERam61</sys_created_by><sys_created_on>2023-08-03 15:29:44</sys_created_on><sys_id>ff494d339758b1d44ef191a00153af74</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Processing Info" display_value="Processing Info" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">3f494d339758b1d44ef191a00153af73</sys_ui_section><sys_updated_by>ERam61</sys_updated_by><sys_updated_on>2023-08-03 15:29:44</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>dedup_string</element><position>4</position><sys_created_by>ERam61</sys_created_by><sys_created_on>2023-08-03 15:29:44</sys_created_on><sys_id>fb494d339758b1d44ef191a00153af75</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Processing Info" display_value="Processing Info" name="x_snc_insight_pr_0_distribution_channel" sys_domain="global" view="Default view">3f494d339758b1d44ef191a00153af73</sys_ui_section><sys_updated_by>ERam61</sys_updated_by><sys_updated_on>2023-08-03 15:29:44</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Processing Info</caption><header>false</header><name>x_snc_insight_pr_0_distribution_channel</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>ERam61</sys_created_by><sys_created_on>2023-08-03 15:29:44</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>3f494d339758b1d44ef191a00153af73</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_insight_pr_0_distribution_channel</sys_name><sys_overrides/><sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope><sys_update_name>sys_ui_section_3f494d339758b1d44ef191a00153af73</sys_update_name><sys_updated_by>ERam61</sys_updated_by><sys_updated_on>2023-08-03 15:29:44</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-282862342</payload_hash>
+        <record_name>Distribution Channel</record_name>
+        <reverted_from/>
+        <source>d572b07b9794b1d44ef191a00153af2e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ERam61</sys_created_by>
+        <sys_created_on>2023-08-03 15:29:44</sys_created_on>
+        <sys_id>73494d339758b1d44ef191a00153af78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189bc04e49b0000001</sys_recorded_at>
+        <sys_updated_by>ERam61</sys_updated_by>
+        <sys_updated_on>2023-08-03 15:29:44</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>f3494d334058b1d42cd27adac1948677</update_guid>
+        <update_guid_history>f3494d334058b1d42cd27adac1948677:-282862342</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ERam61</sys_created_by>
+        <sys_created_on>2023-08-03 15:57:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>59fe3dcfd2c24ef0ba6eefd3a9d24824</sys_id>
+        <sys_metadata>3f494d339758b1d44ef191a00153af73</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Processing Info</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent display_value="">42d5c5fb9718b1d44ef191a00153afee</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>sys_ui_section_3f494d339758b1d44ef191a00153af73</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_3f494d339758b1d44ef191a00153af73">73494d339758b1d44ef191a00153af78</sys_update_version>
+        <sys_updated_by>ERam61</sys_updated_by>
+        <sys_updated_on>2023-08-03 15:57:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

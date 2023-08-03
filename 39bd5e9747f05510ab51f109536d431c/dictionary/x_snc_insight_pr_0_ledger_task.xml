@@ -26,5 +26,11 @@
         <element label="Sales Organization Text" max_length="100" name="sales_organization_text" type="string"/>
         <element label="Sold-to-Party" max_length="100" name="sold_to_party" type="integer"/>
         <element label="SO Created Date (EPOCH)" max_length="100" name="so_created_date_epoch" type="integer"/>
+        <element attributes="encode_utf8=false" label="Credit Control Area" max_length="32" name="u_credit_control_area_reference" reference="x_snc_insight_pr_0_credit_control_area" type="reference"/>
+        <element attributes="encode_utf8=false" label="Distribution Channel" max_length="32" name="u_distribution_channel_reference" reference="x_snc_insight_pr_0_distribution_channel" type="reference"/>
+        <element attributes="encode_utf8=false" label="Sales Organization" max_length="32" name="u_reference_1" reference="business_unit" type="reference"/>
+        <index name="index">
+            <element name="u_reference_1"/>
+        </index>
     </element>
 </database>

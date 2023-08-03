@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>ERam61</sys_created_by>
+        <sys_created_on>2023-08-03 15:16:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cb26cdfb9718b1d44ef191a00153afb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_insight_pr_0_distribution_channel.x_snc_insight_pr_0.distribution_channel_user</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_security_acl display_value="x_snc_insight_pr_0_distribution_channel">0f26cdfb9718b1d44ef191a00153afa6</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_cb26cdfb9718b1d44ef191a00153afb1</sys_update_name>
+        <sys_updated_by>ERam61</sys_updated_by>
+        <sys_updated_on>2023-08-03 15:16:02</sys_updated_on>
+        <sys_user_role display_value="x_snc_insight_pr_0.distribution_channel_user" name="x_snc_insight_pr_0.distribution_channel_user">83168dbb9718b1d44ef191a00153afdb</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>532947b4ffaeac889376762fa87efe09</instance_id>
+        <instance_name>niketest</instance_name>
+        <name>sys_security_acl_role_cb26cdfb9718b1d44ef191a00153afb1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>ERam61</sys_created_by><sys_created_on>2023-08-03 15:16:02</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>cb26cdfb9718b1d44ef191a00153afb1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_insight_pr_0_distribution_channel.x_snc_insight_pr_0.distribution_channel_user</sys_name><sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope><sys_security_acl display_value="x_snc_insight_pr_0_distribution_channel">0f26cdfb9718b1d44ef191a00153afa6</sys_security_acl><sys_update_name>sys_security_acl_role_cb26cdfb9718b1d44ef191a00153afb1</sys_update_name><sys_updated_by>ERam61</sys_updated_by><sys_updated_on>2023-08-03 15:16:02</sys_updated_on><sys_user_role display_value="x_snc_insight_pr_0.distribution_channel_user" name="x_snc_insight_pr_0.distribution_channel_user">83168dbb9718b1d44ef191a00153afdb</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>417181694</payload_hash>
+        <record_name>x_snc_insight_pr_0_distribution_channel.x_snc_insight_pr_0.distribution_channel_user</record_name>
+        <reverted_from/>
+        <source>d572b07b9794b1d44ef191a00153af2e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ERam61</sys_created_by>
+        <sys_created_on>2023-08-03 15:16:02</sys_created_on>
+        <sys_id>0f26cdfb9718b1d44ef191a00153afcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189bbf85a350000001</sys_recorded_at>
+        <sys_updated_by>ERam61</sys_updated_by>
+        <sys_updated_on>2023-08-03 15:16:02</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>0f26cdfb8718b1d4ba933eb09b946ace</update_guid>
+        <update_guid_history>0f26cdfb8718b1d4ba933eb09b946ace:417181694</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record Deleted 2023-08-03 08:55:03">ae1f89bb9758b1d44ef191a00153af95</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ERam61</sys_created_by>
+        <sys_created_on>2023-08-03 15:55:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>72f6957761b14dda87dc50bf03ec5b44</sys_id>
+        <sys_metadata>cb26cdfb9718b1d44ef191a00153afb1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_insight_pr_0_distribution_channel.x_snc_insight_pr_0.distribution_channel_user</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent display_value="">0f26cdfb9718b1d44ef191a00153afa6</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_cb26cdfb9718b1d44ef191a00153afb1</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_cb26cdfb9718b1d44ef191a00153afb1">0f26cdfb9718b1d44ef191a00153afcf</sys_update_version>
+        <sys_updated_by>ERam61</sys_updated_by>
+        <sys_updated_on>2023-08-03 15:55:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
