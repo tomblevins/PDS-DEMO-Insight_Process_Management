@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="DELETE">
+        <decision_table display_value="IPE - Processor - Task Type Policy">3471faac1bccf9100f0eda43cc4bcbba</decision_table>
+        <label>Processor: Procurement Case Processor</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 10:32:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>425232201b003d100f0eda43cc4bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Processor: Procurement Case Processor</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_decision_multi_result_425232201b003d100f0eda43cc4bcbc2</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 10:32:41</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="DELETE" query="document_key=425232201b003d100f0eda43cc4bcbc2"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>425232201b003d100f0eda43cc4bcbc2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 10:32:41</sys_created_on>
+        <sys_id>465232201b003d100f0eda43cc4bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 10:32:41</sys_updated_on>
+        <value>Procurement Case Processor</value>
+        <variable display_value="Processor">465232201b003d100f0eda43cc4bcb33</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>532947b4ffaeac889376762fa87efe09</instance_id>
+        <instance_name>niketest</instance_name>
+        <name>sys_decision_multi_result_425232201b003d100f0eda43cc4bcbc2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result"><sys_decision_multi_result action="INSERT_OR_UPDATE"><decision_table display_value="IPE - Processor - Task Type Policy">3471faac1bccf9100f0eda43cc4bcbba</decision_table><label>Processor: Procurement Case Processor</label><result_elements/><sys_class_name>sys_decision_multi_result</sys_class_name><sys_created_by>TBlev1</sys_created_by><sys_created_on>2023-07-12 10:32:41</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>425232201b003d100f0eda43cc4bcbc2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Processor: Procurement Case Processor</sys_name><sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope><sys_update_name>sys_decision_multi_result_425232201b003d100f0eda43cc4bcbc2</sys_update_name><sys_updated_by>TBlev1</sys_updated_by><sys_updated_on>2023-07-12 10:32:41</sys_updated_on></sys_decision_multi_result><sys_variable_value action="delete_multiple" query="document_key=425232201b003d100f0eda43cc4bcbc2"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>425232201b003d100f0eda43cc4bcbc2</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>TBlev1</sys_created_by><sys_created_on>2023-07-12 10:32:41</sys_created_on><sys_id>465232201b003d100f0eda43cc4bcbc2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>TBlev1</sys_updated_by><sys_updated_on>2023-07-12 10:32:41</sys_updated_on><value>Procurement Case Processor</value><variable display_value="Processor">465232201b003d100f0eda43cc4bcb33</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>942247611</payload_hash>
+        <record_name>Processor: Procurement Case Processor</record_name>
+        <reverted_from/>
+        <source>d05f909a97afe1d0387553800153afb6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-07-12 10:32:41</sys_created_on>
+        <sys_id>065232201b003d100f0eda43cc4bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18949a908430000001</sys_recorded_at>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-07-12 10:32:41</sys_updated_on>
+        <type>Decision Table Multiple Result</type>
+        <update_guid>0652322054003d1022ddc433eb3cb1c3</update_guid>
+        <update_guid_history>0652322054003d1022ddc433eb3cb1c3:942247611</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-08-04 07:00:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_decision_multi_result">sys_decision_multi_result</sys_db_object>
+        <sys_id>3dcb8a78d7fa4e8abc70d259492d9351</sys_id>
+        <sys_metadata>425232201b003d100f0eda43cc4bcbc2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Processor: Procurement Case Processor</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>sys_decision_multi_result_425232201b003d100f0eda43cc4bcbc2</sys_update_name>
+        <sys_update_version display_value="sys_decision_multi_result_425232201b003d100f0eda43cc4bcbc2">065232201b003d100f0eda43cc4bcbc4</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-04 07:00:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

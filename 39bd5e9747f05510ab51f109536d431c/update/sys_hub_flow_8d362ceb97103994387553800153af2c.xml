@@ -2,7 +2,7 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>true</active>
+        <active>false</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -22,14 +22,14 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>TBlev1</sys_created_by>
         <sys_created_on>2023-08-02 18:17:52</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>8d362ceb97103994387553800153af2c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>BR - Process Event - PreProcessor</sys_name>
         <sys_overrides/>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sys_hub_flow_8d362ceb97103994387553800153af2c</sys_update_name>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-08-02 18:27:46</sys_updated_on>
+        <sys_updated_on>2023-08-04 10:28:39</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_variable_value action="delete_multiple" query="document_key=8d362ceb97103994387553800153af2c"/>
@@ -74,16 +74,16 @@
         <table>x_snc_insight_pr_0_event_ledger</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
         <identifier>8d362ceb97103994387553800153af2c</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>TBlev1</sys_created_by>
         <sys_created_on>2023-08-02 18:27:46</sys_created_on>
         <sys_id>4e78282797503994387553800153af8e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-08-02 18:27:46</sys_updated_on>
+        <sys_updated_on>2023-08-03 18:49:00</sys_updated_on>
         <trigger display_value="">4278282797503994387553800153af8e</trigger>
     </sys_trigger_runner_mapping>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=8d362ceb97103994387553800153af2c^sys_idNOT IN4e78282797503994387553800153af8e"/>
@@ -99,7 +99,7 @@
         <sys_created_on>2023-08-02 18:27:34</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>4f68e02797503994387553800153afc2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -107,7 +107,7 @@
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-08-02 18:27:46</sys_updated_on>
+        <sys_updated_on>2023-08-04 10:28:38</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -136,10 +136,10 @@
         <sys_created_by>TBlev1</sys_created_by>
         <sys_created_on>2023-08-02 18:27:34</sys_created_on>
         <sys_id>8f68e02797503994387553800153afc4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-08-02 18:27:34</sys_updated_on>
-        <value>^EQ</value>
+        <sys_updated_on>2023-08-04 10:28:38</sys_updated_on>
+        <value>state=0</value>
         <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
     </sys_variable_value>
     <sys_hub_flow_stage action="delete_multiple" query="flow=8d362ceb97103994387553800153af2c"/>
@@ -168,7 +168,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -228,7 +228,7 @@
         <sys_created_on>2023-08-02 18:27:34</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>8f68e02797503994387553800153afb0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -236,7 +236,7 @@
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-08-02 18:27:46</sys_updated_on>
+        <sys_updated_on>2023-08-04 10:28:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <u_last_refreshed/>
@@ -256,7 +256,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -316,7 +316,7 @@
         <sys_created_on>2023-08-02 18:27:34</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>8f68e02797503994387553800153afb9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -324,7 +324,7 @@
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-08-02 18:27:46</sys_updated_on>
+        <sys_updated_on>2023-08-04 10:28:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <u_last_refreshed/>
@@ -359,7 +359,7 @@
         <sys_created_on>2023-08-02 18:27:34</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>8b68e02797503994387553800153afc6</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -367,7 +367,7 @@
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-08-02 18:27:46</sys_updated_on>
+        <sys_updated_on>2023-08-04 10:28:39</sys_updated_on>
         <ui_id>58122f9d-54ee-417b-991a-932ee44b26e9</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8b68e02797503994387553800153afc6"/>

@@ -1,0 +1,1862 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Operators">1d4b9fdb47f45510ab51f109536d43f1</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>test_epoch_to_date</internal_name>
+        <label_cache>[{"name":"{{action.epoch_time}}","label":"action➛Epoch Time","type":"action","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8192c5b7-29a3-4c49-b294-63471dedde28].newdate}}","label":"step➛Script step➛newDate","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Date/Time","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"glide_date_time","uiUniqueId":"26ef8822-53f7-4d34-8c46-4e2a4d0b0ce9"}}]</label_cache>
+        <master_snapshot>6d0ae9ff97583d94387553800153af9e</master_snapshot>
+        <name>Test Epoch to Date</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:37:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>457625f797583d94387553800153af9f</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Test Epoch to Date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_457625f797583d94387553800153af9f</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:40</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=457625f797583d94387553800153af9f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>457625f797583d94387553800153af9f</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:49:41</sys_created_on>
+        <sys_id>f559e97f97583d94387553800153af6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:49:41</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"5d2dbbc4-fea8-4551-91e8-00065b224450\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">f559e97f97583d94387553800153af52</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>457625f797583d94387553800153af9f</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:49:41</sys_created_on>
+        <sys_id>fd59e97f97583d94387553800153af6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:49:41</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">f959e97f97583d94387553800153af5b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=457625f797583d94387553800153af9f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>new_date_time</field>
+        <id>457625f797583d94387553800153af9f</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:40:01</sys_created_on>
+        <sys_id>1827ed7b97583d94387553800153afa2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:19</sys_updated_on>
+        <table>var__m_sys_hub_action_output_457625f797583d94387553800153af9f</table>
+        <value>{{step[8192c5b7-29a3-4c49-b294-63471dedde28].newdate}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>457625f797583d94387553800153af9f</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:49:41</sys_created_on>
+        <sys_id>7d59e97f97583d94387553800153af6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:49:41</sys_updated_on>
+        <table>var__m_sys_hub_action_output_457625f797583d94387553800153af9f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>457625f797583d94387553800153af9f</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:49:41</sys_created_on>
+        <sys_id>b559e97f97583d94387553800153af6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:49:41</sys_updated_on>
+        <table>var__m_sys_hub_action_output_457625f797583d94387553800153af9f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=457625f797583d94387553800153af9f^sys_idNOT IN4027ed7b97583d94387553800153af76"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Test Epoch to Date">457625f797583d94387553800153af9f</action>
+        <cid>8192c5b7-29a3-4c49-b294-63471dedde28</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:40:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4027ed7b97583d94387553800153af76</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:51:45</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4027ed7b97583d94387553800153af76"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4027ed7b97583d94387553800153af76</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:40:01</sys_created_on>
+        <sys_id>5027ed7b97583d94387553800153af93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:40:01</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4027ed7b97583d94387553800153af76</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:40:01</sys_created_on>
+        <sys_id>9827ed7b97583d94387553800153af93</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:51:45</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+  var epTime = inputs.epoch;
+  
+  var gdt = new GlideDateTime();
+
+  gdt.setNumericValue(epTime);
+
+  outputs.newdate = gdt;
+
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4027ed7b97583d94387553800153af76</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:40:01</sys_created_on>
+        <sys_id>d427ed7b97583d94387553800153af94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:40:01</sys_updated_on>
+        <value/>
+        <variable display_value="">9027ed7b97583d94387553800153af7e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4027ed7b97583d94387553800153af76"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>4027ed7b97583d94387553800153af76</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:40:01</sys_created_on>
+        <sys_id>1827ed7b97583d94387553800153af92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:40:01</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>epoch</field>
+        <id>4027ed7b97583d94387553800153af76</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:40:01</sys_created_on>
+        <sys_id>5427ed7b97583d94387553800153af94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:40:01</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_4027ed7b97583d94387553800153af76</table>
+        <value>{{action.epoch_time}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>4027ed7b97583d94387553800153af76</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:40:01</sys_created_on>
+        <sys_id>dc27ed7b97583d94387553800153af92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:40:01</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_4027ed7b97583d94387553800153af76^id=4027ed7b97583d94387553800153af76"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=4027ed7b97583d94387553800153af76"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=4027ed7b97583d94387553800153af76^sys_idNOT IN9027ed7b97583d94387553800153af7e"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=float,uiTypeLabel=Floating Point Number</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>epoch</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">float</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">4027ed7b97583d94387553800153af76</model>
+        <model_id>4027ed7b97583d94387553800153af76</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_4027ed7b97583d94387553800153af76</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:40:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9027ed7b97583d94387553800153af7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:40:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=4027ed7b97583d94387553800153af76^sys_idNOT IN2589a1bf97583d94387553800153afdf"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=26ef8822-53f7-4d34-8c46-4e2a4d0b0ce9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>newdate</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>newDate</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">4027ed7b97583d94387553800153af76</model>
+        <model_id>4027ed7b97583d94387553800153af76</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_4027ed7b97583d94387553800153af76</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:50:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2589a1bf97583d94387553800153afdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:50:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4027ed7b97583d94387553800153af76"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_4027ed7b97583d94387553800153af76^sys_idNOT IN2989a1bf97583d94387553800153afe6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>newdate</element>
+        <help/>
+        <hint/>
+        <label>newDate</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_4027ed7b97583d94387553800153af76</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:50:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2989a1bf97583d94387553800153afe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:50:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=457625f797583d94387553800153af9f^sys_idNOT INcc27ed7b97583d94387553800153af6a"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=float,uiTypeLabel=Floating Point Number,uiUniqueId=845de7ab-baeb-4f74-ade6-0143cc7f4f16</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>epoch_time</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">float</internal_type>
+        <label>Epoch Time</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Test Epoch to Date">457625f797583d94387553800153af9f</model>
+        <model_id>457625f797583d94387553800153af9f</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_457625f797583d94387553800153af9f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:40:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cc27ed7b97583d94387553800153af6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:40:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cc27ed7b97583d94387553800153af6a"/>
+    <sys_hub_action_output action="delete_multiple" query="model=457625f797583d94387553800153af9f^sys_idNOT INd827ed7b97583d94387553800153af97,f559e97f97583d94387553800153af52,f959e97f97583d94387553800153af5b"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=d7ce8510-ffe8-42f8-9223-64c257d3a08a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>new_date_time</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>New Date Time</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Test Epoch to Date">457625f797583d94387553800153af9f</model>
+        <model_id>457625f797583d94387553800153af9f</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_457625f797583d94387553800153af9f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:40:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d827ed7b97583d94387553800153af97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:40:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d827ed7b97583d94387553800153af97"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d827ed7b97583d94387553800153af97"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=64aba33a-b293-483e-9fb5-49138c6af03e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Test Epoch to Date">457625f797583d94387553800153af9f</model>
+        <model_id>457625f797583d94387553800153af9f</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_457625f797583d94387553800153af9f</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:49:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f559e97f97583d94387553800153af52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:49:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f559e97f97583d94387553800153af52"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f559e97f97583d94387553800153af52"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=abbb37c2-7adb-4171-9d27-46fb1fc5b22a,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Test Epoch to Date">457625f797583d94387553800153af9f</model>
+        <model_id>457625f797583d94387553800153af9f</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_457625f797583d94387553800153af9f</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:49:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f959e97f97583d94387553800153af5b</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f959e97f97583d94387553800153af5b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f959e97f97583d94387553800153af5b"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=457625f797583d94387553800153af9f"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=457625f797583d94387553800153af9f^sys_idNOT IN1c27ed7b97583d94387553800153afa3"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Test Epoch to Date">457625f797583d94387553800153af9f</action_type_id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:40:01</sys_created_on>
+        <sys_id>1c27ed7b97583d94387553800153afa3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:40:01</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=1c27ed7b97583d94387553800153afa3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_457625f797583d94387553800153af9f^sys_idNOT IN0c27ed7b97583d94387553800153af73"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>epoch_time</element>
+        <help/>
+        <hint/>
+        <label>Epoch Time</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_457625f797583d94387553800153af9f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:40:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0c27ed7b97583d94387553800153af73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:40:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_457625f797583d94387553800153af9f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_457625f797583d94387553800153af9f^sys_idNOT IN3d59e97f97583d94387553800153af5a,dc27ed7b97583d94387553800153af9f,f559e97f97583d94387553800153af69"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_457625f797583d94387553800153af9f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:49:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3d59e97f97583d94387553800153af5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:49:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>new_date_time</element>
+        <help/>
+        <hint/>
+        <label>New Date Time</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_457625f797583d94387553800153af9f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:40:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>dc27ed7b97583d94387553800153af9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:40:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_457625f797583d94387553800153af9f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:49:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f559e97f97583d94387553800153af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:49:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_457625f797583d94387553800153af9f"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=457625f797583d94387553800153af9f^sys_idNOT INb10a2dff97583d94387553800153af49"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Test Epoch to Date">457625f797583d94387553800153af9f</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"b10a2dff97583d94387553800153af49","name":"plan","plan_signature":null}}</plan>
+        <snapshot>a90ae9ff97583d94387553800153aff7</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>b10a2dff97583d94387553800153af49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:41</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Operators">1d4b9fdb47f45510ab51f109536d43f1</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test_epoch_to_date</internal_name>
+        <label_cache>[{"name":"{{action.epoch_time}}","label":"action➛Epoch Time","type":"action","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8192c5b7-29a3-4c49-b294-63471dedde28].newdate}}","label":"step➛Script step➛newDate","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Date/Time","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"glide_date_time","uiUniqueId":"26ef8822-53f7-4d34-8c46-4e2a4d0b0ce9"}}]</label_cache>
+        <master>true</master>
+        <name>Test Epoch to Date</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Test Epoch to Date">457625f797583d94387553800153af9f</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>6d0ae9ff97583d94387553800153af9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:39</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=6d0ae9ff97583d94387553800153af9e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>6d0ae9ff97583d94387553800153af9e</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:40</sys_created_on>
+        <sys_id>6d0ae9ff97583d94387553800153afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:40</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"5d2dbbc4-fea8-4551-91e8-00065b224450\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">a10ae9ff97583d94387553800153afd0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>6d0ae9ff97583d94387553800153af9e</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:40</sys_created_on>
+        <sys_id>a90ae9ff97583d94387553800153afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:40</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">250ae9ff97583d94387553800153afd8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6d0ae9ff97583d94387553800153af9e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>new_date_time</field>
+        <id>6d0ae9ff97583d94387553800153af9e</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:40</sys_created_on>
+        <sys_id>a10ae9ff97583d94387553800153afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:40</sys_updated_on>
+        <table>var__m_sys_hub_action_output_6d0ae9ff97583d94387553800153af9e</table>
+        <value>{{step[8192c5b7-29a3-4c49-b294-63471dedde28].newdate}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>6d0ae9ff97583d94387553800153af9e</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:40</sys_created_on>
+        <sys_id>290ae9ff97583d94387553800153afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:40</sys_updated_on>
+        <table>var__m_sys_hub_action_output_6d0ae9ff97583d94387553800153af9e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>6d0ae9ff97583d94387553800153af9e</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:40</sys_created_on>
+        <sys_id>650ae9ff97583d94387553800153afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:40</sys_updated_on>
+        <table>var__m_sys_hub_action_output_6d0ae9ff97583d94387553800153af9e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=6d0ae9ff97583d94387553800153af9e^sys_idNOT IN250ae9ff97583d94387553800153afac"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Test Epoch to Date">6d0ae9ff97583d94387553800153af9e</action>
+        <cid>8192c5b7-29a3-4c49-b294-63471dedde28</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>250ae9ff97583d94387553800153afac</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:40</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=250ae9ff97583d94387553800153afac"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>250ae9ff97583d94387553800153afac</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:40</sys_created_on>
+        <sys_id>290ae9ff97583d94387553800153afc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:40</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>250ae9ff97583d94387553800153afac</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:40</sys_created_on>
+        <sys_id>a50ae9ff97583d94387553800153afc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:40</sys_updated_on>
+        <value/>
+        <variable display_value="epoch">a90ae9ff97583d94387553800153afaf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>250ae9ff97583d94387553800153afac</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:40</sys_created_on>
+        <sys_id>e90ae9ff97583d94387553800153afc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:40</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+  var epTime = inputs.epoch;
+  
+  var gdt = new GlideDateTime();
+
+  gdt.setNumericValue(epTime);
+
+  outputs.newdate = gdt;
+
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=250ae9ff97583d94387553800153afac"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>250ae9ff97583d94387553800153afac</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:40</sys_created_on>
+        <sys_id>e10ae9ff97583d94387553800153afc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:40</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>epoch</field>
+        <id>250ae9ff97583d94387553800153afac</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:40</sys_created_on>
+        <sys_id>250ae9ff97583d94387553800153afc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:40</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_250ae9ff97583d94387553800153afac</table>
+        <value>{{action.epoch_time}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>250ae9ff97583d94387553800153afac</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:40</sys_created_on>
+        <sys_id>a50ae9ff97583d94387553800153afc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:40</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_250ae9ff97583d94387553800153afac^id=250ae9ff97583d94387553800153afac"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=250ae9ff97583d94387553800153afac"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=250ae9ff97583d94387553800153afac^sys_idNOT INa90ae9ff97583d94387553800153afaf"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=float,uiTypeLabel=Floating Point Number</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>epoch</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">float</internal_type>
+        <label>epoch</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">250ae9ff97583d94387553800153afac</model>
+        <model_id>250ae9ff97583d94387553800153afac</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_250ae9ff97583d94387553800153afac</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a90ae9ff97583d94387553800153afaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=250ae9ff97583d94387553800153afac^sys_idNOT IN650ae9ff97583d94387553800153afb8"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=26ef8822-53f7-4d34-8c46-4e2a4d0b0ce9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>newdate</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>newDate</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">250ae9ff97583d94387553800153afac</model>
+        <model_id>250ae9ff97583d94387553800153afac</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_250ae9ff97583d94387553800153afac</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>650ae9ff97583d94387553800153afb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=250ae9ff97583d94387553800153afac"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_250ae9ff97583d94387553800153afac^sys_idNOT IN690ae9ff97583d94387553800153afbf"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>newdate</element>
+        <help/>
+        <hint/>
+        <label>newDate</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_250ae9ff97583d94387553800153afac</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>690ae9ff97583d94387553800153afbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=6d0ae9ff97583d94387553800153af9e^sys_idNOT IN650ae9ff97583d94387553800153afa2"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=float,uiTypeLabel=Floating Point Number,uiUniqueId=845de7ab-baeb-4f74-ade6-0143cc7f4f16</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>epoch_time</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">float</internal_type>
+        <label>Epoch Time</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Test Epoch to Date">6d0ae9ff97583d94387553800153af9e</model>
+        <model_id>6d0ae9ff97583d94387553800153af9e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_6d0ae9ff97583d94387553800153af9e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>650ae9ff97583d94387553800153afa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=650ae9ff97583d94387553800153afa2"/>
+    <sys_hub_action_output action="delete_multiple" query="model=6d0ae9ff97583d94387553800153af9e^sys_idNOT IN250ae9ff97583d94387553800153afd8,290ae9ff97583d94387553800153afc7,a10ae9ff97583d94387553800153afd0"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=abbb37c2-7adb-4171-9d27-46fb1fc5b22a,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Test Epoch to Date">6d0ae9ff97583d94387553800153af9e</model>
+        <model_id>6d0ae9ff97583d94387553800153af9e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_6d0ae9ff97583d94387553800153af9e</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>250ae9ff97583d94387553800153afd8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=250ae9ff97583d94387553800153afd8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=250ae9ff97583d94387553800153afd8"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=d7ce8510-ffe8-42f8-9223-64c257d3a08a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>new_date_time</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>New Date Time</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Test Epoch to Date">6d0ae9ff97583d94387553800153af9e</model>
+        <model_id>6d0ae9ff97583d94387553800153af9e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_6d0ae9ff97583d94387553800153af9e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>290ae9ff97583d94387553800153afc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=290ae9ff97583d94387553800153afc7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=290ae9ff97583d94387553800153afc7"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=64aba33a-b293-483e-9fb5-49138c6af03e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Test Epoch to Date">6d0ae9ff97583d94387553800153af9e</model>
+        <model_id>6d0ae9ff97583d94387553800153af9e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_6d0ae9ff97583d94387553800153af9e</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a10ae9ff97583d94387553800153afd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a10ae9ff97583d94387553800153afd0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a10ae9ff97583d94387553800153afd0"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=6d0ae9ff97583d94387553800153af9e"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=6d0ae9ff97583d94387553800153af9e^sys_idNOT IN210ae9ff97583d94387553800153afeb"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Test Epoch to Date">6d0ae9ff97583d94387553800153af9e</action_type_id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:40</sys_created_on>
+        <sys_id>210ae9ff97583d94387553800153afeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:40</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=210ae9ff97583d94387553800153afeb"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_6d0ae9ff97583d94387553800153af9e^sys_idNOT IN610ae9ff97583d94387553800153afaa"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>epoch_time</element>
+        <help/>
+        <hint/>
+        <label>Epoch Time</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_6d0ae9ff97583d94387553800153af9e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>610ae9ff97583d94387553800153afaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_6d0ae9ff97583d94387553800153af9e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_6d0ae9ff97583d94387553800153af9e^sys_idNOT IN650ae9ff97583d94387553800153afd7,650ae9ff97583d94387553800153afe5,e10ae9ff97583d94387553800153afcf"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_6d0ae9ff97583d94387553800153af9e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>650ae9ff97583d94387553800153afd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_6d0ae9ff97583d94387553800153af9e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>650ae9ff97583d94387553800153afe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>new_date_time</element>
+        <help/>
+        <hint/>
+        <label>New Date Time</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_6d0ae9ff97583d94387553800153af9e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-03 17:52:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e10ae9ff97583d94387553800153afcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-03 17:52:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_6d0ae9ff97583d94387553800153af9e"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>457625f797583d94387553800153af9f</sys_id>
+        <latest_snapshot>6d0ae9ff97583d94387553800153af9e</latest_snapshot>
+        <compiler_build>glide-utah-12-21-2022__patch4-hotfix2-06-23-2023_06-23-2023_2224.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

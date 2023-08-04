@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="distribution_channel" table="x_snc_insight_pr_0_ledger_task">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="so_create_date" table="x_snc_insight_pr_0_ledger_task">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Distribution Channel ID</column_label>
+        <column_label>SO Create Date</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,15 +26,15 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>distribution_channel</element>
+        <element>so_create_date</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Integer">integer</internal_type>
+        <internal_type display_value="">glide_date_time</internal_type>
         <mandatory>false</mandatory>
-        <max_length>100</max_length>
+        <max_length>40</max_length>
         <name>x_snc_insight_pr_0_ledger_task</name>
         <next_element/>
         <primary>false</primary>
@@ -51,16 +51,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>TBlev1</sys_created_by>
-        <sys_created_on>2023-08-03 10:24:27</sys_created_on>
+        <sys_created_on>2023-08-03 17:54:33</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_name>Distribution Channel ID</sys_name>
+        <sys_name>SO Create Date</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name>sys_dictionary_x_snc_insight_pr_0_ledger_task_distribution_channel</sys_update_name>
+        <sys_update_name>sys_dictionary_x_snc_insight_pr_0_ledger_task_so_create_date</sys_update_name>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-08-03 18:24:39</sys_updated_on>
+        <sys_updated_on>2023-08-03 17:54:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <u_last_refreshed/>
