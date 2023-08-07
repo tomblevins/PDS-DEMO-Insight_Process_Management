@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="c84dbfab97d4f994387553800153af6d" extends="x_snc_insight_pr_0_ledger_task" label="SO Case Sub Task" max_length="40" name="x_snc_insight_pr_0_so_case_sub_task" type="collection">
+        <element label="Base Unit of Measure" max_length="40" name="base_unit_of_measure" type="string"/>
+        <element label="Confirmed Quantity" max_length="40" name="confirmed_quantity" type="integer"/>
         <element label="Credit Indicator" max_length="100" name="credit_indicator" type="string"/>
         <element label="Document Currency" max_length="100" name="document_currency" type="string"/>
         <element label="Material Group" max_length="100" name="material_group" type="string"/>

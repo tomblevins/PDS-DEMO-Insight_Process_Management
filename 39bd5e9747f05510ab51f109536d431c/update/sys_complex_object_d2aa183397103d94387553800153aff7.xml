@@ -4,14 +4,14 @@
         <name>FD12aa183308103d94690dad408680eef7</name>
         <namespace>FlowDesigner</namespace>
         <scope_name>39bd5e9747f05510ab51f109536d431c</scope_name>
-        <serialized_content>{"FlowDesigner:FD12aa183308103d94690dad408680eef7":{},"FlowDesigner:FD12aa183308103d94690dad408680eef7.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"38a74b19-786c-495d-a489-de3730db3490\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD12aa183308103d94690dad408680eef7\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"27\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <serialized_content>{"FlowDesigner:FD12aa183308103d94690dad408680eef7":{},"FlowDesigner:FD12aa183308103d94690dad408680eef7.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"38a74b19-786c-495d-a489-de3730db3490\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD12aa183308103d94690dad408680eef7\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"18\",\"max_length\":\"65000\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
         <sys_created_by>TBlev1</sys_created_by>
         <sys_created_on>2023-08-03 12:05:55</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>d2aa183397103d94387553800153aff7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>FD12aa183308103d94690dad408680eef7</sys_name>
         <sys_overrides/>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
@@ -20,7 +20,7 @@
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sys_complex_object_d2aa183397103d94387553800153aff7</sys_update_name>
         <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-08-03 17:20:00</sys_updated_on>
+        <sys_updated_on>2023-08-04 10:47:47</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
 </record_update>

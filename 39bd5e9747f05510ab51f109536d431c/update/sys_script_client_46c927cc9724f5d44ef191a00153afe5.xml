@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Script to hide Processing Info tab if User IS NOT admin</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Hide Processing Info Tab </name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    var id = (g_form.getUniqueValue());
+    if (g_user.userID == id || g_user.hasRole('admin')) {
+        g_form.setSectionDisplay('Processing Info', true);
+    } else {
+        g_form.setSectionDisplay('Processing Info', false);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>ERam61</sys_created_by>
+        <sys_created_on>2023-08-04 21:53:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>46c927cc9724f5d44ef191a00153afe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hide Processing Info Tab </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_script_client_46c927cc9724f5d44ef191a00153afe5</sys_update_name>
+        <sys_updated_by>ERam61</sys_updated_by>
+        <sys_updated_on>2023-08-04 21:53:18</sys_updated_on>
+        <table>x_snc_insight_pr_0_ledger_task</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

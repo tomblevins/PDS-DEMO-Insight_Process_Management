@@ -1,0 +1,3187 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>br__so_automation__total_value_under_threshold</internal_name>
+        <label_cache>[{"name":"6e2cb806-e362-4901-97e4-db07f5397925.item","label":"11 - For Each➛SO Case Sub Task Record","reference":"x_snc_insight_pr_0_so_case_sub_task","reference_display":"SO Case Sub Task","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"79a829bb-1f57-45a5-8910-e8819c48eea6.Record.default_value","label":"1 - Look Up Record➛IPE Definitions Record➛Default Value","reference":"","reference_display":"Default Value","type":"string","base_type":"string","parent_table_name":"x_snc_insight_pr_0_ipe_definitions","column_name":"default_value"},{"name":"ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record.total_so_value","label":"4 - Look Up Record➛Sales Order Case Record➛Total SO Value","reference":"","reference_display":"Total SO Value","type":"decimal","base_type":"decimal","parent_table_name":"x_snc_insight_pr_0_ledger_task","column_name":"total_so_value"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Sales Order Case Record","reference":"x_snc_insight_pr_0_ledger_task","reference_display":"Sales Order Case","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.sys_id","label":"Trigger - Record Created or Updated➛Sales Order Case Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_snc_insight_pr_0_ledger_task","column_name":"sys_id"},{"name":"ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record","label":"4 - Look Up Record➛Sales Order Case Record","reference":"x_snc_insight_pr_0_ledger_task","reference_display":"Sales Order Case","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record.sales_order_number","label":"4 - Look Up Record➛Sales Order Case Record➛Sales Order Number","reference":"","reference_display":"Sales Order Number","type":"float","base_type":"float","parent_table_name":"x_snc_insight_pr_0_ledger_task","column_name":"sales_order_number"},{"name":"43cd3ef1-1f22-4661-9706-54fff5f4b0ef.Count","label":"8 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"43cd3ef1-1f22-4661-9706-54fff5f4b0ef.Records","label":"8 - Look Up Records➛SO Case Sub Task Records","reference":"x_snc_insight_pr_0_so_case_sub_task","reference_display":"SO Case Sub Task","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>1a46f8cd1ba471500f0eda43cc4bcbb4</master_snapshot>
+        <name>BR - SO Automation - Total Value Under Threshold</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>f989b4851be471500f0eda43cc4bcbb2</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 10:54:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>cba03cc11ba471500f0eda43cc4bcbfe</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>BR - SO Automation - Total Value Under Threshold</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_hub_flow_cba03cc11ba471500f0eda43cc4bcbfe</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:50</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=cba03cc11ba471500f0eda43cc4bcbfe"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_insight_pr_0_ledger_task">activitylevel=Header^assigned_toISEMPTY^state=1<item endquery="false" field="activitylevel" goto="false" newquery="false" operator="=" or="false" value="Header"/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item display_value="Open" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:33:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>f989b4851be471500f0eda43cc4bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:33:11</sys_updated_on>
+        <table>x_snc_insight_pr_0_ledger_task</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>cba03cc11ba471500f0eda43cc4bcbfe</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:43:49</sys_created_on>
+        <sys_id>a9fbb40d1be471500f0eda43cc4bcbb6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:49</sys_updated_on>
+        <trigger display_value="">f989b4851be471500f0eda43cc4bcbb2</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=cba03cc11ba471500f0eda43cc4bcbfe^sys_idNOT INa9fbb40d1be471500f0eda43cc4bcbb6"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=cba03cc11ba471500f0eda43cc4bcbfe^sys_idNOT IN20e2f4091ba471500f0eda43cc4bcbd7"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">cba03cc11ba471500f0eda43cc4bcbfe</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:04:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>20e2f4091ba471500f0eda43cc4bcbd7</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:49</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=20e2f4091ba471500f0eda43cc4bcbd7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>20e2f4091ba471500f0eda43cc4bcbd7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:04:09</sys_created_on>
+        <sys_id>e4e2f4091ba471500f0eda43cc4bcbd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:04:09</sys_updated_on>
+        <value>x_snc_insight_pr_0_ledger_task</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>20e2f4091ba471500f0eda43cc4bcbd7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:04:09</sys_created_on>
+        <sys_id>ece2f4091ba471500f0eda43cc4bcbd7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:32:53</sys_updated_on>
+        <value>activitylevel=Header^assigned_toISEMPTY^state=1</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=20e2f4091ba471500f0eda43cc4bcbd7"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=cba03cc11ba471500f0eda43cc4bcbfe"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=cba03cc11ba471500f0eda43cc4bcbfe^sys_idNOT INc7a07cc11ba471500f0eda43cc4bcb01"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>cba03cc11ba471500f0eda43cc4bcbfe</id>
+        <name>BR - SO Automation - Total Value Under Threshold</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 10:54:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c7a07cc11ba471500f0eda43cc4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 10:54:30</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=c7a07cc11ba471500f0eda43cc4bcb01"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=cba03cc11ba471500f0eda43cc4bcbfe^sys_idNOT IN6ce2b0451ba471500f0eda43cc4bcb2f,a8e2f4091ba471500f0eda43cc4bcbcd,ece2f4091ba471500f0eda43cc4bcbc5"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="BR - SO Automation - Total Value Under Threshold">cba03cc11ba471500f0eda43cc4bcbfe</model>
+        <model_id>cba03cc11ba471500f0eda43cc4bcbfe</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_cba03cc11ba471500f0eda43cc4bcbfe</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:04:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6ce2b0451ba471500f0eda43cc4bcb2f</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="BR - SO Automation - Total Value Under Threshold">cba03cc11ba471500f0eda43cc4bcbfe</model>
+        <model_id>cba03cc11ba471500f0eda43cc4bcbfe</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_cba03cc11ba471500f0eda43cc4bcbfe</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:04:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a8e2f4091ba471500f0eda43cc4bcbcd</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="BR - SO Automation - Total Value Under Threshold">cba03cc11ba471500f0eda43cc4bcbfe</model>
+        <model_id>cba03cc11ba471500f0eda43cc4bcbfe</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_cba03cc11ba471500f0eda43cc4bcbfe</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:04:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ece2f4091ba471500f0eda43cc4bcbc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:04:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=cba03cc11ba471500f0eda43cc4bcbfe"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cba03cc11ba471500f0eda43cc4bcbfe"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=cba03cc11ba471500f0eda43cc4bcbfe^sys_idNOT IN0244780d1ba471500f0eda43cc4bcb89,0975388d1ba471500f0eda43cc4bcb3f,673638cd1ba471500f0eda43cc4bcba6,773638cd1ba471500f0eda43cc4bcbc1,a14330891ba471500f0eda43cc4bcb9b,a33638cd1ba471500f0eda43cc4bcbb2,a73638cd1ba471500f0eda43cc4bcbb8,d01334491ba471500f0eda43cc4bcbf4,ddc334c91ba471500f0eda43cc4bcb1a,fcd4f44d1ba471500f0eda43cc4bcbe4"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Update Work Notes that Case is Under Threshold</comment>
+        <display_text/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">cba03cc11ba471500f0eda43cc4bcbfe</flow>
+        <order>6</order>
+        <parent_ui_id>d8a7ca2e-312c-4d25-8263-34e20f242e36</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:10:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0244780d1ba471500f0eda43cc4bcb89</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:52:47</sys_updated_on>
+        <ui_id>434510d7-0296-4eaa-afd2-7326fc61cdb9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0244780d1ba471500f0eda43cc4bcb89"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0244780d1ba471500f0eda43cc4bcb89</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:10:16</sys_created_on>
+        <sys_id>4e44780d1ba471500f0eda43cc4bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:10:16</sys_updated_on>
+        <value>x_snc_insight_pr_0_ledger_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0244780d1ba471500f0eda43cc4bcb89"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>0244780d1ba471500f0eda43cc4bcb89</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:10:16</sys_created_on>
+        <sys_id>ca44780d1ba471500f0eda43cc4bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:10:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>0244780d1ba471500f0eda43cc4bcb89</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:10:16</sys_created_on>
+        <sys_id>4644780d1ba471500f0eda43cc4bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:10:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>0244780d1ba471500f0eda43cc4bcb89</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:10:16</sys_created_on>
+        <sys_id>0a44780d1ba471500f0eda43cc4bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:10:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>work_notes=Sales Order '{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record.sales_order_number}}' Total Value is under ${{79a829bb-1f57-45a5-8910-e8819c48eea6.Record.default_value}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0244780d1ba471500f0eda43cc4bcb89"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0244780d1ba471500f0eda43cc4bcb89"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">cba03cc11ba471500f0eda43cc4bcbfe</flow>
+        <order>8</order>
+        <parent_ui_id>d8a7ca2e-312c-4d25-8263-34e20f242e36</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:15:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0975388d1ba471500f0eda43cc4bcb3f</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:52:47</sys_updated_on>
+        <ui_id>43cd3ef1-1f22-4661-9706-54fff5f4b0ef</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0975388d1ba471500f0eda43cc4bcb3f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0975388d1ba471500f0eda43cc4bcb3f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:15:23</sys_created_on>
+        <sys_id>0175388d1ba471500f0eda43cc4bcb42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:15:23</sys_updated_on>
+        <value>x_snc_insight_pr_0_so_case_sub_task</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0975388d1ba471500f0eda43cc4bcb3f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>0975388d1ba471500f0eda43cc4bcb3f</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:15:23</sys_created_on>
+        <sys_id>c575388d1ba471500f0eda43cc4bcb41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:15:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>parent={{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>0975388d1ba471500f0eda43cc4bcb3f</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:15:23</sys_created_on>
+        <sys_id>8d75388d1ba471500f0eda43cc4bcb41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:15:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0975388d1ba471500f0eda43cc4bcb3f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0975388d1ba471500f0eda43cc4bcb3f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">cba03cc11ba471500f0eda43cc4bcbfe</flow>
+        <order>10</order>
+        <parent_ui_id>f01fe5ef-1082-4b21-981d-3c9ec390c9b3</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:18:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>673638cd1ba471500f0eda43cc4bcba6</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:52:47</sys_updated_on>
+        <ui_id>83cb4500-3188-4e1a-9f93-f1a9818e2649</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=673638cd1ba471500f0eda43cc4bcba6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>673638cd1ba471500f0eda43cc4bcba6</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:18:50</sys_created_on>
+        <sys_id>673638cd1ba471500f0eda43cc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:18:50</sys_updated_on>
+        <value>x_snc_insight_pr_0_ledger_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>673638cd1ba471500f0eda43cc4bcba6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:18:50</sys_created_on>
+        <sys_id>a33638cd1ba471500f0eda43cc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:18:50</sys_updated_on>
+        <value>work_notes=Closing Subtasks</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=673638cd1ba471500f0eda43cc4bcba6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>673638cd1ba471500f0eda43cc4bcba6</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:18:50</sys_created_on>
+        <sys_id>233638cd1ba471500f0eda43cc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:18:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>673638cd1ba471500f0eda43cc4bcba6</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:18:50</sys_created_on>
+        <sys_id>ab3638cd1ba471500f0eda43cc4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:18:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>673638cd1ba471500f0eda43cc4bcba6</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:18:50</sys_created_on>
+        <sys_id>6f3638cd1ba471500f0eda43cc4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:18:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=673638cd1ba471500f0eda43cc4bcba6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=673638cd1ba471500f0eda43cc4bcba6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">cba03cc11ba471500f0eda43cc4bcbfe</flow>
+        <order>15</order>
+        <parent_ui_id>e632ef24-ab1d-44a0-9371-8802f1b17848</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:18:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>773638cd1ba471500f0eda43cc4bcbc1</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:52:47</sys_updated_on>
+        <ui_id>a6a6cfff-7b0c-4e3d-b953-2319168fe878</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=773638cd1ba471500f0eda43cc4bcbc1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>773638cd1ba471500f0eda43cc4bcbc1</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:18:50</sys_created_on>
+        <sys_id>733638cd1ba471500f0eda43cc4bcbc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:18:50</sys_updated_on>
+        <value>x_snc_insight_pr_0_ledger_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>773638cd1ba471500f0eda43cc4bcbc1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:18:50</sys_created_on>
+        <sys_id>bf3638cd1ba471500f0eda43cc4bcbc2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:32</sys_updated_on>
+        <value/>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=773638cd1ba471500f0eda43cc4bcbc1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>773638cd1ba471500f0eda43cc4bcbc1</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:18:50</sys_created_on>
+        <sys_id>3f3638cd1ba471500f0eda43cc4bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:18:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>773638cd1ba471500f0eda43cc4bcbc1</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:18:50</sys_created_on>
+        <sys_id>b73638cd1ba471500f0eda43cc4bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:18:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>773638cd1ba471500f0eda43cc4bcbc1</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:18:50</sys_created_on>
+        <sys_id>7b3638cd1ba471500f0eda43cc4bcbc2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>assigned_to=^state=1^work_notes=Case is over ${{79a829bb-1f57-45a5-8910-e8819c48eea6.Record.default_value}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=773638cd1ba471500f0eda43cc4bcbc1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=773638cd1ba471500f0eda43cc4bcbc1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Assign Case to "Efficiency Automation" and mark Work in Progress</comment>
+        <display_text/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">cba03cc11ba471500f0eda43cc4bcbfe</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:05:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a14330891ba471500f0eda43cc4bcb9b</sys_id>
+        <sys_mod_count>52</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:52:47</sys_updated_on>
+        <ui_id>90268d83-d924-4a31-809a-18cbd9ed966b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a14330891ba471500f0eda43cc4bcb9b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a14330891ba471500f0eda43cc4bcb9b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:05:52</sys_created_on>
+        <sys_id>614330891ba471500f0eda43cc4bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:05:52</sys_updated_on>
+        <value>x_snc_insight_pr_0_ledger_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a14330891ba471500f0eda43cc4bcb9b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:05:52</sys_created_on>
+        <sys_id>694330891ba471500f0eda43cc4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:05:52</sys_updated_on>
+        <value>assigned_to={"display":"Efficiency Automation","value":"d5bae5c81b2cb510f930da43cc4bcb0d","table":"sys_user","sys_id":"d5bae5c81b2cb510f930da43cc4bcb0d"}^state=2</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a14330891ba471500f0eda43cc4bcb9b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a14330891ba471500f0eda43cc4bcb9b</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:05:52</sys_created_on>
+        <sys_id>e54330891ba471500f0eda43cc4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:05:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a14330891ba471500f0eda43cc4bcb9b</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:05:52</sys_created_on>
+        <sys_id>6d4330891ba471500f0eda43cc4bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:05:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a14330891ba471500f0eda43cc4bcb9b</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:05:52</sys_created_on>
+        <sys_id>254330891ba471500f0eda43cc4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:05:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a14330891ba471500f0eda43cc4bcb9b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a14330891ba471500f0eda43cc4bcb9b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">cba03cc11ba471500f0eda43cc4bcbfe</flow>
+        <order>12</order>
+        <parent_ui_id>6e2cb806-e362-4901-97e4-db07f5397925</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:18:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a33638cd1ba471500f0eda43cc4bcbb2</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:52:47</sys_updated_on>
+        <ui_id>64f83327-a311-418a-9fd9-7d38ae7ad8e0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a33638cd1ba471500f0eda43cc4bcbb2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a33638cd1ba471500f0eda43cc4bcbb2</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:18:50</sys_created_on>
+        <sys_id>af3638cd1ba471500f0eda43cc4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:18:50</sys_updated_on>
+        <value>x_snc_insight_pr_0_so_case_sub_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a33638cd1ba471500f0eda43cc4bcbb2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:18:50</sys_created_on>
+        <sys_id>eb3638cd1ba471500f0eda43cc4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:18:50</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a33638cd1ba471500f0eda43cc4bcbb2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a33638cd1ba471500f0eda43cc4bcbb2</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:18:50</sys_created_on>
+        <sys_id>6b3638cd1ba471500f0eda43cc4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:18:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{6e2cb806-e362-4901-97e4-db07f5397925.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a33638cd1ba471500f0eda43cc4bcbb2</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:18:50</sys_created_on>
+        <sys_id>e33638cd1ba471500f0eda43cc4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:18:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a33638cd1ba471500f0eda43cc4bcbb2</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:18:50</sys_created_on>
+        <sys_id>a73638cd1ba471500f0eda43cc4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:18:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a33638cd1ba471500f0eda43cc4bcbb2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a33638cd1ba471500f0eda43cc4bcbb2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">cba03cc11ba471500f0eda43cc4bcbfe</flow>
+        <order>13</order>
+        <parent_ui_id>d8a7ca2e-312c-4d25-8263-34e20f242e36</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:18:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a73638cd1ba471500f0eda43cc4bcbb8</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:52:47</sys_updated_on>
+        <ui_id>db071214-d996-4f06-83ec-274fb4489460</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a73638cd1ba471500f0eda43cc4bcbb8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a73638cd1ba471500f0eda43cc4bcbb8</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:18:50</sys_created_on>
+        <sys_id>a33638cd1ba471500f0eda43cc4bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:18:50</sys_updated_on>
+        <value>x_snc_insight_pr_0_ledger_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a73638cd1ba471500f0eda43cc4bcbb8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:18:50</sys_created_on>
+        <sys_id>ef3638cd1ba471500f0eda43cc4bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:18:50</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a73638cd1ba471500f0eda43cc4bcbb8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a73638cd1ba471500f0eda43cc4bcbb8</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:18:50</sys_created_on>
+        <sys_id>6f3638cd1ba471500f0eda43cc4bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:18:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a73638cd1ba471500f0eda43cc4bcbb8</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:18:50</sys_created_on>
+        <sys_id>e73638cd1ba471500f0eda43cc4bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:18:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a73638cd1ba471500f0eda43cc4bcbb8</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:18:50</sys_created_on>
+        <sys_id>ab3638cd1ba471500f0eda43cc4bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:18:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a73638cd1ba471500f0eda43cc4bcbb8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a73638cd1ba471500f0eda43cc4bcbb8"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment>Find Credit Hold Threshold for Auto Acceptance</comment>
+        <display_text/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">cba03cc11ba471500f0eda43cc4bcbfe</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:04:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d01334491ba471500f0eda43cc4bcbf4</sys_id>
+        <sys_mod_count>54</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:52:47</sys_updated_on>
+        <ui_id>79a829bb-1f57-45a5-8910-e8819c48eea6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d01334491ba471500f0eda43cc4bcbf4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d01334491ba471500f0eda43cc4bcbf4</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:04:58</sys_created_on>
+        <sys_id>5c1374491ba471500f0eda43cc4bcb03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:04:58</sys_updated_on>
+        <value>x_snc_insight_pr_0_ipe_definitions</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d01334491ba471500f0eda43cc4bcbf4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:04:58</sys_created_on>
+        <sys_id>981374491ba471500f0eda43cc4bcb03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:04:58</sys_updated_on>
+        <value>default_property=clear_credit_hold</value>
+        <variable display_value="Conditions">d509f99587003300663ca1bb36cb0ba9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3^id=d01334491ba471500f0eda43cc4bcbf4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d01334491ba471500f0eda43cc4bcbf4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d01334491ba471500f0eda43cc4bcbf4"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment>Refresh Case Data</comment>
+        <display_text/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">cba03cc11ba471500f0eda43cc4bcbfe</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:08:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ddc334c91ba471500f0eda43cc4bcb1a</sys_id>
+        <sys_mod_count>48</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:52:47</sys_updated_on>
+        <ui_id>ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ddc334c91ba471500f0eda43cc4bcb1a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ddc334c91ba471500f0eda43cc4bcb1a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:08:02</sys_created_on>
+        <sys_id>15c334c91ba471500f0eda43cc4bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:08:02</sys_updated_on>
+        <value>x_snc_insight_pr_0_ledger_task</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ddc334c91ba471500f0eda43cc4bcb1a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>ddc334c91ba471500f0eda43cc4bcb1a</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:08:02</sys_created_on>
+        <sys_id>ddc334c91ba471500f0eda43cc4bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:08:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{Created or Updated_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>ddc334c91ba471500f0eda43cc4bcb1a</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:08:02</sys_created_on>
+        <sys_id>91c334c91ba471500f0eda43cc4bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:08:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ddc334c91ba471500f0eda43cc4bcb1a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ddc334c91ba471500f0eda43cc4bcb1a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Update Work Notes Clearing Credit Hold</comment>
+        <display_text/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">cba03cc11ba471500f0eda43cc4bcbfe</flow>
+        <order>7</order>
+        <parent_ui_id>d8a7ca2e-312c-4d25-8263-34e20f242e36</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:12:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fcd4f44d1ba471500f0eda43cc4bcbe4</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:52:47</sys_updated_on>
+        <ui_id>303d4d11-e34b-4252-9829-4441d39bafd1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fcd4f44d1ba471500f0eda43cc4bcbe4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fcd4f44d1ba471500f0eda43cc4bcbe4</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:12:38</sys_created_on>
+        <sys_id>74d4f44d1ba471500f0eda43cc4bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:12:38</sys_updated_on>
+        <value>x_snc_insight_pr_0_ledger_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fcd4f44d1ba471500f0eda43cc4bcbe4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>fcd4f44d1ba471500f0eda43cc4bcbe4</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:12:38</sys_created_on>
+        <sys_id>f0d4f44d1ba471500f0eda43cc4bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:12:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>fcd4f44d1ba471500f0eda43cc4bcbe4</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:12:38</sys_created_on>
+        <sys_id>78d4f44d1ba471500f0eda43cc4bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:12:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>fcd4f44d1ba471500f0eda43cc4bcbe4</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:12:38</sys_created_on>
+        <sys_id>30d4f44d1ba471500f0eda43cc4bcbe7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:13:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>work_notes=Clearing Credit Hold for - Sales Order '{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record.sales_order_number}}'</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fcd4f44d1ba471500f0eda43cc4bcbe4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fcd4f44d1ba471500f0eda43cc4bcbe4"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=cba03cc11ba471500f0eda43cc4bcbfe"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=cba03cc11ba471500f0eda43cc4bcbfe^sys_idNOT IN6f3638cd1ba471500f0eda43cc4bcbba,6fe3b8c91ba471500f0eda43cc4bcbfc,99c334c91ba471500f0eda43cc4bcb01,9d75388d1ba471500f0eda43cc4bcb46,d575388d1ba471500f0eda43cc4bcb43"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a73638cd1ba471500f0eda43cc4bcbba</block>
+        <comment/>
+        <connected_to>d8a7ca2e-312c-4d25-8263-34e20f242e36</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">cba03cc11ba471500f0eda43cc4bcbfe</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>14</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:18:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6f3638cd1ba471500f0eda43cc4bcbba</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:50</sys_updated_on>
+        <ui_id>e632ef24-ab1d-44a0-9371-8802f1b17848</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6f3638cd1ba471500f0eda43cc4bcbba"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6f3638cd1ba471500f0eda43cc4bcbba"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6f3638cd1ba471500f0eda43cc4bcbba"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a7e3b8c91ba471500f0eda43cc4bcbfc</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">cba03cc11ba471500f0eda43cc4bcbfe</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:08:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6fe3b8c91ba471500f0eda43cc4bcbfc</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:50</sys_updated_on>
+        <ui_id>d8a7ca2e-312c-4d25-8263-34e20f242e36</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6fe3b8c91ba471500f0eda43cc4bcbfc"/>
+    <sys_element_mapping action="delete_multiple" query="id=6fe3b8c91ba471500f0eda43cc4bcbfc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>6fe3b8c91ba471500f0eda43cc4bcbfc</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:08:44</sys_created_on>
+        <sys_id>6be3b8c91ba471500f0eda43cc4bcbff</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:35:46</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record.total_so_value}}&lt;={{79a829bb-1f57-45a5-8910-e8819c48eea6.Record.default_value}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6fe3b8c91ba471500f0eda43cc4bcbfc"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6fe3b8c91ba471500f0eda43cc4bcbfc"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9dc334c91ba471500f0eda43cc4bcb00</block>
+        <comment>Wait for Line Items to Calculate Total Value</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">cba03cc11ba471500f0eda43cc4bcbfe</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:08:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>99c334c91ba471500f0eda43cc4bcb01</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:49</sys_updated_on>
+        <ui_id>0e20c419-71c5-4947-a4b9-921026470d01</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=99c334c91ba471500f0eda43cc4bcb01"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>99c334c91ba471500f0eda43cc4bcb01</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:08:02</sys_created_on>
+        <sys_id>11c334c91ba471500f0eda43cc4bcb13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:08:02</sys_updated_on>
+        <value>1970-01-01 00:00:05</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>99c334c91ba471500f0eda43cc4bcb01</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:08:02</sys_created_on>
+        <sys_id>5dc334c91ba471500f0eda43cc4bcb12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:08:02</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=99c334c91ba471500f0eda43cc4bcb01"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=99c334c91ba471500f0eda43cc4bcb01"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=99c334c91ba471500f0eda43cc4bcb01"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">d575388d1ba471500f0eda43cc4bcb46</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">cba03cc11ba471500f0eda43cc4bcbfe</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>f01fe5ef-1082-4b21-981d-3c9ec390c9b3</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:15:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9d75388d1ba471500f0eda43cc4bcb46</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:50</sys_updated_on>
+        <ui_id>6e2cb806-e362-4901-97e4-db07f5397925</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=9d75388d1ba471500f0eda43cc4bcb46"/>
+    <sys_element_mapping action="delete_multiple" query="id=9d75388d1ba471500f0eda43cc4bcb46"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>9d75388d1ba471500f0eda43cc4bcb46</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:15:24</sys_created_on>
+        <sys_id>1975388d1ba471500f0eda43cc4bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:15:24</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{43cd3ef1-1f22-4661-9706-54fff5f4b0ef.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=9d75388d1ba471500f0eda43cc4bcb46"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9d75388d1ba471500f0eda43cc4bcb46"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">d975388d1ba471500f0eda43cc4bcb42</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">cba03cc11ba471500f0eda43cc4bcbfe</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>d8a7ca2e-312c-4d25-8263-34e20f242e36</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:15:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d575388d1ba471500f0eda43cc4bcb43</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:50</sys_updated_on>
+        <ui_id>f01fe5ef-1082-4b21-981d-3c9ec390c9b3</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d575388d1ba471500f0eda43cc4bcb43"/>
+    <sys_element_mapping action="delete_multiple" query="id=d575388d1ba471500f0eda43cc4bcb43"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>d575388d1ba471500f0eda43cc4bcb43</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:15:24</sys_created_on>
+        <sys_id>9175388d1ba471500f0eda43cc4bcb46</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:35:46</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{43cd3ef1-1f22-4661-9706-54fff5f4b0ef.Count}}&gt;=1</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d575388d1ba471500f0eda43cc4bcb43"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d575388d1ba471500f0eda43cc4bcb43"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=cba03cc11ba471500f0eda43cc4bcbfe"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=cba03cc11ba471500f0eda43cc4bcbfe"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_cba03cc11ba471500f0eda43cc4bcbfe^sys_idNOT IN2ce2f4091ba471500f0eda43cc4bcbc4,60e2f4091ba471500f0eda43cc4bcbd4,e8e2f4091ba471500f0eda43cc4bcbcc"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_cba03cc11ba471500f0eda43cc4bcbfe</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:04:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2ce2f4091ba471500f0eda43cc4bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:04:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_cba03cc11ba471500f0eda43cc4bcbfe</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:04:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>60e2f4091ba471500f0eda43cc4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:04:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_cba03cc11ba471500f0eda43cc4bcbfe</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:04:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e8e2f4091ba471500f0eda43cc4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:04:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_cba03cc11ba471500f0eda43cc4bcbfe"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_cba03cc11ba471500f0eda43cc4bcbfe"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_cba03cc11ba471500f0eda43cc4bcbfe"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=cba03cc11ba471500f0eda43cc4bcbfe^sys_idNOT INd346bccd1ba471500f0eda43cc4bcb43"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"d346bccd1ba471500f0eda43cc4bcb43","name":"plan","plan_signature":null}}</plan>
+        <plan_id>cba03cc11ba471500f0eda43cc4bcbfe</plan_id>
+        <snapshot>e80e748d1bec7150f930da43cc4bcbb3</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d346bccd1ba471500f0eda43cc4bcb43</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:34:42</sys_updated_on>
+        <trigger display_value="">f989b4851be471500f0eda43cc4bcbb2</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=cba03cc11ba471500f0eda43cc4bcbfe"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>br__so_automation__total_value_under_threshold</internal_name>
+        <label_cache>[{"name":"6e2cb806-e362-4901-97e4-db07f5397925.item","label":"11 - For Each➛SO Case Sub Task Record","reference":"x_snc_insight_pr_0_so_case_sub_task","reference_display":"SO Case Sub Task","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"79a829bb-1f57-45a5-8910-e8819c48eea6.Record.default_value","label":"1 - Look Up Record➛IPE Definitions Record➛Default Value","reference":"","reference_display":"Default Value","type":"string","base_type":"string","parent_table_name":"x_snc_insight_pr_0_ipe_definitions","column_name":"default_value"},{"name":"ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record.total_so_value","label":"4 - Look Up Record➛Sales Order Case Record➛Total SO Value","reference":"","reference_display":"Total SO Value","type":"decimal","base_type":"decimal","parent_table_name":"x_snc_insight_pr_0_ledger_task","column_name":"total_so_value"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Sales Order Case Record","reference":"x_snc_insight_pr_0_ledger_task","reference_display":"Sales Order Case","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.sys_id","label":"Trigger - Record Created or Updated➛Sales Order Case Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_snc_insight_pr_0_ledger_task","column_name":"sys_id"},{"name":"ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record","label":"4 - Look Up Record➛Sales Order Case Record","reference":"x_snc_insight_pr_0_ledger_task","reference_display":"Sales Order Case","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record.sales_order_number","label":"4 - Look Up Record➛Sales Order Case Record➛Sales Order Number","reference":"","reference_display":"Sales Order Number","type":"float","base_type":"float","parent_table_name":"x_snc_insight_pr_0_ledger_task","column_name":"sales_order_number"},{"name":"43cd3ef1-1f22-4661-9706-54fff5f4b0ef.Count","label":"8 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"43cd3ef1-1f22-4661-9706-54fff5f4b0ef.Records","label":"8 - Look Up Records➛SO Case Sub Task Records","reference":"x_snc_insight_pr_0_so_case_sub_task","reference_display":"SO Case Sub Task","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>BR - SO Automation - Total Value Under Threshold</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="BR - SO Automation - Total Value Under Threshold">cba03cc11ba471500f0eda43cc4bcbfe</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>1a46f8cd1ba471500f0eda43cc4bcbb4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:46</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=1a46f8cd1ba471500f0eda43cc4bcbb4"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=1a46f8cd1ba471500f0eda43cc4bcbb4^sys_idNOT INf2467ccd1ba471500f0eda43cc4bcbb4"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">1a46f8cd1ba471500f0eda43cc4bcbb4</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f2467ccd1ba471500f0eda43cc4bcbb4</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:49</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f2467ccd1ba471500f0eda43cc4bcbb4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>f2467ccd1ba471500f0eda43cc4bcbb4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:04</sys_created_on>
+        <sys_id>03467ccd1ba471500f0eda43cc4bcbb6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:33:07</sys_updated_on>
+        <value>activitylevel=Header^assigned_toISEMPTY^state=1</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>f2467ccd1ba471500f0eda43cc4bcbb4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:04</sys_created_on>
+        <sys_id>c3467ccd1ba471500f0eda43cc4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:04</sys_updated_on>
+        <value>x_snc_insight_pr_0_ledger_task</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=f2467ccd1ba471500f0eda43cc4bcbb4"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=1a46f8cd1ba471500f0eda43cc4bcbb4"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=1a46f8cd1ba471500f0eda43cc4bcbb4^sys_idNOT INda46f8cd1ba471500f0eda43cc4bcbb5"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>1a46f8cd1ba471500f0eda43cc4bcbb4</id>
+        <name>BR - SO Automation - Total Value Under Threshold</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>da46f8cd1ba471500f0eda43cc4bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:01</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=da46f8cd1ba471500f0eda43cc4bcbb5"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=1a46f8cd1ba471500f0eda43cc4bcbb4^sys_idNOT IN2a467ccd1ba471500f0eda43cc4bcb33,9246f8cd1ba471500f0eda43cc4bcbb7,ae467ccd1ba471500f0eda43cc4bcb26"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="BR - SO Automation - Total Value Under Threshold">1a46f8cd1ba471500f0eda43cc4bcbb4</model>
+        <model_id>1a46f8cd1ba471500f0eda43cc4bcbb4</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_1a46f8cd1ba471500f0eda43cc4bcbb4</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2a467ccd1ba471500f0eda43cc4bcb33</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="BR - SO Automation - Total Value Under Threshold">1a46f8cd1ba471500f0eda43cc4bcbb4</model>
+        <model_id>1a46f8cd1ba471500f0eda43cc4bcbb4</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_1a46f8cd1ba471500f0eda43cc4bcbb4</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9246f8cd1ba471500f0eda43cc4bcbb7</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="BR - SO Automation - Total Value Under Threshold">1a46f8cd1ba471500f0eda43cc4bcbb4</model>
+        <model_id>1a46f8cd1ba471500f0eda43cc4bcbb4</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_1a46f8cd1ba471500f0eda43cc4bcbb4</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ae467ccd1ba471500f0eda43cc4bcb26</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:33:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=1a46f8cd1ba471500f0eda43cc4bcbb4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1a46f8cd1ba471500f0eda43cc4bcbb4"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=1a46f8cd1ba471500f0eda43cc4bcbb4^sys_idNOT IN32467ccd1ba471500f0eda43cc4bcb62,36467ccd1ba471500f0eda43cc4bcb81,72467ccd1ba471500f0eda43cc4bcb7b,72467ccd1ba471500f0eda43cc4bcb9f,7e467ccd1ba471500f0eda43cc4bcbab,b2467ccd1ba471500f0eda43cc4bcb6b,f2467ccd1ba471500f0eda43cc4bcbb2,f6467ccd1ba471500f0eda43cc4bcb98,f6467ccd1ba471500f0eda43cc4bcba5,fa467ccd1ba471500f0eda43cc4bcb74"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment>Find Credit Hold Threshold for Auto Acceptance</comment>
+        <display_text/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">1a46f8cd1ba471500f0eda43cc4bcbb4</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>32467ccd1ba471500f0eda43cc4bcb62</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:46</sys_updated_on>
+        <ui_id>79a829bb-1f57-45a5-8910-e8819c48eea6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=32467ccd1ba471500f0eda43cc4bcb62"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>32467ccd1ba471500f0eda43cc4bcb62</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>32467ccd1ba471500f0eda43cc4bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <value>default_property=clear_credit_hold</value>
+        <variable display_value="Conditions">d509f99587003300663ca1bb36cb0ba9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>32467ccd1ba471500f0eda43cc4bcb62</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>f2467ccd1ba471500f0eda43cc4bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <value>x_snc_insight_pr_0_ipe_definitions</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3^id=32467ccd1ba471500f0eda43cc4bcb62"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=32467ccd1ba471500f0eda43cc4bcb62"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=32467ccd1ba471500f0eda43cc4bcb62"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment>Update Work Notes Clearing Credit Hold</comment>
+        <display_text/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">1a46f8cd1ba471500f0eda43cc4bcbb4</flow>
+        <order>7</order>
+        <parent_ui_id>d8a7ca2e-312c-4d25-8263-34e20f242e36</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>36467ccd1ba471500f0eda43cc4bcb81</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:46</sys_updated_on>
+        <ui_id>303d4d11-e34b-4252-9829-4441d39bafd1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=36467ccd1ba471500f0eda43cc4bcb81"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>36467ccd1ba471500f0eda43cc4bcb81</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>7e467ccd1ba471500f0eda43cc4bcb82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <value>x_snc_insight_pr_0_ledger_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=36467ccd1ba471500f0eda43cc4bcb81"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>36467ccd1ba471500f0eda43cc4bcb81</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>fa467ccd1ba471500f0eda43cc4bcb82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>36467ccd1ba471500f0eda43cc4bcb81</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>76467ccd1ba471500f0eda43cc4bcb82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>36467ccd1ba471500f0eda43cc4bcb81</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>3a467ccd1ba471500f0eda43cc4bcb82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>work_notes=Clearing Credit Hold for - Sales Order '{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record.sales_order_number}}'</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=36467ccd1ba471500f0eda43cc4bcb81"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=36467ccd1ba471500f0eda43cc4bcb81"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment>Update Work Notes that Case is Under Threshold</comment>
+        <display_text/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">1a46f8cd1ba471500f0eda43cc4bcbb4</flow>
+        <order>6</order>
+        <parent_ui_id>d8a7ca2e-312c-4d25-8263-34e20f242e36</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>72467ccd1ba471500f0eda43cc4bcb7b</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:46</sys_updated_on>
+        <ui_id>434510d7-0296-4eaa-afd2-7326fc61cdb9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=72467ccd1ba471500f0eda43cc4bcb7b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>72467ccd1ba471500f0eda43cc4bcb7b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>ba467ccd1ba471500f0eda43cc4bcb7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <value>x_snc_insight_pr_0_ledger_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=72467ccd1ba471500f0eda43cc4bcb7b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>72467ccd1ba471500f0eda43cc4bcb7b</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>3a467ccd1ba471500f0eda43cc4bcb7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>72467ccd1ba471500f0eda43cc4bcb7b</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>b2467ccd1ba471500f0eda43cc4bcb7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>72467ccd1ba471500f0eda43cc4bcb7b</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>76467ccd1ba471500f0eda43cc4bcb7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>work_notes=Sales Order '{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record.sales_order_number}}' Total Value is under ${{79a829bb-1f57-45a5-8910-e8819c48eea6.Record.default_value}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=72467ccd1ba471500f0eda43cc4bcb7b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=72467ccd1ba471500f0eda43cc4bcb7b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">1a46f8cd1ba471500f0eda43cc4bcbb4</flow>
+        <order>10</order>
+        <parent_ui_id>f01fe5ef-1082-4b21-981d-3c9ec390c9b3</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>72467ccd1ba471500f0eda43cc4bcb9f</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:46</sys_updated_on>
+        <ui_id>83cb4500-3188-4e1a-9f93-f1a9818e2649</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=72467ccd1ba471500f0eda43cc4bcb9f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>72467ccd1ba471500f0eda43cc4bcb9f</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>7e467ccd1ba471500f0eda43cc4bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <value>x_snc_insight_pr_0_ledger_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>72467ccd1ba471500f0eda43cc4bcb9f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>ba467ccd1ba471500f0eda43cc4bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <value>work_notes=Closing Subtasks</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=72467ccd1ba471500f0eda43cc4bcb9f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>72467ccd1ba471500f0eda43cc4bcb9f</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>3a467ccd1ba471500f0eda43cc4bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>72467ccd1ba471500f0eda43cc4bcb9f</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>b2467ccd1ba471500f0eda43cc4bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>72467ccd1ba471500f0eda43cc4bcb9f</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>76467ccd1ba471500f0eda43cc4bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=72467ccd1ba471500f0eda43cc4bcb9f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=72467ccd1ba471500f0eda43cc4bcb9f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">1a46f8cd1ba471500f0eda43cc4bcbb4</flow>
+        <order>13</order>
+        <parent_ui_id>d8a7ca2e-312c-4d25-8263-34e20f242e36</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7e467ccd1ba471500f0eda43cc4bcbab</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:46</sys_updated_on>
+        <ui_id>db071214-d996-4f06-83ec-274fb4489460</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7e467ccd1ba471500f0eda43cc4bcbab"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7e467ccd1ba471500f0eda43cc4bcbab</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:04</sys_created_on>
+        <sys_id>7a467ccd1ba471500f0eda43cc4bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:04</sys_updated_on>
+        <value>x_snc_insight_pr_0_ledger_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7e467ccd1ba471500f0eda43cc4bcbab</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:04</sys_created_on>
+        <sys_id>b6467ccd1ba471500f0eda43cc4bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:04</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7e467ccd1ba471500f0eda43cc4bcbab"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>7e467ccd1ba471500f0eda43cc4bcbab</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:04</sys_created_on>
+        <sys_id>36467ccd1ba471500f0eda43cc4bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>7e467ccd1ba471500f0eda43cc4bcbab</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:04</sys_created_on>
+        <sys_id>be467ccd1ba471500f0eda43cc4bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>7e467ccd1ba471500f0eda43cc4bcbab</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:04</sys_created_on>
+        <sys_id>72467ccd1ba471500f0eda43cc4bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7e467ccd1ba471500f0eda43cc4bcbab"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7e467ccd1ba471500f0eda43cc4bcbab"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment>Assign Case to "Efficiency Automation" and mark Work in Progress</comment>
+        <display_text/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">1a46f8cd1ba471500f0eda43cc4bcbb4</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b2467ccd1ba471500f0eda43cc4bcb6b</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:46</sys_updated_on>
+        <ui_id>90268d83-d924-4a31-809a-18cbd9ed966b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b2467ccd1ba471500f0eda43cc4bcb6b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b2467ccd1ba471500f0eda43cc4bcb6b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>be467ccd1ba471500f0eda43cc4bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <value>x_snc_insight_pr_0_ledger_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b2467ccd1ba471500f0eda43cc4bcb6b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>fa467ccd1ba471500f0eda43cc4bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <value>assigned_to={"display":"Efficiency Automation","value":"d5bae5c81b2cb510f930da43cc4bcb0d","table":"sys_user","sys_id":"d5bae5c81b2cb510f930da43cc4bcb0d"}^state=2</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b2467ccd1ba471500f0eda43cc4bcb6b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b2467ccd1ba471500f0eda43cc4bcb6b</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>7a467ccd1ba471500f0eda43cc4bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>b2467ccd1ba471500f0eda43cc4bcb6b</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>f2467ccd1ba471500f0eda43cc4bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>b2467ccd1ba471500f0eda43cc4bcb6b</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>b6467ccd1ba471500f0eda43cc4bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b2467ccd1ba471500f0eda43cc4bcb6b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b2467ccd1ba471500f0eda43cc4bcb6b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">1a46f8cd1ba471500f0eda43cc4bcbb4</flow>
+        <order>15</order>
+        <parent_ui_id>e632ef24-ab1d-44a0-9371-8802f1b17848</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f2467ccd1ba471500f0eda43cc4bcbb2</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:46</sys_updated_on>
+        <ui_id>a6a6cfff-7b0c-4e3d-b953-2319168fe878</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f2467ccd1ba471500f0eda43cc4bcbb2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f2467ccd1ba471500f0eda43cc4bcbb2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:04</sys_created_on>
+        <sys_id>3e467ccd1ba471500f0eda43cc4bcbb3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:45</sys_updated_on>
+        <value/>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f2467ccd1ba471500f0eda43cc4bcbb2</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:04</sys_created_on>
+        <sys_id>fe467ccd1ba471500f0eda43cc4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:04</sys_updated_on>
+        <value>x_snc_insight_pr_0_ledger_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f2467ccd1ba471500f0eda43cc4bcbb2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>f2467ccd1ba471500f0eda43cc4bcbb2</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:04</sys_created_on>
+        <sys_id>ba467ccd1ba471500f0eda43cc4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>f2467ccd1ba471500f0eda43cc4bcbb2</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:04</sys_created_on>
+        <sys_id>36467ccd1ba471500f0eda43cc4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>f2467ccd1ba471500f0eda43cc4bcbb2</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:04</sys_created_on>
+        <sys_id>f6467ccd1ba471500f0eda43cc4bcbb3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>assigned_to=^state=1^work_notes=Case is over ${{79a829bb-1f57-45a5-8910-e8819c48eea6.Record.default_value}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f2467ccd1ba471500f0eda43cc4bcbb2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f2467ccd1ba471500f0eda43cc4bcbb2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">1a46f8cd1ba471500f0eda43cc4bcbb4</flow>
+        <order>8</order>
+        <parent_ui_id>d8a7ca2e-312c-4d25-8263-34e20f242e36</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f6467ccd1ba471500f0eda43cc4bcb98</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:46</sys_updated_on>
+        <ui_id>43cd3ef1-1f22-4661-9706-54fff5f4b0ef</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f6467ccd1ba471500f0eda43cc4bcb98"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f6467ccd1ba471500f0eda43cc4bcb98</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>76467ccd1ba471500f0eda43cc4bcb9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <value>x_snc_insight_pr_0_so_case_sub_task</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f6467ccd1ba471500f0eda43cc4bcb98"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>f6467ccd1ba471500f0eda43cc4bcb98</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>32467ccd1ba471500f0eda43cc4bcb9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>parent={{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>f6467ccd1ba471500f0eda43cc4bcb98</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>f2467ccd1ba471500f0eda43cc4bcb9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f6467ccd1ba471500f0eda43cc4bcb98"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f6467ccd1ba471500f0eda43cc4bcb98"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">1a46f8cd1ba471500f0eda43cc4bcbb4</flow>
+        <order>12</order>
+        <parent_ui_id>6e2cb806-e362-4901-97e4-db07f5397925</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f6467ccd1ba471500f0eda43cc4bcba5</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:46</sys_updated_on>
+        <ui_id>64f83327-a311-418a-9fd9-7d38ae7ad8e0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f6467ccd1ba471500f0eda43cc4bcba5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f6467ccd1ba471500f0eda43cc4bcba5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>32467ccd1ba471500f0eda43cc4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f6467ccd1ba471500f0eda43cc4bcba5</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>f2467ccd1ba471500f0eda43cc4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <value>x_snc_insight_pr_0_so_case_sub_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f6467ccd1ba471500f0eda43cc4bcba5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>f6467ccd1ba471500f0eda43cc4bcba5</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>be467ccd1ba471500f0eda43cc4bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{6e2cb806-e362-4901-97e4-db07f5397925.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>f6467ccd1ba471500f0eda43cc4bcba5</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>3a467ccd1ba471500f0eda43cc4bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>f6467ccd1ba471500f0eda43cc4bcba5</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>fa467ccd1ba471500f0eda43cc4bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f6467ccd1ba471500f0eda43cc4bcba5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f6467ccd1ba471500f0eda43cc4bcba5"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment>Refresh Case Data</comment>
+        <display_text/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">1a46f8cd1ba471500f0eda43cc4bcbb4</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fa467ccd1ba471500f0eda43cc4bcb74</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:46</sys_updated_on>
+        <ui_id>ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fa467ccd1ba471500f0eda43cc4bcb74"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fa467ccd1ba471500f0eda43cc4bcb74</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>f6467ccd1ba471500f0eda43cc4bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <value>x_snc_insight_pr_0_ledger_task</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fa467ccd1ba471500f0eda43cc4bcb74"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>fa467ccd1ba471500f0eda43cc4bcb74</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>b2467ccd1ba471500f0eda43cc4bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{Created or Updated_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>fa467ccd1ba471500f0eda43cc4bcb74</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:03</sys_created_on>
+        <sys_id>76467ccd1ba471500f0eda43cc4bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fa467ccd1ba471500f0eda43cc4bcb74"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fa467ccd1ba471500f0eda43cc4bcb74"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=1a46f8cd1ba471500f0eda43cc4bcbb4"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=1a46f8cd1ba471500f0eda43cc4bcbb4^sys_idNOT IN26467ccd1ba471500f0eda43cc4bcb51,62467ccd1ba471500f0eda43cc4bcb4a,62467ccd1ba471500f0eda43cc4bcb4e,6e467ccd1ba471500f0eda43cc4bcb43,a2467ccd1ba471500f0eda43cc4bcb55"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">d575388d1ba471500f0eda43cc4bcb46</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">1a46f8cd1ba471500f0eda43cc4bcbb4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>f01fe5ef-1082-4b21-981d-3c9ec390c9b3</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>26467ccd1ba471500f0eda43cc4bcb51</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:46</sys_updated_on>
+        <ui_id>6e2cb806-e362-4901-97e4-db07f5397925</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=26467ccd1ba471500f0eda43cc4bcb51"/>
+    <sys_element_mapping action="delete_multiple" query="id=26467ccd1ba471500f0eda43cc4bcb51"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>26467ccd1ba471500f0eda43cc4bcb51</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:02</sys_created_on>
+        <sys_id>26467ccd1ba471500f0eda43cc4bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:02</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{43cd3ef1-1f22-4661-9706-54fff5f4b0ef.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=26467ccd1ba471500f0eda43cc4bcb51"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=26467ccd1ba471500f0eda43cc4bcb51"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a7e3b8c91ba471500f0eda43cc4bcbfc</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">1a46f8cd1ba471500f0eda43cc4bcbb4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>62467ccd1ba471500f0eda43cc4bcb4a</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:46</sys_updated_on>
+        <ui_id>d8a7ca2e-312c-4d25-8263-34e20f242e36</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=62467ccd1ba471500f0eda43cc4bcb4a"/>
+    <sys_element_mapping action="delete_multiple" query="id=62467ccd1ba471500f0eda43cc4bcb4a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>62467ccd1ba471500f0eda43cc4bcb4a</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:02</sys_created_on>
+        <sys_id>e2467ccd1ba471500f0eda43cc4bcb4d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:35:59</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record.total_so_value}}&lt;={{79a829bb-1f57-45a5-8910-e8819c48eea6.Record.default_value}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=62467ccd1ba471500f0eda43cc4bcb4a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=62467ccd1ba471500f0eda43cc4bcb4a"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">d975388d1ba471500f0eda43cc4bcb42</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">1a46f8cd1ba471500f0eda43cc4bcbb4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>d8a7ca2e-312c-4d25-8263-34e20f242e36</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>62467ccd1ba471500f0eda43cc4bcb4e</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:46</sys_updated_on>
+        <ui_id>f01fe5ef-1082-4b21-981d-3c9ec390c9b3</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=62467ccd1ba471500f0eda43cc4bcb4e"/>
+    <sys_element_mapping action="delete_multiple" query="id=62467ccd1ba471500f0eda43cc4bcb4e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>62467ccd1ba471500f0eda43cc4bcb4e</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:02</sys_created_on>
+        <sys_id>2a467ccd1ba471500f0eda43cc4bcb50</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:36:00</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{43cd3ef1-1f22-4661-9706-54fff5f4b0ef.Count}}&gt;=1</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=62467ccd1ba471500f0eda43cc4bcb4e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=62467ccd1ba471500f0eda43cc4bcb4e"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9dc334c91ba471500f0eda43cc4bcb00</block>
+        <comment>Wait for Line Items to Calculate Total Value</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">1a46f8cd1ba471500f0eda43cc4bcbb4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6e467ccd1ba471500f0eda43cc4bcb43</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:46</sys_updated_on>
+        <ui_id>0e20c419-71c5-4947-a4b9-921026470d01</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6e467ccd1ba471500f0eda43cc4bcb43"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6e467ccd1ba471500f0eda43cc4bcb43</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:02</sys_created_on>
+        <sys_id>a2467ccd1ba471500f0eda43cc4bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:02</sys_updated_on>
+        <value>1970-01-01 00:00:05</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6e467ccd1ba471500f0eda43cc4bcb43</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:02</sys_created_on>
+        <sys_id>ee467ccd1ba471500f0eda43cc4bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:02</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=6e467ccd1ba471500f0eda43cc4bcb43"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6e467ccd1ba471500f0eda43cc4bcb43"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6e467ccd1ba471500f0eda43cc4bcb43"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a73638cd1ba471500f0eda43cc4bcbba</block>
+        <comment/>
+        <connected_to>d8a7ca2e-312c-4d25-8263-34e20f242e36</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="BR - SO Automation - Total Value Under Threshold">1a46f8cd1ba471500f0eda43cc4bcbb4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>14</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a2467ccd1ba471500f0eda43cc4bcb55</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:43:46</sys_updated_on>
+        <ui_id>e632ef24-ab1d-44a0-9371-8802f1b17848</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a2467ccd1ba471500f0eda43cc4bcb55"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a2467ccd1ba471500f0eda43cc4bcb55"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a2467ccd1ba471500f0eda43cc4bcb55"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=1a46f8cd1ba471500f0eda43cc4bcbb4"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=1a46f8cd1ba471500f0eda43cc4bcbb4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_1a46f8cd1ba471500f0eda43cc4bcbb4^sys_idNOT IN66467ccd1ba471500f0eda43cc4bcb23,a6467ccd1ba471500f0eda43cc4bcb3c,ee467ccd1ba471500f0eda43cc4bcb2f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1a46f8cd1ba471500f0eda43cc4bcbb4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>66467ccd1ba471500f0eda43cc4bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1a46f8cd1ba471500f0eda43cc4bcbb4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a6467ccd1ba471500f0eda43cc4bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1a46f8cd1ba471500f0eda43cc4bcbb4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 11:19:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ee467ccd1ba471500f0eda43cc4bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 11:19:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_1a46f8cd1ba471500f0eda43cc4bcbb4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_1a46f8cd1ba471500f0eda43cc4bcbb4"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_1a46f8cd1ba471500f0eda43cc4bcbb4"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>cba03cc11ba471500f0eda43cc4bcbfe</sys_id>
+        <latest_snapshot>1a46f8cd1ba471500f0eda43cc4bcbb4</latest_snapshot>
+        <compiler_build>glide-utah-12-21-2022__patch4-hotfix2-06-23-2023_06-23-2023_2224.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_snc_insight_pr_0_so_case_sub_task" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="SO Case Sub Task - Default view" name="x_snc_insight_pr_0_so_case_sub_task" related_list="NULL" sys_domain="global" view="Default view">7ad160381ba4bd100f0eda43cc4bcb7a</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-06 15:11:17</sys_created_on>
+            <sys_id>b6d160381ba4bd100f0eda43cc4bcb7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-06 15:11:17</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>SO Case Sub Task - Default view</calculated_name>
+            <filter/>
+            <name>x_snc_insight_pr_0_so_case_sub_task</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-06 15:11:17</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>7ad160381ba4bd100f0eda43cc4bcb7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>SO Case Sub Task - Default view</sys_name>
+            <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+            <sys_update_name>sys_ui_related_x_snc_insight_pr_0_so_case_sub_task_null</sys_update_name>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-06 15:11:17</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

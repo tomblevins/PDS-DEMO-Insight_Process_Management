@@ -3,84 +3,98 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sales_document_type_text</element>
             <position>0</position>
-            <sys_created_by>ERam61</sys_created_by>
-            <sys_created_on>2023-08-03 18:12:58</sys_created_on>
-            <sys_id>03aeed37975cb1d44ef191a00153af41</sys_id>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-04 13:24:26</sys_created_on>
+            <sys_id>c636fd0c1b68f5100f0eda43cc4bcbae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Sales Order Info" display_value="Sales Order Info" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">455740b39758f994387553800153af30</sys_ui_section>
-            <sys_updated_by>ERam61</sys_updated_by>
-            <sys_updated_on>2023-08-03 18:12:58</sys_updated_on>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-04 13:24:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sales_document_type</element>
             <position>1</position>
-            <sys_created_by>ERam61</sys_created_by>
-            <sys_created_on>2023-08-03 18:12:58</sys_created_on>
-            <sys_id>07aeed37975cb1d44ef191a00153af41</sys_id>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-04 13:24:26</sys_created_on>
+            <sys_id>4a36fd0c1b68f5100f0eda43cc4bcbae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Sales Order Info" display_value="Sales Order Info" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">455740b39758f994387553800153af30</sys_ui_section>
-            <sys_updated_by>ERam61</sys_updated_by>
-            <sys_updated_on>2023-08-03 18:12:58</sys_updated_on>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-04 13:24:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sales_order_number</element>
             <position>2</position>
-            <sys_created_by>ERam61</sys_created_by>
-            <sys_created_on>2023-08-03 18:12:58</sys_created_on>
-            <sys_id>0baeed37975cb1d44ef191a00153af41</sys_id>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-04 13:24:26</sys_created_on>
+            <sys_id>ca36fd0c1b68f5100f0eda43cc4bcbae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Sales Order Info" display_value="Sales Order Info" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">455740b39758f994387553800153af30</sys_ui_section>
-            <sys_updated_by>ERam61</sys_updated_by>
-            <sys_updated_on>2023-08-03 18:12:58</sys_updated_on>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-04 13:24:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>in_season_vs_future_order</element>
             <position>3</position>
-            <sys_created_by>ERam61</sys_created_by>
-            <sys_created_on>2023-08-03 18:12:58</sys_created_on>
-            <sys_id>0faeed37975cb1d44ef191a00153af41</sys_id>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-04 13:24:26</sys_created_on>
+            <sys_id>4e36fd0c1b68f5100f0eda43cc4bcbae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Sales Order Info" display_value="Sales Order Info" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">455740b39758f994387553800153af30</sys_ui_section>
-            <sys_updated_by>ERam61</sys_updated_by>
-            <sys_updated_on>2023-08-03 18:12:58</sys_updated_on>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-04 13:24:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>4</position>
-            <sys_created_by>ERam61</sys_created_by>
-            <sys_created_on>2023-08-03 18:12:58</sys_created_on>
-            <sys_id>03aeed37975cb1d44ef191a00153af42</sys_id>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-04 13:24:26</sys_created_on>
+            <sys_id>ce36fd0c1b68f5100f0eda43cc4bcbae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Sales Order Info" display_value="Sales Order Info" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">455740b39758f994387553800153af30</sys_ui_section>
-            <sys_updated_by>ERam61</sys_updated_by>
-            <sys_updated_on>2023-08-03 18:12:58</sys_updated_on>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-04 13:24:26</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>so_create_date</element>
             <position>5</position>
-            <sys_created_by>ERam61</sys_created_by>
-            <sys_created_on>2023-08-03 18:12:58</sys_created_on>
-            <sys_id>07aeed37975cb1d44ef191a00153af42</sys_id>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-04 13:24:26</sys_created_on>
+            <sys_id>4236fd0c1b68f5100f0eda43cc4bcbaf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Sales Order Info" display_value="Sales Order Info" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">455740b39758f994387553800153af30</sys_ui_section>
-            <sys_updated_by>ERam61</sys_updated_by>
-            <sys_updated_on>2023-08-03 18:12:58</sys_updated_on>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-04 13:24:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_so_value</element>
+            <position>6</position>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-04 13:24:26</sys_created_on>
+            <sys_id>c236fd0c1b68f5100f0eda43cc4bcbaf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Sales Order Info" display_value="Sales Order Info" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">455740b39758f994387553800153af30</sys_ui_section>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-04 13:24:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

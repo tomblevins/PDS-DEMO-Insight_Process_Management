@@ -4,13 +4,13 @@
             <element>work_notes</element>
             <position>0</position>
             <sys_created_by>TBlev1</sys_created_by>
-            <sys_created_on>2023-08-03 13:44:21</sys_created_on>
-            <sys_id>483130b797d03d94387553800153af88</sys_id>
+            <sys_created_on>2023-08-04 18:37:16</sys_created_on>
+            <sys_id>20ddba041b2039100f0eda43cc4bcb2b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Notes" display_value="Notes" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">0da8383b877c95108b817b9acebb3540</sys_ui_section>
             <sys_updated_by>TBlev1</sys_updated_by>
-            <sys_updated_on>2023-08-03 13:44:21</sys_updated_on>
+            <sys_updated_on>2023-08-04 18:37:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>comments_and_work_notes</element>
             <position>1</position>
             <sys_created_by>TBlev1</sys_created_by>
-            <sys_created_on>2023-08-03 13:44:21</sys_created_on>
-            <sys_id>c83130b797d03d94387553800153af88</sys_id>
+            <sys_created_on>2023-08-04 18:37:16</sys_created_on>
+            <sys_id>24ddba041b2039100f0eda43cc4bcb2b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Notes" display_value="Notes" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">0da8383b877c95108b817b9acebb3540</sys_ui_section>
             <sys_updated_by>TBlev1</sys_updated_by>
-            <sys_updated_on>2023-08-03 13:44:21</sys_updated_on>
+            <sys_updated_on>2023-08-04 18:37:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

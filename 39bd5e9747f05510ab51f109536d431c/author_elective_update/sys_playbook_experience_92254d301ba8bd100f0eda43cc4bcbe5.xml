@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_playbook_experience">
+    <sys_playbook_experience action="DELETE">
+        <name>Credit Assessment Processing Experience</name>
+        <sys_class_name>sys_playbook_experience</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-06 17:45:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>92254d301ba8bd100f0eda43cc4bcbe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Credit Assessment Processing Experience</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_playbook_experience_92254d301ba8bd100f0eda43cc4bcbe5</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-06 17:45:53</sys_updated_on>
+    </sys_playbook_experience>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>532947b4ffaeac889376762fa87efe09</instance_id>
+        <instance_name>niketest</instance_name>
+        <name>sys_playbook_experience_92254d301ba8bd100f0eda43cc4bcbe5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_playbook_experience"><sys_playbook_experience action="INSERT_OR_UPDATE"><name>Credit Assessment Processing Experience</name><sys_class_name>sys_playbook_experience</sys_class_name><sys_created_by>TBlev1</sys_created_by><sys_created_on>2023-08-06 17:45:53</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>92254d301ba8bd100f0eda43cc4bcbe5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Credit Assessment Processing Experience</sys_name><sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope><sys_update_name>sys_playbook_experience_92254d301ba8bd100f0eda43cc4bcbe5</sys_update_name><sys_updated_by>TBlev1</sys_updated_by><sys_updated_on>2023-08-06 17:45:53</sys_updated_on></sys_playbook_experience></record_update>]]></payload>
+        <payload_hash>1892115698</payload_hash>
+        <record_name>Credit Assessment Processing Experience</record_name>
+        <reverted_from/>
+        <source>d05f909a97afe1d0387553800153afb6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-06 17:45:53</sys_created_on>
+        <sys_id>af35cd301ba8bd100f0eda43cc4bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189cbf49fe30000001</sys_recorded_at>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-06 17:45:53</sys_updated_on>
+        <type>Playbook Experience</type>
+        <update_guid>e735cd301ba8bd10aa7defa9ee11951f</update_guid>
+        <update_guid_history>e735cd301ba8bd10aa7defa9ee11951f:1892115698</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-06 17:57:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_playbook_experience">sys_playbook_experience</sys_db_object>
+        <sys_id>4b2b0fa69b0349289a08337dff194269</sys_id>
+        <sys_metadata>92254d301ba8bd100f0eda43cc4bcbe5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Credit Assessment Processing Experience</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>sys_playbook_experience_92254d301ba8bd100f0eda43cc4bcbe5</sys_update_name>
+        <sys_update_version display_value="sys_playbook_experience_92254d301ba8bd100f0eda43cc4bcbe5">af35cd301ba8bd100f0eda43cc4bcb20</sys_update_version>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-06 17:57:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

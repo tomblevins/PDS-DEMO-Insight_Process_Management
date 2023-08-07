@@ -580,7 +580,7 @@
                                       },
                                       "filterQuery" : {
                                         "type" : "JSON_LITERAL",
-                                        "value" : "active=true^assigned_toISNOTEMPTY"
+                                        "value" : "active=true^assigned_toISNOTEMPTY^activitylevel!=Line"
                                       },
                                       "reportSourceSysId" : {
                                         "type" : "JSON_LITERAL",
@@ -1095,7 +1095,7 @@
                                   },
                                   "filterQuery" : {
                                     "type" : "JSON_LITERAL",
-                                    "value" : "active=true^assigned_toISEMPTY"
+                                    "value" : "active=true^assigned_toISEMPTY^activitylevel!=Line"
                                   },
                                   "reportSourceSysId" : {
                                     "type" : "JSON_LITERAL",
@@ -1626,7 +1626,7 @@
                                       },
                                       "filterQuery" : {
                                         "type" : "JSON_LITERAL",
-                                        "value" : "active=true^priority=1"
+                                        "value" : "active=true^priority=1^activitylevel!=Line"
                                       },
                                       "reportSourceSysId" : {
                                         "type" : "JSON_LITERAL",
@@ -2340,7 +2340,7 @@
                         },
                         "query" : {
                           "type" : "JSON_LITERAL",
-                          "value" : "active=true"
+                          "value" : "active=true^activitylevel!=Line"
                         },
                         "refreshRequested" : {
                           "type" : "JSON_LITERAL",
@@ -4638,12 +4638,128 @@
                   "isNonDestructive" : false,
                   "items" : [ ],
                   "styles" : null
+                }, {
+                  "elementId" : "button_1",
+                  "elementLabel" : "Button 1",
+                  "propertyValues" : {
+                    "size" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "md"
+                    },
+                    "variant" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "primary"
+                    },
+                    "icon" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "open-link-right-fill"
+                    },
+                    "disabled" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    },
+                    "label" : {
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "code" : null,
+                        "message" : "Opportunity Workbench",
+                        "comment" : ""
+                      }
+                    },
+                    "tooltipContent" : {
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "code" : null,
+                        "message" : "Opportunity Workbench Button",
+                        "comment" : ""
+                      }
+                    },
+                    "configAria" : {
+                      "type" : "MAP_CONTAINER",
+                      "container" : { }
+                    }
+                  },
+                  "eventMappings" : [ {
+                    "eventMappingId" : "clkxbblhhpsaacccclddobojhpggxggqv",
+                    "isConfiguration" : false,
+                    "offRowStorageId" : null,
+                    "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+                    "sourceEventCorrelationId" : null,
+                    "sourceEventDefinition" : {
+                      "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+                      "id" : null,
+                      "type" : "UXEVENT"
+                    },
+                    "sourceEventSysId" : null,
+                    "targets" : [ {
+                      "broker" : null,
+                      "clientScript" : null,
+                      "conditional" : null,
+                      "declarativeAction" : null,
+                      "event" : {
+                        "apiName" : "x_snc_insight_pr_0.NAV_ITEM_SELECTED_RELAY_9bf1dfe15d45dd10811d3884e897c430",
+                        "payload" : {
+                          "type" : "MAP_CONTAINER",
+                          "container" : {
+                            "route" : null,
+                            "fields" : null,
+                            "params" : null,
+                            "redirect" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : null
+                            },
+                            "passiveNavigation" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : null
+                            },
+                            "title" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : null
+                            },
+                            "multiInstField" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : null
+                            },
+                            "targetRoute" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : null
+                            },
+                            "external" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : {
+                                "url" : "https://niketest.service-now.com/nav_to.do?uri=%2F$demand_workbench.do%3Fsysparm_workbench_id%3De86095b3c30031009a08d27af3d3ae8e%26sysparm_fixed_query%3Dsys_class_name%3Ddmn_demand%26sysparm_query%3Dstate%3D-4%5Eportfolio%3D76d885cc1b0c75100f0eda43cc4bcbb7"
+                              }
+                            }
+                          }
+                        },
+                        "sysId" : "dbf1dfe1fa45dd1093409cc8ae766230"
+                      },
+                      "operation" : null,
+                      "targetId" : "clkxbblhhpsaaccccmddobolyygjlbbgg",
+                      "type" : "EVENT"
+                    } ]
+                  } ],
+                  "slot" : "",
+                  "definition" : {
+                    "id" : "d37ce8abca89d02905fed903c8e34d8e",
+                    "type" : "MACROPONENT"
+                  },
+                  "overrides" : null,
+                  "isHidden" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : null
+                  },
+                  "isHero" : false,
+                  "extensionPoints" : [ ],
+                  "isNonDestructive" : false,
+                  "items" : [ ],
+                  "styles" : null
                 } ],
                 "layout" : {
                   "default" : {
                     "children" : null,
                     "isInline" : null,
-                    "items" : [{"rules":{},"styles":{"height":"100%","grid-area":"main"},"element_id":"container_8"}],
+                    "items" : [{"element_id":"button_1","styles":{}},{"rules":{},"styles":{"height":"100%","grid-area":"main"},"element_id":"container_8"}],
                     "root" : null,
                     "rules" : null,
                     "styles" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"var(--now-static-space--lg)","height":"100%"},
@@ -7843,7 +7959,7 @@
   "default" : {
     "children" : null,
     "isInline" : null,
-    "items" : [{"element_id":"container_6","styles":{"width":"100%"}}],
+    "items" : [{"element_id":"container_6","styles":{"width":"100%"}},{"element_id":"button_1","styles":{}}],
     "root" : null,
     "rules" : null,
     "styles" : {"grid-template-rows":"minmax(400px,auto)","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"var(--now-static-space--lg)","height":"100%"},
@@ -7902,6 +8018,12 @@
   "message" : "Opportunity Projects ",
   "comment" : ""
 }, {
+  "message" : "Opportunity Workbench",
+  "comment" : ""
+}, {
+  "message" : "Opportunity Workbench Button",
+  "comment" : ""
+}, {
   "message" : "Planned Benefit",
   "comment" : ""
 }, {
@@ -7933,7 +8055,7 @@
         <sys_created_on>2022-08-01 16:05:21</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9bf1dfe15d45dd10811d3884e897c430</sys_id>
-        <sys_mod_count>51</sys_mod_count>
+        <sys_mod_count>58</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
@@ -7941,6 +8063,6 @@
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sys_ux_macroponent_9bf1dfe15d45dd10811d3884e897c430</sys_update_name>
         <sys_updated_by>ERam61</sys_updated_by>
-        <sys_updated_on>2023-08-03 14:25:39</sys_updated_on>
+        <sys_updated_on>2023-08-04 20:39:32</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

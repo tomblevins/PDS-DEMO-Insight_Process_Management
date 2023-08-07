@@ -4,13 +4,13 @@
             <element>insight</element>
             <position>0</position>
             <sys_created_by>TBlev1</sys_created_by>
-            <sys_created_on>2023-08-03 10:43:37</sys_created_on>
-            <sys_id>acd708f39758f994387553800153af2d</sys_id>
+            <sys_created_on>2023-08-04 13:38:01</sys_created_on>
+            <sys_id>4d593d401ba8f5100f0eda43cc4bcb07</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Metrics" display_value="Metrics" name="x_snc_insight_pr_0_so_case_sub_task" sys_domain="global" view="Default view">e8d708f39758f994387553800153af2c</sys_ui_section>
             <sys_updated_by>TBlev1</sys_updated_by>
-            <sys_updated_on>2023-08-03 10:43:37</sys_updated_on>
+            <sys_updated_on>2023-08-04 13:38:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>level</element>
             <position>1</position>
             <sys_created_by>TBlev1</sys_created_by>
-            <sys_created_on>2023-08-03 10:43:37</sys_created_on>
-            <sys_id>a8d708f39758f994387553800153af2d</sys_id>
+            <sys_created_on>2023-08-04 13:38:01</sys_created_on>
+            <sys_id>cd593d401ba8f5100f0eda43cc4bcb07</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Metrics" display_value="Metrics" name="x_snc_insight_pr_0_so_case_sub_task" sys_domain="global" view="Default view">e8d708f39758f994387553800153af2c</sys_ui_section>
             <sys_updated_by>TBlev1</sys_updated_by>
-            <sys_updated_on>2023-08-03 10:43:37</sys_updated_on>
+            <sys_updated_on>2023-08-04 13:38:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>activitylevel</element>
             <position>2</position>
             <sys_created_by>TBlev1</sys_created_by>
-            <sys_created_on>2023-08-03 10:43:37</sys_created_on>
-            <sys_id>20d708f39758f994387553800153af2e</sys_id>
+            <sys_created_on>2023-08-04 13:38:01</sys_created_on>
+            <sys_id>41593d401ba8f5100f0eda43cc4bcb08</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Metrics" display_value="Metrics" name="x_snc_insight_pr_0_so_case_sub_task" sys_domain="global" view="Default view">e8d708f39758f994387553800153af2c</sys_ui_section>
             <sys_updated_by>TBlev1</sys_updated_by>
-            <sys_updated_on>2023-08-03 10:43:37</sys_updated_on>
+            <sys_updated_on>2023-08-04 13:38:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,29 +46,15 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>TBlev1</sys_created_by>
-            <sys_created_on>2023-08-03 10:43:37</sys_created_on>
-            <sys_id>2cd708f39758f994387553800153af2d</sys_id>
+            <sys_created_on>2023-08-04 13:38:01</sys_created_on>
+            <sys_id>c1593d401ba8f5100f0eda43cc4bcb08</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Metrics" display_value="Metrics" name="x_snc_insight_pr_0_so_case_sub_task" sys_domain="global" view="Default view">e8d708f39758f994387553800153af2c</sys_ui_section>
             <sys_updated_by>TBlev1</sys_updated_by>
-            <sys_updated_on>2023-08-03 10:43:37</sys_updated_on>
+            <sys_updated_on>2023-08-04 13:38:01</sys_updated_on>
             <sys_user/>
             <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>impact</element>
-            <position>4</position>
-            <sys_created_by>TBlev1</sys_created_by>
-            <sys_created_on>2023-08-03 10:43:37</sys_created_on>
-            <sys_id>a0d708f39758f994387553800153af2e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Metrics" display_value="Metrics" name="x_snc_insight_pr_0_so_case_sub_task" sys_domain="global" view="Default view">e8d708f39758f994387553800153af2c</sys_ui_section>
-            <sys_updated_by>TBlev1</sys_updated_by>
-            <sys_updated_on>2023-08-03 10:43:37</sys_updated_on>
-            <sys_user/>
-            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Metrics</caption>
