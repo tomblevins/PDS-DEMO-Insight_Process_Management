@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	var insight_admin_role = g_user.hasRole('x_snc_insight_pr_0.admin');
+	if (!insight_admin_role){
+		g_form.setSectionDisplay('processing_info', false);
+	}
+}]]></script_true>
+        <set_values/>
+        <short_description>Hide Processing Infor for Sales Order Case</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>SSah49</sys_created_by>
+        <sys_created_on>2023-08-08 15:10:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d894765d97ec31104ef191a00153afd9</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>Hide Processing Infor for Sales Order Case</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_ui_policy_d894765d97ec31104ef191a00153afd9</sys_update_name>
+        <sys_updated_by>SSah49</sys_updated_by>
+        <sys_updated_on>2023-08-08 15:32:38</sys_updated_on>
+        <table>x_snc_insight_pr_0_ledger_task</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

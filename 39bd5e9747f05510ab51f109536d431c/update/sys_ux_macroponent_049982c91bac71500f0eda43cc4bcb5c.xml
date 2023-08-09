@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "request_translation_content",
+  "elementLabel" : "Request Translation Content",
+  "propertyValues" : {
+    "label" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "bare" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Page Content",
+  "definition" : {
+    "id" : "4b8588d1ef6ef74fbf981f602d6ae48f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "content_info",
+      "elementLabel" : "Content Info",
+      "propertyValues" : {
+        "css" : {
+          "type" : "JSON_LITERAL",
+          "value" : "* { font-size:var(--now-global-font-size--md,16px);\n    margin-block-start: 0px !important;\n    color: RGB(var(--now-color_text--primary));\n    margin-block-end: var(--now-global-space--lg,16px)  !important;\n}\n"
+        },
+        "tag" : {
+          "type" : "JSON_LITERAL",
+          "value" : "p"
+        },
+        "text" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "A language appears grayed out if the associated translation task is in progress.",
+            "comment" : ""
+          }
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Content 1",
+      "definition" : {
+        "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : {
+        "margin-inline-end" : "var(--now-global-space--xl,24px)"
+      }
+    }, {
+      "elementId" : "select_languages",
+      "elementLabel" : "Select Languages",
+      "propertyValues" : {
+        "itemsListConstrain" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "helperContent" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "optional" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Select languages",
+            "comment" : ""
+          }
+        },
+        "autofocus" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "required" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "search" : {
+          "type" : "JSON_LITERAL",
+          "value" : "managed"
+        },
+        "readonly" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "invalid" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "name" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "messages" : {
+          "type" : "LIST_CONTAINER",
+          "container" : [ ]
+        },
+        "disabled" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "placeholder" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "items" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "available_languages", "availableLanguages" ]
+          }
+        },
+        "hideRequiredIndicator" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "selectedItems" : {
+          "type" : "STATE_BINDING",
+          "binding" : {
+            "address" : [ "selectedLanguages" ]
+          }
+        },
+        "activeRoute" : {
+          "type" : "JSON_LITERAL",
+          "value" : {
+            "0" : "@",
+            "routeType" : ""
+          }
+        }
+      },
+      "eventMappings" : [ {
+        "eventMappingId" : "cksajjwhiiaaaabbaaddhiibbswoebbbtz",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_typeahead.NOW_TYPEAHEAD_MULTI#SELECTED_ITEMS_SET",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_typeahead.NOW_TYPEAHEAD_MULTI#SELECTED_ITEMS_SET",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : {
+            "sysId" : "509982c91bac71500f0eda43cc4bcb9b"
+          },
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : null,
+          "targetId" : "cksajjwhjjaaaabbbbddhiibbnegiihjjybb",
+          "type" : "CLIENT_SCRIPT"
+        } ]
+      } ],
+      "slot" : "content 3",
+      "definition" : {
+        "id" : "71f1524f8add06dff994f183471bfa7c",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : {
+        "margin-inline-end" : "var(--now-global-space--xl,24px)"
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"slotName":"Content 1","rules":{"grid-area":"greeting"},"styles":{"display":"flex"}},{"slotName":"Content 2","rules":{"grid-area":"callout"},"styles":{"display":"flex"}},{"slotName":"content 3","rules":{"grid-area":"search"},"styles":{"display":"flex"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"1fr auto auto auto 1fr","grid-template-columns":"100%","grid-template-areas":"\". .\" \"greeting .\" \"callout .\" \"search .\" \". .\"","grid-gap":"1px","align-content":"center","place-content":"stretch","place-items":"stretch"},
+        "styles" : null,
+        "templateId" : null,
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : {
+    "margin-inline-start" : "var(--now-global-space--xl,24px)",
+    "height" : "100%",
+    "margin-top" : "4px"
+  }
+}, {
+  "elementId" : "action_container",
+  "elementLabel" : "Action Container",
+  "propertyValues" : {
+    "label" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "bare" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Page Footer",
+  "definition" : {
+    "id" : "4b8588d1ef6ef74fbf981f602d6ae48f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "submit",
+      "elementLabel" : "Submit",
+      "propertyValues" : {
+        "size" : {
+          "type" : "JSON_LITERAL",
+          "value" : "md"
+        },
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "primary"
+        },
+        "icon" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "disabled" : {
+          "type" : "STATE_BINDING",
+          "binding" : {
+            "address" : [ "submitButtonDisabled" ]
+          }
+        },
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Submit",
+            "comment" : ""
+          }
+        },
+        "tooltipContent" : {
+          "type" : "CLIENT_TRANSFORM_SCRIPT",
+          "script" : {
+            "apiVersion" : "2.0.0",
+            "controllerElementId" : null,
+            "inlineScript" : null,
+            "scriptSysId" : "009982c91bac71500f0eda43cc4bcb6c",
+            "target" : null
+          }
+        },
+        "configAria" : {
+          "type" : "MAP_CONTAINER",
+          "container" : { }
+        }
+      },
+      "eventMappings" : [ {
+        "eventMappingId" : "ckewvuowggaaaaaajddhhhdggccepddqiij",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : {
+            "dataBrokerId" : "ff1d48f31df69410f877978b7d79b5a0",
+            "operationName" : "EXECUTE",
+            "parentResourceId" : "create_translation_task",
+            "payload" : {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "article" : {
+                  "type" : "CONTEXT_BINDING",
+                  "binding" : {
+                    "address" : [ "sysId" ],
+                    "category" : "props"
+                  }
+                },
+                "translationLanguages" : {
+                  "type" : "STATE_BINDING",
+                  "binding" : {
+                    "address" : [ "selectedLanguages" ]
+                  }
+                }
+              }
+            }
+          },
+          "targetId" : "ckewvurbvaaaaaakddhhhdfcctddffxeh",
+          "type" : "DATABROKER_OP"
+        } ]
+      } ],
+      "slot" : "actions",
+      "definition" : {
+        "id" : "d37ce8abca89d02905fed903c8e34d8e",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : {
+        "margin-inline-end" : "var(--now-global-space--sm,8px)"
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"slotName":"actions","rules":{"grid-area":"1 / 1 / 2 / 2","min-height":"20px"},"styles":{"display":"flex","margin-bottom":"var(--now-global-space--sm,8px)","justify-content":"flex-end"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"repeat(1, auto)","grid-column-gap":"10px","grid-row-gap":"5px"},
+        "styles" : {},
+        "templateId" : null,
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : {
+    "width" : "100%"
+  }
+}, {
+  "elementId" : "request_translation_heading",
+  "elementLabel" : "Request translation heading",
+  "propertyValues" : {
+    "hasNoMargin" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "level" : {
+      "type" : "JSON_LITERAL",
+      "value" : "2"
+    },
+    "variant" : {
+      "type" : "JSON_LITERAL",
+      "value" : "header-tertiary"
+    },
+    "wontWrap" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "label" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Request translation",
+        "comment" : ""
+      }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Page Header",
+  "definition" : {
+    "id" : "1f6e0643eca7a637e36bd7833549ec9e",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : {
+    "margin-top" : "var(--now-global-space--xl,24px)",
+    "margin-inline-start" : "var(--now-global-space--xl,24px)"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "cachePolicy" : null,
+  "definition" : {
+    "id" : "ff1d48f31df69410f877978b7d79b5a0",
+    "type" : "TRANSFORM"
+  },
+  "dependencies" : { },
+  "elementId" : "create_translation_task",
+  "elementLabel" : "Create translation Task",
+  "eventMappings" : [ {
+    "eventMappingId" : "ckgaapmgfftaaaaaamddhhhfijtnutggg",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_uxf.DATA_OP_SUCCEEDED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_uxf.DATA_OP_SUCCEEDED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "149982c91bac71500f0eda43cc4bcba3"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "ckgaapmgffuaaaaaanddhhhflmeeccvlaaaa",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "inputValues" : { },
+  "readEvaluationMode" : "EAGER"
+}, {
+  "cachePolicy" : null,
+  "definition" : {
+    "id" : "54012d271d729410f877978b7d79b5a4",
+    "type" : "COMPOSITE"
+  },
+  "dependencies" : { },
+  "elementId" : "available_languages",
+  "elementLabel" : "Available Languages",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "article" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "sysId" ],
+        "category" : "props"
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <description/>
+        <dispatched_events>aeda532f9513d010f877fe59bd3fecc3,f3ed75ad71746c10f87741c18dbe2836</dispatched_events>
+        <events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{
+  "MACROPONENT_READY" : [ {
+    "broker" : null,
+    "clientScript" : {
+      "sysId" : "449982c91bac71500f0eda43cc4bcb93"
+    },
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : null,
+    "targetId" : "cksyemsyhhaaaaeejjddhiibbeggjjljrvr",
+    "type" : "CLIENT_SCRIPT"
+  } ]
+}</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"slotName":"Page Header","rules":{"grid-area":"row-one","min-height":"56px"},"styles":{"display":"flex"}},{"slotName":"Page Content","rules":{"grid-area":"row-two","min-height":"104px"},"styles":{"display":"flex"}},{"slotName":"Page Footer","rules":{"grid-area":"row-three","min-height":"32px"},"styles":{"display":"flex","flex-direction":"row-reverse","padding-top":"var(--now-global-space--3xl,40px)"}}],
+    "root" : null,
+    "rules" : {"height":"100%","overflow":"hidden","grid-template-columns":"1fr","grid-template-areas":"\"row-one\" \"row-two\" \"row-three\"","grid-gap":"1px"},
+    "styles" : null,
+    "templateId" : null,
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Request Translation</name>
+        <output_prop_mapping/>
+        <props>[ {
+  "name" : "sysId",
+  "label" : "sysId",
+  "fieldType" : null,
+  "typeMetadata" : null,
+  "valueType" : null,
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : null,
+  "readOnly" : false,
+  "selectable" : false,
+  "disabled" : false
+} ]</props>
+        <required_translations>[ {
+  "message" : "A language appears grayed out if the associated translation task is in progress.",
+  "comment" : ""
+}, {
+  "message" : "Request translation",
+  "comment" : ""
+}, {
+  "message" : "Select languages",
+  "comment" : ""
+}, {
+  "message" : "Submit",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ {
+  "name" : "selectedLanguages",
+  "label" : "selectedLanguages",
+  "fieldType" : "json",
+  "valueType" : "json",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : [ ]
+  }
+}, {
+  "name" : "submitButtonDisabled",
+  "label" : "submitButtonDisabled",
+  "fieldType" : "boolean",
+  "valueType" : "boolean",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  }
+}, {
+  "name" : "submitTooltipLabel",
+  "label" : "submitTooltipLabel",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  }
+} ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 17:22:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>049982c91bac71500f0eda43cc4bcb5c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Request Translation</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_ux_macroponent_049982c91bac71500f0eda43cc4bcb5c</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 17:22:53</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

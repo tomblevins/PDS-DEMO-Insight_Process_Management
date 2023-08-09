@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>false</active>
+        <app_config display_value="Insight Process Management Config">17f1dfe16345dd104e722f30bf8d9932</app_config>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="Sales Order Case">9c0892c11b20b1500f0eda43cc4bcb5f</macroponent>
+        <macroponent_config/>
+        <name>Sales Order Case</name>
+        <order>100</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Record">dff1dfe11645dd10d20136bf91309731</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 18:25:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d808dac11b20b1500f0eda43cc4bcb09</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Sales Order Case</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_ux_screen_d808dac11b20b1500f0eda43cc4bcb09</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 18:36:43</sys_updated_on>
+    </sys_ux_screen>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>532947b4ffaeac889376762fa87efe09</instance_id>
+        <instance_name>niketest</instance_name>
+        <name>sys_ux_screen_d808dac11b20b1500f0eda43cc4bcb09</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>false</active><app_config display_value="Insight Process Management Config">17f1dfe16345dd104e722f30bf8d9932</app_config><description/><event_mappings/><macroponent display_value="Sales Order Case">9c0892c11b20b1500f0eda43cc4bcb5f</macroponent><macroponent_config/><name>Sales Order Case</name><order>100</order><parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="Record">dff1dfe11645dd10d20136bf91309731</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>TBlev1</sys_created_by><sys_created_on>2023-08-07 18:25:58</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>d808dac11b20b1500f0eda43cc4bcb09</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Sales Order Case</sys_name><sys_overrides/><sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope><sys_update_name>sys_ux_screen_d808dac11b20b1500f0eda43cc4bcb09</sys_update_name><sys_updated_by>TBlev1</sys_updated_by><sys_updated_on>2023-08-07 18:36:43</sys_updated_on></sys_ux_screen></record_update>]]></payload>
+        <payload_hash>-242257229</payload_hash>
+        <record_name>Sales Order Case</record_name>
+        <reverted_from/>
+        <source>d05f909a97afe1d0387553800153afb6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 18:36:43</sys_created_on>
+        <sys_id>867a5ec51b20b1500f0eda43cc4bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189d149856d0000001</sys_recorded_at>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 18:36:43</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>027a5ec58820b15056e2327eeb97dad0</update_guid>
+        <update_guid_history>027a5ec58820b15056e2327eeb97dad0:-242257229,e408dac14920b1505abc961bf0e01d0b:325908448</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 18:46:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>0060d1fb72604a28ba950ca66cf20240</sys_id>
+        <sys_metadata>d808dac11b20b1500f0eda43cc4bcb09</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sales Order Case</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_d808dac11b20b1500f0eda43cc4bcb09</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_d808dac11b20b1500f0eda43cc4bcb09">867a5ec51b20b1500f0eda43cc4bcbd1</sys_update_version>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 18:46:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

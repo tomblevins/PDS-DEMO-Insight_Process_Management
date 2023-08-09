@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Auto Assign Work Order Task">bd3f8e051bec71500f0eda43cc4bcb55</macroponent>
+        <name>Confirm Assignment</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    imports,
+    helpers
+}) {
+    if (api.data.get_auto_assignment_results.output.autoAssigned) {
+        var taskUpdate = {
+            "taskUpdateReport": api.data.get_auto_assignment_results.output.taskUpdateReport,
+            "mustAssignTask": api.data.get_auto_assignment_results.output.autoAssigned
+        };
+       api.data.save_work_order_task_auto_assignment.execute({
+            taskUpdate: taskUpdate
+        });
+
+    } else {
+        var msg = api.data.user_session.output.clientMessages.wotNotAssigned;
+
+        api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+            items: [{
+                id: "no_wot_updated",
+                status: "info",
+                icon: "info-circle-outline",
+                header: "",
+                content: {
+                    type: "html",
+                    value: "<span>" + msg + "</span>",
+                },
+                action: {
+                    type: "dismiss"
+                },
+            }]
+        });
+
+        helpers.timing.setTimeout(() => api.emit("NOW_UXF_PAGE#REMOVE_NOTIFICATIONS", {
+            items: [{
+                id: "no_wot_updated"
+            }]
+        }), 5000);
+
+        //To close modal from Dispatcher workspace and Record pages
+        api.emit("_RECORD#CLOSE_MODAL_RELAY_d4e1abd0673310109743b1bb27415af0",);
+        api.emit("MODAL_SELECTED_RELAY_d4e1abd0673310109743b1bb27415af0",{"modalId" : null,"showModal" : false,"displayOptions" : null,"bare" : null,"viewportElementId" : null,"viewportRoute" : null,"viewportFields" : null});
+        helpers.modal.close();
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 17:47:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ba3fce051bec71500f0eda43cc4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Confirm Assignment</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_ux_client_script_ba3fce051bec71500f0eda43cc4bcbdb</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 17:47:38</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

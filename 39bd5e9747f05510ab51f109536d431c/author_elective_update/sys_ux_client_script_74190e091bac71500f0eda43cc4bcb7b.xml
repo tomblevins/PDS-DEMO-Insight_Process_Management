@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Record">12094a091bac71500f0eda43cc4bcb3a</macroponent>
+        <name>setActiveSidebarTab</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+    const { name } = event.payload;
+    const { sidebarActiveTab } = api.state;
+    if (name != sidebarActiveTab) {
+        api.setState("sidebarActiveTab", name);
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 17:20:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>74190e091bac71500f0eda43cc4bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>setActiveSidebarTab</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_ux_client_script_74190e091bac71500f0eda43cc4bcb7b</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 17:20:44</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>532947b4ffaeac889376762fa87efe09</instance_id>
+        <instance_name>niketest</instance_name>
+        <name>sys_ux_client_script_74190e091bac71500f0eda43cc4bcb7b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Record"&gt;12094a091bac71500f0eda43cc4bcb3a&lt;/macroponent&gt;&lt;name&gt;setActiveSidebarTab&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+    const { name } = event.payload;
+    const { sidebarActiveTab } = api.state;
+    if (name != sidebarActiveTab) {
+        api.setState("sidebarActiveTab", name);
+    }
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-07 17:20:44&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;74190e091bac71500f0eda43cc4bcb7b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;setActiveSidebarTab&lt;/sys_name&gt;&lt;sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_74190e091bac71500f0eda43cc4bcb7b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-07 17:20:44&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1552485043</payload_hash>
+        <record_name>setActiveSidebarTab</record_name>
+        <reverted_from/>
+        <source>d05f909a97afe1d0387553800153afb6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 17:20:44</sys_created_on>
+        <sys_id>f8190e091bac71500f0eda43cc4bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189d103f3240000001</sys_recorded_at>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 17:20:44</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>7c190e0914ac71507c9fb583424f708a</update_guid>
+        <update_guid_history>7c190e0914ac71507c9fb583424f708a:1552485043</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 17:46:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>5d75bf060ff04b06bc46ad139d82bd24</sys_id>
+        <sys_metadata>74190e091bac71500f0eda43cc4bcb7b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>setActiveSidebarTab</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_74190e091bac71500f0eda43cc4bcb7b</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_74190e091bac71500f0eda43cc4bcb7b">f8190e091bac71500f0eda43cc4bcb8b</sys_update_version>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 17:46:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

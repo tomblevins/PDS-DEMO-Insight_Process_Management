@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Insight Process Management Config">17f1dfe16345dd104e722f30bf8d9932</app_config>
+        <description/>
+        <event_mappings>[ {
+  "eventMappingId" : "aaasdckejjbqahhjjggguqaaadhhhiieevuo",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "global.REF_PICK#ROW_CLICKED",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "global.REF_PICK#ROW_CLICKED",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : {
+      "dataBrokerId" : "dc6e87a5232200100e4bc50947bf654b",
+      "operationName" : "SET_VALUE",
+      "parentResourceId" : "gform",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "fieldName" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "referenceField" ]
+            }
+          },
+          "value" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "row", "referenceKeyValue", "value" ]
+            }
+          },
+          "additionalInfo" : {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "referenceSysId" : {
+                "type" : "EVENT_PAYLOAD_BINDING",
+                "binding" : {
+                  "address" : [ "row", "sys_id", "value" ]
+                }
+              }
+            }
+          },
+          "displayValue" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "row", "displayValue", "value" ]
+            }
+          }
+        }
+      }
+    },
+    "targetId" : "arddhjggguqaaaahhiivdjjnjjckejjjaitcc",
+    "type" : "DATABROKER_OP"
+  } ]
+}, {
+  "eventMappingId" : "ckfffkkaiitaaaabbaaddhhhddtiibreehhfy",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "global.MODAL_SELECTED_RELAY_d7f8b70dff13101035be517f793bf1e0",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "global.MODAL_SELECTED_RELAY_d7f8b70dff13101035be517f793bf1e0",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.MODAL_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "modalId" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "modalId" ]
+            }
+          },
+          "showModal" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "showModal" ]
+            }
+          },
+          "displayOptions" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "displayOptions" ]
+            }
+          }
+        }
+      },
+      "sysId" : null
+    },
+    "operation" : null,
+    "targetId" : "ckfffkkaiitaaaaaazddhhhddjjlddgqccddg",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings>
+        <macroponent display_value="DA Modal Ref Tree Lookup">5f972a8d1b60b1500f0eda43cc4bcb42</macroponent>
+        <macroponent_config>{
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "headingOnlyVisibleToScreenReaders" : false,
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>DA Modal Ref Tree Pick Lookup</name>
+        <order>0</order>
+        <parent_macroponent display_value="Sales Order Case">2077664d1b60b1500f0eda43cc4bcb7e</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="DA Modal Ref Lookup">1e97e68d1b60b1500f0eda43cc4bcb2b</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 19:34:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>2b972a8d1b60b1500f0eda43cc4bcb99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DA Modal Ref Tree Pick Lookup</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_ux_screen_2b972a8d1b60b1500f0eda43cc4bcb99</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 19:34:10</sys_updated_on>
+    </sys_ux_screen>
+</record_update>

@@ -9,6 +9,7 @@
         <element label="Credit Limit" max_length="100" name="credit_limit" type="decimal"/>
         <element label="Credit Risk Category" max_length="100" name="credit_risk_category" type="string"/>
         <element label="Credit Utilization Ratio" max_length="100" name="credit_utilization_ratio" type="decimal"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Customer" max_length="32" name="customer" reference="core_company" type="reference"/>
         <element label="Customer Account Type" max_length="100" name="customer_account_type" type="string"/>
         <element label="Customer Business Type" max_length="100" name="customer_business_type" type="string"/>
         <element label="Customer Name" max_length="100" name="customer_name" type="string"/>
@@ -32,6 +33,9 @@
         <element attributes="encode_utf8=false" label="Distribution Channel" max_length="32" name="u_distribution_channel_reference" reference="x_snc_insight_pr_0_distribution_channel" type="reference"/>
         <element attributes="encode_utf8=false" label="Sales Organization" max_length="32" name="u_reference_1" reference="business_unit" type="reference"/>
         <index name="index">
+            <element name="customer"/>
+        </index>
+        <index name="index2">
             <element name="u_reference_1"/>
         </index>
     </element>

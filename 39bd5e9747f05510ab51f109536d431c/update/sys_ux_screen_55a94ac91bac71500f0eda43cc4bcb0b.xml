@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Insight Process Management Config">17f1dfe16345dd104e722f30bf8d9932</app_config>
+        <description/>
+        <event_mappings>[ {
+  "eventMappingId" : "ckpmjjggceeyaaaagffddghhrcthhmffdvc",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "sn_cmdb_pg_templts.NAV_ITEM_SELECTED_RELAY_b98e4dc4532030100764ddeeff7b1250",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "sn_cmdb_pg_templts.NAV_ITEM_SELECTED_RELAY_b98e4dc4532030100764ddeeff7b1250",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "route" ]
+            }
+          },
+          "fields" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "fields" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "redirect" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "redirect" ]
+            }
+          },
+          "passiveNavigation" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "passiveNavigation" ]
+            }
+          },
+          "title" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "title" ]
+            }
+          },
+          "multiInstField" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "multiInstField" ]
+            }
+          },
+          "targetRoute" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "targetRoute" ]
+            }
+          },
+          "external" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "external" ]
+            }
+          }
+        }
+      },
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
+    },
+    "operation" : null,
+    "targetId" : "ckpmjjggceexaaaageeddghhrveepmkbbx",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "ckpmjjccrnjaaaajjuddghhrggwtffdxgga",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "sn_cmdb_pg_templts.RECORD#NAV_ITEM_SELECTED_RELAY_b98e4dc4532030100764ddeeff7b1250",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "sn_cmdb_pg_templts.RECORD#NAV_ITEM_SELECTED_RELAY_b98e4dc4532030100764ddeeff7b1250",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_uib_base_aw.RECORD#NAV_ITEM_SELECTED",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      },
+      "sysId" : "835ec4a00f4310107d20409dc4767eaa"
+    },
+    "operation" : null,
+    "targetId" : "ckpmjjccrniaaaajjtddghhrxnlddccjgii",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings>
+        <macroponent display_value="CI Infrastructure Relationships">cda90ac91bac71500f0eda43cc4bcbf1</macroponent>
+        <macroponent_config>{
+  "ciSysId" : "@data.gform.nowRecordFormBlob.detailsProps.sysId",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "none",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false,
+  "headingOnlyVisibleToScreenReaders" : false
+}</macroponent_config>
+        <name>Business process sidebar screen</name>
+        <order>0</order>
+        <parent_macroponent/>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition>parent.tableSTARTSWITHcmdb_ci_business_process</screen_condition>
+        <screen_type display_value="Business process sidebar">0da90ac91bac71500f0eda43cc4bcba4</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 17:23:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>55a94ac91bac71500f0eda43cc4bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Business process sidebar screen</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_ux_screen_55a94ac91bac71500f0eda43cc4bcb0b</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 17:23:13</sys_updated_on>
+    </sys_ux_screen>
+</record_update>

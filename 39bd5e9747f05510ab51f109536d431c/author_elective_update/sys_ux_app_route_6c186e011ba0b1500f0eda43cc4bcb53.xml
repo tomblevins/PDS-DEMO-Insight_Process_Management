@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Insight Process Management Config">17f1dfe16345dd104e722f30bf8d9932</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon>circle-info-outline</icon>
+        <name>Business process sidebar</name>
+        <optional_parameters/>
+        <order>-1</order>
+        <parent_macroponent display_value="Sales Order Case">2077664d1b60b1500f0eda43cc4bcb7e</parent_macroponent>
+        <parent_macroponent_composition_element_id>contextual_sidebar</parent_macroponent_composition_element_id>
+        <route_type>infrastructure-relationships</route_type>
+        <screen_type display_value="Business process sidebar">44182e011ba0b1500f0eda43cc4bcb3e</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 19:36:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6c186e011ba0b1500f0eda43cc4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Business process sidebar</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_ux_app_route_6c186e011ba0b1500f0eda43cc4bcb53</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 19:36:09</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>532947b4ffaeac889376762fa87efe09</instance_id>
+        <instance_name>niketest</instance_name>
+        <name>sys_ux_app_route_6c186e011ba0b1500f0eda43cc4bcb53</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Insight Process Management Config">17f1dfe16345dd104e722f30bf8d9932</app_config><description/><extension_point/><fields/><icon>circle-info-outline</icon><name>Business process sidebar</name><optional_parameters/><order>-1</order><parent_macroponent display_value="Sales Order Case">2077664d1b60b1500f0eda43cc4bcb7e</parent_macroponent><parent_macroponent_composition_element_id>contextual_sidebar</parent_macroponent_composition_element_id><route_type>infrastructure-relationships</route_type><screen_type display_value="Business process sidebar">44182e011ba0b1500f0eda43cc4bcb3e</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>TBlev1</sys_created_by><sys_created_on>2023-08-07 19:36:09</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>6c186e011ba0b1500f0eda43cc4bcb53</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Business process sidebar</sys_name><sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope><sys_update_name>sys_ux_app_route_6c186e011ba0b1500f0eda43cc4bcb53</sys_update_name><sys_updated_by>TBlev1</sys_updated_by><sys_updated_on>2023-08-07 19:36:09</sys_updated_on></sys_ux_app_route></record_update>]]></payload>
+        <payload_hash>169338766</payload_hash>
+        <record_name>Business process sidebar</record_name>
+        <reverted_from/>
+        <source>d05f909a97afe1d0387553800153afb6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 19:36:10</sys_created_on>
+        <sys_id>ec186e011ba0b1500f0eda43cc4bcb55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189d17ff00d0000001</sys_recorded_at>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 19:36:10</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>ec186e01c8a0b1504c4ce5e4501a3054</update_guid>
+        <update_guid_history>ec186e01c8a0b1504c4ce5e4501a3054:169338766</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 19:42:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>395e4d8639d644b99e4555ef66599d31</sys_id>
+        <sys_metadata>6c186e011ba0b1500f0eda43cc4bcb53</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Business process sidebar</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_6c186e011ba0b1500f0eda43cc4bcb53</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_6c186e011ba0b1500f0eda43cc4bcb53">ec186e011ba0b1500f0eda43cc4bcb55</sys_update_version>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 19:42:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

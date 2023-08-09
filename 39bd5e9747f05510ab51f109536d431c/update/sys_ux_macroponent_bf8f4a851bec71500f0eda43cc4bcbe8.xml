@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "container_1",
+  "elementLabel" : "Container 1",
+  "propertyValues" : {
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "appointment_calendar_1",
+      "elementLabel" : "Appointment Calendar 1",
+      "propertyValues" : {
+        "view" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "appointment_booking_config_1", "output", "view" ]
+          }
+        },
+        "dateFormat" : {
+          "type" : "JSON_LITERAL",
+          "value" : "MMMM D, YYYY"
+        },
+        "firstDayOfWeek" : {
+          "type" : "JSON_LITERAL",
+          "value" : 0
+        },
+        "timezone" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "appointment_booking_availability_transform_1", "output", "timezone" ]
+          }
+        },
+        "timeFormat" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "appointment_booking_config_1", "output", "time_format" ]
+          }
+        },
+        "nextAvailableEvent" : {
+          "type" : "STATE_BINDING",
+          "binding" : {
+            "address" : [ "next_available_slot" ]
+          }
+        },
+        "contextDate" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "appointment_booking_config_1", "output", "bookedAppointment", "startDateTimeUTC" ]
+          }
+        },
+        "appTitle" : {
+          "type" : "STATE_BINDING",
+          "binding" : {
+            "address" : [ "title" ]
+          }
+        },
+        "configAria" : {
+          "type" : "JSON_LITERAL",
+          "value" : "{\"ariaTitle\": \"appointment calendar\", \"ariaBodyTitle\": \"appointment calendar\"}"
+        },
+        "locale" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "appointment_booking_config_1", "output", "locale_language" ]
+          }
+        },
+        "events" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "appointment_booking_availability_transform_1", "output", "slots" ]
+          }
+        }
+      },
+      "eventMappings" : [ {
+        "eventMappingId" : "ckfxjzxbbhhaaaaaafddgghhalaaaaqjwfg",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_appointment_cal.NOW_APPOINTMENT_CALENDAR#SCHEDULE_APPOINTMENT",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_appointment_cal.NOW_APPOINTMENT_CALENDAR#SCHEDULE_APPOINTMENT",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : {
+            "sysId" : "9c9f8a851bec71500f0eda43cc4bcb85"
+          },
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : null,
+          "targetId" : "ckfxjzxbbhhaaaaaagddgghhabbbhjfpaat",
+          "type" : "CLIENT_SCRIPT"
+        }, {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "sn_fsm_wrkspc.RECORD#CLOSE_MODAL_RELAY_6843703760e79010f87787ba5045ef74",
+            "payload" : {
+              "type" : "JSON_LITERAL",
+              "value" : { }
+            },
+            "sysId" : "9cbb86ecc03b5010f877f8fd83d0d41d"
+          },
+          "operation" : null,
+          "targetId" : "ckgbbbbgiicccaaaaaagddgghhcssaabbjgffee",
+          "type" : "EVENT"
+        }, {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "sn_fsm_wrkspc.GFORM_SAVE_RELAY_6843703760e79010f87787ba5045ef74",
+            "payload" : {
+              "type" : "JSON_LITERAL",
+              "value" : { }
+            },
+            "sysId" : "e4bb0e6cc03b5010f877f8fd83d0d46a"
+          },
+          "operation" : null,
+          "targetId" : "ckgbbbbgegsaaaaaahddgghhcpoiizddnddee",
+          "type" : "EVENT"
+        } ]
+      }, {
+        "eventMappingId" : "ckfxjzmmoaaaaaadddgghhaffoekvrnq",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_appointment_cal.NOW_APPOINTMENT_CALENDAR#RESCHEDULE_APPOINTMENT",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_appointment_cal.NOW_APPOINTMENT_CALENDAR#RESCHEDULE_APPOINTMENT",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : {
+            "sysId" : "9c9f8a851bec71500f0eda43cc4bcb85"
+          },
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : null,
+          "targetId" : "ckfxjzmmqaaaaaaeddgghhaindwmjjmff",
+          "type" : "CLIENT_SCRIPT"
+        }, {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "sn_fsm_wrkspc.RECORD#CLOSE_MODAL_RELAY_6843703760e79010f87787ba5045ef74",
+            "payload" : {
+              "type" : "JSON_LITERAL",
+              "value" : { }
+            },
+            "sysId" : "9cbb86ecc03b5010f877f8fd83d0d41d"
+          },
+          "operation" : null,
+          "targetId" : "ckgbbbbfpvfaaaaaaeddgghhcvcrceephhee",
+          "type" : "EVENT"
+        }, {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "sn_fsm_wrkspc.GFORM_SAVE_RELAY_6843703760e79010f87787ba5045ef74",
+            "payload" : {
+              "type" : "JSON_LITERAL",
+              "value" : { }
+            },
+            "sysId" : "e4bb0e6cc03b5010f877f8fd83d0d46a"
+          },
+          "operation" : null,
+          "targetId" : "ckgbbbbfydjjaaaaaafddgghhcaayddqaiiig",
+          "type" : "EVENT"
+        } ]
+      }, {
+        "eventMappingId" : "ckfxdcykoaaaaaamddgghhakjvgrttb",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_appointment_cal.NOW_APPOINTMENT_CALENDAR#RANGE_UPDATED",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_appointment_cal.NOW_APPOINTMENT_CALENDAR#RANGE_UPDATED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : {
+            "sysId" : "909f8a851bec71500f0eda43cc4bcb77"
+          },
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : null,
+          "targetId" : "ckfxdcykqaaaaaanddgghhaggfffjjtcsx",
+          "type" : "CLIENT_SCRIPT"
+        } ]
+      } ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "486b3b0477e9acfa6e30c74dcbc04877",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "rich_text_2",
+          "elementLabel" : "Rich text 2",
+          "propertyValues" : {
+            "html" : {
+              "type" : "CLIENT_TRANSFORM_SCRIPT",
+              "script" : {
+                "apiVersion" : "2.0.0",
+                "controllerElementId" : null,
+                "inlineScript" : null,
+                "scriptSysId" : "f38f4a851bec71500f0eda43cc4bcbec",
+                "target" : null
+              }
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "left-footer",
+          "definition" : {
+            "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "isHero" : false,
+          "extensionPoints" : [ ],
+          "isNonDestructive" : false,
+          "items" : [ ],
+          "styles" : { }
+        } ],
+        "layout" : { }
+      },
+      "isHidden" : {
+        "type" : "CLIENT_TRANSFORM_SCRIPT",
+        "script" : {
+          "apiVersion" : "2.0.0",
+          "controllerElementId" : null,
+          "inlineScript" : null,
+          "scriptSysId" : "7f8f4a851bec71500f0eda43cc4bcbf1",
+          "target" : null
+        }
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : { }
+    }, {
+      "elementId" : "loader_1",
+      "elementLabel" : "Loader 1",
+      "propertyValues" : {
+        "size" : {
+          "type" : "JSON_LITERAL",
+          "value" : "lg"
+        },
+        "action" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
+        },
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : " ",
+            "comment" : ""
+          }
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "dc87bcee22259d229390a8da7fb7b0b3",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "CLIENT_TRANSFORM_SCRIPT",
+        "script" : {
+          "apiVersion" : "2.0.0",
+          "controllerElementId" : null,
+          "inlineScript" : null,
+          "scriptSysId" : "fb8f4a851bec71500f0eda43cc4bcbf8",
+          "target" : null
+        }
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : {
+        "height" : "500px",
+        "display" : "flex",
+        "width" : "100%",
+        "align-items" : "center",
+        "justify-content" : "center"
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
+        "styles" : null,
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : { }
+}, {
+  "elementId" : "rich_text_1",
+  "elementLabel" : "Rich text 1",
+  "propertyValues" : {
+    "html" : {
+      "type" : "CLIENT_TRANSFORM_SCRIPT",
+      "script" : {
+        "apiVersion" : "2.0.0",
+        "controllerElementId" : null,
+        "inlineScript" : null,
+        "scriptSysId" : "8c9f8a851bec71500f0eda43cc4bcb00",
+        "target" : null
+      }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "CLIENT_TRANSFORM_SCRIPT",
+    "script" : {
+      "apiVersion" : "2.0.0",
+      "controllerElementId" : null,
+      "inlineScript" : null,
+      "scriptSysId" : "849f8a851bec71500f0eda43cc4bcb0a",
+      "target" : null
+    }
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : {
+    "height" : "500px",
+    "display" : "flex",
+    "width" : "100%",
+    "align-items" : "center",
+    "justify-content" : "center"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "cachePolicy" : null,
+  "definition" : {
+    "id" : "4193b43760e79010f87787ba5045ef9a",
+    "type" : "REST"
+  },
+  "dependencies" : { },
+  "elementId" : "appointment_booking_availability_1",
+  "elementLabel" : "Appointment Booking Availability 1",
+  "eventMappings" : [ {
+    "eventMappingId" : "ckgunqtfbbaaaaccqddhhhlccjeffddzgj",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "d49f8a851bec71500f0eda43cc4bcb3f"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "ckgunqtfbbaaaaccrddhhhlfxqggggoff",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "inputValues" : {
+    "start_date" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "start_date" ]
+      }
+    },
+    "end_date" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "end_date" ]
+      }
+    },
+    "task_table_name" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "table" ],
+        "category" : "props"
+      }
+    },
+    "catalog_id" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "appointment_booking_config_1", "output", "catalogId" ]
+      }
+    },
+    "service_config_rule" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "appointment_booking_config_1", "output", "service_configuration_rule" ]
+      }
+    },
+    "opened_for" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "appointment_booking_config_1", "output", "opened_for" ]
+      }
+    },
+    "location" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "appointment_booking_config_1", "output", "location" ]
+      }
+    },
+    "get_next_available_slot" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "fetch_next_available_slot" ]
+      }
+    },
+    "use_read_replica" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "appointment_booking_config_1", "output", "use_read_replica" ]
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+}, {
+  "cachePolicy" : null,
+  "definition" : {
+    "id" : "1a097c3b60e79010f87787ba5045ef71",
+    "type" : "TRANSFORM"
+  },
+  "dependencies" : { },
+  "elementId" : "appointment_booking_availability_transform_1",
+  "elementLabel" : "Appointment Booking Availability Transform 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "restData" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "appointment_booking_availability_1", "output" ]
+      }
+    },
+    "bookedAppointment" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "appointment_booking_config_1", "output", "bookedAppointment" ]
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+}, {
+  "cachePolicy" : null,
+  "definition" : {
+    "id" : "b5bc04c46033d010f87787ba5045ef90",
+    "type" : "TRANSFORM"
+  },
+  "dependencies" : { },
+  "elementId" : "appointment_booking_config_1",
+  "elementLabel" : "Appointment Booking Config 1",
+  "eventMappings" : [ {
+    "eventMappingId" : "ckguwpaaxtaaaabbggddhhhlybboqnayhh",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "589f8a851bec71500f0eda43cc4bcb4b"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "ckguwpaaxtaaaabbhhddhhhlqbbbgggjjccq",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "inputValues" : {
+    "table" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "table" ],
+        "category" : "props"
+      }
+    },
+    "sysId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "sysId" ],
+        "category" : "props"
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <description/>
+        <dispatched_events>e4bb0e6cc03b5010f877f8fd83d0d46a,9cbb86ecc03b5010f877f8fd83d0d41d</dispatched_events>
+        <events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column"}}],
+    "root" : null,
+    "rules" : {"grid-template-rows":"minmax(400px,auto)","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
+    "styles" : null,
+    "templateId" : "28bde4cd53431010e6bcddeeff7b12cc",
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Appointment Booking</name>
+        <output_prop_mapping/>
+        <props>[ {
+  "name" : "sysId",
+  "label" : "sysId",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : "",
+  "readOnly" : false,
+  "selectable" : false,
+  "disabled" : false
+}, {
+  "name" : "table",
+  "label" : "Table",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : null,
+  "readOnly" : false,
+  "selectable" : false,
+  "disabled" : false
+} ]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ {
+  "name" : "end_date",
+  "label" : "end_date",
+  "fieldType" : "string",
+  "valueType" : "string",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "start_date",
+  "label" : "start_date",
+  "fieldType" : "string",
+  "valueType" : "string",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "loading",
+  "label" : "loading",
+  "fieldType" : "boolean",
+  "valueType" : "boolean",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  }
+}, {
+  "name" : "errorMessage",
+  "label" : "errorMessage",
+  "fieldType" : "string",
+  "valueType" : "string",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "title",
+  "label" : "title",
+  "fieldType" : "string",
+  "valueType" : "string",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "fetch_next_available_slot",
+  "label" : "fetch_next_available_slot",
+  "fieldType" : "boolean",
+  "valueType" : "boolean",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  }
+}, {
+  "name" : "next_available_slot",
+  "label" : "next_available_slot",
+  "fieldType" : "json",
+  "valueType" : "json",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "translatedArriveByMessage",
+  "label" : "translatedArriveByMessage",
+  "fieldType" : "string",
+  "valueType" : "string",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+} ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 17:49:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bf8f4a851bec71500f0eda43cc4bcbe8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Appointment Booking</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_ux_macroponent_bf8f4a851bec71500f0eda43cc4bcbe8</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 17:49:06</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

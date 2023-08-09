@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
     <sys_ux_list action="INSERT_OR_UPDATE">
         <active>true</active>
-        <category display_value="Ledger Task">33f1dfe14745dd10ab51f109536d43fd</category>
+        <category display_value="Sales Order Cases">33f1dfe14745dd10ab51f109536d43fd</category>
         <columns>number,priority,state,assigned_to,short_description,sys_class_name</columns>
-        <condition table="x_snc_insight_pr_0_ledger_task">active=false^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="false"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_snc_insight_pr_0_ledger_task">active=false^activitylevel=Header<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="false" field="activitylevel" goto="false" newquery="false" operator="=" or="false" value="Header"/>
         </condition>
         <configuration display_value="Insight Process Management_menu_config">77f1dfe14745dd10ab51f109536d43bf</configuration>
         <group_by_column/>
@@ -62,7 +62,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>c40213254745dd10ab51f109536d4302</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Closed</sys_name>
         <sys_overrides/>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
@@ -70,8 +70,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sys_ux_list_c40213254745dd10ab51f109536d4302</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 16:05:23</sys_updated_on>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 18:40:44</sys_updated_on>
         <table>x_snc_insight_pr_0_ledger_task</table>
         <title>Closed</title>
         <view/>

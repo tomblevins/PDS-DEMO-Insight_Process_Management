@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Appointment Booking">bf8f4a851bec71500f0eda43cc4bcbe8</macroponent>
+        <name>Data validation</name>
+        <preset/>
+        <required_translations>[ {
+  "code" : "",
+  "message" : "The agent will arrive within the selected slot",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Schedule Appointment",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Reschedule Appointment",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Please provide information for the following fields: Contact(contact)",
+  "comment" : ""
+} ]</required_translations>
+        <script><![CDATA[
+      /**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+async function handler({api, event, helpers, imports}) {
+    if (!api.data.appointment_booking_config_1.output.opened_for) {
+        const translatedText = await helpers.translate("Please provide information for the following fields: Contact(contact)");
+        api.setState("errorMessage", translatedText);
+        api.setState("loading", false);
+    }
+
+    if (!(api.data.appointment_booking_config_1.output && api.data.appointment_booking_config_1.output.bookedAppointment)) {
+      const scheduleAppointment = await helpers.translate("Schedule Appointment");
+      api.setState("title", scheduleAppointment);
+    }
+    else {
+      const rescheduleAppointment = await helpers.translate("Reschedule Appointment");
+      api.setState("title", rescheduleAppointment);
+    }
+
+    const translatedArriveByMessage = await helpers.translate("The agent will arrive within the selected slot")
+    api.setState("translatedArriveByMessage", translatedArriveByMessage);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 17:49:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>649f8a851bec71500f0eda43cc4bcbd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Data validation</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_ux_client_script_649f8a851bec71500f0eda43cc4bcbd6</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 17:49:07</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

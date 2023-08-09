@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Insight Process Management Config">17f1dfe16345dd104e722f30bf8d9932</app_config>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="Purchasing Tasks Interceptor">ee494e491bac71500f0eda43cc4bcb18</macroponent>
+        <macroponent_config>{
+  "table" : "",
+  "sysId" : "",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false,
+  "views" : "workspace",
+  "selectedTabIndex" : 0,
+  "query" : "",
+  "columns" : "",
+  "disableInlineEditing" : "",
+  "listTitle" : "",
+  "tinyId" : "",
+  "headingOnlyVisibleToScreenReaders" : false,
+  "parentTable" : ""
+}</macroponent_config>
+        <name>Purchasing Tasks Interceptor default</name>
+        <order>0</order>
+        <parent_macroponent/>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Interceptor">5a490e491bac71500f0eda43cc4bcba6</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-07 17:21:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>ea494e491bac71500f0eda43cc4bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Purchasing Tasks Interceptor default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_ux_screen_ea494e491bac71500f0eda43cc4bcb35</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-07 17:21:40</sys_updated_on>
+    </sys_ux_screen>
+</record_update>
