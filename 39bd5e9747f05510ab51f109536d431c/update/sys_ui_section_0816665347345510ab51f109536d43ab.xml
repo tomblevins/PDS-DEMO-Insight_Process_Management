@@ -266,6 +266,34 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>credit_hold_set</element>
+            <position>19</position>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-10 12:22:38</sys_created_on>
+            <sys_id>d391e48a1ba03d500f0eda43cc4bcb31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">0816665347345510ab51f109536d43ab</sys_ui_section>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-10 12:22:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>so_value_exceeds_credit_line</element>
+            <position>20</position>
+            <sys_created_by>TBlev1</sys_created_by>
+            <sys_created_on>2023-08-10 12:25:09</sys_created_on>
+            <sys_id>dc3268ca1ba03d500f0eda43cc4bcb94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">0816665347345510ab51f109536d43ab</sys_ui_section>
+            <sys_updated_by>TBlev1</sys_updated_by>
+            <sys_updated_on>2023-08-10 12:25:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

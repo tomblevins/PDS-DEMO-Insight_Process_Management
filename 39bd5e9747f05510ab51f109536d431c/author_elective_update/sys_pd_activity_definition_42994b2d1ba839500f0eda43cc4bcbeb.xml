@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <activity_type/>
+        <badge/>
+        <category/>
+        <description/>
+        <experience_display_preferences/>
+        <input_display_preferences/>
+        <inputs/>
+        <label>Check Sales Order Against Credit Limit</label>
+        <name>check_sales_order_against_credit_limit</name>
+        <outputs/>
+        <source>7f8607a11ba839500f0eda43cc4bcb16</source>
+        <source_type>sys_hub_flow</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 11:21:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>42994b2d1ba839500f0eda43cc4bcbeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Check Sales Order Against Credit Limit</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_42994b2d1ba839500f0eda43cc4bcbeb</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 11:21:21</sys_updated_on>
+        <system_level>false</system_level>
+        <table>global</table>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_variable_value action="DELETE" query="document_key=42994b2d1ba839500f0eda43cc4bcbeb"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_flow_input_7f8607a11ba839500f0eda43cc4bcb16^id=42994b2d1ba839500f0eda43cc4bcbeb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>532947b4ffaeac889376762fa87efe09</instance_id>
+        <instance_name>niketest</instance_name>
+        <name>sys_pd_activity_definition_42994b2d1ba839500f0eda43cc4bcbeb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition"><sys_pd_activity_definition action="INSERT_OR_UPDATE"><access>public</access><active>true</active><activity_type/><badge/><category/><description/><experience_display_preferences/><input_display_preferences/><inputs/><label>Check Sales Order Against Credit Limit</label><name>check_sales_order_against_credit_limit</name><outputs/><source>7f8607a11ba839500f0eda43cc4bcb16</source><source_type>sys_hub_flow</source_type><sys_class_name>sys_pd_activity_definition</sys_class_name><sys_created_by>TBlev1</sys_created_by><sys_created_on>2023-08-09 11:21:21</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>42994b2d1ba839500f0eda43cc4bcbeb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Check Sales Order Against Credit Limit</sys_name><sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope><sys_update_name>sys_pd_activity_definition_42994b2d1ba839500f0eda43cc4bcbeb</sys_update_name><sys_updated_by>TBlev1</sys_updated_by><sys_updated_on>2023-08-09 11:21:21</sys_updated_on><system_level>false</system_level><table>global</table><type_vals/><wait_for_completion>true</wait_for_completion></sys_pd_activity_definition><sys_variable_value action="delete_multiple" query="document_key=42994b2d1ba839500f0eda43cc4bcbeb"/><sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_7f8607a11ba839500f0eda43cc4bcb16^id=42994b2d1ba839500f0eda43cc4bcbeb"/></record_update>]]></payload>
+        <payload_hash>-2109553157</payload_hash>
+        <record_name>Check Sales Order Against Credit Limit</record_name>
+        <reverted_from/>
+        <source>c744be1d97ec31104ef191a00153af95</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 11:21:21</sys_created_on>
+        <sys_id>0c0ac72d1ba839500f0eda43cc4bcbd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189da07a6c60000001</sys_recorded_at>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 11:21:21</sys_updated_on>
+        <type>Activity Definition</type>
+        <update_guid>840ac72daaa8395019b4490f381c54cf</update_guid>
+        <update_guid_history>840ac72daaa8395019b4490f381c54cf:-2109553157</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-10 12:09:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_pd_activity_definition">sys_pd_activity_definition</sys_db_object>
+        <sys_id>20f21592d6fc469798d67b3b6a5d1329</sys_id>
+        <sys_metadata>42994b2d1ba839500f0eda43cc4bcbeb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Check Sales Order Against Credit Limit</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>sys_pd_activity_definition_42994b2d1ba839500f0eda43cc4bcbeb</sys_update_name>
+        <sys_update_version display_value="sys_pd_activity_definition_42994b2d1ba839500f0eda43cc4bcbeb">0c0ac72d1ba839500f0eda43cc4bcbd0</sys_update_version>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-10 12:09:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

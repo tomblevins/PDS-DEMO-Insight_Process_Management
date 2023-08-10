@@ -4238,7 +4238,12 @@
                                       "numberFormat" : {
                                         "type" : "JSON_LITERAL",
                                         "value" : {
-                                          "customFormat" : false
+                                          "customFormat" : true,
+                                          "rounding" : "HALF_UP",
+                                          "decimalPrecision" : 2,
+                                          "abbreviationEnabled" : false,
+                                          "numberInTooltipsEnabled" : false,
+                                          "thousandSeparatorEnabled" : true
                                         }
                                       },
                                       "axisId" : {
@@ -4350,7 +4355,7 @@
                                 },
                                 "scoreSize" : {
                                   "type" : "JSON_LITERAL",
-                                  "value" : "md"
+                                  "value" : "sm"
                                 },
                                 "followFilters" : {
                                   "type" : "JSON_LITERAL",
@@ -6359,7 +6364,12 @@
                                   "numberFormat" : {
                                     "type" : "JSON_LITERAL",
                                     "value" : {
-                                      "customFormat" : false
+                                      "customFormat" : true,
+                                      "rounding" : "HALF_UP",
+                                      "decimalPrecision" : 2,
+                                      "abbreviationEnabled" : false,
+                                      "numberInTooltipsEnabled" : false,
+                                      "thousandSeparatorEnabled" : true
                                     }
                                   },
                                   "axisId" : {
@@ -6471,7 +6481,7 @@
                             },
                             "scoreSize" : {
                               "type" : "JSON_LITERAL",
-                              "value" : "md"
+                              "value" : "sm"
                             },
                             "followFilters" : {
                               "type" : "JSON_LITERAL",
@@ -6899,7 +6909,12 @@
                                       "numberFormat" : {
                                         "type" : "JSON_LITERAL",
                                         "value" : {
-                                          "customFormat" : false
+                                          "customFormat" : true,
+                                          "rounding" : "HALF_UP",
+                                          "decimalPrecision" : 2,
+                                          "abbreviationEnabled" : false,
+                                          "numberInTooltipsEnabled" : false,
+                                          "thousandSeparatorEnabled" : true
                                         }
                                       },
                                       "axisId" : {
@@ -7011,7 +7026,7 @@
                                 },
                                 "scoreSize" : {
                                   "type" : "JSON_LITERAL",
-                                  "value" : "md"
+                                  "value" : "sm"
                                 },
                                 "followFilters" : {
                                   "type" : "JSON_LITERAL",
@@ -8055,14 +8070,14 @@
         <sys_created_on>2022-08-01 16:05:21</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9bf1dfe15d45dd10811d3884e897c430</sys_id>
-        <sys_mod_count>58</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sys_ux_macroponent_9bf1dfe15d45dd10811d3884e897c430</sys_update_name>
-        <sys_updated_by>ERam61</sys_updated_by>
-        <sys_updated_on>2023-08-04 20:39:32</sys_updated_on>
+        <sys_updated_by>SSah49</sys_updated_by>
+        <sys_updated_on>2023-08-09 17:52:50</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

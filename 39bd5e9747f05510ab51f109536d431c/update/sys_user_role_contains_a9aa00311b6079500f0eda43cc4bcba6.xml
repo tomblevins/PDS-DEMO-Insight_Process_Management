@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="canvas_user" name="canvas_user">8536f54bc713330072b211d4d8c26080</contains>
+        <role display_value="x_snc_insight_pr_0.ipe_definitions_user" name="x_snc_insight_pr_0.ipe_definitions_user">44d3f2201b003d100f0eda43cc4bcb9f</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 16:03:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a9aa00311b6079500f0eda43cc4bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>canvas_user.x_snc_insight_pr_0.ipe_definitions_user</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_user_role_contains_a9aa00311b6079500f0eda43cc4bcba6</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 16:03:48</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

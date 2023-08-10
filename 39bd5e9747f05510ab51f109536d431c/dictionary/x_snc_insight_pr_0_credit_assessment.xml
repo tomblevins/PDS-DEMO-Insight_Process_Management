@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="8b2ba80d1b6471500f0eda43cc4bcb82" label="Credit Assessment" max_length="40" name="x_snc_insight_pr_0_credit_assessment" type="collection">
+    <element db_object_id="8b2ba80d1b6471500f0eda43cc4bcb82" label="Credit Assessment" max_length="40" name="x_snc_insight_pr_0_credit_assessment" text_index="true" type="collection">
         <element label="Credit Limit" max_length="40" name="credit_limit" type="string"/>
+        <element label="New Credit Limit" max_length="40" name="new_credit_limit" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
         <element label="On Time Payment Rate" max_length="20" name="on_time_payment_rate" type="decimal"/>
         <element label="Risk Category" max_length="40" name="risk_category" type="string"/>

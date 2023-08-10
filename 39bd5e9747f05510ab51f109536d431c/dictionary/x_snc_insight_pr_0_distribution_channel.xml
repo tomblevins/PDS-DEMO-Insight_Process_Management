@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="35b259b39798b1d44ef191a00153af2c" label="Distribution Channel" max_length="40" name="x_snc_insight_pr_0_distribution_channel" type="collection">
+    <element db_object_id="35b259b39798b1d44ef191a00153af2c" label="Distribution Channel" max_length="40" name="x_snc_insight_pr_0_distribution_channel" text_index="true" type="collection">
         <element label="ID" mandatory="true" max_length="40" name="id" type="string"/>
         <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
     </element>

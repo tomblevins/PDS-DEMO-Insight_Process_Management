@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">279a4cfdb12079508a40bfb865886fa8</canvas>
+        <component display_value="">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"scoreSize":"md","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"enableRealTimeUpdate":true,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Sales Order Case","sourceType":"table","tableOrViewName":"x_snc_insight_pr_0_ledger_task","filterQuery":"activitylevel=Header^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^active=true","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X3NuY19pbnNpZ2h0X3ByXzBfbGVkZ2VyX3Rhc2sxNjkxNTk4OTQ4NzUz","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"My Cases","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4X3NuY19pbnNpZ2h0X3ByXzBfbGVkZ2VyX3Rhc2sxNjkxNTk4OTQ4NzUz","id":"ZEdGaWJHVjRYM051WTE5cGJuTnBaMmgwWDNCeVh6QmZiR1ZrWjJWeVgzUmhjMnN4TmpreE5UazRPVFE0TnpVejE2OTE1OTg5NTA1OTY=","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableDrilldown":true,"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","hideMatrixAggregate":false,"newReporting":false,"configVersion":"23.0.0-ci-SNAPSHOT"}</component_props>
+        <h>9</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 16:03:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ab9a4cfd41207950f2b4a31f212291a5</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>par_dashboard_widget_ab9a4cfd41207950f2b4a31f212291a5</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-10 11:23:53</sys_updated_on>
+        <visualization/>
+        <w>1</w>
+        <x>0</x>
+        <y>30</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>532947b4ffaeac889376762fa87efe09</instance_id>
+        <instance_name>niketest</instance_name>
+        <name>par_dashboard_widget_ab9a4cfd41207950f2b4a31f212291a5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">279a4cfdb12079508a40bfb865886fa8</canvas><component display_value="">d24d53f60350de7a652caf3188a46ed2</component><component_props>{"scoreSize":"md","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"enableRealTimeUpdate":true,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Sales Order Case","sourceType":"table","tableOrViewName":"x_snc_insight_pr_0_ledger_task","filterQuery":"activitylevel=Header^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^active=true","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X3NuY19pbnNpZ2h0X3ByXzBfbGVkZ2VyX3Rhc2sxNjkxNTk4OTQ4NzUz","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"My Cases","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4X3NuY19pbnNpZ2h0X3ByXzBfbGVkZ2VyX3Rhc2sxNjkxNTk4OTQ4NzUz","id":"ZEdGaWJHVjRYM051WTE5cGJuTnBaMmgwWDNCeVh6QmZiR1ZrWjJWeVgzUmhjMnN4TmpreE5UazRPVFE0TnpVejE2OTE1OTg5NTA1OTY=","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableDrilldown":true,"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","hideMatrixAggregate":false,"newReporting":false,"configVersion":"23.0.0-ci-SNAPSHOT"}</component_props><h>9</h><name/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>TBlev1</sys_created_by><sys_created_on>2023-08-09 16:03:41</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>ab9a4cfd41207950f2b4a31f212291a5</sys_id><sys_mod_count>7</sys_mod_count><sys_name/><sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope><sys_update_name>par_dashboard_widget_ab9a4cfd41207950f2b4a31f212291a5</sys_update_name><sys_updated_by>TBlev1</sys_updated_by><sys_updated_on>2023-08-10 11:23:53</sys_updated_on><visualization/><w>1</w><x>0</x><y>30</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-848743158</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c744be1d97ec31104ef191a00153af95</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-10 11:23:53</sys_created_on>
+        <sys_id>b2249cc21b603d500f0eda43cc4bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189df30534e0000001</sys_recorded_at>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-10 11:23:53</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>76249cc282603d50d3e42a1ec3139a97</update_guid>
+        <update_guid_history>76249cc282603d50d3e42a1ec3139a97:-848743158,b4b25842d8603d5080fa7301bcb4155a:-456359934,0b0dc579d7e47950c7f4524ca3053ba3:-1481053855,960c50bd47a079503c146e76a6692d0b:-1722182658,d5ab90bd74a079500bf11fbf56a75a59:1763011249,4f4354fd6c60795085dfd186b3ca8935:-2045349498,f0aa8cfd302079503809feb3cdb69cf8:628415983,b8aa8cfd462079502b8f05fd55b4b9f6:1112430130</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record Deleted 2023-08-10 04:26:47">d1d4dc061b603d500f0eda43cc4bcb3c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-10 11:26:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>95428ab7d4b34d1288c291e6d6524c84</sys_id>
+        <sys_metadata>ab9a4cfd41207950f2b4a31f212291a5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_ab9a4cfd41207950f2b4a31f212291a5</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_ab9a4cfd41207950f2b4a31f212291a5">b2249cc21b603d500f0eda43cc4bcb98</sys_update_version>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-10 11:26:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

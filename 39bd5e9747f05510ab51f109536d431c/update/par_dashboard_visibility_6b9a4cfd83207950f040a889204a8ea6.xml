@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_visibility">
+    <par_dashboard_visibility action="INSERT_OR_UPDATE">
+        <dashboard display_value="Optimization Workspace">e79a4cfd8b207950f60914527b9e8ca8</dashboard>
+        <experience display_value="Optimization Workspace">2b9a4cfda920795017d64ad0f6204faf</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 16:03:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6b9a4cfd83207950f040a889204a8ea6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>par_dashboard_visibility_6b9a4cfd83207950f040a889204a8ea6</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 16:03:41</sys_updated_on>
+    </par_dashboard_visibility>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">c42d18311be079500f0eda43cc4bcb98</canvas>
+        <component display_value="now-record-list-connected-snapshot">7219cee4e0177c3cf2e48d550ce0f71b</component>
+        <component_props>{"table":"pm_project","fixedQuery":"","listTitle":"All Active Tasks","columns":"number,short_description,primary_portfolio,primary_program,resource_planned_cost,benefits,start_date,end_date,actual_benefits,project_manager,approval,active","maxColumns":12,"query":"active=true","groupByField":"","limit":10,"hideViewAll":false,"hideHighlightedValues":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":false,"hideDotwalk":false,"hideColumnReorder":false,"hideRowSelector":false,"hideColumnGrouping":false,"hideColumnResizing":false,"hideColumnFiltering":false,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":false,"refreshRequested":""}</component_props>
+        <h>22</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>SSah49</sys_created_by>
+        <sys_created_on>2023-08-09 20:53:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c70dc5791be479500f0eda43cc4bcba5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>par_dashboard_widget_c70dc5791be479500f0eda43cc4bcba5</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-10 11:29:16</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <x>0</x>
+        <y>11</y>
+    </par_dashboard_widget>
+</record_update>

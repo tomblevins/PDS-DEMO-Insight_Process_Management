@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_snc_insight_pr_0.Audience for app optimization-workspace</api_name>
+        <description/>
+        <name>Audience for app optimization-workspace</name>
+        <roles>35bd5e9747f05510ab51f109536d4348,603491379798b1d44ef191a00153afbe,83168dbb9718b1d44ef191a00153afdb,44d3f2201b003d100f0eda43cc4bcb9f,09bdb7eb97d4f994387553800153afc2,b9bd5e9747f05510ab51f109536d434c</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 16:03:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>e0aa8cfd1b2079500f0eda43cc4bcbe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app optimization-workspace</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_ux_applicability_e0aa8cfd1b2079500f0eda43cc4bcbe8</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 16:03:45</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

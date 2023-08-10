@@ -6,6 +6,7 @@
         <element label="Company Code Text" max_length="100" name="company_code_text" type="string"/>
         <element label="Credit Control Area ID" max_length="100" name="credit_control_area" type="integer"/>
         <element label="Credit Control Area Text" max_length="100" name="credit_control_area_text" type="string"/>
+        <element label="Credit Hold Set" max_length="40" name="credit_hold_set" type="boolean"/>
         <element label="Credit Limit" max_length="100" name="credit_limit" type="decimal"/>
         <element label="Credit Risk Category" max_length="100" name="credit_risk_category" type="string"/>
         <element label="Credit Utilization Ratio" max_length="100" name="credit_utilization_ratio" type="decimal"/>
@@ -28,6 +29,7 @@
         <element label="Sold-to-Party" max_length="100" name="sold_to_party" type="integer"/>
         <element label="SO Created Date (EPOCH)" max_length="100" name="so_created_date_epoch" type="integer"/>
         <element label="SO Create Date" max_length="40" name="so_create_date" type="glide_date_time"/>
+        <element label="SO Value Exceeds Credit Line" max_length="40" name="so_value_exceeds_credit_line" type="boolean"/>
         <element label="Total SO Value" max_length="20" name="total_so_value" type="decimal"/>
         <element attributes="encode_utf8=false" label="Credit Control Area" max_length="32" name="u_credit_control_area_reference" reference="x_snc_insight_pr_0_credit_control_area" type="reference"/>
         <element attributes="encode_utf8=false" label="Distribution Channel" max_length="32" name="u_distribution_channel_reference" reference="x_snc_insight_pr_0_distribution_channel" type="reference"/>

@@ -1,0 +1,1619 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-utah-12-21-2022__patch4-hotfix2-06-23-2023_06-23-2023_2224.zip</compiler_build>
+        <copied_from>cba03cc11ba471500f0eda43cc4bcbfe</copied_from>
+        <copied_from_name>BR - SO Automation - Total Value</copied_from_name>
+        <description/>
+        <internal_name>procauto__so_automation__is_sales_order_under_new_credit_limit</internal_name>
+        <label_cache>[{"name":"6e2cb806-e362-4901-97e4-db07f5397925.item","label":"11 - For Each➛SO Case Sub Task Record","reference":"x_snc_insight_pr_0_so_case_sub_task","reference_display":"SO Case Sub Task","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"79a829bb-1f57-45a5-8910-e8819c48eea6.Record.default_value","label":"1 - Look Up Record➛IPE Definitions Record➛Default Value","reference":"","reference_display":"Default Value","type":"string","base_type":"string","parent_table_name":"x_snc_insight_pr_0_ipe_definitions","column_name":"default_value"},{"name":"ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record.total_so_value","label":"4 - Look Up Record➛Sales Order Case Record➛Total SO Value","reference":"","reference_display":"Total SO Value","type":"decimal","base_type":"decimal","parent_table_name":"x_snc_insight_pr_0_ledger_task","column_name":"total_so_value"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Sales Order Case Record","reference":"x_snc_insight_pr_0_ledger_task","reference_display":"Sales Order Case","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.sys_id","label":"Trigger - Record Created or Updated➛Sales Order Case Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_snc_insight_pr_0_ledger_task","column_name":"sys_id"},{"name":"ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record","label":"4 - Look Up Record➛Sales Order Case Record","reference":"x_snc_insight_pr_0_ledger_task","reference_display":"Sales Order Case","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record.sales_order_number","label":"4 - Look Up Record➛Sales Order Case Record➛Sales Order Number","reference":"","reference_display":"Sales Order Number","type":"float","base_type":"float","parent_table_name":"x_snc_insight_pr_0_ledger_task","column_name":"sales_order_number"},{"name":"43cd3ef1-1f22-4661-9706-54fff5f4b0ef.Count","label":"8 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"43cd3ef1-1f22-4661-9706-54fff5f4b0ef.Records","label":"8 - Look Up Records➛SO Case Sub Task Records","reference":"x_snc_insight_pr_0_so_case_sub_task","reference_display":"SO Case Sub Task","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>fdf30f611ba839500f0eda43cc4bcb54</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_hub_flow_fdf30f611ba839500f0eda43cc4bcb54</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:02</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="DELETE" query="document_key=fdf30f611ba839500f0eda43cc4bcb54"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=fdf30f611ba839500f0eda43cc4bcb54^sys_idNOT IN9ef34f611ba839500f0eda43cc4bcb01"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?">fdf30f611ba839500f0eda43cc4bcb54</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9ef34f611ba839500f0eda43cc4bcb01</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:02</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=9ef34f611ba839500f0eda43cc4bcb01"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>9ef34f611ba839500f0eda43cc4bcb01</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:02</sys_created_on>
+        <sys_id>1ef34f611ba839500f0eda43cc4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:02</sys_updated_on>
+        <value>activitylevel=Header^assigned_toISEMPTY^state=1</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>9ef34f611ba839500f0eda43cc4bcb01</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:02</sys_created_on>
+        <sys_id>def34f611ba839500f0eda43cc4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:02</sys_updated_on>
+        <value>x_snc_insight_pr_0_ledger_task</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=9ef34f611ba839500f0eda43cc4bcb01"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=fdf30f611ba839500f0eda43cc4bcb54"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=fdf30f611ba839500f0eda43cc4bcb54^sys_idNOT INb1f30f611ba839500f0eda43cc4bcb58"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>fdf30f611ba839500f0eda43cc4bcb54</id>
+        <name>PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b1f30f611ba839500f0eda43cc4bcb58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:00</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=b1f30f611ba839500f0eda43cc4bcb58"/>
+    <sys_hub_flow_input action="DELETE" query="model=fdf30f611ba839500f0eda43cc4bcb54^sys_idNOT IN0af30f611ba839500f0eda43cc4bcb75,4af30f611ba839500f0eda43cc4bcb62,82f30f611ba839500f0eda43cc4bcb6e"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?">fdf30f611ba839500f0eda43cc4bcb54</model>
+        <model_id>fdf30f611ba839500f0eda43cc4bcb54</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_fdf30f611ba839500f0eda43cc4bcb54</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0af30f611ba839500f0eda43cc4bcb75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?">fdf30f611ba839500f0eda43cc4bcb54</model>
+        <model_id>fdf30f611ba839500f0eda43cc4bcb54</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_fdf30f611ba839500f0eda43cc4bcb54</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4af30f611ba839500f0eda43cc4bcb62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?">fdf30f611ba839500f0eda43cc4bcb54</model>
+        <model_id>fdf30f611ba839500f0eda43cc4bcb54</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_fdf30f611ba839500f0eda43cc4bcb54</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>82f30f611ba839500f0eda43cc4bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_last_refreshed/>
+        <u_model_id/>
+        <u_normalize_set/>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="DELETE" query="model=fdf30f611ba839500f0eda43cc4bcb54"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=fdf30f611ba839500f0eda43cc4bcb54"/>
+    <sys_hub_action_instance action="DELETE" query="flow=fdf30f611ba839500f0eda43cc4bcb54^sys_idNOT IN0af30f611ba839500f0eda43cc4bcb9a,12f30f611ba839500f0eda43cc4bcbc1,16f30f611ba839500f0eda43cc4bcbed,1af30f611ba839500f0eda43cc4bcbb2,1af30f611ba839500f0eda43cc4bcbe0,52f34f611ba839500f0eda43cc4bcb00,92f30f611ba839500f0eda43cc4bcbac,9ef30f611ba839500f0eda43cc4bcbe6,c2f30f611ba839500f0eda43cc4bcba2,daf30f611ba839500f0eda43cc4bcbb8"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment>Find Credit Hold Threshold for Auto Acceptance</comment>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?">fdf30f611ba839500f0eda43cc4bcb54</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0af30f611ba839500f0eda43cc4bcb9a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <ui_id>79a829bb-1f57-45a5-8910-e8819c48eea6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=0af30f611ba839500f0eda43cc4bcb9a"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0af30f611ba839500f0eda43cc4bcb9a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>06f30f611ba839500f0eda43cc4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <value>default_property=clear_credit_hold</value>
+        <variable display_value="Conditions">d509f99587003300663ca1bb36cb0ba9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0af30f611ba839500f0eda43cc4bcb9a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>c6f30f611ba839500f0eda43cc4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <value>x_snc_insight_pr_0_ipe_definitions</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3^id=0af30f611ba839500f0eda43cc4bcb9a"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=0af30f611ba839500f0eda43cc4bcb9a"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=0af30f611ba839500f0eda43cc4bcb9a"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?">fdf30f611ba839500f0eda43cc4bcb54</flow>
+        <order>8</order>
+        <parent_ui_id>d8a7ca2e-312c-4d25-8263-34e20f242e36</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>12f30f611ba839500f0eda43cc4bcbc1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <ui_id>43cd3ef1-1f22-4661-9706-54fff5f4b0ef</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=12f30f611ba839500f0eda43cc4bcbc1"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>12f30f611ba839500f0eda43cc4bcbc1</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>1ef30f611ba839500f0eda43cc4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <value>x_snc_insight_pr_0_so_case_sub_task</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=12f30f611ba839500f0eda43cc4bcbc1"/>
+    <sys_element_mapping action="DELETE">
+        <field>conditions</field>
+        <id>12f30f611ba839500f0eda43cc4bcbc1</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>d6f30f611ba839500f0eda43cc4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>parent={{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table</field>
+        <id>12f30f611ba839500f0eda43cc4bcbc1</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>9af30f611ba839500f0eda43cc4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=12f30f611ba839500f0eda43cc4bcbc1"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=12f30f611ba839500f0eda43cc4bcbc1"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?">fdf30f611ba839500f0eda43cc4bcb54</flow>
+        <order>13</order>
+        <parent_ui_id>d8a7ca2e-312c-4d25-8263-34e20f242e36</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>16f30f611ba839500f0eda43cc4bcbed</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <ui_id>db071214-d996-4f06-83ec-274fb4489460</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=16f30f611ba839500f0eda43cc4bcbed"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>16f30f611ba839500f0eda43cc4bcbed</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>12f30f611ba839500f0eda43cc4bcbef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <value>x_snc_insight_pr_0_ledger_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>16f30f611ba839500f0eda43cc4bcbed</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>5ef30f611ba839500f0eda43cc4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=16f30f611ba839500f0eda43cc4bcbed"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>16f30f611ba839500f0eda43cc4bcbed</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>daf30f611ba839500f0eda43cc4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>16f30f611ba839500f0eda43cc4bcbed</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>56f30f611ba839500f0eda43cc4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>16f30f611ba839500f0eda43cc4bcbed</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>1af30f611ba839500f0eda43cc4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=16f30f611ba839500f0eda43cc4bcbed"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=16f30f611ba839500f0eda43cc4bcbed"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment>Update Work Notes that Case is Under Threshold</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?">fdf30f611ba839500f0eda43cc4bcb54</flow>
+        <order>6</order>
+        <parent_ui_id>d8a7ca2e-312c-4d25-8263-34e20f242e36</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1af30f611ba839500f0eda43cc4bcbb2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <ui_id>434510d7-0296-4eaa-afd2-7326fc61cdb9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=1af30f611ba839500f0eda43cc4bcbb2"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1af30f611ba839500f0eda43cc4bcbb2</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>52f30f611ba839500f0eda43cc4bcbb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <value>x_snc_insight_pr_0_ledger_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=1af30f611ba839500f0eda43cc4bcbb2"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>1af30f611ba839500f0eda43cc4bcbb2</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>def30f611ba839500f0eda43cc4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>1af30f611ba839500f0eda43cc4bcbb2</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>5af30f611ba839500f0eda43cc4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>1af30f611ba839500f0eda43cc4bcbb2</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>1ef30f611ba839500f0eda43cc4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>work_notes=Sales Order '{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record.sales_order_number}}' Total Value is under ${{79a829bb-1f57-45a5-8910-e8819c48eea6.Record.default_value}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=1af30f611ba839500f0eda43cc4bcbb2"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=1af30f611ba839500f0eda43cc4bcbb2"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?">fdf30f611ba839500f0eda43cc4bcb54</flow>
+        <order>10</order>
+        <parent_ui_id>f01fe5ef-1082-4b21-981d-3c9ec390c9b3</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1af30f611ba839500f0eda43cc4bcbe0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <ui_id>83cb4500-3188-4e1a-9f93-f1a9818e2649</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=1af30f611ba839500f0eda43cc4bcbe0"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1af30f611ba839500f0eda43cc4bcbe0</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>16f30f611ba839500f0eda43cc4bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <value>x_snc_insight_pr_0_ledger_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1af30f611ba839500f0eda43cc4bcbe0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>52f30f611ba839500f0eda43cc4bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <value>work_notes=Closing Subtasks</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=1af30f611ba839500f0eda43cc4bcbe0"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>1af30f611ba839500f0eda43cc4bcbe0</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>def30f611ba839500f0eda43cc4bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>1af30f611ba839500f0eda43cc4bcbe0</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>5af30f611ba839500f0eda43cc4bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>1af30f611ba839500f0eda43cc4bcbe0</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>1ef30f611ba839500f0eda43cc4bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=1af30f611ba839500f0eda43cc4bcbe0"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=1af30f611ba839500f0eda43cc4bcbe0"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?">fdf30f611ba839500f0eda43cc4bcb54</flow>
+        <order>15</order>
+        <parent_ui_id>e632ef24-ab1d-44a0-9371-8802f1b17848</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>52f34f611ba839500f0eda43cc4bcb00</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:02</sys_updated_on>
+        <ui_id>a6a6cfff-7b0c-4e3d-b953-2319168fe878</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=52f34f611ba839500f0eda43cc4bcb00"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>52f34f611ba839500f0eda43cc4bcb00</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:02</sys_created_on>
+        <sys_id>9af34f611ba839500f0eda43cc4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:02</sys_updated_on>
+        <value>x_snc_insight_pr_0_ledger_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=52f34f611ba839500f0eda43cc4bcb00"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>52f34f611ba839500f0eda43cc4bcb00</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:02</sys_created_on>
+        <sys_id>1af34f611ba839500f0eda43cc4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>52f34f611ba839500f0eda43cc4bcb00</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:02</sys_created_on>
+        <sys_id>92f34f611ba839500f0eda43cc4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>52f34f611ba839500f0eda43cc4bcb00</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:02</sys_created_on>
+        <sys_id>56f34f611ba839500f0eda43cc4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>assigned_to=^state=1^work_notes=Case is over ${{79a829bb-1f57-45a5-8910-e8819c48eea6.Record.default_value}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=52f34f611ba839500f0eda43cc4bcb00"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=52f34f611ba839500f0eda43cc4bcb00"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment>Refresh Case Data</comment>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?">fdf30f611ba839500f0eda43cc4bcb54</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>92f30f611ba839500f0eda43cc4bcbac</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <ui_id>ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=92f30f611ba839500f0eda43cc4bcbac"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>92f30f611ba839500f0eda43cc4bcbac</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>9ef30f611ba839500f0eda43cc4bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <value>x_snc_insight_pr_0_ledger_task</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=92f30f611ba839500f0eda43cc4bcbac"/>
+    <sys_element_mapping action="DELETE">
+        <field>conditions</field>
+        <id>92f30f611ba839500f0eda43cc4bcbac</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>5af30f611ba839500f0eda43cc4bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{Created or Updated_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table</field>
+        <id>92f30f611ba839500f0eda43cc4bcbac</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>1ef30f611ba839500f0eda43cc4bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=92f30f611ba839500f0eda43cc4bcbac"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=92f30f611ba839500f0eda43cc4bcbac"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?">fdf30f611ba839500f0eda43cc4bcb54</flow>
+        <order>12</order>
+        <parent_ui_id>6e2cb806-e362-4901-97e4-db07f5397925</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9ef30f611ba839500f0eda43cc4bcbe6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <ui_id>64f83327-a311-418a-9fd9-7d38ae7ad8e0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=9ef30f611ba839500f0eda43cc4bcbe6"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9ef30f611ba839500f0eda43cc4bcbe6</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>9af30f611ba839500f0eda43cc4bcbe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <value>x_snc_insight_pr_0_so_case_sub_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9ef30f611ba839500f0eda43cc4bcbe6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>d6f30f611ba839500f0eda43cc4bcbe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=9ef30f611ba839500f0eda43cc4bcbe6"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>9ef30f611ba839500f0eda43cc4bcbe6</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>56f30f611ba839500f0eda43cc4bcbe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{6e2cb806-e362-4901-97e4-db07f5397925.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>9ef30f611ba839500f0eda43cc4bcbe6</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>def30f611ba839500f0eda43cc4bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>9ef30f611ba839500f0eda43cc4bcbe6</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>92f30f611ba839500f0eda43cc4bcbe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=9ef30f611ba839500f0eda43cc4bcbe6"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=9ef30f611ba839500f0eda43cc4bcbe6"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment>Assign Case to "Efficiency Automation" and mark Work in Progress</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?">fdf30f611ba839500f0eda43cc4bcb54</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c2f30f611ba839500f0eda43cc4bcba2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <ui_id>90268d83-d924-4a31-809a-18cbd9ed966b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=c2f30f611ba839500f0eda43cc4bcba2"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c2f30f611ba839500f0eda43cc4bcba2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>02f30f611ba839500f0eda43cc4bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <value>assigned_to={"display":"Efficiency Automation","value":"d5bae5c81b2cb510f930da43cc4bcb0d","table":"sys_user","sys_id":"d5bae5c81b2cb510f930da43cc4bcb0d"}^state=2</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c2f30f611ba839500f0eda43cc4bcba2</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>c2f30f611ba839500f0eda43cc4bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <value>x_snc_insight_pr_0_ledger_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=c2f30f611ba839500f0eda43cc4bcba2"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>c2f30f611ba839500f0eda43cc4bcba2</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>8ef30f611ba839500f0eda43cc4bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>c2f30f611ba839500f0eda43cc4bcba2</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>0af30f611ba839500f0eda43cc4bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>c2f30f611ba839500f0eda43cc4bcba2</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>caf30f611ba839500f0eda43cc4bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=c2f30f611ba839500f0eda43cc4bcba2"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=c2f30f611ba839500f0eda43cc4bcba2"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment>Update Work Notes Clearing Credit Hold</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?">fdf30f611ba839500f0eda43cc4bcb54</flow>
+        <order>7</order>
+        <parent_ui_id>d8a7ca2e-312c-4d25-8263-34e20f242e36</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>daf30f611ba839500f0eda43cc4bcbb8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <ui_id>303d4d11-e34b-4252-9829-4441d39bafd1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=daf30f611ba839500f0eda43cc4bcbb8"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>daf30f611ba839500f0eda43cc4bcbb8</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>16f30f611ba839500f0eda43cc4bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <value>x_snc_insight_pr_0_ledger_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=daf30f611ba839500f0eda43cc4bcbb8"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>daf30f611ba839500f0eda43cc4bcbb8</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>92f30f611ba839500f0eda43cc4bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>daf30f611ba839500f0eda43cc4bcbb8</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>1ef30f611ba839500f0eda43cc4bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>daf30f611ba839500f0eda43cc4bcbb8</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:01</sys_created_on>
+        <sys_id>def30f611ba839500f0eda43cc4bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>work_notes=Clearing Credit Hold for - Sales Order '{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record.sales_order_number}}'</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=daf30f611ba839500f0eda43cc4bcbb8"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=daf30f611ba839500f0eda43cc4bcbb8"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=fdf30f611ba839500f0eda43cc4bcb54"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=fdf30f611ba839500f0eda43cc4bcb54^sys_idNOT IN0ef30f611ba839500f0eda43cc4bcb90,46f30f611ba839500f0eda43cc4bcb8d,4af30f611ba839500f0eda43cc4bcb86,82f30f611ba839500f0eda43cc4bcb8a,c2f30f611ba839500f0eda43cc4bcb80"/>
+    <sys_hub_flow_logic action="DELETE">
+        <block display_value="">a73638cd1ba471500f0eda43cc4bcbba</block>
+        <comment/>
+        <connected_to>d8a7ca2e-312c-4d25-8263-34e20f242e36</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?">fdf30f611ba839500f0eda43cc4bcb54</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>14</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0ef30f611ba839500f0eda43cc4bcb90</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:00</sys_updated_on>
+        <ui_id>e632ef24-ab1d-44a0-9371-8802f1b17848</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=0ef30f611ba839500f0eda43cc4bcb90"/>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=0ef30f611ba839500f0eda43cc4bcb90"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=0ef30f611ba839500f0eda43cc4bcb90"/>
+    <sys_hub_flow_logic action="DELETE">
+        <block display_value="">d575388d1ba471500f0eda43cc4bcb46</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?">fdf30f611ba839500f0eda43cc4bcb54</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>f01fe5ef-1082-4b21-981d-3c9ec390c9b3</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>46f30f611ba839500f0eda43cc4bcb8d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:00</sys_updated_on>
+        <ui_id>6e2cb806-e362-4901-97e4-db07f5397925</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=46f30f611ba839500f0eda43cc4bcb8d"/>
+    <sys_element_mapping action="DELETE" query="id=46f30f611ba839500f0eda43cc4bcb8d"/>
+    <sys_element_mapping action="DELETE">
+        <field>items</field>
+        <id>46f30f611ba839500f0eda43cc4bcb8d</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:00</sys_created_on>
+        <sys_id>8ef30f611ba839500f0eda43cc4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:00</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{43cd3ef1-1f22-4661-9706-54fff5f4b0ef.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=46f30f611ba839500f0eda43cc4bcb8d"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=46f30f611ba839500f0eda43cc4bcb8d"/>
+    <sys_hub_flow_logic action="DELETE">
+        <block display_value="">a7e3b8c91ba471500f0eda43cc4bcbfc</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?">fdf30f611ba839500f0eda43cc4bcb54</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4af30f611ba839500f0eda43cc4bcb86</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:00</sys_updated_on>
+        <ui_id>d8a7ca2e-312c-4d25-8263-34e20f242e36</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=4af30f611ba839500f0eda43cc4bcb86"/>
+    <sys_element_mapping action="DELETE" query="id=4af30f611ba839500f0eda43cc4bcb86"/>
+    <sys_element_mapping action="DELETE">
+        <field>condition</field>
+        <id>4af30f611ba839500f0eda43cc4bcb86</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:00</sys_created_on>
+        <sys_id>06f30f611ba839500f0eda43cc4bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:00</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record.total_so_value}}&lt;={{79a829bb-1f57-45a5-8910-e8819c48eea6.Record.default_value}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=4af30f611ba839500f0eda43cc4bcb86"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=4af30f611ba839500f0eda43cc4bcb86"/>
+    <sys_hub_flow_logic action="DELETE">
+        <block display_value="">d975388d1ba471500f0eda43cc4bcb42</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?">fdf30f611ba839500f0eda43cc4bcb54</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>d8a7ca2e-312c-4d25-8263-34e20f242e36</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>82f30f611ba839500f0eda43cc4bcb8a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:00</sys_updated_on>
+        <ui_id>f01fe5ef-1082-4b21-981d-3c9ec390c9b3</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=82f30f611ba839500f0eda43cc4bcb8a"/>
+    <sys_element_mapping action="DELETE" query="id=82f30f611ba839500f0eda43cc4bcb8a"/>
+    <sys_element_mapping action="DELETE">
+        <field>condition</field>
+        <id>82f30f611ba839500f0eda43cc4bcb8a</id>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:00</sys_created_on>
+        <sys_id>4af30f611ba839500f0eda43cc4bcb8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:00</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{43cd3ef1-1f22-4661-9706-54fff5f4b0ef.Count}}&gt;=1</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=82f30f611ba839500f0eda43cc4bcb8a"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=82f30f611ba839500f0eda43cc4bcb8a"/>
+    <sys_hub_flow_logic action="DELETE">
+        <block display_value="">9dc334c91ba471500f0eda43cc4bcb00</block>
+        <comment>Wait for Line Items to Calculate Total Value</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?">fdf30f611ba839500f0eda43cc4bcb54</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c2f30f611ba839500f0eda43cc4bcb80</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:00</sys_updated_on>
+        <ui_id>0e20c419-71c5-4947-a4b9-921026470d01</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=c2f30f611ba839500f0eda43cc4bcb80"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c2f30f611ba839500f0eda43cc4bcb80</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:00</sys_created_on>
+        <sys_id>02f30f611ba839500f0eda43cc4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:00</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c2f30f611ba839500f0eda43cc4bcb80</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:00</sys_created_on>
+        <sys_id>0af30f611ba839500f0eda43cc4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:00</sys_updated_on>
+        <value>1970-01-01 00:00:05</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=c2f30f611ba839500f0eda43cc4bcb80"/>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=c2f30f611ba839500f0eda43cc4bcb80"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=c2f30f611ba839500f0eda43cc4bcb80"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=fdf30f611ba839500f0eda43cc4bcb54"/>
+    <sys_hub_flow_variable action="DELETE" query="model=fdf30f611ba839500f0eda43cc4bcb54"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_fdf30f611ba839500f0eda43cc4bcb54^sys_idNOT IN06f30f611ba839500f0eda43cc4bcb7c,4af30f611ba839500f0eda43cc4bcb74,8ef30f611ba839500f0eda43cc4bcb6c"/>
+    <sys_documentation action="DELETE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fdf30f611ba839500f0eda43cc4bcb54</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>06f30f611ba839500f0eda43cc4bcb7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fdf30f611ba839500f0eda43cc4bcb54</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4af30f611ba839500f0eda43cc4bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fdf30f611ba839500f0eda43cc4bcb54</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8ef30f611ba839500f0eda43cc4bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_fdf30f611ba839500f0eda43cc4bcb54"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_fdf30f611ba839500f0eda43cc4bcb54"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_fdf30f611ba839500f0eda43cc4bcb54"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=fdf30f611ba839500f0eda43cc4bcb54"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=fdf30f611ba839500f0eda43cc4bcb54"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>532947b4ffaeac889376762fa87efe09</instance_id>
+        <instance_name>niketest</instance_name>
+        <name>sys_hub_flow_fdf30f611ba839500f0eda43cc4bcb54</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;compiler_build&gt;glide-utah-12-21-2022__patch4-hotfix2-06-23-2023_06-23-2023_2224.zip&lt;/compiler_build&gt;&lt;copied_from&gt;cba03cc11ba471500f0eda43cc4bcbfe&lt;/copied_from&gt;&lt;copied_from_name&gt;BR - SO Automation - Total Value&lt;/copied_from_name&gt;&lt;description/&gt;&lt;internal_name&gt;procauto__so_automation__is_sales_order_under_new_credit_limit&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"6e2cb806-e362-4901-97e4-db07f5397925.item","label":"11 - For Each➛SO Case Sub Task Record","reference":"x_snc_insight_pr_0_so_case_sub_task","reference_display":"SO Case Sub Task","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"79a829bb-1f57-45a5-8910-e8819c48eea6.Record.default_value","label":"1 - Look Up Record➛IPE Definitions Record➛Default Value","reference":"","reference_display":"Default Value","type":"string","base_type":"string","parent_table_name":"x_snc_insight_pr_0_ipe_definitions","column_name":"default_value"},{"name":"ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record.total_so_value","label":"4 - Look Up Record➛Sales Order Case Record➛Total SO Value","reference":"","reference_display":"Total SO Value","type":"decimal","base_type":"decimal","parent_table_name":"x_snc_insight_pr_0_ledger_task","column_name":"total_so_value"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Sales Order Case Record","reference":"x_snc_insight_pr_0_ledger_task","reference_display":"Sales Order Case","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.sys_id","label":"Trigger - Record Created or Updated➛Sales Order Case Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_snc_insight_pr_0_ledger_task","column_name":"sys_id"},{"name":"ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record","label":"4 - Look Up Record➛Sales Order Case Record","reference":"x_snc_insight_pr_0_ledger_task","reference_display":"Sales Order Case","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record.sales_order_number","label":"4 - Look Up Record➛Sales Order Case Record➛Sales Order Number","reference":"","reference_display":"Sales Order Number","type":"float","base_type":"float","parent_table_name":"x_snc_insight_pr_0_ledger_task","column_name":"sales_order_number"},{"name":"43cd3ef1-1f22-4661-9706-54fff5f4b0ef.Count","label":"8 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"43cd3ef1-1f22-4661-9706-54fff5f4b0ef.Records","label":"8 - Look Up Records➛SO Case Sub Task Records","reference":"x_snc_insight_pr_0_so_case_sub_task","reference_display":"SO Case Sub Task","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]&lt;/label_cache&gt;&lt;latest_snapshot/&gt;&lt;master_snapshot/&gt;&lt;name&gt;PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;system&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;draft&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:00&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;fdf30f611ba839500f0eda43cc4bcb54&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_fdf30f611ba839500f0eda43cc4bcb54&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:02&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=fdf30f611ba839500f0eda43cc4bcb54"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=fdf30f611ba839500f0eda43cc4bcb54^sys_idNOT IN9ef34f611ba839500f0eda43cc4bcb01"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?"&gt;fdf30f611ba839500f0eda43cc4bcb54&lt;/flow&gt;&lt;name&gt;Created or Updated&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_class_name&gt;sys_hub_trigger_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:02&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;9ef34f611ba839500f0eda43cc4bcb01&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:02&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created or Updated"&gt;a45d9180c32222002841b63b12d3aea7&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create_or_update&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=9ef34f611ba839500f0eda43cc4bcb01"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;9ef34f611ba839500f0eda43cc4bcb01&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:02&lt;/sys_created_on&gt;&lt;sys_id&gt;1ef34f611ba839500f0eda43cc4bcb02&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:02&lt;/sys_updated_on&gt;&lt;value&gt;activitylevel=Header^assigned_toISEMPTY^state=1&lt;/value&gt;&lt;variable display_value="Condition"&gt;707dd180c32222002841b63b12d3aecb&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;9ef34f611ba839500f0eda43cc4bcb01&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:02&lt;/sys_created_on&gt;&lt;sys_id&gt;def34f611ba839500f0eda43cc4bcb02&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:02&lt;/sys_updated_on&gt;&lt;value&gt;x_snc_insight_pr_0_ledger_task&lt;/value&gt;&lt;variable display_value="Table"&gt;cf1e1980c32222002841b63b12d3aea0&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=9ef34f611ba839500f0eda43cc4bcb01"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=fdf30f611ba839500f0eda43cc4bcb54"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=fdf30f611ba839500f0eda43cc4bcb54^sys_idNOT INb1f30f611ba839500f0eda43cc4bcb58"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;fdf30f611ba839500f0eda43cc4bcb54&lt;/id&gt;&lt;name&gt;PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?&lt;/name&gt;&lt;sys_class_name&gt;sys_flow_cat_variable_model&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:00&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;b1f30f611ba839500f0eda43cc4bcb58&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:00&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=b1f30f611ba839500f0eda43cc4bcb58"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=fdf30f611ba839500f0eda43cc4bcb54^sys_idNOT IN0af30f611ba839500f0eda43cc4bcb75,4af30f611ba839500f0eda43cc4bcb62,82f30f611ba839500f0eda43cc4bcb6e"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?"&gt;fdf30f611ba839500f0eda43cc4bcb54&lt;/model&gt;&lt;model_id&gt;fdf30f611ba839500f0eda43cc4bcb54&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_fdf30f611ba839500f0eda43cc4bcb54&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:00&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;0af30f611ba839500f0eda43cc4bcb75&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:00&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;u_last_refreshed/&gt;&lt;u_model_id/&gt;&lt;u_normalize_set/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?"&gt;fdf30f611ba839500f0eda43cc4bcb54&lt;/model&gt;&lt;model_id&gt;fdf30f611ba839500f0eda43cc4bcb54&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_fdf30f611ba839500f0eda43cc4bcb54&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:00&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;4af30f611ba839500f0eda43cc4bcb62&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:00&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;u_last_refreshed/&gt;&lt;u_model_id/&gt;&lt;u_normalize_set/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?"&gt;fdf30f611ba839500f0eda43cc4bcb54&lt;/model&gt;&lt;model_id&gt;fdf30f611ba839500f0eda43cc4bcb54&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_fdf30f611ba839500f0eda43cc4bcb54&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:00&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;82f30f611ba839500f0eda43cc4bcb6e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:00&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;u_last_refreshed/&gt;&lt;u_model_id/&gt;&lt;u_normalize_set/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=fdf30f611ba839500f0eda43cc4bcb54"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=fdf30f611ba839500f0eda43cc4bcb54"/&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=fdf30f611ba839500f0eda43cc4bcb54^sys_idNOT IN0af30f611ba839500f0eda43cc4bcb9a,12f30f611ba839500f0eda43cc4bcbc1,16f30f611ba839500f0eda43cc4bcbed,1af30f611ba839500f0eda43cc4bcbb2,1af30f611ba839500f0eda43cc4bcbe0,52f34f611ba839500f0eda43cc4bcb00,92f30f611ba839500f0eda43cc4bcbac,9ef30f611ba839500f0eda43cc4bcbe6,c2f30f611ba839500f0eda43cc4bcba2,daf30f611ba839500f0eda43cc4bcbb8"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Look Up Record"&gt;9d09f99587003300663ca1bb36cb0ba3&lt;/action_type&gt;&lt;action_type_parent display_value="Look Up Record"&gt;b93f42810b30030085c083eb37673a63&lt;/action_type_parent&gt;&lt;comment&gt;Find Credit Hold Threshold for Auto Acceptance&lt;/comment&gt;&lt;compiled_snapshot&gt;9d09f99587003300663ca1bb36cb0ba3&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?"&gt;fdf30f611ba839500f0eda43cc4bcb54&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;0af30f611ba839500f0eda43cc4bcb9a&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;ui_id&gt;79a829bb-1f57-45a5-8910-e8819c48eea6&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=0af30f611ba839500f0eda43cc4bcb9a"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;0af30f611ba839500f0eda43cc4bcb9a&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;06f30f611ba839500f0eda43cc4bcb9d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;value&gt;default_property=clear_credit_hold&lt;/value&gt;&lt;variable display_value="Conditions"&gt;d509f99587003300663ca1bb36cb0ba9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;0af30f611ba839500f0eda43cc4bcb9a&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;c6f30f611ba839500f0eda43cc4bcb9d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;value&gt;x_snc_insight_pr_0_ipe_definitions&lt;/value&gt;&lt;variable display_value="Table"&gt;d909f99587003300663ca1bb36cb0ba4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3^id=0af30f611ba839500f0eda43cc4bcb9a"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=0af30f611ba839500f0eda43cc4bcb9a"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=0af30f611ba839500f0eda43cc4bcb9a"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Look Up Records"&gt;43400a1587003300663ca1bb36cb0b4b&lt;/action_type&gt;&lt;action_type_parent display_value="Look Up Records"&gt;d1c56ec50b30030085c083eb37673a50&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;43400a1587003300663ca1bb36cb0b4b&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?"&gt;fdf30f611ba839500f0eda43cc4bcb54&lt;/flow&gt;&lt;order&gt;8&lt;/order&gt;&lt;parent_ui_id&gt;d8a7ca2e-312c-4d25-8263-34e20f242e36&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;12f30f611ba839500f0eda43cc4bcbc1&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;ui_id&gt;43cd3ef1-1f22-4661-9706-54fff5f4b0ef&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=12f30f611ba839500f0eda43cc4bcbc1"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;12f30f611ba839500f0eda43cc4bcbc1&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;1ef30f611ba839500f0eda43cc4bcbdb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;value&gt;x_snc_insight_pr_0_so_case_sub_task&lt;/value&gt;&lt;variable display_value="Table"&gt;8f400a1587003300663ca1bb36cb0b4b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=12f30f611ba839500f0eda43cc4bcbc1"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;conditions&lt;/field&gt;&lt;id&gt;12f30f611ba839500f0eda43cc4bcbc1&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;d6f30f611ba839500f0eda43cc4bcbdb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b&lt;/table&gt;&lt;value&gt;parent={{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table&lt;/field&gt;&lt;id&gt;12f30f611ba839500f0eda43cc4bcbc1&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;9af30f611ba839500f0eda43cc4bcbdb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=12f30f611ba839500f0eda43cc4bcbc1"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=12f30f611ba839500f0eda43cc4bcbc1"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?"&gt;fdf30f611ba839500f0eda43cc4bcb54&lt;/flow&gt;&lt;order&gt;13&lt;/order&gt;&lt;parent_ui_id&gt;d8a7ca2e-312c-4d25-8263-34e20f242e36&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;16f30f611ba839500f0eda43cc4bcbed&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;ui_id&gt;db071214-d996-4f06-83ec-274fb4489460&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=16f30f611ba839500f0eda43cc4bcbed"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;16f30f611ba839500f0eda43cc4bcbed&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;12f30f611ba839500f0eda43cc4bcbef&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;value&gt;x_snc_insight_pr_0_ledger_task&lt;/value&gt;&lt;variable display_value="Table"&gt;b5d01916c31332002841b63b12d3aec9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;16f30f611ba839500f0eda43cc4bcbed&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;5ef30f611ba839500f0eda43cc4bcbee&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;value&gt;state=3&lt;/value&gt;&lt;variable display_value="Fields"&gt;02d01916c31332002841b63b12d3aeee&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=16f30f611ba839500f0eda43cc4bcbed"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;16f30f611ba839500f0eda43cc4bcbed&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;daf30f611ba839500f0eda43cc4bcbee&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;16f30f611ba839500f0eda43cc4bcbed&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;56f30f611ba839500f0eda43cc4bcbee&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;16f30f611ba839500f0eda43cc4bcbed&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;1af30f611ba839500f0eda43cc4bcbee&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=16f30f611ba839500f0eda43cc4bcbed"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=16f30f611ba839500f0eda43cc4bcbed"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type_parent&gt;&lt;comment&gt;Update Work Notes that Case is Under Threshold&lt;/comment&gt;&lt;compiled_snapshot&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?"&gt;fdf30f611ba839500f0eda43cc4bcb54&lt;/flow&gt;&lt;order&gt;6&lt;/order&gt;&lt;parent_ui_id&gt;d8a7ca2e-312c-4d25-8263-34e20f242e36&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;1af30f611ba839500f0eda43cc4bcbb2&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;ui_id&gt;434510d7-0296-4eaa-afd2-7326fc61cdb9&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=1af30f611ba839500f0eda43cc4bcbb2"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;1af30f611ba839500f0eda43cc4bcbb2&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;52f30f611ba839500f0eda43cc4bcbb4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;value&gt;x_snc_insight_pr_0_ledger_task&lt;/value&gt;&lt;variable display_value="Table"&gt;b5d01916c31332002841b63b12d3aec9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=1af30f611ba839500f0eda43cc4bcbb2"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;1af30f611ba839500f0eda43cc4bcbb2&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;def30f611ba839500f0eda43cc4bcbb3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;1af30f611ba839500f0eda43cc4bcbb2&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;5af30f611ba839500f0eda43cc4bcbb3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;1af30f611ba839500f0eda43cc4bcbb2&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;1ef30f611ba839500f0eda43cc4bcbb3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;work_notes=Sales Order '{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record.sales_order_number}}' Total Value is under ${{79a829bb-1f57-45a5-8910-e8819c48eea6.Record.default_value}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=1af30f611ba839500f0eda43cc4bcbb2"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=1af30f611ba839500f0eda43cc4bcbb2"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?"&gt;fdf30f611ba839500f0eda43cc4bcb54&lt;/flow&gt;&lt;order&gt;10&lt;/order&gt;&lt;parent_ui_id&gt;f01fe5ef-1082-4b21-981d-3c9ec390c9b3&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;1af30f611ba839500f0eda43cc4bcbe0&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;ui_id&gt;83cb4500-3188-4e1a-9f93-f1a9818e2649&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=1af30f611ba839500f0eda43cc4bcbe0"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;1af30f611ba839500f0eda43cc4bcbe0&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;16f30f611ba839500f0eda43cc4bcbe2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;value&gt;x_snc_insight_pr_0_ledger_task&lt;/value&gt;&lt;variable display_value="Table"&gt;b5d01916c31332002841b63b12d3aec9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;1af30f611ba839500f0eda43cc4bcbe0&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;52f30f611ba839500f0eda43cc4bcbe2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;value&gt;work_notes=Closing Subtasks&lt;/value&gt;&lt;variable display_value="Fields"&gt;02d01916c31332002841b63b12d3aeee&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=1af30f611ba839500f0eda43cc4bcbe0"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;1af30f611ba839500f0eda43cc4bcbe0&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;def30f611ba839500f0eda43cc4bcbe1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;1af30f611ba839500f0eda43cc4bcbe0&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;5af30f611ba839500f0eda43cc4bcbe1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;1af30f611ba839500f0eda43cc4bcbe0&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;1ef30f611ba839500f0eda43cc4bcbe1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=1af30f611ba839500f0eda43cc4bcbe0"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=1af30f611ba839500f0eda43cc4bcbe0"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?"&gt;fdf30f611ba839500f0eda43cc4bcb54&lt;/flow&gt;&lt;order&gt;15&lt;/order&gt;&lt;parent_ui_id&gt;e632ef24-ab1d-44a0-9371-8802f1b17848&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:02&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;52f34f611ba839500f0eda43cc4bcb00&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:02&lt;/sys_updated_on&gt;&lt;ui_id&gt;a6a6cfff-7b0c-4e3d-b953-2319168fe878&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=52f34f611ba839500f0eda43cc4bcb00"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;52f34f611ba839500f0eda43cc4bcb00&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:02&lt;/sys_created_on&gt;&lt;sys_id&gt;9af34f611ba839500f0eda43cc4bcb01&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:02&lt;/sys_updated_on&gt;&lt;value&gt;x_snc_insight_pr_0_ledger_task&lt;/value&gt;&lt;variable display_value="Table"&gt;b5d01916c31332002841b63b12d3aec9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=52f34f611ba839500f0eda43cc4bcb00"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;52f34f611ba839500f0eda43cc4bcb00&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:02&lt;/sys_created_on&gt;&lt;sys_id&gt;1af34f611ba839500f0eda43cc4bcb01&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:02&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;52f34f611ba839500f0eda43cc4bcb00&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:02&lt;/sys_created_on&gt;&lt;sys_id&gt;92f34f611ba839500f0eda43cc4bcb01&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:02&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;52f34f611ba839500f0eda43cc4bcb00&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:02&lt;/sys_created_on&gt;&lt;sys_id&gt;56f34f611ba839500f0eda43cc4bcb01&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:02&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;assigned_to=^state=1^work_notes=Case is over ${{79a829bb-1f57-45a5-8910-e8819c48eea6.Record.default_value}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=52f34f611ba839500f0eda43cc4bcb00"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=52f34f611ba839500f0eda43cc4bcb00"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Look Up Record"&gt;9d09f99587003300663ca1bb36cb0ba3&lt;/action_type&gt;&lt;action_type_parent display_value="Look Up Record"&gt;b93f42810b30030085c083eb37673a63&lt;/action_type_parent&gt;&lt;comment&gt;Refresh Case Data&lt;/comment&gt;&lt;compiled_snapshot&gt;9d09f99587003300663ca1bb36cb0ba3&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?"&gt;fdf30f611ba839500f0eda43cc4bcb54&lt;/flow&gt;&lt;order&gt;4&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;92f30f611ba839500f0eda43cc4bcbac&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;ui_id&gt;ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=92f30f611ba839500f0eda43cc4bcbac"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;92f30f611ba839500f0eda43cc4bcbac&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;9ef30f611ba839500f0eda43cc4bcbad&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;value&gt;x_snc_insight_pr_0_ledger_task&lt;/value&gt;&lt;variable display_value="Table"&gt;d909f99587003300663ca1bb36cb0ba4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=92f30f611ba839500f0eda43cc4bcbac"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;conditions&lt;/field&gt;&lt;id&gt;92f30f611ba839500f0eda43cc4bcbac&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;5af30f611ba839500f0eda43cc4bcbad&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3&lt;/table&gt;&lt;value&gt;sys_id={{Created or Updated_1.current.sys_id}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table&lt;/field&gt;&lt;id&gt;92f30f611ba839500f0eda43cc4bcbac&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;1ef30f611ba839500f0eda43cc4bcbad&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=92f30f611ba839500f0eda43cc4bcbac"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=92f30f611ba839500f0eda43cc4bcbac"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?"&gt;fdf30f611ba839500f0eda43cc4bcb54&lt;/flow&gt;&lt;order&gt;12&lt;/order&gt;&lt;parent_ui_id&gt;6e2cb806-e362-4901-97e4-db07f5397925&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;9ef30f611ba839500f0eda43cc4bcbe6&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;ui_id&gt;64f83327-a311-418a-9fd9-7d38ae7ad8e0&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=9ef30f611ba839500f0eda43cc4bcbe6"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;9ef30f611ba839500f0eda43cc4bcbe6&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;9af30f611ba839500f0eda43cc4bcbe8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;value&gt;x_snc_insight_pr_0_so_case_sub_task&lt;/value&gt;&lt;variable display_value="Table"&gt;b5d01916c31332002841b63b12d3aec9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;9ef30f611ba839500f0eda43cc4bcbe6&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;d6f30f611ba839500f0eda43cc4bcbe8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;value&gt;state=3&lt;/value&gt;&lt;variable display_value="Fields"&gt;02d01916c31332002841b63b12d3aeee&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=9ef30f611ba839500f0eda43cc4bcbe6"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;9ef30f611ba839500f0eda43cc4bcbe6&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;56f30f611ba839500f0eda43cc4bcbe8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;{{6e2cb806-e362-4901-97e4-db07f5397925.item}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;9ef30f611ba839500f0eda43cc4bcbe6&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;def30f611ba839500f0eda43cc4bcbe7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;9ef30f611ba839500f0eda43cc4bcbe6&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;92f30f611ba839500f0eda43cc4bcbe8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=9ef30f611ba839500f0eda43cc4bcbe6"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=9ef30f611ba839500f0eda43cc4bcbe6"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type_parent&gt;&lt;comment&gt;Assign Case to "Efficiency Automation" and mark Work in Progress&lt;/comment&gt;&lt;compiled_snapshot&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?"&gt;fdf30f611ba839500f0eda43cc4bcb54&lt;/flow&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;c2f30f611ba839500f0eda43cc4bcba2&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;ui_id&gt;90268d83-d924-4a31-809a-18cbd9ed966b&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=c2f30f611ba839500f0eda43cc4bcba2"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;c2f30f611ba839500f0eda43cc4bcba2&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;02f30f611ba839500f0eda43cc4bcba4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;value&gt;assigned_to={"display":"Efficiency Automation","value":"d5bae5c81b2cb510f930da43cc4bcb0d","table":"sys_user","sys_id":"d5bae5c81b2cb510f930da43cc4bcb0d"}^state=2&lt;/value&gt;&lt;variable display_value="Fields"&gt;02d01916c31332002841b63b12d3aeee&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;c2f30f611ba839500f0eda43cc4bcba2&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;c2f30f611ba839500f0eda43cc4bcba4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;value&gt;x_snc_insight_pr_0_ledger_task&lt;/value&gt;&lt;variable display_value="Table"&gt;b5d01916c31332002841b63b12d3aec9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=c2f30f611ba839500f0eda43cc4bcba2"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;c2f30f611ba839500f0eda43cc4bcba2&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;8ef30f611ba839500f0eda43cc4bcba3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;{{Created or Updated_1.current}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;c2f30f611ba839500f0eda43cc4bcba2&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;0af30f611ba839500f0eda43cc4bcba3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;c2f30f611ba839500f0eda43cc4bcba2&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;caf30f611ba839500f0eda43cc4bcba3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=c2f30f611ba839500f0eda43cc4bcba2"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=c2f30f611ba839500f0eda43cc4bcba2"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type_parent&gt;&lt;comment&gt;Update Work Notes Clearing Credit Hold&lt;/comment&gt;&lt;compiled_snapshot&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?"&gt;fdf30f611ba839500f0eda43cc4bcb54&lt;/flow&gt;&lt;order&gt;7&lt;/order&gt;&lt;parent_ui_id&gt;d8a7ca2e-312c-4d25-8263-34e20f242e36&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;daf30f611ba839500f0eda43cc4bcbb8&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;ui_id&gt;303d4d11-e34b-4252-9829-4441d39bafd1&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=daf30f611ba839500f0eda43cc4bcbb8"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;daf30f611ba839500f0eda43cc4bcbb8&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;16f30f611ba839500f0eda43cc4bcbba&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;value&gt;x_snc_insight_pr_0_ledger_task&lt;/value&gt;&lt;variable display_value="Table"&gt;b5d01916c31332002841b63b12d3aec9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=daf30f611ba839500f0eda43cc4bcbb8"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;daf30f611ba839500f0eda43cc4bcbb8&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;92f30f611ba839500f0eda43cc4bcbba&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;daf30f611ba839500f0eda43cc4bcbb8&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;1ef30f611ba839500f0eda43cc4bcbb9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;daf30f611ba839500f0eda43cc4bcbb8&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;def30f611ba839500f0eda43cc4bcbb9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:01&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;work_notes=Clearing Credit Hold for - Sales Order '{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record.sales_order_number}}'&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=daf30f611ba839500f0eda43cc4bcbb8"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=daf30f611ba839500f0eda43cc4bcbb8"/&gt;&lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=fdf30f611ba839500f0eda43cc4bcb54"/&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=fdf30f611ba839500f0eda43cc4bcb54^sys_idNOT IN0ef30f611ba839500f0eda43cc4bcb90,46f30f611ba839500f0eda43cc4bcb8d,4af30f611ba839500f0eda43cc4bcb86,82f30f611ba839500f0eda43cc4bcb8a,c2f30f611ba839500f0eda43cc4bcb80"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;block display_value=""&gt;a73638cd1ba471500f0eda43cc4bcbba&lt;/block&gt;&lt;comment/&gt;&lt;connected_to&gt;d8a7ca2e-312c-4d25-8263-34e20f242e36&lt;/connected_to&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?"&gt;fdf30f611ba839500f0eda43cc4bcb54&lt;/flow&gt;&lt;flow_variable/&gt;&lt;flow_variables_assigned/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="Else"&gt;1f781bf3c32232002841b63b12d3aee6&lt;/logic_definition&gt;&lt;order&gt;14&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:00&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;0ef30f611ba839500f0eda43cc4bcb90&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:00&lt;/sys_updated_on&gt;&lt;ui_id&gt;e632ef24-ab1d-44a0-9371-8802f1b17848&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=0ef30f611ba839500f0eda43cc4bcb90"/&gt;&lt;sys_hub_flow_logic_ext_input action="delete_multiple" query="model=0ef30f611ba839500f0eda43cc4bcb90"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=0ef30f611ba839500f0eda43cc4bcb90"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;block display_value=""&gt;d575388d1ba471500f0eda43cc4bcb46&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?"&gt;fdf30f611ba839500f0eda43cc4bcb54&lt;/flow&gt;&lt;flow_variable/&gt;&lt;flow_variables_assigned/&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="For Each"&gt;098e1dc5c3e232002841b63b12d3ae33&lt;/logic_definition&gt;&lt;order&gt;11&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id&gt;f01fe5ef-1082-4b21-981d-3c9ec390c9b3&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:00&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;46f30f611ba839500f0eda43cc4bcb8d&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:00&lt;/sys_updated_on&gt;&lt;ui_id&gt;6e2cb806-e362-4901-97e4-db07f5397925&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=46f30f611ba839500f0eda43cc4bcb8d"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=46f30f611ba839500f0eda43cc4bcb8d"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;items&lt;/field&gt;&lt;id&gt;46f30f611ba839500f0eda43cc4bcb8d&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:00&lt;/sys_created_on&gt;&lt;sys_id&gt;8ef30f611ba839500f0eda43cc4bcb8f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:00&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33&lt;/table&gt;&lt;value&gt;{{43cd3ef1-1f22-4661-9706-54fff5f4b0ef.Records}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_flow_logic_ext_input action="delete_multiple" query="model=46f30f611ba839500f0eda43cc4bcb8d"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=46f30f611ba839500f0eda43cc4bcb8d"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;block display_value=""&gt;a7e3b8c91ba471500f0eda43cc4bcbfc&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?"&gt;fdf30f611ba839500f0eda43cc4bcb54&lt;/flow&gt;&lt;flow_variable/&gt;&lt;flow_variables_assigned/&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="If"&gt;af4e1945c3e232002841b63b12d3ae3e&lt;/logic_definition&gt;&lt;order&gt;5&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:00&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;4af30f611ba839500f0eda43cc4bcb86&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:00&lt;/sys_updated_on&gt;&lt;ui_id&gt;d8a7ca2e-312c-4d25-8263-34e20f242e36&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=4af30f611ba839500f0eda43cc4bcb86"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=4af30f611ba839500f0eda43cc4bcb86"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;condition&lt;/field&gt;&lt;id&gt;4af30f611ba839500f0eda43cc4bcb86&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:00&lt;/sys_created_on&gt;&lt;sys_id&gt;06f30f611ba839500f0eda43cc4bcb89&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:00&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e&lt;/table&gt;&lt;value&gt;{{ce4dc6ea-224e-49bb-96ef-7b10e1c2ecdf.Record.total_so_value}}&amp;lt;={{79a829bb-1f57-45a5-8910-e8819c48eea6.Record.default_value}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_flow_logic_ext_input action="delete_multiple" query="model=4af30f611ba839500f0eda43cc4bcb86"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=4af30f611ba839500f0eda43cc4bcb86"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;block display_value=""&gt;d975388d1ba471500f0eda43cc4bcb42&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?"&gt;fdf30f611ba839500f0eda43cc4bcb54&lt;/flow&gt;&lt;flow_variable/&gt;&lt;flow_variables_assigned/&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="If"&gt;af4e1945c3e232002841b63b12d3ae3e&lt;/logic_definition&gt;&lt;order&gt;9&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id&gt;d8a7ca2e-312c-4d25-8263-34e20f242e36&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:00&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;82f30f611ba839500f0eda43cc4bcb8a&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:00&lt;/sys_updated_on&gt;&lt;ui_id&gt;f01fe5ef-1082-4b21-981d-3c9ec390c9b3&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=82f30f611ba839500f0eda43cc4bcb8a"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=82f30f611ba839500f0eda43cc4bcb8a"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;condition&lt;/field&gt;&lt;id&gt;82f30f611ba839500f0eda43cc4bcb8a&lt;/id&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:00&lt;/sys_created_on&gt;&lt;sys_id&gt;4af30f611ba839500f0eda43cc4bcb8c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:00&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e&lt;/table&gt;&lt;value&gt;{{43cd3ef1-1f22-4661-9706-54fff5f4b0ef.Count}}&amp;gt;=1&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_flow_logic_ext_input action="delete_multiple" query="model=82f30f611ba839500f0eda43cc4bcb8a"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=82f30f611ba839500f0eda43cc4bcb8a"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;block display_value=""&gt;9dc334c91ba471500f0eda43cc4bcb00&lt;/block&gt;&lt;comment&gt;Wait for Line Items to Calculate Total Value&lt;/comment&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?"&gt;fdf30f611ba839500f0eda43cc4bcb54&lt;/flow&gt;&lt;flow_variable/&gt;&lt;flow_variables_assigned/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="Wait for a duration of time"&gt;fdb2541473031300b61e66476bf6a70e&lt;/logic_definition&gt;&lt;order&gt;3&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:00&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;c2f30f611ba839500f0eda43cc4bcb80&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:00&lt;/sys_updated_on&gt;&lt;ui_id&gt;0e20c419-71c5-4947-a4b9-921026470d01&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=c2f30f611ba839500f0eda43cc4bcb80"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_flow_logic&lt;/document&gt;&lt;document_key&gt;c2f30f611ba839500f0eda43cc4bcb80&lt;/document_key&gt;&lt;order&gt;300&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:00&lt;/sys_created_on&gt;&lt;sys_id&gt;02f30f611ba839500f0eda43cc4bcb85&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:00&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Timer relative duration operator"&gt;dca4105473031300b61e66476bf6a726&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_flow_logic&lt;/document&gt;&lt;document_key&gt;c2f30f611ba839500f0eda43cc4bcb80&lt;/document_key&gt;&lt;order&gt;200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:00&lt;/sys_created_on&gt;&lt;sys_id&gt;0af30f611ba839500f0eda43cc4bcb85&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:00&lt;/sys_updated_on&gt;&lt;value&gt;1970-01-01 00:00:05&lt;/value&gt;&lt;variable display_value="Duration"&gt;ef145c1473031300b61e66476bf6a7be&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=c2f30f611ba839500f0eda43cc4bcb80"/&gt;&lt;sys_hub_flow_logic_ext_input action="delete_multiple" query="model=c2f30f611ba839500f0eda43cc4bcb80"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=c2f30f611ba839500f0eda43cc4bcb80"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=fdf30f611ba839500f0eda43cc4bcb54"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=fdf30f611ba839500f0eda43cc4bcb54"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_fdf30f611ba839500f0eda43cc4bcb54^sys_idNOT IN06f30f611ba839500f0eda43cc4bcb7c,4af30f611ba839500f0eda43cc4bcb74,8ef30f611ba839500f0eda43cc4bcb6c"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_fdf30f611ba839500f0eda43cc4bcb54&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:00&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;06f30f611ba839500f0eda43cc4bcb7c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:00&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_fdf30f611ba839500f0eda43cc4bcb54&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:00&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;4af30f611ba839500f0eda43cc4bcb74&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:00&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_fdf30f611ba839500f0eda43cc4bcb54&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;TBlev1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 10:55:00&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;8ef30f611ba839500f0eda43cc4bcb6c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Insight Process Management"&gt;39bd5e9747f05510ab51f109536d431c&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;TBlev1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 10:55:00&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_fdf30f611ba839500f0eda43cc4bcb54"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_fdf30f611ba839500f0eda43cc4bcb54"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_fdf30f611ba839500f0eda43cc4bcb54"/&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=fdf30f611ba839500f0eda43cc4bcb54"/&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=fdf30f611ba839500f0eda43cc4bcb54"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1860881517</payload_hash>
+        <record_name>PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?</record_name>
+        <reverted_from/>
+        <source>c744be1d97ec31104ef191a00153af95</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 10:55:03</sys_created_on>
+        <sys_id>32f34f611ba839500f0eda43cc4bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189d9ef909c0000001</sys_recorded_at>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:55:03</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>eaf34f6172a83950466e4f85fd7c1e88</update_guid>
+        <update_guid_history>eaf34f6172a83950466e4f85fd7c1e88:1860881517,3df30f6191a83950017eec75fe58295d:-1584816807</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 11:05:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>22071c86ad724dbc887751398a581610</sys_id>
+        <sys_metadata>fdf30f611ba839500f0eda43cc4bcb54</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PROCAUTO - SO Automation - Is Sales Order Under New Credit Limit?</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_fdf30f611ba839500f0eda43cc4bcb54</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_fdf30f611ba839500f0eda43cc4bcb54">32f34f611ba839500f0eda43cc4bcb8a</sys_update_version>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 11:05:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

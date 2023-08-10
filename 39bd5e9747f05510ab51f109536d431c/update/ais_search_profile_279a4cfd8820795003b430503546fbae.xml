@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile">
+    <ais_search_profile action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>This is default AI Search profile for Optimization Workspace</description>
+        <genius_result_assembly/>
+        <label>optimization-workspace Search Profile</label>
+        <name>x_snc_insight_pr_0_ukfksdid_search_profile</name>
+        <publish_id>dd4e4c46-627e-4a93-bb33-bccc3666f86c</publish_id>
+        <state>PUBLISHED</state>
+        <sys_class_name>ais_search_profile</sys_class_name>
+        <sys_created_by>TBlev1</sys_created_by>
+        <sys_created_on>2023-08-09 16:03:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>279a4cfd8820795003b430503546fbae</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>optimization-workspace Search Profile</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>ais_search_profile_279a4cfd8820795003b430503546fbae</sys_update_name>
+        <sys_updated_by>TBlev1</sys_updated_by>
+        <sys_updated_on>2023-08-09 16:04:37</sys_updated_on>
+    </ais_search_profile>
+</record_update>
