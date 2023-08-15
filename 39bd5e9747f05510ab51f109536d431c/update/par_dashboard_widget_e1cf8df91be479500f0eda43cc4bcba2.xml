@@ -2,7 +2,7 @@
     <par_dashboard_widget action="INSERT_OR_UPDATE">
         <canvas display_value="">c42d18311be079500f0eda43cc4bcb98</canvas>
         <component display_value="">d24d53f60350de7a652caf3188a46ed2</component>
-        <component_props>{"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"newReporting":false,"showSparkline":false,"dataPassthrough":null,"configVersion":"23.0.0-ci-SNAPSHOT","groupBy":null,"trendBy":null,"showMaximumRange":false,"enableRealTimeUpdate":false,"scoreType":null,"showScoreUpdateTime":true,"colorConfig":{"type":"singleColor","values":[{"color":"a94a9034dbad6348f6b2ab92ca961925","metric":"ZEdGaWJHVndiVjl3Y205cVpXTjBNVFk1TVRZeE5UQTNPRFl3Tmc9PTE2OTE2MTUwODA2MDU=","rules":[]}]},"showHeader":true,"headerTitle":"Planned Investment","description":"","showBorder":true,"bareBorder":false,"showFilterIcon":true,"followFilters":true,"applyDateRange":false,"showChange":false,"showTarget":false,"showGapPercentage":false,"showScoreDate":false,"showChangePercentage":false,"showChangeFrom":false,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Project","sourceType":"table","tableOrViewName":"pm_project","filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGVwbV9wcm9qZWN0MTY5MTYxNTA3ODYwNg==","dataCategories":["trend","group","simple"]}],"metrics":[{"dataSource":"dGFibGVwbV9wcm9qZWN0MTY5MTYxNTA3ODYwNg==","id":"ZEdGaWJHVndiVjl3Y205cVpXTjBNVFk1TVRZeE5UQTNPRFl3Tmc9PTE2OTE2MTUwODA2MDU=","aggregateFunction":"SUM","numberFormat":{"customFormat":false},"axisId":"primary","aggregateField":"cost"}],"showZero":true,"enableCustomEmptyState":false,"enableDrilldown":true,"scoreSize":"sm"}</component_props>
+        <component_props>{"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"newReporting":false,"showSparkline":false,"dataPassthrough":null,"configVersion":"23.0.0-ci-SNAPSHOT","groupBy":null,"trendBy":null,"showMaximumRange":false,"enableRealTimeUpdate":false,"scoreType":null,"showScoreUpdateTime":true,"colorConfig":{"type":"singleColor","values":[{"color":"a94a9034dbad6348f6b2ab92ca961925","metric":"ZEdGaWJHVndiVjl3Y205cVpXTjBNVFk1TVRZeE5UQTNPRFl3Tmc9PTE2OTE2MTUwODA2MDU=","rules":[]}]},"showHeader":true,"headerTitle":"Planned Investment","description":"","showBorder":true,"bareBorder":false,"showFilterIcon":true,"followFilters":true,"applyDateRange":false,"showChange":false,"showTarget":false,"showGapPercentage":false,"showScoreDate":false,"showChangePercentage":false,"showChangeFrom":false,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Project","sourceType":"table","tableOrViewName":"pm_project","filterQuery":"primary_program=744732281b003d100f0eda43cc4bcb19","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGVwbV9wcm9qZWN0MTY5MTYxNTA3ODYwNg==","dataCategories":["trend","group","simple"]}],"metrics":[{"dataSource":"dGFibGVwbV9wcm9qZWN0MTY5MTYxNTA3ODYwNg==","id":"ZEdGaWJHVndiVjl3Y205cVpXTjBNVFk1TVRZeE5UQTNPRFl3Tmc9PTE2OTE2MTUwODA2MDU=","aggregateFunction":"SUM","numberFormat":{"customFormat":true,"rounding":"HALF_UP","decimalPrecision":2,"abbreviationEnabled":false,"numberInTooltipsEnabled":false,"thousandSeparatorEnabled":true},"axisId":"primary","aggregateField":"cost"}],"showZero":true,"enableCustomEmptyState":false,"enableDrilldown":true,"scoreSize":"sm"}</component_props>
         <h>8</h>
         <name/>
         <sys_class_name>par_dashboard_widget</sys_class_name>
@@ -10,15 +10,15 @@
         <sys_created_on>2023-08-09 21:05:49</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>e1cf8df91be479500f0eda43cc4bcba2</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>par_dashboard_widget_e1cf8df91be479500f0eda43cc4bcba2</sys_update_name>
-        <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-08-10 11:29:16</sys_updated_on>
+        <sys_updated_by>SSah49</sys_updated_by>
+        <sys_updated_on>2023-08-10 16:26:25</sys_updated_on>
         <visualization/>
         <w>17</w>
         <x>15</x>
