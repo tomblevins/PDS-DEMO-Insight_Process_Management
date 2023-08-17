@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_snc_insight_pr_0.Audience for list Opportunity Projects</api_name>
+        <description/>
+        <name>Audience for list Opportunity Projects</name>
+        <roles>35bd5e9747f05510ab51f109536d4348,b9bd5e9747f05510ab51f109536d434c</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>ERam61</sys_created_by>
+        <sys_created_on>2023-08-16 15:14:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>e26204449778b1504ef191a00153af35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for list Opportunity Projects</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_ux_applicability_e26204449778b1504ef191a00153af35</sys_update_name>
+        <sys_updated_by>ERam61</sys_updated_by>
+        <sys_updated_on>2023-08-16 15:14:10</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

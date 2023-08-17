@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
     <sys_ux_list action="INSERT_OR_UPDATE">
         <active>true</active>
-        <category display_value="Credit Assessment">c9aaccfd1b2079500f0eda43cc4bcbb0</category>
-        <columns>number,credit_limit,on_time_payment_rate,risk_category,sales_order_number,total_order_value,sales_order_case</columns>
-        <condition/>
+        <category display_value="Opportunities">044084cc9738b1504ef191a00153affe</category>
+        <columns>project,project.risk,project.cost_dashboard,project.scope_dashboard,project.schedule,project.resources,project.roi_dashboard,project.percent_complete_dashboard</columns>
+        <condition table="pm_m2m_portfolio_project">portfolio=76d885cc1b0c75100f0eda43cc4bcbb7<item display_table="pm_portfolio" display_value="Process Mining and Optimization" endquery="false" field="portfolio" goto="false" newquery="false" operator="=" or="false" value="76d885cc1b0c75100f0eda43cc4bcbb7"/>
+        </condition>
         <configuration display_value="Optimization Workspace_menu_config">b0aaccfd1b2079500f0eda43cc4bcb26</configuration>
         <group_by_column/>
         <groups/>
@@ -51,27 +52,27 @@
         <highlight_content_pattern/>
         <list_attributes/>
         <max_characters>4000</max_characters>
-        <order>50</order>
+        <order>200</order>
         <override_word_wrap_user_pref>false</override_word_wrap_user_pref>
         <roles/>
         <sys_class_name>sys_ux_list</sys_class_name>
-        <sys_created_by>TBlev1</sys_created_by>
-        <sys_created_on>2023-08-09 16:03:46</sys_created_on>
+        <sys_created_by>ERam61</sys_created_by>
+        <sys_created_on>2023-08-16 15:11:35</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>c5aaccfd1b2079500f0eda43cc4bcbb3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>All</sys_name>
+        <sys_id>b8d180049778b1504ef191a00153af0e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Opportunity Projects</sys_name>
         <sys_overrides/>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
-        <sys_update_name>sys_ux_list_c5aaccfd1b2079500f0eda43cc4bcbb3</sys_update_name>
-        <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-08-09 16:03:46</sys_updated_on>
-        <table>x_snc_insight_pr_0_credit_assessment</table>
-        <title>All</title>
+        <sys_update_name>sys_ux_list_b8d180049778b1504ef191a00153af0e</sys_update_name>
+        <sys_updated_by>ERam61</sys_updated_by>
+        <sys_updated_on>2023-08-16 15:12:02</sys_updated_on>
+        <table>pm_m2m_portfolio_project</table>
+        <title>Opportunity Projects</title>
         <view/>
         <word_wrap>false</word_wrap>
     </sys_ux_list>

@@ -3,7 +3,8 @@
         <active>true</active>
         <category display_value="Sales Order Case">45aa00311b6079500f0eda43cc4bcb05</category>
         <columns>number,sales_organization_text,short_description,total_so_value,customer_account_type,customer_business_type,so_create_date,assigned_to,assignment_group,state</columns>
-        <condition/>
+        <condition table="x_snc_insight_pr_0_ledger_task">activitylevel=header<item endquery="false" field="activitylevel" goto="false" newquery="false" operator="=" or="false" value="header"/>
+        </condition>
         <configuration display_value="Optimization Workspace_menu_config">b0aaccfd1b2079500f0eda43cc4bcb26</configuration>
         <group_by_column/>
         <groups/>
@@ -51,7 +52,7 @@
         <highlight_content_pattern/>
         <list_attributes/>
         <max_characters>4000</max_characters>
-        <order>50</order>
+        <order>100</order>
         <override_word_wrap_user_pref>false</override_word_wrap_user_pref>
         <roles/>
         <sys_class_name>sys_ux_list</sys_class_name>
@@ -60,7 +61,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>41aa00311b6079500f0eda43cc4bcb08</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>All</sys_name>
         <sys_overrides/>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
@@ -68,8 +69,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sys_ux_list_41aa00311b6079500f0eda43cc4bcb08</sys_update_name>
-        <sys_updated_by>TBlev1</sys_updated_by>
-        <sys_updated_on>2023-08-09 16:03:47</sys_updated_on>
+        <sys_updated_by>ERam61</sys_updated_by>
+        <sys_updated_on>2023-08-16 15:27:47</sys_updated_on>
         <table>x_snc_insight_pr_0_ledger_task</table>
         <title>All</title>
         <view/>
