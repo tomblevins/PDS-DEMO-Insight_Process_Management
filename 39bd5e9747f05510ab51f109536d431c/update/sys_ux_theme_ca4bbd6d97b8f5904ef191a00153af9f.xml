@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme">
+    <sys_ux_theme action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Nike Orange</description>
+        <name>Nike</name>
+        <parent/>
+        <sys_class_name>sys_ux_theme</sys_class_name>
+        <sys_created_by>SSah49</sys_created_by>
+        <sys_created_on>2023-08-21 15:53:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>ca4bbd6d97b8f5904ef191a00153af9f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Nike</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_ux_theme_ca4bbd6d97b8f5904ef191a00153af9f</sys_update_name>
+        <sys_updated_by>SSah49</sys_updated_by>
+        <sys_updated_on>2023-08-21 15:57:33</sys_updated_on>
+        <theme>{&#13;
+  "--now-canvas-header-container--background-color": "#ff6600",&#13;
+  "--now-canvas-nav-item--default--color": "--now-color--neutral-4",&#13;
+  "--now-canvas-nav-item--default--color--hover": "--now-color--neutral-4",&#13;
+  "--now-canvas-nav-item--default--color--active": "--now-color--neutral-4",&#13;
+  "--now-canvas-notification-tray--background-color": "--now-color--neutral-15",&#13;
+  "--now-canvas-notification-tray-card--background-color": "--now-color--neutral-15",&#13;
+  "--now-canvas-notification-tray-card--background-color--active": "--now-color--primary-1",&#13;
+  "--now-canvas-notification-tray-card--background-color--hover": "--now-color--primary-1",&#13;
+  "--now-canvas-notification-tray-card--background-color--opacity--hover": "0.5",&#13;
+  "--now-canvas-notification-tray-card-header--color": "--now-color--neutral-0",&#13;
+  "--now-canvas-notification-tray-card-header-icon--color": "--now-color--neutral-0",&#13;
+  "--now-canvas-notification-tray-card-body--color": "--now-color--neutral-3",&#13;
+  "--now-canvas-notification-tray-card-footer--color": "--now-color--neutral-0",&#13;
+  "--now-canvas-notification-tray-item-close-btn--color": "--now-color--neutral-0",&#13;
+  "--now-canvas-notification-tray-section-heading-label--color": "--now-color--neutral-0",&#13;
+  "--now-canvas-notification-tray-section-heading-btn--color": "--now-color--neutral-0",&#13;
+  "--now-canvas-notification-tray-section-heading-btn--color--active": "--now-color--neutral-0",&#13;
+  "--now-canvas-notification-tray-section-heading-btn--color--hover": "--now-color--neutral-0",&#13;
+  "--now-canvas-notification-toast-body--color": "--now-color--neutral-0",&#13;
+  "--now-canvas-notification-toast-header--color": "--now-color--neutral-0",&#13;
+  "--now-canvas-notification-toast--background-color": "--now-color--neutral-15",&#13;
+  "--now-canvas-notification-toast--background-color--active": "--now-color--primary-1",&#13;
+  "--now-canvas-notification-toast--background-color--hover": "--now-color--primary-1",&#13;
+  "--now-canvas-notification-toast--background-color--opacity--hover": "1",&#13;
+  "--now-canvas-notification-toast-icon--color": "--now-color--neutral-0",&#13;
+  "--now-canvas-notification-tray-empty-message--color": "--now-color--neutral-3",&#13;
+  "--now-canvas-notification-tray-empty-submessage--color": "--now-color--neutral-3",&#13;
+  "--now-dragdrop_badge--font-family": "--now-font-family",&#13;
+  "--now-dragdrop_badge--border-color": "--now-color--neutral-0",&#13;
+  "--now-dragdrop_badge--color": "--now-color--neutral-0",&#13;
+  "--now-dragdrop_badge--background-color": "--now-color_alert--info-2",&#13;
+  "--now-dragdrop_ghost--background-color": "--now-color--neutral-0"&#13;
+}</theme>
+    </sys_ux_theme>
+</record_update>

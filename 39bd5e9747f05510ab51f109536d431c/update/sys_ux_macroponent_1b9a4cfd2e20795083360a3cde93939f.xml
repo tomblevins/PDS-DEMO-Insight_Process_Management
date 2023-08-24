@@ -2620,7 +2620,7 @@
                   "extensionPoints" : [ ],
                   "isNonDestructive" : false,
                   "items" : [ ],
-                  "styles" : { }
+                  "styles" : null
                 }, {
                   "elementId" : "container_22",
                   "elementLabel" : "Top Container 3",
@@ -4300,7 +4300,7 @@
                   "extensionPoints" : [ ],
                   "isNonDestructive" : false,
                   "items" : [ ],
-                  "styles" : { }
+                  "styles" : null
                 } ],
                 "layout" : {
                   "default" : {
@@ -4754,7 +4754,7 @@
                                   "type" : "TRANSLATION_LITERAL",
                                   "value" : {
                                     "code" : null,
-                                    "message" : "Planned Investment",
+                                    "message" : "Planned Benefit",
                                     "comment" : ""
                                   }
                                 },
@@ -6008,7 +6008,7 @@
                   "extensionPoints" : [ ],
                   "isNonDestructive" : false,
                   "items" : [ ],
-                  "styles" : { }
+                  "styles" : null
                 }, {
                   "elementId" : "container_12",
                   "elementLabel" : "List Container",
@@ -6515,6 +6515,9 @@
   "message" : "Opportunity Workbench Button",
   "comment" : ""
 }, {
+  "message" : "Planned Benefit",
+  "comment" : ""
+}, {
   "message" : "Planned Investment",
   "comment" : ""
 }, {
@@ -6543,14 +6546,14 @@
         <sys_created_on>2023-08-09 16:03:42</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1b9a4cfd2e20795083360a3cde93939f</sys_id>
-        <sys_mod_count>92</sys_mod_count>
+        <sys_mod_count>93</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sys_ux_macroponent_1b9a4cfd2e20795083360a3cde93939f</sys_update_name>
-        <sys_updated_by>ERam61</sys_updated_by>
-        <sys_updated_on>2023-08-18 19:18:23</sys_updated_on>
+        <sys_updated_by>SSah49</sys_updated_by>
+        <sys_updated_on>2023-08-21 15:21:34</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
