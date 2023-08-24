@@ -2112,7 +2112,83 @@
                               "value" : false
                             }
                           },
-                          "eventMappings" : [ ],
+                          "eventMappings" : [ {
+                            "eventMappingId" : "cllplwuaeaaaaddiiddffhhwggraffwiimff",
+                            "isConfiguration" : false,
+                            "offRowStorageId" : null,
+                            "sourceEventApiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+                            "sourceEventCorrelationId" : null,
+                            "sourceEventDefinition" : {
+                              "apiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+                              "id" : null,
+                              "type" : "UXEVENT"
+                            },
+                            "sourceEventSysId" : null,
+                            "targets" : [ {
+                              "broker" : null,
+                              "clientScript" : null,
+                              "conditional" : null,
+                              "declarativeAction" : null,
+                              "event" : {
+                                "apiName" : "x_snc_insight_pr_0.NAV_ITEM_SELECTED_RELAY_1b9a4cfd2e20795083360a3cde93939f",
+                                "payload" : {
+                                  "type" : "MAP_CONTAINER",
+                                  "container" : {
+                                    "route" : {
+                                      "type" : "JSON_LITERAL",
+                                      "value" : "record"
+                                    },
+                                    "fields" : {
+                                      "type" : "MAP_CONTAINER",
+                                      "container" : {
+                                        "table" : {
+                                          "type" : "EVENT_PAYLOAD_BINDING",
+                                          "binding" : {
+                                            "address" : [ "table" ]
+                                          }
+                                        },
+                                        "sysId" : {
+                                          "type" : "EVENT_PAYLOAD_BINDING",
+                                          "binding" : {
+                                            "address" : [ "sys_id" ]
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "params" : {
+                                      "type" : "JSON_LITERAL",
+                                      "value" : null
+                                    },
+                                    "redirect" : {
+                                      "type" : "JSON_LITERAL",
+                                      "value" : null
+                                    },
+                                    "passiveNavigation" : {
+                                      "type" : "JSON_LITERAL",
+                                      "value" : null
+                                    },
+                                    "title" : {
+                                      "type" : "JSON_LITERAL",
+                                      "value" : null
+                                    },
+                                    "multiInstField" : {
+                                      "type" : "JSON_LITERAL",
+                                      "value" : null
+                                    },
+                                    "targetRoute" : {
+                                      "type" : "JSON_LITERAL",
+                                      "value" : null
+                                    },
+                                    "external" : null
+                                  }
+                                },
+                                "sysId" : "579a4cfdf72079506a3770fe8a6cb89f"
+                              },
+                              "operation" : null,
+                              "targetId" : "cllplwuaeaaaaddjjddffhhwvvbbjjlkie",
+                              "type" : "EVENT"
+                            } ]
+                          } ],
                           "slot" : null,
                           "definition" : {
                             "id" : "2b1c080881e05dc63b917044290b233f",
@@ -2536,7 +2612,83 @@
                           "value" : false
                         }
                       },
-                      "eventMappings" : [ ],
+                      "eventMappings" : [ {
+                        "eventMappingId" : "cllplzaagghaaaaeebddffhhwdidhzaaum",
+                        "isConfiguration" : false,
+                        "offRowStorageId" : null,
+                        "sourceEventApiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+                        "sourceEventCorrelationId" : null,
+                        "sourceEventDefinition" : {
+                          "apiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+                          "id" : null,
+                          "type" : "UXEVENT"
+                        },
+                        "sourceEventSysId" : null,
+                        "targets" : [ {
+                          "broker" : null,
+                          "clientScript" : null,
+                          "conditional" : null,
+                          "declarativeAction" : null,
+                          "event" : {
+                            "apiName" : "x_snc_insight_pr_0.NAV_ITEM_SELECTED_RELAY_1b9a4cfd2e20795083360a3cde93939f",
+                            "payload" : {
+                              "type" : "MAP_CONTAINER",
+                              "container" : {
+                                "route" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : "record"
+                                },
+                                "fields" : {
+                                  "type" : "MAP_CONTAINER",
+                                  "container" : {
+                                    "table" : {
+                                      "type" : "EVENT_PAYLOAD_BINDING",
+                                      "binding" : {
+                                        "address" : [ "table" ]
+                                      }
+                                    },
+                                    "sysId" : {
+                                      "type" : "EVENT_PAYLOAD_BINDING",
+                                      "binding" : {
+                                        "address" : [ "sys_id" ]
+                                      }
+                                    }
+                                  }
+                                },
+                                "params" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "redirect" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "passiveNavigation" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "title" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "multiInstField" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "targetRoute" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "external" : null
+                              }
+                            },
+                            "sysId" : "579a4cfdf72079506a3770fe8a6cb89f"
+                          },
+                          "operation" : null,
+                          "targetId" : "cllplzaagghaaaaeecddffhhwgfijjpiijr",
+                          "type" : "EVENT"
+                        } ]
+                      } ],
                       "slot" : null,
                       "definition" : {
                         "id" : "2b1c080881e05dc63b917044290b233f",
@@ -6193,7 +6345,83 @@
                           "value" : false
                         }
                       },
-                      "eventMappings" : [ ],
+                      "eventMappings" : [ {
+                        "eventMappingId" : "cllpmaaymnaaaaffbddffhhwemwcocqe",
+                        "isConfiguration" : false,
+                        "offRowStorageId" : null,
+                        "sourceEventApiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+                        "sourceEventCorrelationId" : null,
+                        "sourceEventDefinition" : {
+                          "apiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+                          "id" : null,
+                          "type" : "UXEVENT"
+                        },
+                        "sourceEventSysId" : null,
+                        "targets" : [ {
+                          "broker" : null,
+                          "clientScript" : null,
+                          "conditional" : null,
+                          "declarativeAction" : null,
+                          "event" : {
+                            "apiName" : "x_snc_insight_pr_0.NAV_ITEM_SELECTED_RELAY_1b9a4cfd2e20795083360a3cde93939f",
+                            "payload" : {
+                              "type" : "MAP_CONTAINER",
+                              "container" : {
+                                "route" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : "record"
+                                },
+                                "fields" : {
+                                  "type" : "MAP_CONTAINER",
+                                  "container" : {
+                                    "table" : {
+                                      "type" : "EVENT_PAYLOAD_BINDING",
+                                      "binding" : {
+                                        "address" : [ "table" ]
+                                      }
+                                    },
+                                    "sysId" : {
+                                      "type" : "EVENT_PAYLOAD_BINDING",
+                                      "binding" : {
+                                        "address" : [ "sys_id" ]
+                                      }
+                                    }
+                                  }
+                                },
+                                "params" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "redirect" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "passiveNavigation" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "title" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "multiInstField" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "targetRoute" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "external" : null
+                              }
+                            },
+                            "sysId" : "579a4cfdf72079506a3770fe8a6cb89f"
+                          },
+                          "operation" : null,
+                          "targetId" : "cllpmaaymnaaaaffcddffhhwddpggnubccee",
+                          "type" : "EVENT"
+                        } ]
+                      } ],
                       "slot" : "",
                       "definition" : {
                         "id" : "2b1c080881e05dc63b917044290b233f",
@@ -6546,14 +6774,14 @@
         <sys_created_on>2023-08-09 16:03:42</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1b9a4cfd2e20795083360a3cde93939f</sys_id>
-        <sys_mod_count>93</sys_mod_count>
+        <sys_mod_count>96</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
         <sys_update_name>sys_ux_macroponent_1b9a4cfd2e20795083360a3cde93939f</sys_update_name>
-        <sys_updated_by>SSah49</sys_updated_by>
-        <sys_updated_on>2023-08-21 15:21:34</sys_updated_on>
+        <sys_updated_by>ERam61</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:23:23</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
