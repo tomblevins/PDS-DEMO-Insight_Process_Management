@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="2c06625347345510ab51f109536d43e0" extends="task" label="Ledger Task" max_length="40" name="x_snc_insight_pr_0_ledger_task" text_index="true" type="collection">
+    <element db_object_id="2c06625347345510ab51f109536d43e0" extends="task" label="Sales Order Case" max_length="40" name="x_snc_insight_pr_0_ledger_task" text_index="true" type="collection">
         <element label="Company Code" max_length="100" name="company_code" type="string"/>
         <element label="Frequency" max_length="38" name="frequency" type="decimal"/>
         <element label="GRN Date" max_length="40" name="grn_date" type="glide_date"/>
         <element label="GR Net Value" max_length="20" name="gr_net_value" type="currency"/>
         <element label="GR Qty" max_length="40" name="gr_qty" type="integer"/>
+        <element choice="1" label="GR Update Reason Code" max_length="40" name="gr_update_reason_code" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Updating GR" sequence="1" value="0"/>
+                <element inactive_on_update="false" label="Goods returned during inspection" sequence="2" value="1"/>
+                <element inactive_on_update="false" label="Goods under Transit" sequence="3" value="2"/>
+                <element inactive_on_update="false" label="GR awaited from vendor" sequence="4" value="3"/>
+                <element inactive_on_update="false" label="Other" sequence="5" value="9"/>
+            </choice>
+        </element>
         <element label="Impact Value" max_length="38" name="impact_value" type="decimal"/>
         <element label="Invoice Line Net Qty" max_length="40" name="invoice_line_net_qty" type="integer"/>
         <element label="Invoice Line Net Value" max_length="20" name="invoice_line_net_value" type="currency"/>
@@ -17,6 +26,7 @@
         <element label="Material Name" max_length="100" name="material_name" type="string"/>
         <element label="New Price" max_length="38" name="new_price" type="decimal"/>
         <element label="Old Price" max_length="38" name="old_price" type="decimal"/>
+        <element label="Other Reason Code" max_length="1000" name="other_reason_code" type="string"/>
         <element label="PO Expected Delivery Date" max_length="40" name="po_expected_delivery_date" type="glide_date"/>
         <element label="PO line Net Qty" max_length="40" name="po_line_net_qty" type="integer"/>
         <element label="PO line Net value" max_length="20" name="po_line_net_value" type="currency"/>
@@ -24,6 +34,8 @@
         <element label="PO Number" max_length="100" name="po_number" type="string"/>
         <element label="PO Price Per Unit" max_length="20" name="po_price_per_unit" type="currency"/>
         <element label="Unit of Measure" max_length="100" name="unit_of_measure" type="string"/>
+        <element label="Update Expected Delivery" max_length="40" name="update_expected_delivery" type="boolean"/>
+        <element label="Update GR" max_length="40" name="update_gr" type="boolean"/>
         <element label="3-way Match Failure Reason" max_length="200" name="u_3_way_match_failure_reason" type="string"/>
         <element label="3-Way Match Status" max_length="200" name="u_3_way_match_status" type="string"/>
         <element label="Vendor ID" max_length="100" name="vendor_id" type="string"/>

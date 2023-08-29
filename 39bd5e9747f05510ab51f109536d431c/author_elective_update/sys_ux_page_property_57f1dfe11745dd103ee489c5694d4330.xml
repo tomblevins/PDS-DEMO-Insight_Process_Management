@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="Insight Process Management">d7f1dfe1ec45dd10aa8a04dff03aff32</page>
+        <required_translations>[{"message":"New Incident","comment":""},{"message":"New Interaction","comment":""}]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-01 16:05:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>57f1dfe11745dd103ee489c5694d4330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_ux_page_property_57f1dfe11745dd103ee489c5694d4330</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-01 16:05:21</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_insight_pr_0.d7f1dfe1ec45dd10aa8a04dff03aff32.root.chrome_tab</unique_name>
+        <value>{&#13;
+   "contextual":[&#13;
+      "record"&#13;
+   ],&#13;
+   "newTabMenu":[&#13;
+      {&#13;
+         "label":{&#13;
+            "translatable":true,&#13;
+            "message":"New Interaction"&#13;
+         },&#13;
+         "routeInfo":{&#13;
+            "route":"record",&#13;
+            "fields":{&#13;
+               "table":"interaction",&#13;
+               "sysId":"-1"&#13;
+            },&#13;
+            "multiInstField":"sysId"&#13;
+         },&#13;
+         "condition":{&#13;
+            "tableDescription":{&#13;
+               "table":"interaction",&#13;
+               "canCreate":true&#13;
+            }&#13;
+         }&#13;
+      },&#13;
+      {&#13;
+         "label":{&#13;
+            "translatable":true,&#13;
+            "message":"New Incident"&#13;
+         },&#13;
+         "routeInfo":{&#13;
+            "route":"record",&#13;
+            "fields":{&#13;
+               "table":"incident",&#13;
+               "sysId":"-1"&#13;
+            },&#13;
+            "multiInstField":"sysId"&#13;
+         }&#13;
+      }&#13;
+   ],&#13;
+   "maxMainTabLimit":10,&#13;
+   "maxTotalSubTabLimit":30&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=57f1dfe11745dd103ee489c5694d4330"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>e1c87737db1ee19068c2c597059619e7</instance_id>
+        <instance_name>wiproconnectedsolutionsdemo1</instance_name>
+        <name>sys_ux_page_property_57f1dfe11745dd103ee489c5694d4330</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="Insight Process Management">d7f1dfe1ec45dd10aa8a04dff03aff32</page>
+        <required_translations>[{"message":"New Incident","comment":""},{"message":"New Interaction","comment":""}]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-01 16:05:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>57f1dfe11745dd103ee489c5694d4330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_ux_page_property_57f1dfe11745dd103ee489c5694d4330</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-01 16:05:21</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_insight_pr_0.d7f1dfe1ec45dd10aa8a04dff03aff32.root.chrome_tab</unique_name>
+        <value>{&#13;
+   "contextual":[&#13;
+      "record"&#13;
+   ],&#13;
+   "newTabMenu":[&#13;
+      {&#13;
+         "label":{&#13;
+            "translatable":true,&#13;
+            "message":"New Interaction"&#13;
+         },&#13;
+         "routeInfo":{&#13;
+            "route":"record",&#13;
+            "fields":{&#13;
+               "table":"interaction",&#13;
+               "sysId":"-1"&#13;
+            },&#13;
+            "multiInstField":"sysId"&#13;
+         },&#13;
+         "condition":{&#13;
+            "tableDescription":{&#13;
+               "table":"interaction",&#13;
+               "canCreate":true&#13;
+            }&#13;
+         }&#13;
+      },&#13;
+      {&#13;
+         "label":{&#13;
+            "translatable":true,&#13;
+            "message":"New Incident"&#13;
+         },&#13;
+         "routeInfo":{&#13;
+            "route":"record",&#13;
+            "fields":{&#13;
+               "table":"incident",&#13;
+               "sysId":"-1"&#13;
+            },&#13;
+            "multiInstField":"sysId"&#13;
+         }&#13;
+      }&#13;
+   ],&#13;
+   "maxMainTabLimit":10,&#13;
+   "maxTotalSubTabLimit":30&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=57f1dfe11745dd103ee489c5694d4330"/>
+</record_update>]]></payload>
+        <payload_hash>-890476668</payload_hash>
+        <record_name>chrome_tab</record_name>
+        <reverted_from/>
+        <source>5e3ecd9847e761504596d029516d43d9</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-06-16 12:10:04</sys_created_on>
+        <sys_id>8f4fc190472b61504596d029516d4397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188c41cd88f0000001</sys_recorded_at>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-06-16 12:10:04</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>4f4fc190ad2b61501a6463f070c17897</update_guid>
+        <update_guid_history>4f4fc190ad2b61501a6463f070c17897:-890476668</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-08-29 11:03:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>1ebedcabdb5c4bd895f420d1815e7810</sys_id>
+        <sys_metadata>57f1dfe11745dd103ee489c5694d4330</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_57f1dfe11745dd103ee489c5694d4330</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_57f1dfe11745dd103ee489c5694d4330">8f4fc190472b61504596d029516d4397</sys_update_version>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-08-29 11:03:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

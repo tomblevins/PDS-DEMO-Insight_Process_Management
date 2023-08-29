@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="c916ce84c3c9f55044920c8dc00131d7" sys_domain="global" table="x_snc_insight_pr_0_event_ledger" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-08-29 11:05:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>811602c4c3c9f55044920c8dc001314b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_insight_pr_0_event_ledger" name="x_snc_insight_pr_0_event_ledger" sys_domain="global" view="26060e84d8c9f550bf728d50d1e0cdc1">c916ce84c3c9f55044920c8dc00131d7</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_insight_pr_0_event_ledger" sys_domain="global" view="26060e84d8c9f550bf728d50d1e0cdc1">4516ce84c3c9f55044920c8dc00131da</sys_ui_section>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-08-29 11:05:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-08-29 11:05:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>011602c4c3c9f55044920c8dc0013150</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_insight_pr_0_event_ledger" name="x_snc_insight_pr_0_event_ledger" sys_domain="global" view="26060e84d8c9f550bf728d50d1e0cdc1">c916ce84c3c9f55044920c8dc00131d7</sys_ui_form>
+            <sys_ui_section caption="Event Info" display_value="Event Info" name="x_snc_insight_pr_0_event_ledger" sys_domain="global" view="26060e84d8c9f550bf728d50d1e0cdc1">411602c4c3c9f55044920c8dc001314f</sys_ui_section>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-08-29 11:05:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_insight_pr_0_event_ledger</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-08-29 11:05:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c916ce84c3c9f55044920c8dc00131d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_insight_pr_0_event_ledger</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c916ce84c3c9f55044920c8dc00131d7</sys_update_name>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-08-29 11:05:07</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Insight Process Management 0" name="workspace-insight-process-management-0">26060e84d8c9f550bf728d50d1e0cdc1</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

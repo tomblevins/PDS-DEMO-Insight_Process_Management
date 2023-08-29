@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_dictionary">
+    <ais_dictionary action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <auto_refresh>24</auto_refresh>
+        <blocked_field/>
+        <case_sensitive>false</case_sensitive>
+        <data_source>x_snc_insight_pr_0_event_ledger,x_snc_insight_pr_0_demo_celonis_event,x_snc_insight_pr_0_ledger_task</data_source>
+        <derived>true</derived>
+        <field/>
+        <label>insight-process-management Search Profile Default Spell Check Dictionary</label>
+        <last_derived/>
+        <locale>en</locale>
+        <name>x_snc_insight_pr_0_insight_process_management_search_profile_default_spell_check_dictionary</name>
+        <publish_id/>
+        <punctuation_sensitive>false</punctuation_sensitive>
+        <state>DRAFT</state>
+        <sys_class_name>ais_dictionary</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-08-29 11:05:04</sys_created_on>
+        <sys_id>ec16ce84c3c9f55044920c8dc0013120</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_snc_insight_pr_0_insight_process_management_search_profile_default_spell_check_dictionary</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>ais_dictionary_ec16ce84c3c9f55044920c8dc0013120</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-08-29 11:05:05</sys_updated_on>
+        <type>SPELLCHECK</type>
+    </ais_dictionary>
+</record_update>

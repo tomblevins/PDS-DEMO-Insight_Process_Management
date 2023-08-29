@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>17f1dfe16345dd104e722f30bf8d9932</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>insight-process-management</path>
+        <root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-01 16:05:21</sys_created_on>
+        <sys_id>d7f1dfe1ec45dd10aa8a04dff03aff32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Insight Process Management</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_ux_page_registry_d7f1dfe1ec45dd10aa8a04dff03aff32</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-01 16:05:21</sys_updated_on>
+        <title>Insight Process Management</title>
+    </sys_ux_page_registry>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>e1c87737db1ee19068c2c597059619e7</instance_id>
+        <instance_name>wiproconnectedsolutionsdemo1</instance_name>
+        <name>sys_ux_page_registry_d7f1dfe1ec45dd10aa8a04dff03aff32</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_panel>17f1dfe16345dd104e722f30bf8d9932</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>insight-process-management</path>
+        <root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-01 16:05:21</sys_created_on>
+        <sys_id>d7f1dfe1ec45dd10aa8a04dff03aff32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Insight Process Management</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_ux_page_registry_d7f1dfe1ec45dd10aa8a04dff03aff32</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-01 16:05:21</sys_updated_on>
+        <title>Insight Process Management</title>
+    </sys_ux_page_registry>
+</record_update>]]></payload>
+        <payload_hash>1822249682</payload_hash>
+        <record_name>Insight Process Management</record_name>
+        <reverted_from/>
+        <source>5e3ecd9847e761504596d029516d43d9</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-06-16 12:10:05</sys_created_on>
+        <sys_id>c34fc190472b61504596d029516d43e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188c41cdadc0000001</sys_recorded_at>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-06-16 12:10:05</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>834fc190082b615053ed9b0b441030e5</update_guid>
+        <update_guid_history>834fc190082b615053ed9b0b441030e5:1822249682</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-08-29 11:03:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>030e0154dc2f4a8a892caa1bf6dbfca4</sys_id>
+        <sys_metadata>d7f1dfe1ec45dd10aa8a04dff03aff32</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Insight Process Management</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_d7f1dfe1ec45dd10aa8a04dff03aff32</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_d7f1dfe1ec45dd10aa8a04dff03aff32">c34fc190472b61504596d029516d43e5</sys_update_version>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-08-29 11:03:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

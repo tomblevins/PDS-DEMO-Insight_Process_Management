@@ -4,41 +4,97 @@
             <element>u_3_way_match_status</element>
             <position>0</position>
             <sys_created_by>tom.blevins</sys_created_by>
-            <sys_created_on>2023-06-22 12:27:40</sys_created_on>
-            <sys_id>dfdc0c564763a150ceb89e25126d4372</sys_id>
+            <sys_created_on>2023-08-29 11:22:30</sys_created_on>
+            <sys_id>3b0a4a0cc3c9f55044920c8dc0013143</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="3-Way Matching" display_value="3-Way Matching" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">32dc0c564763a150ceb89e25126d4306</sys_ui_section>
             <sys_updated_by>tom.blevins</sys_updated_by>
-            <sys_updated_on>2023-06-22 12:27:40</sys_updated_on>
+            <sys_updated_on>2023-08-29 11:22:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_3_way_match_failure_reason</element>
+            <position>1</position>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-08-29 11:22:30</sys_created_on>
+            <sys_id>3f0a4a0cc3c9f55044920c8dc0013143</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="3-Way Matching" display_value="3-Way Matching" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">32dc0c564763a150ceb89e25126d4306</sys_ui_section>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-08-29 11:22:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>tom.blevins</sys_created_by>
-            <sys_created_on>2023-06-22 12:27:40</sys_created_on>
-            <sys_id>d3dc0c564763a150ceb89e25126d4373</sys_id>
+            <sys_created_on>2023-08-29 11:22:30</sys_created_on>
+            <sys_id>330a4a0cc3c9f55044920c8dc0013144</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="3-Way Matching" display_value="3-Way Matching" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">32dc0c564763a150ceb89e25126d4306</sys_ui_section>
             <sys_updated_by>tom.blevins</sys_updated_by>
-            <sys_updated_on>2023-06-22 12:27:40</sys_updated_on>
+            <sys_updated_on>2023-08-29 11:22:30</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_3_way_match_failure_reason</element>
-            <position>2</position>
+            <element>update_expected_delivery</element>
+            <position>3</position>
             <sys_created_by>tom.blevins</sys_created_by>
-            <sys_created_on>2023-06-22 12:27:40</sys_created_on>
-            <sys_id>d7dc0c564763a150ceb89e25126d4373</sys_id>
+            <sys_created_on>2023-08-29 11:22:30</sys_created_on>
+            <sys_id>370a4a0cc3c9f55044920c8dc0013144</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="3-Way Matching" display_value="3-Way Matching" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">32dc0c564763a150ceb89e25126d4306</sys_ui_section>
             <sys_updated_by>tom.blevins</sys_updated_by>
-            <sys_updated_on>2023-06-22 12:27:40</sys_updated_on>
+            <sys_updated_on>2023-08-29 11:22:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>update_gr</element>
+            <position>4</position>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-08-29 11:22:30</sys_created_on>
+            <sys_id>3b0a4a0cc3c9f55044920c8dc0013144</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="3-Way Matching" display_value="3-Way Matching" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">32dc0c564763a150ceb89e25126d4306</sys_ui_section>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-08-29 11:22:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gr_update_reason_code</element>
+            <position>5</position>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-08-29 11:22:30</sys_created_on>
+            <sys_id>3f0a4a0cc3c9f55044920c8dc0013144</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="3-Way Matching" display_value="3-Way Matching" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">32dc0c564763a150ceb89e25126d4306</sys_ui_section>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-08-29 11:22:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_reason_code</element>
+            <position>6</position>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-08-29 11:22:30</sys_created_on>
+            <sys_id>330a4a0cc3c9f55044920c8dc0013145</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="3-Way Matching" display_value="3-Way Matching" name="x_snc_insight_pr_0_ledger_task" sys_domain="global" view="Default view">32dc0c564763a150ceb89e25126d4306</sys_ui_section>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-08-29 11:22:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

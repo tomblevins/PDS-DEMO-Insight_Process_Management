@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>workspace-insight-process-management-0</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-08-29 11:04:59</sys_created_on>
+        <sys_id>26060e84d8c9f550bf728d50d1e0cdc1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Workspace Insight Process Management 0</sys_name>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_ui_view_26060e84d8c9f550bf728d50d1e0cdc1</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-08-29 11:05:07</sys_updated_on>
+        <title>Workspace Insight Process Management 0</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

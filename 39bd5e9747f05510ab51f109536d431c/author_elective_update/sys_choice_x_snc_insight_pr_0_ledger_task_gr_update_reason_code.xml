@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="gr_update_reason_code" table="x_snc_insight_pr_0_ledger_task" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>gr_update_reason_code</element>
+            <name>x_snc_insight_pr_0_ledger_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-08-28 13:20:47</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>gr_update_reason_code</sys_name>
+            <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+            <sys_update_name>sys_choice_x_snc_insight_pr_0_ledger_task_gr_update_reason_code</sys_update_name>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-08-28 13:20:47</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>gr_update_reason_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Updating GR</label>
+            <language>en</language>
+            <name>x_snc_insight_pr_0_ledger_task</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-08-28 13:20:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-08-29 11:33:42</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>gr_update_reason_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Goods returned during inspection</label>
+            <language>en</language>
+            <name>x_snc_insight_pr_0_ledger_task</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-08-28 13:21:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-08-29 11:33:44</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>gr_update_reason_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Goods under Transit</label>
+            <language>en</language>
+            <name>x_snc_insight_pr_0_ledger_task</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-08-28 13:21:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-08-29 11:33:46</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>gr_update_reason_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GR awaited from vendor</label>
+            <language>en</language>
+            <name>x_snc_insight_pr_0_ledger_task</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-08-28 13:21:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-08-29 11:33:51</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>gr_update_reason_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_snc_insight_pr_0_ledger_task</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>tom.blevins</sys_created_by>
+            <sys_created_on>2023-08-29 11:19:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tom.blevins</sys_updated_by>
+            <sys_updated_on>2023-08-29 11:33:53</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_registry_m2m_category">
+    <sys_ux_registry_m2m_category action="DELETE">
+        <experience_category display_value="Workspace">afb4e3e173322010f0ca1e666bf6a726</experience_category>
+        <page_registry display_value="Insight Process Management">d7f1dfe1ec45dd10aa8a04dff03aff32</page_registry>
+        <sys_class_name>sys_ux_registry_m2m_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-01 16:05:21</sys_created_on>
+        <sys_id>1bf1dfe19a45dd10fb2758ff7501422f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_ux_registry_m2m_category_1bf1dfe19a45dd10fb2758ff7501422f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-01 16:05:21</sys_updated_on>
+    </sys_ux_registry_m2m_category>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</application>
+        <file_path/>
+        <instance_id>e1c87737db1ee19068c2c597059619e7</instance_id>
+        <instance_name>wiproconnectedsolutionsdemo1</instance_name>
+        <name>sys_ux_registry_m2m_category_1bf1dfe19a45dd10fb2758ff7501422f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_registry_m2m_category">
+    <sys_ux_registry_m2m_category action="INSERT_OR_UPDATE">
+        <experience_category display_value="Workspace">afb4e3e173322010f0ca1e666bf6a726</experience_category>
+        <page_registry display_value="Insight Process Management">d7f1dfe1ec45dd10aa8a04dff03aff32</page_registry>
+        <sys_class_name>sys_ux_registry_m2m_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-01 16:05:21</sys_created_on>
+        <sys_id>1bf1dfe19a45dd10fb2758ff7501422f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_update_name>sys_ux_registry_m2m_category_1bf1dfe19a45dd10fb2758ff7501422f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-01 16:05:21</sys_updated_on>
+    </sys_ux_registry_m2m_category>
+</record_update>]]></payload>
+        <payload_hash>-518131522</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>5e3ecd9847e761504596d029516d43d9</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-06-16 12:10:05</sys_created_on>
+        <sys_id>034fc190472b61504596d029516d43e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188c41cdb370000001</sys_recorded_at>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-06-16 12:10:05</sys_updated_on>
+        <type>UX Application Category M2M</type>
+        <update_guid>cf4fc190392b6150059d925c2d2575e8</update_guid>
+        <update_guid_history>cf4fc190392b6150059d925c2d2575e8:-518131522</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-08-29 11:03:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_registry_m2m_category">sys_ux_registry_m2m_category</sys_db_object>
+        <sys_id>21145bd731fa4a8c9b25715f82c8ce90</sys_id>
+        <sys_metadata>1bf1dfe19a45dd10fb2758ff7501422f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insight Process Management" source="x_snc_insight_pr_0">39bd5e9747f05510ab51f109536d431c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Insight Process Management">39bd5e9747f05510ab51f109536d431c</sys_scope>
+        <sys_scope_delete display_value="">17d7b8e244be45e48a01ac8215c4d439</sys_scope_delete>
+        <sys_update_name>sys_ux_registry_m2m_category_1bf1dfe19a45dd10fb2758ff7501422f</sys_update_name>
+        <sys_update_version display_value="sys_ux_registry_m2m_category_1bf1dfe19a45dd10fb2758ff7501422f">034fc190472b61504596d029516d43e9</sys_update_version>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-08-29 11:03:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
